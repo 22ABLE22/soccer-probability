@@ -1,0 +1,49 @@
+name: Refresh league data
+
+# 定时抓取最新赛果并提交回仓库，
+# 这样 GitHub Pages 上的「获取最新数据」拿到的就是新快照。
+on:
+  schedule:
+    # 每天 3 次（UTC）；中甲/中超比赛多在 UTC 11:00-14:00 结束
+    - cron: '15 15 * * *'   # UTC 15:15 = 北京 23:15
+    - cron: '15 3 * * *'    # UTC 03:15 = 北京 11:15
+    - cron: '15 9 * * *'    # UTC 09:15 = 北京 17:15
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch all leagues
+        run: node bin/fetch-all.js
+
+      - name: Rebuild static site
+        run: node bin/build.js
+
+      - name: Sanity check
+        run: node tests/test-engine.js
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data dist
+          if git diff --staged --quiet; then
+            echo "数据无变化，跳过提交"
+          else
+            git commit -m "chore(data): 自动刷新联赛数据 $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi

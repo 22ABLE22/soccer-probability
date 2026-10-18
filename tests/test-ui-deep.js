@@ -118,13 +118,24 @@ async function main() {
   await cdp.send('Page.navigate', { url: 'http://127.0.0.1:' + PORT + '/' });
   await sleep(2500);
 
+  // 联赛默认留空，先断言这一点，再主动选择
+  const blankSel = await cdp.eval("document.getElementById('leagueSel').value");
+  check('联赛默认留空', blankSel === '', '[' + blankSel + ']');
+
+  await cdp.eval(`(() => {
+    const s = document.getElementById('leagueSel');
+    s.value = 'china-l1';
+    s.dispatchEvent(new Event('change'));
+    document.getElementById('runBtn').click();
+  })()`, false);
+
   let ready = false;
   for (let i = 0; i < 40; i++) {
     ready = await cdp.eval("document.querySelectorAll('#probTable tbody tr').length > 0");
     if (ready) break;
     await sleep(300);
   }
-  check('页面加载并完成首次计算', ready);
+  check('选择联赛后完成计算', ready);
 
   const rows0 = await cdp.eval("document.querySelectorAll('#probTable tbody tr').length");
   check('概率表行数 = 16', rows0 === 16, '(实际 ' + rows0 + ')');
