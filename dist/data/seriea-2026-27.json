@@ -1,0 +1,4181 @@
+{
+  "id": "seriea",
+  "name": "意甲",
+  "season": "2026-27",
+  "teams": [
+    {
+      "id": "国际米兰",
+      "name": "国际米兰"
+    },
+    {
+      "id": "蒙扎",
+      "name": "蒙扎"
+    },
+    {
+      "id": "乌迪内斯",
+      "name": "乌迪内斯"
+    },
+    {
+      "id": "科莫",
+      "name": "科莫"
+    },
+    {
+      "id": "热那亚",
+      "name": "热那亚"
+    },
+    {
+      "id": "那不勒斯",
+      "name": "那不勒斯"
+    },
+    {
+      "id": "帕尔马",
+      "name": "帕尔马"
+    },
+    {
+      "id": "卡利亚里",
+      "name": "卡利亚里"
+    },
+    {
+      "id": "弗罗西诺内",
+      "name": "弗罗西诺内"
+    },
+    {
+      "id": "尤文图斯",
+      "name": "尤文图斯"
+    },
+    {
+      "id": "威尼斯",
+      "name": "威尼斯"
+    },
+    {
+      "id": "莱切",
+      "name": "莱切"
+    },
+    {
+      "id": "亚特兰大",
+      "name": "亚特兰大"
+    },
+    {
+      "id": "萨索洛",
+      "name": "萨索洛"
+    },
+    {
+      "id": "都灵",
+      "name": "都灵"
+    },
+    {
+      "id": "AC米兰",
+      "name": "AC米兰"
+    },
+    {
+      "id": "博洛尼亚",
+      "name": "博洛尼亚"
+    },
+    {
+      "id": "拉齐奥",
+      "name": "拉齐奥"
+    },
+    {
+      "id": "罗马",
+      "name": "罗马"
+    },
+    {
+      "id": "佛罗伦萨",
+      "name": "佛罗伦萨"
+    }
+  ],
+  "matches": [
+    {
+      "id": "54470945",
+      "round": 1,
+      "date": "2026-08-23 00:30",
+      "home": "国际米兰",
+      "away": "蒙扎",
+      "homeGoals": 4,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54470962",
+      "round": 1,
+      "date": "2026-08-23 00:30",
+      "home": "乌迪内斯",
+      "away": "科莫",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54470946",
+      "round": 1,
+      "date": "2026-08-23 02:45",
+      "home": "热那亚",
+      "away": "那不勒斯",
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54470954",
+      "round": 1,
+      "date": "2026-08-23 02:45",
+      "home": "帕尔马",
+      "away": "卡利亚里",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54470914",
+      "round": 1,
+      "date": "2026-08-24 00:30",
+      "home": "弗罗西诺内",
+      "away": "尤文图斯",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54470969",
+      "round": 1,
+      "date": "2026-08-24 00:30",
+      "home": "威尼斯",
+      "away": "莱切",
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54470856",
+      "round": 1,
+      "date": "2026-08-24 02:45",
+      "home": "亚特兰大",
+      "away": "萨索洛",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54470864",
+      "round": 1,
+      "date": "2026-08-24 02:45",
+      "home": "都灵",
+      "away": "AC米兰",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54470967",
+      "round": 1,
+      "date": "2026-08-25 00:30",
+      "home": "博洛尼亚",
+      "away": "拉齐奥",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54470852",
+      "round": 1,
+      "date": "2026-08-25 02:45",
+      "home": "罗马",
+      "away": "佛罗伦萨",
+      "homeGoals": 4,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54470906",
+      "round": 2,
+      "date": "2026-08-29 02:45",
+      "home": "AC米兰",
+      "away": "威尼斯",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54470911",
+      "round": 2,
+      "date": "2026-08-30 00:30",
+      "home": "萨索洛",
+      "away": "都灵",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54470943",
+      "round": 2,
+      "date": "2026-08-30 00:30",
+      "home": "佛罗伦萨",
+      "away": "弗罗西诺内",
+      "homeGoals": 0,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54470963",
+      "round": 2,
+      "date": "2026-08-30 00:30",
+      "home": "蒙扎",
+      "away": "乌迪内斯",
+      "homeGoals": 2,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54470899",
+      "round": 2,
+      "date": "2026-08-30 02:45",
+      "home": "尤文图斯",
+      "away": "帕尔马",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54470861",
+      "round": 2,
+      "date": "2026-08-31 00:30",
+      "home": "那不勒斯",
+      "away": "科莫",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54470902",
+      "round": 2,
+      "date": "2026-08-31 02:45",
+      "home": "拉齐奥",
+      "away": "热那亚",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54470947",
+      "round": 2,
+      "date": "2026-08-31 02:45",
+      "home": "卡利亚里",
+      "away": "国际米兰",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54470956",
+      "round": 2,
+      "date": "2026-09-01 00:30",
+      "home": "莱切",
+      "away": "罗马",
+      "homeGoals": 0,
+      "awayGoals": 4,
+      "played": true
+    },
+    {
+      "id": "54470860",
+      "round": 2,
+      "date": "2026-09-01 02:45",
+      "home": "亚特兰大",
+      "away": "博洛尼亚",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54470889",
+      "round": 3,
+      "date": "2026-09-05 02:45",
+      "home": "热那亚",
+      "away": "科莫",
+      "homeGoals": 1,
+      "awayGoals": 4,
+      "played": true
+    },
+    {
+      "id": "54470876",
+      "round": 3,
+      "date": "2026-09-05 21:00",
+      "home": "佛罗伦萨",
+      "away": "都灵",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54470939",
+      "round": 3,
+      "date": "2026-09-06 00:00",
+      "home": "国际米兰",
+      "away": "那不勒斯",
+      "homeGoals": 3,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54470870",
+      "round": 3,
+      "date": "2026-09-06 02:45",
+      "home": "罗马",
+      "away": "亚特兰大",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54470951",
+      "round": 3,
+      "date": "2026-09-06 21:00",
+      "home": "弗罗西诺内",
+      "away": "威尼斯",
+      "homeGoals": 3,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54470952",
+      "round": 3,
+      "date": "2026-09-06 21:00",
+      "home": "帕尔马",
+      "away": "蒙扎",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54470872",
+      "round": 3,
+      "date": "2026-09-07 00:00",
+      "home": "博洛尼亚",
+      "away": "萨索洛",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54470905",
+      "round": 3,
+      "date": "2026-09-07 02:45",
+      "home": "尤文图斯",
+      "away": "AC米兰",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54470888",
+      "round": 3,
+      "date": "2026-09-08 00:30",
+      "home": "卡利亚里",
+      "away": "莱切",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54470895",
+      "round": 3,
+      "date": "2026-09-08 02:45",
+      "home": "乌迪内斯",
+      "away": "拉齐奥",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54470894",
+      "round": 4,
+      "date": "2026-09-12 02:45",
+      "home": "威尼斯",
+      "away": "佛罗伦萨",
+      "homeGoals": 2,
+      "awayGoals": 4,
+      "played": true
+    },
+    {
+      "id": "54470880",
+      "round": 4,
+      "date": "2026-09-12 21:00",
+      "home": "热那亚",
+      "away": "弗罗西诺内",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54470923",
+      "round": 4,
+      "date": "2026-09-13 00:00",
+      "home": "拉齐奥",
+      "away": "AC米兰",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54470897",
+      "round": 4,
+      "date": "2026-09-13 02:45",
+      "home": "亚特兰大",
+      "away": "卡利亚里",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54470918",
+      "round": 4,
+      "date": "2026-09-13 21:00",
+      "home": "莱切",
+      "away": "蒙扎",
+      "homeGoals": 3,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54470915",
+      "round": 4,
+      "date": "2026-09-14 00:00",
+      "home": "那不勒斯",
+      "away": "博洛尼亚",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54470938",
+      "round": 4,
+      "date": "2026-09-14 02:45",
+      "home": "萨索洛",
+      "away": "尤文图斯",
+      "homeGoals": 3,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54470890",
+      "round": 4,
+      "date": "2026-09-15 00:30",
+      "home": "科莫",
+      "away": "帕尔马",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54470961",
+      "round": 4,
+      "date": "2026-09-15 00:30",
+      "home": "都灵",
+      "away": "罗马",
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54470886",
+      "round": 4,
+      "date": "2026-09-15 02:45",
+      "home": "国际米兰",
+      "away": "乌迪内斯",
+      "homeGoals": 5,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54470892",
+      "round": 5,
+      "date": "2026-09-19 02:45",
+      "home": "蒙扎",
+      "away": "萨索洛",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54470879",
+      "round": 5,
+      "date": "2026-09-19 21:00",
+      "home": "乌迪内斯",
+      "away": "卡利亚里",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54470910",
+      "round": 5,
+      "date": "2026-09-19 21:00",
+      "home": "博洛尼亚",
+      "away": "都灵",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54470866",
+      "round": 5,
+      "date": "2026-09-20 00:00",
+      "home": "罗马",
+      "away": "国际米兰",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54470919",
+      "round": 5,
+      "date": "2026-09-20 02:45",
+      "home": "威尼斯",
+      "away": "拉齐奥",
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54470957",
+      "round": 5,
+      "date": "2026-09-20 18:30",
+      "home": "佛罗伦萨",
+      "away": "那不勒斯",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54470871",
+      "round": 5,
+      "date": "2026-09-20 21:00",
+      "home": "帕尔马",
+      "away": "热那亚",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54470925",
+      "round": 5,
+      "date": "2026-09-20 21:00",
+      "home": "弗罗西诺内",
+      "away": "科莫",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54470863",
+      "round": 5,
+      "date": "2026-09-21 00:00",
+      "home": "尤文图斯",
+      "away": "亚特兰大",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54470953",
+      "round": 5,
+      "date": "2026-09-21 02:45",
+      "home": "AC米兰",
+      "away": "莱切",
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54470907",
+      "round": 6,
+      "date": "2026-10-10 21:00",
+      "home": "热那亚",
+      "away": "佛罗伦萨",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54470900",
+      "round": 6,
+      "date": "2026-10-11 00:00",
+      "home": "国际米兰",
+      "away": "帕尔马",
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54470913",
+      "round": 6,
+      "date": "2026-10-11 02:45",
+      "home": "那不勒斯",
+      "away": "弗罗西诺内",
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54470868",
+      "round": 6,
+      "date": "2026-10-11 18:30",
+      "home": "科莫",
+      "away": "罗马",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54470855",
+      "round": 6,
+      "date": "2026-10-11 21:00",
+      "home": "莱切",
+      "away": "博洛尼亚",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54470924",
+      "round": 6,
+      "date": "2026-10-11 21:00",
+      "home": "拉齐奥",
+      "away": "蒙扎",
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54470966",
+      "round": 6,
+      "date": "2026-10-12 00:00",
+      "home": "萨索洛",
+      "away": "AC米兰",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54470965",
+      "round": 6,
+      "date": "2026-10-12 02:45",
+      "home": "卡利亚里",
+      "away": "尤文图斯",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54470920",
+      "round": 6,
+      "date": "2026-10-13 00:30",
+      "home": "亚特兰大",
+      "away": "威尼斯",
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54470884",
+      "round": 6,
+      "date": "2026-10-13 02:45",
+      "home": "都灵",
+      "away": "乌迪内斯",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54470971",
+      "round": 7,
+      "date": "2026-10-17 02:45",
+      "home": "弗罗西诺内",
+      "away": "萨索洛",
+      "homeGoals": 4,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54470853",
+      "round": 7,
+      "date": "2026-10-17 21:00",
+      "home": "威尼斯",
+      "away": "那不勒斯",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54470912",
+      "round": 7,
+      "date": "2026-10-18 00:00",
+      "home": "博洛尼亚",
+      "away": "国际米兰",
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54470865",
+      "round": 7,
+      "date": "2026-10-18 02:45",
+      "home": "罗马",
+      "away": "热那亚",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54470862",
+      "round": 7,
+      "date": "2026-10-18 18:30",
+      "home": "乌迪内斯",
+      "away": "莱切",
+      "homeGoals": 0,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54470960",
+      "round": 7,
+      "date": "2026-10-18 21:00",
+      "home": "佛罗伦萨",
+      "away": "科莫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470964",
+      "round": 7,
+      "date": "2026-10-19 00:00",
+      "home": "AC米兰",
+      "away": "亚特兰大",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470929",
+      "round": 7,
+      "date": "2026-10-19 02:45",
+      "home": "尤文图斯",
+      "away": "拉齐奥",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470874",
+      "round": 7,
+      "date": "2026-10-20 00:30",
+      "home": "蒙扎",
+      "away": "卡利亚里",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470949",
+      "round": 7,
+      "date": "2026-10-20 02:45",
+      "home": "帕尔马",
+      "away": "都灵",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470941",
+      "round": 8,
+      "date": "2026-10-24 02:45",
+      "home": "都灵",
+      "away": "蒙扎",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470881",
+      "round": 8,
+      "date": "2026-10-24 21:00",
+      "home": "卡利亚里",
+      "away": "博洛尼亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470921",
+      "round": 8,
+      "date": "2026-10-24 21:00",
+      "home": "科莫",
+      "away": "萨索洛",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470858",
+      "round": 8,
+      "date": "2026-10-25 00:00",
+      "home": "那不勒斯",
+      "away": "罗马",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470932",
+      "round": 8,
+      "date": "2026-10-25 02:45",
+      "home": "拉齐奥",
+      "away": "帕尔马",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470917",
+      "round": 8,
+      "date": "2026-10-25 19:30",
+      "home": "国际米兰",
+      "away": "佛罗伦萨",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470887",
+      "round": 8,
+      "date": "2026-10-25 22:00",
+      "home": "亚特兰大",
+      "away": "弗罗西诺内",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470968",
+      "round": 8,
+      "date": "2026-10-25 22:00",
+      "home": "热那亚",
+      "away": "威尼斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470922",
+      "round": 8,
+      "date": "2026-10-26 01:00",
+      "home": "莱切",
+      "away": "尤文图斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470937",
+      "round": 8,
+      "date": "2026-10-26 03:45",
+      "home": "乌迪内斯",
+      "away": "AC米兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470955",
+      "round": 9,
+      "date": "2026-10-28 01:30",
+      "home": "萨索洛",
+      "away": "拉齐奥",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470878",
+      "round": 9,
+      "date": "2026-10-28 03:45",
+      "home": "罗马",
+      "away": "卡利亚里",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470927",
+      "round": 9,
+      "date": "2026-10-28 03:45",
+      "home": "都灵",
+      "away": "科莫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470867",
+      "round": 9,
+      "date": "2026-10-29 01:30",
+      "home": "威尼斯",
+      "away": "国际米兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470891",
+      "round": 9,
+      "date": "2026-10-29 01:30",
+      "home": "AC米兰",
+      "away": "博洛尼亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470926",
+      "round": 9,
+      "date": "2026-10-29 01:30",
+      "home": "帕尔马",
+      "away": "乌迪内斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470916",
+      "round": 9,
+      "date": "2026-10-29 03:45",
+      "home": "蒙扎",
+      "away": "那不勒斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470931",
+      "round": 9,
+      "date": "2026-10-29 03:45",
+      "home": "热那亚",
+      "away": "尤文图斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470875",
+      "round": 9,
+      "date": "2026-10-30 01:30",
+      "home": "弗罗西诺内",
+      "away": "莱切",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470935",
+      "round": 9,
+      "date": "2026-10-30 03:45",
+      "home": "佛罗伦萨",
+      "away": "亚特兰大",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470883",
+      "round": 10,
+      "date": "2026-10-31 22:00",
+      "home": "博洛尼亚",
+      "away": "蒙扎",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470873",
+      "round": 10,
+      "date": "2026-11-01 01:00",
+      "home": "乌迪内斯",
+      "away": "罗马",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470942",
+      "round": 10,
+      "date": "2026-11-01 03:45",
+      "home": "AC米兰",
+      "away": "国际米兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470908",
+      "round": 10,
+      "date": "2026-11-01 19:30",
+      "home": "科莫",
+      "away": "威尼斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470859",
+      "round": 10,
+      "date": "2026-11-01 22:00",
+      "home": "拉齐奥",
+      "away": "卡利亚里",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470893",
+      "round": 10,
+      "date": "2026-11-01 22:00",
+      "home": "弗罗西诺内",
+      "away": "都灵",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470857",
+      "round": 10,
+      "date": "2026-11-02 01:00",
+      "home": "莱切",
+      "away": "热那亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470934",
+      "round": 10,
+      "date": "2026-11-02 03:45",
+      "home": "尤文图斯",
+      "away": "那不勒斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470959",
+      "round": 10,
+      "date": "2026-11-03 01:30",
+      "home": "萨索洛",
+      "away": "佛罗伦萨",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470898",
+      "round": 10,
+      "date": "2026-11-03 03:45",
+      "home": "亚特兰大",
+      "away": "帕尔马",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470854",
+      "round": 11,
+      "date": "2026-11-07 03:45",
+      "home": "威尼斯",
+      "away": "乌迪内斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470904",
+      "round": 11,
+      "date": "2026-11-07 22:00",
+      "home": "卡利亚里",
+      "away": "弗罗西诺内",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470972",
+      "round": 11,
+      "date": "2026-11-07 22:00",
+      "home": "都灵",
+      "away": "莱切",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470930",
+      "round": 11,
+      "date": "2026-11-08 01:00",
+      "home": "帕尔马",
+      "away": "博洛尼亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470944",
+      "round": 11,
+      "date": "2026-11-08 03:45",
+      "home": "罗马",
+      "away": "萨索洛",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470882",
+      "round": 11,
+      "date": "2026-11-08 19:30",
+      "home": "那不勒斯",
+      "away": "拉齐奥",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470950",
+      "round": 11,
+      "date": "2026-11-08 22:00",
+      "home": "热那亚",
+      "away": "AC米兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470970",
+      "round": 11,
+      "date": "2026-11-08 22:00",
+      "home": "蒙扎",
+      "away": "亚特兰大",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470877",
+      "round": 11,
+      "date": "2026-11-09 01:00",
+      "home": "国际米兰",
+      "away": "科莫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470903",
+      "round": 11,
+      "date": "2026-11-09 03:45",
+      "home": "佛罗伦萨",
+      "away": "尤文图斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470909",
+      "round": 12,
+      "date": "2026-11-21 22:00",
+      "home": "科莫",
+      "away": "卡利亚里",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470928",
+      "round": 12,
+      "date": "2026-11-21 22:00",
+      "home": "拉齐奥",
+      "away": "莱切",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470896",
+      "round": 12,
+      "date": "2026-11-22 01:00",
+      "home": "帕尔马",
+      "away": "罗马",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470948",
+      "round": 12,
+      "date": "2026-11-22 03:45",
+      "home": "那不勒斯",
+      "away": "都灵",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470936",
+      "round": 12,
+      "date": "2026-11-22 19:30",
+      "home": "尤文图斯",
+      "away": "威尼斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470869",
+      "round": 12,
+      "date": "2026-11-22 22:00",
+      "home": "博洛尼亚",
+      "away": "乌迪内斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470940",
+      "round": 12,
+      "date": "2026-11-22 22:00",
+      "home": "萨索洛",
+      "away": "热那亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470958",
+      "round": 12,
+      "date": "2026-11-23 01:00",
+      "home": "AC米兰",
+      "away": "弗罗西诺内",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470901",
+      "round": 12,
+      "date": "2026-11-23 03:45",
+      "home": "亚特兰大",
+      "away": "国际米兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470933",
+      "round": 12,
+      "date": "2026-11-24 03:45",
+      "home": "蒙扎",
+      "away": "佛罗伦萨",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471023",
+      "round": 13,
+      "date": "2026-11-28 03:45",
+      "home": "威尼斯",
+      "away": "博洛尼亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471008",
+      "round": 13,
+      "date": "2026-11-28 22:00",
+      "home": "弗罗西诺内",
+      "away": "帕尔马",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471044",
+      "round": 13,
+      "date": "2026-11-29 01:00",
+      "home": "都灵",
+      "away": "拉齐奥",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470974",
+      "round": 13,
+      "date": "2026-11-29 03:45",
+      "home": "国际米兰",
+      "away": "热那亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470984",
+      "round": 13,
+      "date": "2026-11-29 19:30",
+      "home": "乌迪内斯",
+      "away": "佛罗伦萨",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470977",
+      "round": 13,
+      "date": "2026-11-29 22:00",
+      "home": "萨索洛",
+      "away": "那不勒斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471034",
+      "round": 13,
+      "date": "2026-11-30 01:00",
+      "home": "罗马",
+      "away": "蒙扎",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471041",
+      "round": 13,
+      "date": "2026-11-30 03:45",
+      "home": "科莫",
+      "away": "尤文图斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471031",
+      "round": 13,
+      "date": "2026-12-01 01:30",
+      "home": "莱切",
+      "away": "亚特兰大",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470976",
+      "round": 13,
+      "date": "2026-12-01 03:45",
+      "home": "卡利亚里",
+      "away": "AC米兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470975",
+      "round": 14,
+      "date": "2026-12-05 03:45",
+      "home": "博洛尼亚",
+      "away": "罗马",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471014",
+      "round": 14,
+      "date": "2026-12-05 22:00",
+      "home": "蒙扎",
+      "away": "科莫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471009",
+      "round": 14,
+      "date": "2026-12-06 01:00",
+      "home": "弗罗西诺内",
+      "away": "国际米兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470989",
+      "round": 14,
+      "date": "2026-12-06 03:45",
+      "home": "那不勒斯",
+      "away": "莱切",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471016",
+      "round": 14,
+      "date": "2026-12-06 19:30",
+      "home": "热那亚",
+      "away": "都灵",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471028",
+      "round": 14,
+      "date": "2026-12-06 22:00",
+      "home": "拉齐奥",
+      "away": "亚特兰大",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471043",
+      "round": 14,
+      "date": "2026-12-07 01:00",
+      "home": "尤文图斯",
+      "away": "乌迪内斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470981",
+      "round": 14,
+      "date": "2026-12-07 03:45",
+      "home": "AC米兰",
+      "away": "帕尔马",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470990",
+      "round": 14,
+      "date": "2026-12-08 01:30",
+      "home": "威尼斯",
+      "away": "萨索洛",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471007",
+      "round": 14,
+      "date": "2026-12-08 03:45",
+      "home": "佛罗伦萨",
+      "away": "卡利亚里",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470979",
+      "round": 15,
+      "date": "2026-12-12 03:45",
+      "home": "乌迪内斯",
+      "away": "弗罗西诺内",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471029",
+      "round": 15,
+      "date": "2026-12-12 22:00",
+      "home": "卡利亚里",
+      "away": "威尼斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471003",
+      "round": 15,
+      "date": "2026-12-13 01:00",
+      "home": "莱切",
+      "away": "萨索洛",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471022",
+      "round": 15,
+      "date": "2026-12-13 03:45",
+      "home": "科莫",
+      "away": "博洛尼亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471033",
+      "round": 15,
+      "date": "2026-12-13 19:30",
+      "home": "拉齐奥",
+      "away": "罗马",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470996",
+      "round": 15,
+      "date": "2026-12-13 22:00",
+      "home": "国际米兰",
+      "away": "都灵",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471040",
+      "round": 15,
+      "date": "2026-12-14 01:00",
+      "home": "帕尔马",
+      "away": "佛罗伦萨",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471012",
+      "round": 15,
+      "date": "2026-12-14 03:45",
+      "home": "那不勒斯",
+      "away": "AC米兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471032",
+      "round": 15,
+      "date": "2026-12-15 01:30",
+      "home": "亚特兰大",
+      "away": "热那亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471024",
+      "round": 15,
+      "date": "2026-12-15 03:45",
+      "home": "尤文图斯",
+      "away": "蒙扎",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471004",
+      "round": 16,
+      "date": "2026-12-19 01:30",
+      "home": "弗罗西诺内",
+      "away": "拉齐奥",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470983",
+      "round": 16,
+      "date": "2026-12-19 03:45",
+      "home": "莱切",
+      "away": "国际米兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470991",
+      "round": 16,
+      "date": "2026-12-19 22:00",
+      "home": "萨索洛",
+      "away": "帕尔马",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471038",
+      "round": 16,
+      "date": "2026-12-20 01:00",
+      "home": "AC米兰",
+      "away": "科莫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471052",
+      "round": 16,
+      "date": "2026-12-20 03:45",
+      "home": "罗马",
+      "away": "尤文图斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470985",
+      "round": 16,
+      "date": "2026-12-20 19:30",
+      "home": "佛罗伦萨",
+      "away": "博洛尼亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471013",
+      "round": 16,
+      "date": "2026-12-20 22:00",
+      "home": "威尼斯",
+      "away": "蒙扎",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471035",
+      "round": 16,
+      "date": "2026-12-20 22:00",
+      "home": "都灵",
+      "away": "卡利亚里",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471026",
+      "round": 16,
+      "date": "2026-12-21 01:00",
+      "home": "热那亚",
+      "away": "乌迪内斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471019",
+      "round": 16,
+      "date": "2026-12-21 03:45",
+      "home": "亚特兰大",
+      "away": "那不勒斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471017",
+      "round": 17,
+      "date": "2027-01-02 19:30",
+      "home": "卡利亚里",
+      "away": "热那亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470992",
+      "round": 17,
+      "date": "2027-01-02 22:00",
+      "home": "都灵",
+      "away": "威尼斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470999",
+      "round": 17,
+      "date": "2027-01-02 22:00",
+      "home": "佛罗伦萨",
+      "away": "拉齐奥",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471049",
+      "round": 17,
+      "date": "2027-01-03 01:00",
+      "home": "罗马",
+      "away": "弗罗西诺内",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471005",
+      "round": 17,
+      "date": "2027-01-03 03:45",
+      "home": "蒙扎",
+      "away": "AC米兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471018",
+      "round": 17,
+      "date": "2027-01-03 19:30",
+      "home": "国际米兰",
+      "away": "萨索洛",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470978",
+      "round": 17,
+      "date": "2027-01-03 22:00",
+      "home": "乌迪内斯",
+      "away": "亚特兰大",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470997",
+      "round": 17,
+      "date": "2027-01-03 22:00",
+      "home": "科莫",
+      "away": "莱切",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471011",
+      "round": 17,
+      "date": "2027-01-04 01:00",
+      "home": "帕尔马",
+      "away": "那不勒斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470980",
+      "round": 17,
+      "date": "2027-01-04 03:45",
+      "home": "博洛尼亚",
+      "away": "尤文图斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471020",
+      "round": 18,
+      "date": "2027-01-06 01:30",
+      "home": "威尼斯",
+      "away": "罗马",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471039",
+      "round": 18,
+      "date": "2027-01-06 01:30",
+      "home": "热那亚",
+      "away": "蒙扎",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470998",
+      "round": 18,
+      "date": "2027-01-06 03:45",
+      "home": "AC米兰",
+      "away": "佛罗伦萨",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471036",
+      "round": 18,
+      "date": "2027-01-06 19:30",
+      "home": "尤文图斯",
+      "away": "都灵",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470987",
+      "round": 18,
+      "date": "2027-01-06 22:00",
+      "home": "莱切",
+      "away": "帕尔马",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471015",
+      "round": 18,
+      "date": "2027-01-06 22:00",
+      "home": "弗罗西诺内",
+      "away": "博洛尼亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471047",
+      "round": 18,
+      "date": "2027-01-07 01:00",
+      "home": "亚特兰大",
+      "away": "科莫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471000",
+      "round": 18,
+      "date": "2027-01-07 03:45",
+      "home": "拉齐奥",
+      "away": "国际米兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471037",
+      "round": 18,
+      "date": "2027-01-08 01:30",
+      "home": "萨索洛",
+      "away": "乌迪内斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470993",
+      "round": 18,
+      "date": "2027-01-08 03:45",
+      "home": "那不勒斯",
+      "away": "卡利亚里",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471021",
+      "round": 19,
+      "date": "2027-01-09 22:00",
+      "home": "蒙扎",
+      "away": "弗罗西诺内",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471050",
+      "round": 19,
+      "date": "2027-01-10 01:00",
+      "home": "罗马",
+      "away": "AC米兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471025",
+      "round": 19,
+      "date": "2027-01-10 03:45",
+      "home": "博洛尼亚",
+      "away": "热那亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471027",
+      "round": 19,
+      "date": "2027-01-10 19:30",
+      "home": "科莫",
+      "away": "拉齐奥",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470973",
+      "round": 19,
+      "date": "2027-01-10 22:00",
+      "home": "帕尔马",
+      "away": "威尼斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470988",
+      "round": 19,
+      "date": "2027-01-10 22:00",
+      "home": "佛罗伦萨",
+      "away": "莱切",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471030",
+      "round": 19,
+      "date": "2027-01-11 01:00",
+      "home": "都灵",
+      "away": "亚特兰大",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471042",
+      "round": 19,
+      "date": "2027-01-11 03:45",
+      "home": "国际米兰",
+      "away": "尤文图斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470994",
+      "round": 19,
+      "date": "2027-01-12 01:30",
+      "home": "卡利亚里",
+      "away": "萨索洛",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471048",
+      "round": 19,
+      "date": "2027-01-12 03:45",
+      "home": "乌迪内斯",
+      "away": "那不勒斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470982",
+      "round": 20,
+      "date": "2027-01-18 01:30",
+      "home": "萨索洛",
+      "away": "蒙扎",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470986",
+      "round": 20,
+      "date": "2027-01-18 01:30",
+      "home": "那不勒斯",
+      "away": "佛罗伦萨",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54470995",
+      "round": 20,
+      "date": "2027-01-18 01:30",
+      "home": "莱切",
+      "away": "乌迪内斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471001",
+      "round": 20,
+      "date": "2027-01-18 01:30",
+      "home": "尤文图斯",
+      "away": "热那亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471002",
+      "round": 20,
+      "date": "2027-01-18 01:30",
+      "home": "卡利亚里",
+      "away": "科莫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471006",
+      "round": 20,
+      "date": "2027-01-18 01:30",
+      "home": "AC米兰",
+      "away": "都灵",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471010",
+      "round": 20,
+      "date": "2027-01-18 01:30",
+      "home": "帕尔马",
+      "away": "国际米兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471045",
+      "round": 20,
+      "date": "2027-01-18 01:30",
+      "home": "亚特兰大",
+      "away": "罗马",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471046",
+      "round": 20,
+      "date": "2027-01-18 01:30",
+      "home": "拉齐奥",
+      "away": "博洛尼亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471051",
+      "round": 20,
+      "date": "2027-01-18 01:30",
+      "home": "威尼斯",
+      "away": "弗罗西诺内",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471057",
+      "round": 21,
+      "date": "2027-01-25 01:30",
+      "home": "科莫",
+      "away": "那不勒斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471069",
+      "round": 21,
+      "date": "2027-01-25 01:30",
+      "home": "罗马",
+      "away": "乌迪内斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471100",
+      "round": 21,
+      "date": "2027-01-25 01:30",
+      "home": "尤文图斯",
+      "away": "卡利亚里",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471102",
+      "round": 21,
+      "date": "2027-01-25 01:30",
+      "home": "莱切",
+      "away": "都灵",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471109",
+      "round": 21,
+      "date": "2027-01-25 01:30",
+      "home": "佛罗伦萨",
+      "away": "萨索洛",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471112",
+      "round": 21,
+      "date": "2027-01-25 01:30",
+      "home": "弗罗西诺内",
+      "away": "AC米兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471114",
+      "round": 21,
+      "date": "2027-01-25 01:30",
+      "home": "国际米兰",
+      "away": "威尼斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471122",
+      "round": 21,
+      "date": "2027-01-25 01:30",
+      "home": "热那亚",
+      "away": "帕尔马",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471136",
+      "round": 21,
+      "date": "2027-01-25 01:30",
+      "home": "蒙扎",
+      "away": "拉齐奥",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471146",
+      "round": 21,
+      "date": "2027-01-25 01:30",
+      "home": "博洛尼亚",
+      "away": "亚特兰大",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471074",
+      "round": 22,
+      "date": "2027-02-01 01:30",
+      "home": "萨索洛",
+      "away": "科莫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471081",
+      "round": 22,
+      "date": "2027-02-01 01:30",
+      "home": "卡利亚里",
+      "away": "帕尔马",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471082",
+      "round": 22,
+      "date": "2027-02-01 01:30",
+      "home": "AC米兰",
+      "away": "尤文图斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471085",
+      "round": 22,
+      "date": "2027-02-01 01:30",
+      "home": "拉齐奥",
+      "away": "威尼斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471118",
+      "round": 22,
+      "date": "2027-02-01 01:30",
+      "home": "亚特兰大",
+      "away": "佛罗伦萨",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471121",
+      "round": 22,
+      "date": "2027-02-01 01:30",
+      "home": "乌迪内斯",
+      "away": "博洛尼亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471128",
+      "round": 22,
+      "date": "2027-02-01 01:30",
+      "home": "蒙扎",
+      "away": "罗马",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471132",
+      "round": 22,
+      "date": "2027-02-01 01:30",
+      "home": "都灵",
+      "away": "弗罗西诺内",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471147",
+      "round": 22,
+      "date": "2027-02-01 01:30",
+      "home": "热那亚",
+      "away": "莱切",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471148",
+      "round": 22,
+      "date": "2027-02-01 01:30",
+      "home": "那不勒斯",
+      "away": "国际米兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471063",
+      "round": 23,
+      "date": "2027-02-08 01:30",
+      "home": "亚特兰大",
+      "away": "拉齐奥",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471083",
+      "round": 23,
+      "date": "2027-02-08 01:30",
+      "home": "科莫",
+      "away": "蒙扎",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471098",
+      "round": 23,
+      "date": "2027-02-08 01:30",
+      "home": "博洛尼亚",
+      "away": "AC米兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471099",
+      "round": 23,
+      "date": "2027-02-08 01:30",
+      "home": "莱切",
+      "away": "那不勒斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471103",
+      "round": 23,
+      "date": "2027-02-08 01:30",
+      "home": "帕尔马",
+      "away": "弗罗西诺内",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471117",
+      "round": 23,
+      "date": "2027-02-08 01:30",
+      "home": "罗马",
+      "away": "都灵",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471129",
+      "round": 23,
+      "date": "2027-02-08 01:30",
+      "home": "威尼斯",
+      "away": "热那亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471143",
+      "round": 23,
+      "date": "2027-02-08 01:30",
+      "home": "尤文图斯",
+      "away": "萨索洛",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471144",
+      "round": 23,
+      "date": "2027-02-08 01:30",
+      "home": "国际米兰",
+      "away": "卡利亚里",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471151",
+      "round": 23,
+      "date": "2027-02-08 01:30",
+      "home": "佛罗伦萨",
+      "away": "乌迪内斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471054",
+      "round": 24,
+      "date": "2027-02-15 01:30",
+      "home": "乌迪内斯",
+      "away": "威尼斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471056",
+      "round": 24,
+      "date": "2027-02-15 01:30",
+      "home": "博洛尼亚",
+      "away": "科莫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471068",
+      "round": 24,
+      "date": "2027-02-15 01:30",
+      "home": "那不勒斯",
+      "away": "尤文图斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471073",
+      "round": 24,
+      "date": "2027-02-15 01:30",
+      "home": "都灵",
+      "away": "萨索洛",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471091",
+      "round": 24,
+      "date": "2027-02-15 01:30",
+      "home": "热那亚",
+      "away": "亚特兰大",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471097",
+      "round": 24,
+      "date": "2027-02-15 01:30",
+      "home": "卡利亚里",
+      "away": "拉齐奥",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471124",
+      "round": 24,
+      "date": "2027-02-15 01:30",
+      "home": "弗罗西诺内",
+      "away": "佛罗伦萨",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471126",
+      "round": 24,
+      "date": "2027-02-15 01:30",
+      "home": "国际米兰",
+      "away": "AC米兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471127",
+      "round": 24,
+      "date": "2027-02-15 01:30",
+      "home": "蒙扎",
+      "away": "莱切",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471139",
+      "round": 24,
+      "date": "2027-02-15 01:30",
+      "home": "罗马",
+      "away": "帕尔马",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471058",
+      "round": 25,
+      "date": "2027-02-22 01:30",
+      "home": "萨索洛",
+      "away": "罗马",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471060",
+      "round": 25,
+      "date": "2027-02-22 01:30",
+      "home": "尤文图斯",
+      "away": "博洛尼亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471064",
+      "round": 25,
+      "date": "2027-02-22 01:30",
+      "home": "亚特兰大",
+      "away": "蒙扎",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471084",
+      "round": 25,
+      "date": "2027-02-22 01:30",
+      "home": "拉齐奥",
+      "away": "那不勒斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471086",
+      "round": 25,
+      "date": "2027-02-22 01:30",
+      "home": "AC米兰",
+      "away": "热那亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471089",
+      "round": 25,
+      "date": "2027-02-22 01:30",
+      "home": "乌迪内斯",
+      "away": "帕尔马",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471105",
+      "round": 25,
+      "date": "2027-02-22 01:30",
+      "home": "威尼斯",
+      "away": "卡利亚里",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471125",
+      "round": 25,
+      "date": "2027-02-22 01:30",
+      "home": "莱切",
+      "away": "弗罗西诺内",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471134",
+      "round": 25,
+      "date": "2027-02-22 01:30",
+      "home": "科莫",
+      "away": "都灵",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471150",
+      "round": 25,
+      "date": "2027-02-22 01:30",
+      "home": "佛罗伦萨",
+      "away": "国际米兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471053",
+      "round": 26,
+      "date": "2027-03-01 01:30",
+      "home": "弗罗西诺内",
+      "away": "那不勒斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471062",
+      "round": 26,
+      "date": "2027-03-01 01:30",
+      "home": "罗马",
+      "away": "威尼斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471067",
+      "round": 26,
+      "date": "2027-03-01 01:30",
+      "home": "帕尔马",
+      "away": "萨索洛",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471071",
+      "round": 26,
+      "date": "2027-03-01 01:30",
+      "home": "蒙扎",
+      "away": "尤文图斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471095",
+      "round": 26,
+      "date": "2027-03-01 01:30",
+      "home": "卡利亚里",
+      "away": "乌迪内斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471104",
+      "round": 26,
+      "date": "2027-03-01 01:30",
+      "home": "科莫",
+      "away": "AC米兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471108",
+      "round": 26,
+      "date": "2027-03-01 01:30",
+      "home": "都灵",
+      "away": "佛罗伦萨",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471140",
+      "round": 26,
+      "date": "2027-03-01 01:30",
+      "home": "博洛尼亚",
+      "away": "莱切",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471141",
+      "round": 26,
+      "date": "2027-03-01 01:30",
+      "home": "热那亚",
+      "away": "拉齐奥",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471152",
+      "round": 26,
+      "date": "2027-03-01 01:30",
+      "home": "国际米兰",
+      "away": "亚特兰大",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471059",
+      "round": 27,
+      "date": "2027-03-08 01:30",
+      "home": "那不勒斯",
+      "away": "帕尔马",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471077",
+      "round": 27,
+      "date": "2027-03-08 01:30",
+      "home": "亚特兰大",
+      "away": "都灵",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471115",
+      "round": 27,
+      "date": "2027-03-08 01:30",
+      "home": "佛罗伦萨",
+      "away": "威尼斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471116",
+      "round": 27,
+      "date": "2027-03-08 01:30",
+      "home": "乌迪内斯",
+      "away": "国际米兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471119",
+      "round": 27,
+      "date": "2027-03-08 01:30",
+      "home": "莱切",
+      "away": "科莫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471123",
+      "round": 27,
+      "date": "2027-03-08 01:30",
+      "home": "拉齐奥",
+      "away": "弗罗西诺内",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471130",
+      "round": 27,
+      "date": "2027-03-08 01:30",
+      "home": "蒙扎",
+      "away": "热那亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471135",
+      "round": 27,
+      "date": "2027-03-08 01:30",
+      "home": "AC米兰",
+      "away": "卡利亚里",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471137",
+      "round": 27,
+      "date": "2027-03-08 01:30",
+      "home": "尤文图斯",
+      "away": "罗马",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471145",
+      "round": 27,
+      "date": "2027-03-08 01:30",
+      "home": "萨索洛",
+      "away": "博洛尼亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471061",
+      "round": 28,
+      "date": "2027-03-15 01:30",
+      "home": "科莫",
+      "away": "乌迪内斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471066",
+      "round": 28,
+      "date": "2027-03-15 01:30",
+      "home": "威尼斯",
+      "away": "亚特兰大",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471078",
+      "round": 28,
+      "date": "2027-03-15 01:30",
+      "home": "弗罗西诺内",
+      "away": "蒙扎",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471096",
+      "round": 28,
+      "date": "2027-03-15 01:30",
+      "home": "拉齐奥",
+      "away": "尤文图斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471101",
+      "round": 28,
+      "date": "2027-03-15 01:30",
+      "home": "博洛尼亚",
+      "away": "那不勒斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471110",
+      "round": 28,
+      "date": "2027-03-15 01:30",
+      "home": "热那亚",
+      "away": "罗马",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471113",
+      "round": 28,
+      "date": "2027-03-15 01:30",
+      "home": "帕尔马",
+      "away": "莱切",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471120",
+      "round": 28,
+      "date": "2027-03-15 01:30",
+      "home": "都灵",
+      "away": "国际米兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471138",
+      "round": 28,
+      "date": "2027-03-15 01:30",
+      "home": "AC米兰",
+      "away": "萨索洛",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471142",
+      "round": 28,
+      "date": "2027-03-15 01:30",
+      "home": "卡利亚里",
+      "away": "佛罗伦萨",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471055",
+      "round": 29,
+      "date": "2027-03-22 01:30",
+      "home": "国际米兰",
+      "away": "弗罗西诺内",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471075",
+      "round": 29,
+      "date": "2027-03-22 01:30",
+      "home": "蒙扎",
+      "away": "博洛尼亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471079",
+      "round": 29,
+      "date": "2027-03-22 01:30",
+      "home": "帕尔马",
+      "away": "拉齐奥",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471080",
+      "round": 29,
+      "date": "2027-03-22 01:30",
+      "home": "萨索洛",
+      "away": "卡利亚里",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471087",
+      "round": 29,
+      "date": "2027-03-22 01:30",
+      "home": "乌迪内斯",
+      "away": "都灵",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471092",
+      "round": 29,
+      "date": "2027-03-22 01:30",
+      "home": "尤文图斯",
+      "away": "科莫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471093",
+      "round": 29,
+      "date": "2027-03-22 01:30",
+      "home": "佛罗伦萨",
+      "away": "热那亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471094",
+      "round": 29,
+      "date": "2027-03-22 01:30",
+      "home": "那不勒斯",
+      "away": "威尼斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471111",
+      "round": 29,
+      "date": "2027-03-22 01:30",
+      "home": "亚特兰大",
+      "away": "AC米兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471131",
+      "round": 29,
+      "date": "2027-03-22 01:30",
+      "home": "罗马",
+      "away": "莱切",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471065",
+      "round": 30,
+      "date": "2027-04-05 00:30",
+      "home": "萨索洛",
+      "away": "亚特兰大",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471070",
+      "round": 30,
+      "date": "2027-04-05 00:30",
+      "home": "弗罗西诺内",
+      "away": "乌迪内斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471072",
+      "round": 30,
+      "date": "2027-04-05 00:30",
+      "home": "科莫",
+      "away": "佛罗伦萨",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471076",
+      "round": 30,
+      "date": "2027-04-05 00:30",
+      "home": "都灵",
+      "away": "尤文图斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471088",
+      "round": 30,
+      "date": "2027-04-05 00:30",
+      "home": "AC米兰",
+      "away": "蒙扎",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471090",
+      "round": 30,
+      "date": "2027-04-05 00:30",
+      "home": "罗马",
+      "away": "博洛尼亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471106",
+      "round": 30,
+      "date": "2027-04-05 00:30",
+      "home": "卡利亚里",
+      "away": "那不勒斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471107",
+      "round": 30,
+      "date": "2027-04-05 00:30",
+      "home": "莱切",
+      "away": "拉齐奥",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471133",
+      "round": 30,
+      "date": "2027-04-05 00:30",
+      "home": "威尼斯",
+      "away": "帕尔马",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471149",
+      "round": 30,
+      "date": "2027-04-05 00:30",
+      "home": "热那亚",
+      "away": "国际米兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471162",
+      "round": 31,
+      "date": "2027-04-12 00:30",
+      "home": "国际米兰",
+      "away": "罗马",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471180",
+      "round": 31,
+      "date": "2027-04-12 00:30",
+      "home": "卡利亚里",
+      "away": "亚特兰大",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471194",
+      "round": 31,
+      "date": "2027-04-12 00:30",
+      "home": "博洛尼亚",
+      "away": "威尼斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471201",
+      "round": 31,
+      "date": "2027-04-12 00:30",
+      "home": "佛罗伦萨",
+      "away": "AC米兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471205",
+      "round": 31,
+      "date": "2027-04-12 00:30",
+      "home": "拉齐奥",
+      "away": "都灵",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471206",
+      "round": 31,
+      "date": "2027-04-12 00:30",
+      "home": "那不勒斯",
+      "away": "萨索洛",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471209",
+      "round": 31,
+      "date": "2027-04-12 00:30",
+      "home": "弗罗西诺内",
+      "away": "热那亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471220",
+      "round": 31,
+      "date": "2027-04-12 00:30",
+      "home": "乌迪内斯",
+      "away": "蒙扎",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471226",
+      "round": 31,
+      "date": "2027-04-12 00:30",
+      "home": "帕尔马",
+      "away": "科莫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471232",
+      "round": 31,
+      "date": "2027-04-12 00:30",
+      "home": "尤文图斯",
+      "away": "莱切",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471153",
+      "round": 32,
+      "date": "2027-04-19 00:30",
+      "home": "佛罗伦萨",
+      "away": "帕尔马",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471156",
+      "round": 32,
+      "date": "2027-04-19 00:30",
+      "home": "AC米兰",
+      "away": "那不勒斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471169",
+      "round": 32,
+      "date": "2027-04-19 00:30",
+      "home": "博洛尼亚",
+      "away": "卡利亚里",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471175",
+      "round": 32,
+      "date": "2027-04-19 00:30",
+      "home": "萨索洛",
+      "away": "莱切",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471184",
+      "round": 32,
+      "date": "2027-04-19 00:30",
+      "home": "亚特兰大",
+      "away": "乌迪内斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471200",
+      "round": 32,
+      "date": "2027-04-19 00:30",
+      "home": "都灵",
+      "away": "热那亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471208",
+      "round": 32,
+      "date": "2027-04-19 00:30",
+      "home": "科莫",
+      "away": "弗罗西诺内",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471219",
+      "round": 32,
+      "date": "2027-04-19 00:30",
+      "home": "蒙扎",
+      "away": "国际米兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471227",
+      "round": 32,
+      "date": "2027-04-19 00:30",
+      "home": "威尼斯",
+      "away": "尤文图斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471228",
+      "round": 32,
+      "date": "2027-04-19 00:30",
+      "home": "罗马",
+      "away": "拉齐奥",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471158",
+      "round": 33,
+      "date": "2027-04-26 00:30",
+      "home": "弗罗西诺内",
+      "away": "罗马",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471167",
+      "round": 33,
+      "date": "2027-04-26 00:30",
+      "home": "卡利亚里",
+      "away": "蒙扎",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471171",
+      "round": 33,
+      "date": "2027-04-26 00:30",
+      "home": "尤文图斯",
+      "away": "佛罗伦萨",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471178",
+      "round": 33,
+      "date": "2027-04-26 00:30",
+      "home": "拉齐奥",
+      "away": "科莫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471182",
+      "round": 33,
+      "date": "2027-04-26 00:30",
+      "home": "威尼斯",
+      "away": "都灵",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471183",
+      "round": 33,
+      "date": "2027-04-26 00:30",
+      "home": "莱切",
+      "away": "AC米兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471197",
+      "round": 33,
+      "date": "2027-04-26 00:30",
+      "home": "那不勒斯",
+      "away": "乌迪内斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471207",
+      "round": 33,
+      "date": "2027-04-26 00:30",
+      "home": "国际米兰",
+      "away": "博洛尼亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471218",
+      "round": 33,
+      "date": "2027-04-26 00:30",
+      "home": "帕尔马",
+      "away": "亚特兰大",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471221",
+      "round": 33,
+      "date": "2027-04-26 00:30",
+      "home": "热那亚",
+      "away": "萨索洛",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471155",
+      "round": 34,
+      "date": "2027-05-03 00:30",
+      "home": "莱切",
+      "away": "卡利亚里",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471164",
+      "round": 34,
+      "date": "2027-05-03 00:30",
+      "home": "博洛尼亚",
+      "away": "佛罗伦萨",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471168",
+      "round": 34,
+      "date": "2027-05-03 00:30",
+      "home": "萨索洛",
+      "away": "弗罗西诺内",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471176",
+      "round": 34,
+      "date": "2027-05-03 00:30",
+      "home": "科莫",
+      "away": "国际米兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471179",
+      "round": 34,
+      "date": "2027-05-03 00:30",
+      "home": "都灵",
+      "away": "帕尔马",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471188",
+      "round": 34,
+      "date": "2027-05-03 00:30",
+      "home": "乌迪内斯",
+      "away": "热那亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471190",
+      "round": 34,
+      "date": "2027-05-03 00:30",
+      "home": "蒙扎",
+      "away": "威尼斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471193",
+      "round": 34,
+      "date": "2027-05-03 00:30",
+      "home": "AC米兰",
+      "away": "拉齐奥",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471203",
+      "round": 34,
+      "date": "2027-05-03 00:30",
+      "home": "亚特兰大",
+      "away": "尤文图斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471231",
+      "round": 34,
+      "date": "2027-05-03 00:30",
+      "home": "罗马",
+      "away": "那不勒斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471173",
+      "round": 35,
+      "date": "2027-05-10 00:30",
+      "home": "帕尔马",
+      "away": "AC米兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471174",
+      "round": 35,
+      "date": "2027-05-10 00:30",
+      "home": "弗罗西诺内",
+      "away": "亚特兰大",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471186",
+      "round": 35,
+      "date": "2027-05-10 00:30",
+      "home": "热那亚",
+      "away": "卡利亚里",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471189",
+      "round": 35,
+      "date": "2027-05-10 00:30",
+      "home": "乌迪内斯",
+      "away": "尤文图斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471196",
+      "round": 35,
+      "date": "2027-05-10 00:30",
+      "home": "那不勒斯",
+      "away": "蒙扎",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471198",
+      "round": 35,
+      "date": "2027-05-10 00:30",
+      "home": "佛罗伦萨",
+      "away": "罗马",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471204",
+      "round": 35,
+      "date": "2027-05-10 00:30",
+      "home": "拉齐奥",
+      "away": "萨索洛",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471217",
+      "round": 35,
+      "date": "2027-05-10 00:30",
+      "home": "国际米兰",
+      "away": "莱切",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471224",
+      "round": 35,
+      "date": "2027-05-10 00:30",
+      "home": "都灵",
+      "away": "博洛尼亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471225",
+      "round": 35,
+      "date": "2027-05-10 00:30",
+      "home": "威尼斯",
+      "away": "科莫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471161",
+      "round": 36,
+      "date": "2027-05-17 00:30",
+      "home": "卡利亚里",
+      "away": "都灵",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471163",
+      "round": 36,
+      "date": "2027-05-17 00:30",
+      "home": "AC米兰",
+      "away": "罗马",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471165",
+      "round": 36,
+      "date": "2027-05-17 00:30",
+      "home": "那不勒斯",
+      "away": "热那亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471172",
+      "round": 36,
+      "date": "2027-05-17 00:30",
+      "home": "尤文图斯",
+      "away": "国际米兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471177",
+      "round": 36,
+      "date": "2027-05-17 00:30",
+      "home": "科莫",
+      "away": "亚特兰大",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471191",
+      "round": 36,
+      "date": "2027-05-17 00:30",
+      "home": "蒙扎",
+      "away": "帕尔马",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471212",
+      "round": 36,
+      "date": "2027-05-17 00:30",
+      "home": "莱切",
+      "away": "佛罗伦萨",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471214",
+      "round": 36,
+      "date": "2027-05-17 00:30",
+      "home": "拉齐奥",
+      "away": "乌迪内斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471222",
+      "round": 36,
+      "date": "2027-05-17 00:30",
+      "home": "萨索洛",
+      "away": "威尼斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471229",
+      "round": 36,
+      "date": "2027-05-17 00:30",
+      "home": "博洛尼亚",
+      "away": "弗罗西诺内",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471159",
+      "round": 37,
+      "date": "2027-05-24 00:30",
+      "home": "佛罗伦萨",
+      "away": "蒙扎",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471160",
+      "round": 37,
+      "date": "2027-05-24 00:30",
+      "home": "乌迪内斯",
+      "away": "萨索洛",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471166",
+      "round": 37,
+      "date": "2027-05-24 00:30",
+      "home": "热那亚",
+      "away": "博洛尼亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471170",
+      "round": 37,
+      "date": "2027-05-24 00:30",
+      "home": "威尼斯",
+      "away": "AC米兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471187",
+      "round": 37,
+      "date": "2027-05-24 00:30",
+      "home": "亚特兰大",
+      "away": "莱切",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471195",
+      "round": 37,
+      "date": "2027-05-24 00:30",
+      "home": "罗马",
+      "away": "科莫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471210",
+      "round": 37,
+      "date": "2027-05-24 00:30",
+      "home": "都灵",
+      "away": "那不勒斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471213",
+      "round": 37,
+      "date": "2027-05-24 00:30",
+      "home": "国际米兰",
+      "away": "拉齐奥",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471215",
+      "round": 37,
+      "date": "2027-05-24 00:30",
+      "home": "弗罗西诺内",
+      "away": "卡利亚里",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471223",
+      "round": 37,
+      "date": "2027-05-24 00:30",
+      "home": "帕尔马",
+      "away": "尤文图斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471154",
+      "round": 38,
+      "date": "2027-05-31 00:30",
+      "home": "拉齐奥",
+      "away": "佛罗伦萨",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471157",
+      "round": 38,
+      "date": "2027-05-31 00:30",
+      "home": "莱切",
+      "away": "威尼斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471181",
+      "round": 38,
+      "date": "2027-05-31 00:30",
+      "home": "尤文图斯",
+      "away": "弗罗西诺内",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471185",
+      "round": 38,
+      "date": "2027-05-31 00:30",
+      "home": "卡利亚里",
+      "away": "罗马",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471192",
+      "round": 38,
+      "date": "2027-05-31 00:30",
+      "home": "科莫",
+      "away": "热那亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471199",
+      "round": 38,
+      "date": "2027-05-31 00:30",
+      "home": "博洛尼亚",
+      "away": "帕尔马",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471202",
+      "round": 38,
+      "date": "2027-05-31 00:30",
+      "home": "那不勒斯",
+      "away": "亚特兰大",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471211",
+      "round": 38,
+      "date": "2027-05-31 00:30",
+      "home": "萨索洛",
+      "away": "国际米兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471216",
+      "round": 38,
+      "date": "2027-05-31 00:30",
+      "home": "AC米兰",
+      "away": "乌迪内斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54471230",
+      "round": 38,
+      "date": "2027-05-31 00:30",
+      "home": "蒙扎",
+      "away": "都灵",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    }
+  ],
+  "points": {
+    "win": 3,
+    "draw": 1,
+    "loss": 0
+  },
+  "tiebreak": [
+    "points",
+    "gd",
+    "gf",
+    "wins"
+  ],
+  "slots": [
+    {
+      "from": 1,
+      "to": 1,
+      "type": "title",
+      "label": "冠军",
+      "color": "#ffd54f"
+    },
+    {
+      "from": 1,
+      "to": 4,
+      "type": "ucl",
+      "label": "欧冠区",
+      "color": "#1565c0"
+    },
+    {
+      "from": 5,
+      "to": 6,
+      "type": "uel",
+      "label": "欧联/欧协",
+      "color": "#1565c0"
+    },
+    {
+      "from": 18,
+      "to": 20,
+      "type": "relegation",
+      "label": "降级",
+      "color": "#c62828"
+    }
+  ],
+  "model": {},
+  "meta": {
+    "source": "dongqiudi:9",
+    "fetchedAt": "2026-10-18T12:39:27.906Z",
+    "maxRound": 38,
+    "url": "https://www.dongqiudi.com/data?cid=9&tab=schedule",
+    "cid": 9,
+    "officialTable": [
+      {
+        "rank": 1,
+        "name": "国际米兰",
+        "played": null,
+        "wins": 7,
+        "draws": 6,
+        "losses": 1,
+        "gf": 21,
+        "ga": 9,
+        "gd": 12,
+        "points": 19
+      },
+      {
+        "rank": 2,
+        "name": "罗马",
+        "played": null,
+        "wins": 7,
+        "draws": 5,
+        "losses": 2,
+        "gf": 16,
+        "ga": 3,
+        "gd": 13,
+        "points": 17
+      },
+      {
+        "rank": 3,
+        "name": "拉齐奥",
+        "played": null,
+        "wins": 6,
+        "draws": 5,
+        "losses": 1,
+        "gf": 11,
+        "ga": 4,
+        "gd": 7,
+        "points": 16
+      },
+      {
+        "rank": 4,
+        "name": "弗罗西诺内",
+        "played": null,
+        "wins": 7,
+        "draws": 4,
+        "losses": 1,
+        "gf": 13,
+        "ga": 9,
+        "gd": 4,
+        "points": 13
+      },
+      {
+        "rank": 5,
+        "name": "卡利亚里",
+        "played": null,
+        "wins": 6,
+        "draws": 4,
+        "losses": 1,
+        "gf": 6,
+        "ga": 3,
+        "gd": 3,
+        "points": 13
+      },
+      {
+        "rank": 6,
+        "name": "AC米兰",
+        "played": null,
+        "wins": 6,
+        "draws": 3,
+        "losses": 3,
+        "gf": 11,
+        "ga": 5,
+        "gd": 6,
+        "points": 12
+      },
+      {
+        "rank": 7,
+        "name": "尤文图斯",
+        "played": null,
+        "wins": 6,
+        "draws": 3,
+        "losses": 2,
+        "gf": 9,
+        "ga": 5,
+        "gd": 4,
+        "points": 11
+      },
+      {
+        "rank": 8,
+        "name": "科莫",
+        "played": null,
+        "wins": 6,
+        "draws": 3,
+        "losses": 2,
+        "gf": 9,
+        "ga": 6,
+        "gd": 3,
+        "points": 11
+      },
+      {
+        "rank": 9,
+        "name": "那不勒斯",
+        "played": null,
+        "wins": 7,
+        "draws": 3,
+        "losses": 1,
+        "gf": 10,
+        "ga": 7,
+        "gd": 3,
+        "points": 10
+      },
+      {
+        "rank": 10,
+        "name": "亚特兰大",
+        "played": null,
+        "wins": 6,
+        "draws": 3,
+        "losses": 0,
+        "gf": 8,
+        "ga": 8,
+        "gd": 0,
+        "points": 9
+      },
+      {
+        "rank": 11,
+        "name": "莱切",
+        "played": null,
+        "wins": 7,
+        "draws": 3,
+        "losses": 0,
+        "gf": 9,
+        "ga": 12,
+        "gd": -3,
+        "points": 9
+      },
+      {
+        "rank": 12,
+        "name": "萨索洛",
+        "played": null,
+        "wins": 7,
+        "draws": 2,
+        "losses": 2,
+        "gf": 12,
+        "ga": 14,
+        "gd": -2,
+        "points": 8
+      },
+      {
+        "rank": 13,
+        "name": "都灵",
+        "played": null,
+        "wins": 6,
+        "draws": 2,
+        "losses": 1,
+        "gf": 7,
+        "ga": 9,
+        "gd": -2,
+        "points": 7
+      },
+      {
+        "rank": 14,
+        "name": "博洛尼亚",
+        "played": null,
+        "wins": 7,
+        "draws": 1,
+        "losses": 2,
+        "gf": 6,
+        "ga": 10,
+        "gd": -4,
+        "points": 5
+      },
+      {
+        "rank": 15,
+        "name": "蒙扎",
+        "played": null,
+        "wins": 6,
+        "draws": 1,
+        "losses": 1,
+        "gf": 9,
+        "ga": 15,
+        "gd": -6,
+        "points": 4
+      },
+      {
+        "rank": 16,
+        "name": "帕尔马",
+        "played": null,
+        "wins": 6,
+        "draws": 1,
+        "losses": 1,
+        "gf": 4,
+        "ga": 10,
+        "gd": -6,
+        "points": 4
+      },
+      {
+        "rank": 17,
+        "name": "乌迪内斯",
+        "played": null,
+        "wins": 7,
+        "draws": 1,
+        "losses": 1,
+        "gf": 9,
+        "ga": 16,
+        "gd": -7,
+        "points": 4
+      },
+      {
+        "rank": 18,
+        "name": "佛罗伦萨",
+        "played": null,
+        "wins": 6,
+        "draws": 1,
+        "losses": 1,
+        "gf": 7,
+        "ga": 14,
+        "gd": -7,
+        "points": 4
+      },
+      {
+        "rank": 19,
+        "name": "热那亚",
+        "played": null,
+        "wins": 7,
+        "draws": 1,
+        "losses": 1,
+        "gf": 5,
+        "ga": 13,
+        "gd": -8,
+        "points": 4
+      },
+      {
+        "rank": 20,
+        "name": "威尼斯",
+        "played": null,
+        "wins": 7,
+        "draws": 1,
+        "losses": 0,
+        "gf": 6,
+        "ga": 16,
+        "gd": -10,
+        "points": 3
+      }
+    ],
+    "deductions": []
+  }
+}

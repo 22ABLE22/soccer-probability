@@ -1,0 +1,2739 @@
+{
+  "id": "china-l1",
+  "name": "中甲",
+  "season": "2026",
+  "teams": [
+    {
+      "id": "无锡吴钩",
+      "name": "无锡吴钩"
+    },
+    {
+      "id": "佛山南狮",
+      "name": "佛山南狮"
+    },
+    {
+      "id": "广东广州豹",
+      "name": "广东广州豹"
+    },
+    {
+      "id": "宁波",
+      "name": "宁波",
+      "deduction": 3
+    },
+    {
+      "id": "南通支云",
+      "name": "南通支云"
+    },
+    {
+      "id": "石家庄功夫",
+      "name": "石家庄功夫"
+    },
+    {
+      "id": "定南赣联",
+      "name": "定南赣联"
+    },
+    {
+      "id": "广西恒宸",
+      "name": "广西恒宸"
+    },
+    {
+      "id": "梅州客家",
+      "name": "梅州客家",
+      "deduction": 9
+    },
+    {
+      "id": "延边龙鼎",
+      "name": "延边龙鼎"
+    },
+    {
+      "id": "深圳青年人",
+      "name": "深圳青年人"
+    },
+    {
+      "id": "陕西联合",
+      "name": "陕西联合"
+    },
+    {
+      "id": "苏州东吴",
+      "name": "苏州东吴",
+      "deduction": 3
+    },
+    {
+      "id": "大连鲲城",
+      "name": "大连鲲城"
+    },
+    {
+      "id": "南京城市",
+      "name": "南京城市"
+    },
+    {
+      "id": "长春亚泰",
+      "name": "长春亚泰",
+      "deduction": 4
+    }
+  ],
+  "matches": [
+    {
+      "id": "54400928",
+      "round": 1,
+      "date": "2026-03-14 15:00",
+      "home": "无锡吴钩",
+      "away": "佛山南狮",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54400929",
+      "round": 1,
+      "date": "2026-03-14 19:30",
+      "home": "广东广州豹",
+      "away": "宁波",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54400931",
+      "round": 1,
+      "date": "2026-03-14 19:30",
+      "home": "南通支云",
+      "away": "石家庄功夫",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54400932",
+      "round": 1,
+      "date": "2026-03-14 19:30",
+      "home": "定南赣联",
+      "away": "广西恒宸",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54400934",
+      "round": 1,
+      "date": "2026-03-14 19:30",
+      "home": "梅州客家",
+      "away": "延边龙鼎",
+      "homeGoals": 0,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54400936",
+      "round": 1,
+      "date": "2026-03-15 16:00",
+      "home": "深圳青年人",
+      "away": "陕西联合",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54400938",
+      "round": 1,
+      "date": "2026-03-15 19:00",
+      "home": "苏州东吴",
+      "away": "大连鲲城",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54400939",
+      "round": 1,
+      "date": "2026-03-15 19:30",
+      "home": "南京城市",
+      "away": "长春亚泰",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54400941",
+      "round": 2,
+      "date": "2026-03-20 19:00",
+      "home": "无锡吴钩",
+      "away": "深圳青年人",
+      "homeGoals": 4,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54400942",
+      "round": 2,
+      "date": "2026-03-20 20:00",
+      "home": "广西恒宸",
+      "away": "宁波",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54400944",
+      "round": 2,
+      "date": "2026-03-21 19:30",
+      "home": "佛山南狮",
+      "away": "广东广州豹",
+      "homeGoals": 2,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54400945",
+      "round": 2,
+      "date": "2026-03-21 19:30",
+      "home": "南京城市",
+      "away": "延边龙鼎",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54400946",
+      "round": 2,
+      "date": "2026-03-21 19:30",
+      "home": "定南赣联",
+      "away": "南通支云",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54400947",
+      "round": 2,
+      "date": "2026-03-21 19:30",
+      "home": "梅州客家",
+      "away": "苏州东吴",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54400948",
+      "round": 2,
+      "date": "2026-03-21 19:30",
+      "home": "石家庄功夫",
+      "away": "长春亚泰",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54400943",
+      "round": 2,
+      "date": "2026-09-27 19:00",
+      "home": "陕西联合",
+      "away": "大连鲲城",
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54400949",
+      "round": 3,
+      "date": "2026-04-04 15:00",
+      "home": "大连鲲城",
+      "away": "定南赣联",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54400950",
+      "round": 3,
+      "date": "2026-04-04 15:30",
+      "home": "宁波",
+      "away": "无锡吴钩",
+      "homeGoals": 2,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54400951",
+      "round": 3,
+      "date": "2026-04-04 16:00",
+      "home": "深圳青年人",
+      "away": "延边龙鼎",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54400952",
+      "round": 3,
+      "date": "2026-04-04 19:30",
+      "home": "南通支云",
+      "away": "南京城市",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54400965",
+      "round": 3,
+      "date": "2026-04-04 19:30",
+      "home": "广西恒宸",
+      "away": "广东广州豹",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54400970",
+      "round": 3,
+      "date": "2026-04-05 15:00",
+      "home": "陕西联合",
+      "away": "石家庄功夫",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54400968",
+      "round": 3,
+      "date": "2026-04-05 15:30",
+      "home": "长春亚泰",
+      "away": "苏州东吴",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54400971",
+      "round": 3,
+      "date": "2026-04-05 15:30",
+      "home": "佛山南狮",
+      "away": "梅州客家",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54400982",
+      "round": 4,
+      "date": "2026-04-11 15:30",
+      "home": "长春亚泰",
+      "away": "陕西联合",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54400994",
+      "round": 4,
+      "date": "2026-04-11 15:30",
+      "home": "宁波",
+      "away": "深圳青年人",
+      "homeGoals": 0,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54400975",
+      "round": 4,
+      "date": "2026-04-11 19:30",
+      "home": "南通支云",
+      "away": "苏州东吴",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54400978",
+      "round": 4,
+      "date": "2026-04-11 19:30",
+      "home": "广东广州豹",
+      "away": "无锡吴钩",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54400980",
+      "round": 4,
+      "date": "2026-04-11 19:30",
+      "home": "梅州客家",
+      "away": "广西恒宸",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54400986",
+      "round": 4,
+      "date": "2026-04-12 15:00",
+      "home": "大连鲲城",
+      "away": "延边龙鼎",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54400988",
+      "round": 4,
+      "date": "2026-04-12 19:30",
+      "home": "定南赣联",
+      "away": "南京城市",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54400990",
+      "round": 4,
+      "date": "2026-04-12 19:30",
+      "home": "石家庄功夫",
+      "away": "佛山南狮",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54400997",
+      "round": 5,
+      "date": "2026-04-18 15:00",
+      "home": "延边龙鼎",
+      "away": "宁波",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401000",
+      "round": 5,
+      "date": "2026-04-18 15:30",
+      "home": "佛山南狮",
+      "away": "长春亚泰",
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54401004",
+      "round": 5,
+      "date": "2026-04-18 15:30",
+      "home": "陕西联合",
+      "away": "南通支云",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401002",
+      "round": 5,
+      "date": "2026-04-18 19:00",
+      "home": "苏州东吴",
+      "away": "广西恒宸",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401006",
+      "round": 5,
+      "date": "2026-04-18 19:30",
+      "home": "南京城市",
+      "away": "深圳青年人",
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54401008",
+      "round": 5,
+      "date": "2026-04-19 15:00",
+      "home": "无锡吴钩",
+      "away": "大连鲲城",
+      "homeGoals": 2,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54401010",
+      "round": 5,
+      "date": "2026-04-19 19:30",
+      "home": "广东广州豹",
+      "away": "梅州客家",
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401011",
+      "round": 5,
+      "date": "2026-04-19 19:30",
+      "home": "石家庄功夫",
+      "away": "定南赣联",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54401014",
+      "round": 6,
+      "date": "2026-04-25 15:00",
+      "home": "延边龙鼎",
+      "away": "陕西联合",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401016",
+      "round": 6,
+      "date": "2026-04-25 16:00",
+      "home": "深圳青年人",
+      "away": "佛山南狮",
+      "homeGoals": 0,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54401017",
+      "round": 6,
+      "date": "2026-04-25 19:00",
+      "home": "苏州东吴",
+      "away": "定南赣联",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401019",
+      "round": 6,
+      "date": "2026-04-25 19:30",
+      "home": "广西恒宸",
+      "away": "南京城市",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401021",
+      "round": 6,
+      "date": "2026-04-25 19:30",
+      "home": "梅州客家",
+      "away": "宁波",
+      "homeGoals": 0,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54401020",
+      "round": 6,
+      "date": "2026-04-26 15:00",
+      "home": "无锡吴钩",
+      "away": "石家庄功夫",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401022",
+      "round": 6,
+      "date": "2026-04-26 15:30",
+      "home": "长春亚泰",
+      "away": "广东广州豹",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54401027",
+      "round": 6,
+      "date": "2026-04-26 19:30",
+      "home": "南通支云",
+      "away": "大连鲲城",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401031",
+      "round": 7,
+      "date": "2026-05-02 15:00",
+      "home": "大连鲲城",
+      "away": "佛山南狮",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54401032",
+      "round": 7,
+      "date": "2026-05-02 15:00",
+      "home": "延边龙鼎",
+      "away": "无锡吴钩",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401033",
+      "round": 7,
+      "date": "2026-05-02 19:30",
+      "home": "定南赣联",
+      "away": "陕西联合",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401039",
+      "round": 7,
+      "date": "2026-05-02 19:30",
+      "home": "广东广州豹",
+      "away": "南通支云",
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401042",
+      "round": 7,
+      "date": "2026-05-02 19:30",
+      "home": "石家庄功夫",
+      "away": "广西恒宸",
+      "homeGoals": 0,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54401044",
+      "round": 7,
+      "date": "2026-05-03 19:00",
+      "home": "宁波",
+      "away": "长春亚泰",
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401045",
+      "round": 7,
+      "date": "2026-05-03 19:30",
+      "home": "南京城市",
+      "away": "苏州东吴",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401050",
+      "round": 7,
+      "date": "2026-05-03 19:30",
+      "home": "梅州客家",
+      "away": "深圳青年人",
+      "homeGoals": 1,
+      "awayGoals": 4,
+      "played": true
+    },
+    {
+      "id": "54401059",
+      "round": 8,
+      "date": "2026-05-09 19:30",
+      "home": "南京城市",
+      "away": "梅州客家",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401061",
+      "round": 8,
+      "date": "2026-05-09 19:30",
+      "home": "定南赣联",
+      "away": "长春亚泰",
+      "homeGoals": 2,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54401063",
+      "round": 8,
+      "date": "2026-05-10 15:00",
+      "home": "大连鲲城",
+      "away": "广东广州豹",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401066",
+      "round": 8,
+      "date": "2026-05-10 15:00",
+      "home": "延边龙鼎",
+      "away": "广西恒宸",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401069",
+      "round": 8,
+      "date": "2026-05-10 15:00",
+      "home": "陕西联合",
+      "away": "宁波",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401057",
+      "round": 8,
+      "date": "2026-05-10 19:00",
+      "home": "深圳青年人",
+      "away": "石家庄功夫",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401070",
+      "round": 8,
+      "date": "2026-05-10 19:30",
+      "home": "佛山南狮",
+      "away": "苏州东吴",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401072",
+      "round": 8,
+      "date": "2026-05-10 19:30",
+      "home": "南通支云",
+      "away": "无锡吴钩",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401082",
+      "round": 9,
+      "date": "2026-05-23 19:00",
+      "home": "宁波",
+      "away": "大连鲲城",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401085",
+      "round": 9,
+      "date": "2026-05-23 19:00",
+      "home": "无锡吴钩",
+      "away": "南京城市",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401087",
+      "round": 9,
+      "date": "2026-05-23 19:30",
+      "home": "广西恒宸",
+      "away": "南通支云",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401089",
+      "round": 9,
+      "date": "2026-05-23 19:30",
+      "home": "佛山南狮",
+      "away": "定南赣联",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401078",
+      "round": 9,
+      "date": "2026-05-24 15:30",
+      "home": "长春亚泰",
+      "away": "深圳青年人",
+      "homeGoals": 0,
+      "awayGoals": 4,
+      "played": true
+    },
+    {
+      "id": "54401092",
+      "round": 9,
+      "date": "2026-05-24 19:00",
+      "home": "苏州东吴",
+      "away": "陕西联合",
+      "homeGoals": 0,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54401094",
+      "round": 9,
+      "date": "2026-05-24 19:30",
+      "home": "广东广州豹",
+      "away": "延边龙鼎",
+      "homeGoals": 3,
+      "awayGoals": 4,
+      "played": true
+    },
+    {
+      "id": "54401096",
+      "round": 9,
+      "date": "2026-05-24 19:30",
+      "home": "石家庄功夫",
+      "away": "梅州客家",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401106",
+      "round": 10,
+      "date": "2026-05-29 15:00",
+      "home": "陕西联合",
+      "away": "南京城市",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401103",
+      "round": 10,
+      "date": "2026-05-29 19:00",
+      "home": "宁波",
+      "away": "南通支云",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401107",
+      "round": 10,
+      "date": "2026-05-29 19:30",
+      "home": "广东广州豹",
+      "away": "深圳青年人",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401120",
+      "round": 10,
+      "date": "2026-05-30 15:00",
+      "home": "延边龙鼎",
+      "away": "长春亚泰",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54401113",
+      "round": 10,
+      "date": "2026-05-30 19:00",
+      "home": "大连鲲城",
+      "away": "石家庄功夫",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401114",
+      "round": 10,
+      "date": "2026-05-30 19:00",
+      "home": "苏州东吴",
+      "away": "无锡吴钩",
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54401117",
+      "round": 10,
+      "date": "2026-05-30 19:30",
+      "home": "梅州客家",
+      "away": "定南赣联",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54401124",
+      "round": 10,
+      "date": "2026-05-30 19:30",
+      "home": "广西恒宸",
+      "away": "佛山南狮",
+      "homeGoals": 3,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54400930",
+      "round": 11,
+      "date": "2026-06-13 15:30",
+      "home": "长春亚泰",
+      "away": "大连鲲城",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54400933",
+      "round": 11,
+      "date": "2026-06-13 19:30",
+      "home": "南京城市",
+      "away": "宁波",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54400937",
+      "round": 11,
+      "date": "2026-06-13 20:00",
+      "home": "定南赣联",
+      "away": "广东广州豹",
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54400940",
+      "round": 11,
+      "date": "2026-06-14 19:00",
+      "home": "深圳青年人",
+      "away": "广西恒宸",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54400953",
+      "round": 11,
+      "date": "2026-06-14 19:00",
+      "home": "无锡吴钩",
+      "away": "梅州客家",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54400935",
+      "round": 11,
+      "date": "2026-06-14 19:30",
+      "home": "石家庄功夫",
+      "away": "苏州东吴",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54400954",
+      "round": 11,
+      "date": "2026-06-14 19:30",
+      "home": "佛山南狮",
+      "away": "陕西联合",
+      "homeGoals": 0,
+      "awayGoals": 5,
+      "played": true
+    },
+    {
+      "id": "54400955",
+      "round": 11,
+      "date": "2026-06-14 19:30",
+      "home": "南通支云",
+      "away": "延边龙鼎",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54400956",
+      "round": 12,
+      "date": "2026-06-27 15:30",
+      "home": "长春亚泰",
+      "away": "广西恒宸",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54400957",
+      "round": 12,
+      "date": "2026-06-27 19:00",
+      "home": "大连鲲城",
+      "away": "深圳青年人",
+      "homeGoals": 5,
+      "awayGoals": 4,
+      "played": true
+    },
+    {
+      "id": "54400958",
+      "round": 12,
+      "date": "2026-06-27 19:30",
+      "home": "佛山南狮",
+      "away": "延边龙鼎",
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54400959",
+      "round": 12,
+      "date": "2026-06-27 19:30",
+      "home": "南通支云",
+      "away": "梅州客家",
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54400960",
+      "round": 12,
+      "date": "2026-06-27 19:30",
+      "home": "石家庄功夫",
+      "away": "南京城市",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54400961",
+      "round": 12,
+      "date": "2026-06-27 19:30",
+      "home": "广东广州豹",
+      "away": "陕西联合",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54400962",
+      "round": 12,
+      "date": "2026-06-28 19:00",
+      "home": "苏州东吴",
+      "away": "宁波",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54400963",
+      "round": 12,
+      "date": "2026-06-28 20:00",
+      "home": "定南赣联",
+      "away": "无锡吴钩",
+      "homeGoals": 3,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54400966",
+      "round": 13,
+      "date": "2026-07-04 18:00",
+      "home": "延边龙鼎",
+      "away": "定南赣联",
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54400967",
+      "round": 13,
+      "date": "2026-07-04 19:00",
+      "home": "宁波",
+      "away": "石家庄功夫",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54400969",
+      "round": 13,
+      "date": "2026-07-04 19:00",
+      "home": "深圳青年人",
+      "away": "南通支云",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54400972",
+      "round": 13,
+      "date": "2026-07-04 19:00",
+      "home": "苏州东吴",
+      "away": "广东广州豹",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54400976",
+      "round": 13,
+      "date": "2026-07-04 19:00",
+      "home": "陕西联合",
+      "away": "无锡吴钩",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54400979",
+      "round": 13,
+      "date": "2026-07-05 19:30",
+      "home": "南京城市",
+      "away": "佛山南狮",
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54400983",
+      "round": 13,
+      "date": "2026-07-05 19:30",
+      "home": "广西恒宸",
+      "away": "大连鲲城",
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54400985",
+      "round": 13,
+      "date": "2026-07-05 19:30",
+      "home": "梅州客家",
+      "away": "长春亚泰",
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54401126",
+      "round": 14,
+      "date": "2026-07-11 18:00",
+      "home": "延边龙鼎",
+      "away": "苏州东吴",
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54400992",
+      "round": 14,
+      "date": "2026-07-11 19:00",
+      "home": "大连鲲城",
+      "away": "南京城市",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54400996",
+      "round": 14,
+      "date": "2026-07-11 19:00",
+      "home": "陕西联合",
+      "away": "梅州客家",
+      "homeGoals": 4,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54400998",
+      "round": 14,
+      "date": "2026-07-11 19:30",
+      "home": "广东广州豹",
+      "away": "石家庄功夫",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401001",
+      "round": 14,
+      "date": "2026-07-12 19:00",
+      "home": "深圳青年人",
+      "away": "定南赣联",
+      "homeGoals": 3,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54400999",
+      "round": 14,
+      "date": "2026-07-13 19:00",
+      "home": "宁波",
+      "away": "佛山南狮",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54400995",
+      "round": 14,
+      "date": "2026-09-25 19:00",
+      "home": "无锡吴钩",
+      "away": "广西恒宸",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401003",
+      "round": 14,
+      "date": "2026-09-26 19:30",
+      "home": "南通支云",
+      "away": "长春亚泰",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401005",
+      "round": 15,
+      "date": "2026-07-17 19:00",
+      "home": "苏州东吴",
+      "away": "深圳青年人",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401007",
+      "round": 15,
+      "date": "2026-07-17 19:00",
+      "home": "长春亚泰",
+      "away": "无锡吴钩",
+      "homeGoals": 1,
+      "awayGoals": 5,
+      "played": true
+    },
+    {
+      "id": "54401009",
+      "round": 15,
+      "date": "2026-07-17 19:30",
+      "home": "佛山南狮",
+      "away": "南通支云",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54401012",
+      "round": 15,
+      "date": "2026-07-17 19:30",
+      "home": "石家庄功夫",
+      "away": "延边龙鼎",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401013",
+      "round": 15,
+      "date": "2026-07-18 19:30",
+      "home": "南京城市",
+      "away": "广东广州豹",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401015",
+      "round": 15,
+      "date": "2026-07-18 19:30",
+      "home": "广西恒宸",
+      "away": "陕西联合",
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401018",
+      "round": 15,
+      "date": "2026-07-18 19:30",
+      "home": "梅州客家",
+      "away": "大连鲲城",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401023",
+      "round": 15,
+      "date": "2026-07-18 20:00",
+      "home": "定南赣联",
+      "away": "宁波",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401026",
+      "round": 16,
+      "date": "2026-07-25 19:00",
+      "home": "宁波",
+      "away": "广东广州豹",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54401028",
+      "round": 16,
+      "date": "2026-07-25 19:00",
+      "home": "长春亚泰",
+      "away": "南京城市",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401030",
+      "round": 16,
+      "date": "2026-07-25 19:30",
+      "home": "佛山南狮",
+      "away": "无锡吴钩",
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54401034",
+      "round": 16,
+      "date": "2026-07-25 19:30",
+      "home": "石家庄功夫",
+      "away": "南通支云",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401029",
+      "round": 16,
+      "date": "2026-07-25 20:05",
+      "home": "陕西联合",
+      "away": "深圳青年人",
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401036",
+      "round": 16,
+      "date": "2026-07-26 18:00",
+      "home": "延边龙鼎",
+      "away": "梅州客家",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401038",
+      "round": 16,
+      "date": "2026-07-26 19:00",
+      "home": "大连鲲城",
+      "away": "苏州东吴",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401041",
+      "round": 16,
+      "date": "2026-07-26 19:30",
+      "home": "广西恒宸",
+      "away": "定南赣联",
+      "homeGoals": 4,
+      "awayGoals": 4,
+      "played": true
+    },
+    {
+      "id": "54401127",
+      "round": 17,
+      "date": "2026-08-01 18:00",
+      "home": "延边龙鼎",
+      "away": "南京城市",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401047",
+      "round": 17,
+      "date": "2026-08-01 19:00",
+      "home": "大连鲲城",
+      "away": "陕西联合",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54401053",
+      "round": 17,
+      "date": "2026-08-01 19:00",
+      "home": "宁波",
+      "away": "广西恒宸",
+      "homeGoals": 2,
+      "awayGoals": 4,
+      "played": true
+    },
+    {
+      "id": "54401054",
+      "round": 17,
+      "date": "2026-08-01 19:30",
+      "home": "南通支云",
+      "away": "定南赣联",
+      "homeGoals": 5,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401056",
+      "round": 17,
+      "date": "2026-08-01 19:30",
+      "home": "广东广州豹",
+      "away": "佛山南狮",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401058",
+      "round": 17,
+      "date": "2026-08-02 19:00",
+      "home": "深圳青年人",
+      "away": "无锡吴钩",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401060",
+      "round": 17,
+      "date": "2026-08-02 19:00",
+      "home": "苏州东吴",
+      "away": "梅州客家",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401062",
+      "round": 17,
+      "date": "2026-08-02 19:00",
+      "home": "长春亚泰",
+      "away": "石家庄功夫",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54401065",
+      "round": 18,
+      "date": "2026-08-08 19:00",
+      "home": "苏州东吴",
+      "away": "长春亚泰",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401067",
+      "round": 18,
+      "date": "2026-08-08 19:30",
+      "home": "南京城市",
+      "away": "南通支云",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401071",
+      "round": 18,
+      "date": "2026-08-08 19:30",
+      "home": "梅州客家",
+      "away": "佛山南狮",
+      "homeGoals": 3,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54401074",
+      "round": 18,
+      "date": "2026-08-08 19:30",
+      "home": "石家庄功夫",
+      "away": "陕西联合",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401076",
+      "round": 18,
+      "date": "2026-08-08 20:00",
+      "home": "定南赣联",
+      "away": "大连鲲城",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401079",
+      "round": 18,
+      "date": "2026-08-09 18:00",
+      "home": "延边龙鼎",
+      "away": "深圳青年人",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401084",
+      "round": 18,
+      "date": "2026-08-09 19:30",
+      "home": "广东广州豹",
+      "away": "广西恒宸",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401081",
+      "round": 18,
+      "date": "2026-09-29 19:00",
+      "home": "无锡吴钩",
+      "away": "宁波",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401093",
+      "round": 19,
+      "date": "2026-08-14 19:30",
+      "home": "陕西联合",
+      "away": "长春亚泰",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401088",
+      "round": 19,
+      "date": "2026-08-15 18:00",
+      "home": "延边龙鼎",
+      "away": "大连鲲城",
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401090",
+      "round": 19,
+      "date": "2026-08-15 19:00",
+      "home": "无锡吴钩",
+      "away": "广东广州豹",
+      "homeGoals": 0,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54401095",
+      "round": 19,
+      "date": "2026-08-15 19:30",
+      "home": "广西恒宸",
+      "away": "梅州客家",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401098",
+      "round": 19,
+      "date": "2026-08-16 19:00",
+      "home": "深圳青年人",
+      "away": "宁波",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401100",
+      "round": 19,
+      "date": "2026-08-16 19:00",
+      "home": "苏州东吴",
+      "away": "南通支云",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401102",
+      "round": 19,
+      "date": "2026-08-16 19:30",
+      "home": "佛山南狮",
+      "away": "石家庄功夫",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54401105",
+      "round": 19,
+      "date": "2026-08-16 19:30",
+      "home": "南京城市",
+      "away": "定南赣联",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401108",
+      "round": 20,
+      "date": "2026-08-22 19:00",
+      "home": "大连鲲城",
+      "away": "无锡吴钩",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401110",
+      "round": 20,
+      "date": "2026-08-22 19:00",
+      "home": "宁波",
+      "away": "延边龙鼎",
+      "homeGoals": 2,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54401112",
+      "round": 20,
+      "date": "2026-08-22 19:30",
+      "home": "南通支云",
+      "away": "陕西联合",
+      "homeGoals": 4,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401116",
+      "round": 20,
+      "date": "2026-08-22 19:30",
+      "home": "梅州客家",
+      "away": "广东广州豹",
+      "homeGoals": 1,
+      "awayGoals": 5,
+      "played": true
+    },
+    {
+      "id": "54401125",
+      "round": 20,
+      "date": "2026-08-22 19:30",
+      "home": "定南赣联",
+      "away": "石家庄功夫",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54401133",
+      "round": 20,
+      "date": "2026-08-22 19:30",
+      "home": "广西恒宸",
+      "away": "苏州东吴",
+      "homeGoals": 3,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54401118",
+      "round": 20,
+      "date": "2026-08-23 19:00",
+      "home": "深圳青年人",
+      "away": "南京城市",
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401121",
+      "round": 20,
+      "date": "2026-08-23 19:00",
+      "home": "长春亚泰",
+      "away": "佛山南狮",
+      "homeGoals": 6,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401185",
+      "round": 21,
+      "date": "2026-08-29 19:00",
+      "home": "陕西联合",
+      "away": "延边龙鼎",
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401186",
+      "round": 21,
+      "date": "2026-08-29 19:30",
+      "home": "佛山南狮",
+      "away": "深圳青年人",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54401187",
+      "round": 21,
+      "date": "2026-08-29 19:30",
+      "home": "南京城市",
+      "away": "广西恒宸",
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54401188",
+      "round": 21,
+      "date": "2026-08-29 19:30",
+      "home": "石家庄功夫",
+      "away": "无锡吴钩",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401189",
+      "round": 21,
+      "date": "2026-08-29 20:00",
+      "home": "定南赣联",
+      "away": "苏州东吴",
+      "homeGoals": 3,
+      "awayGoals": 4,
+      "played": true
+    },
+    {
+      "id": "54401190",
+      "round": 21,
+      "date": "2026-08-30 19:00",
+      "home": "大连鲲城",
+      "away": "南通支云",
+      "homeGoals": 3,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54401191",
+      "round": 21,
+      "date": "2026-08-30 19:00",
+      "home": "宁波",
+      "away": "梅州客家",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401194",
+      "round": 21,
+      "date": "2026-08-30 19:30",
+      "home": "广东广州豹",
+      "away": "长春亚泰",
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401175",
+      "round": 22,
+      "date": "2026-09-05 15:30",
+      "home": "陕西联合",
+      "away": "定南赣联",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401171",
+      "round": 22,
+      "date": "2026-09-05 19:00",
+      "home": "无锡吴钩",
+      "away": "延边龙鼎",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401174",
+      "round": 22,
+      "date": "2026-09-05 19:00",
+      "home": "长春亚泰",
+      "away": "宁波",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401178",
+      "round": 22,
+      "date": "2026-09-05 19:30",
+      "home": "佛山南狮",
+      "away": "大连鲲城",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401179",
+      "round": 22,
+      "date": "2026-09-05 19:30",
+      "home": "南通支云",
+      "away": "广东广州豹",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401180",
+      "round": 22,
+      "date": "2026-09-06 19:00",
+      "home": "深圳青年人",
+      "away": "梅州客家",
+      "homeGoals": 5,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401181",
+      "round": 22,
+      "date": "2026-09-06 19:00",
+      "home": "苏州东吴",
+      "away": "南京城市",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401182",
+      "round": 22,
+      "date": "2026-09-06 19:30",
+      "home": "广西恒宸",
+      "away": "石家庄功夫",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401162",
+      "round": 23,
+      "date": "2026-09-12 19:00",
+      "home": "宁波",
+      "away": "陕西联合",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401164",
+      "round": 23,
+      "date": "2026-09-12 19:00",
+      "home": "苏州东吴",
+      "away": "佛山南狮",
+      "homeGoals": 3,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54401165",
+      "round": 23,
+      "date": "2026-09-12 19:00",
+      "home": "长春亚泰",
+      "away": "定南赣联",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401166",
+      "round": 23,
+      "date": "2026-09-12 19:30",
+      "home": "广东广州豹",
+      "away": "大连鲲城",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401167",
+      "round": 23,
+      "date": "2026-09-12 19:30",
+      "home": "广西恒宸",
+      "away": "延边龙鼎",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401168",
+      "round": 23,
+      "date": "2026-09-13 19:00",
+      "home": "无锡吴钩",
+      "away": "南通支云",
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54401169",
+      "round": 23,
+      "date": "2026-09-13 19:30",
+      "home": "梅州客家",
+      "away": "南京城市",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401170",
+      "round": 23,
+      "date": "2026-09-13 19:30",
+      "home": "石家庄功夫",
+      "away": "深圳青年人",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401146",
+      "round": 24,
+      "date": "2026-09-18 18:00",
+      "home": "延边龙鼎",
+      "away": "广东广州豹",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54401148",
+      "round": 24,
+      "date": "2026-09-18 19:00",
+      "home": "大连鲲城",
+      "away": "宁波",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401149",
+      "round": 24,
+      "date": "2026-09-18 19:30",
+      "home": "南通支云",
+      "away": "广西恒宸",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401151",
+      "round": 24,
+      "date": "2026-09-19 19:00",
+      "home": "深圳青年人",
+      "away": "长春亚泰",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401153",
+      "round": 24,
+      "date": "2026-09-19 19:00",
+      "home": "陕西联合",
+      "away": "苏州东吴",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54401154",
+      "round": 24,
+      "date": "2026-09-19 19:30",
+      "home": "南京城市",
+      "away": "无锡吴钩",
+      "homeGoals": 0,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54401155",
+      "round": 24,
+      "date": "2026-09-19 19:30",
+      "home": "梅州客家",
+      "away": "石家庄功夫",
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54401157",
+      "round": 24,
+      "date": "2026-09-19 19:30",
+      "home": "定南赣联",
+      "away": "佛山南狮",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401136",
+      "round": 25,
+      "date": "2026-10-06 19:00",
+      "home": "无锡吴钩",
+      "away": "苏州东吴",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54401137",
+      "round": 25,
+      "date": "2026-10-06 19:00",
+      "home": "长春亚泰",
+      "away": "延边龙鼎",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401138",
+      "round": 25,
+      "date": "2026-10-06 19:30",
+      "home": "南通支云",
+      "away": "宁波",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401139",
+      "round": 25,
+      "date": "2026-10-06 19:30",
+      "home": "定南赣联",
+      "away": "梅州客家",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401140",
+      "round": 25,
+      "date": "2026-10-06 19:30",
+      "home": "石家庄功夫",
+      "away": "大连鲲城",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401141",
+      "round": 25,
+      "date": "2026-10-07 19:00",
+      "home": "深圳青年人",
+      "away": "广东广州豹",
+      "homeGoals": 1,
+      "awayGoals": 4,
+      "played": true
+    },
+    {
+      "id": "54401143",
+      "round": 25,
+      "date": "2026-10-07 19:30",
+      "home": "佛山南狮",
+      "away": "广西恒宸",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401144",
+      "round": 25,
+      "date": "2026-10-07 19:30",
+      "home": "南京城市",
+      "away": "陕西联合",
+      "homeGoals": 1,
+      "awayGoals": 4,
+      "played": true
+    },
+    {
+      "id": "54401122",
+      "round": 26,
+      "date": "2026-10-10 19:00",
+      "home": "大连鲲城",
+      "away": "长春亚泰",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401123",
+      "round": 26,
+      "date": "2026-10-10 19:00",
+      "home": "苏州东吴",
+      "away": "石家庄功夫",
+      "homeGoals": 0,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54401128",
+      "round": 26,
+      "date": "2026-10-10 19:30",
+      "home": "梅州客家",
+      "away": "无锡吴钩",
+      "homeGoals": 0,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54401129",
+      "round": 26,
+      "date": "2026-10-11 15:00",
+      "home": "延边龙鼎",
+      "away": "南通支云",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401130",
+      "round": 26,
+      "date": "2026-10-11 15:30",
+      "home": "陕西联合",
+      "away": "佛山南狮",
+      "homeGoals": 5,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401119",
+      "round": 26,
+      "date": "2026-10-11 19:00",
+      "home": "宁波",
+      "away": "南京城市",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401132",
+      "round": 26,
+      "date": "2026-10-11 19:00",
+      "home": "广西恒宸",
+      "away": "深圳青年人",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401131",
+      "round": 26,
+      "date": "2026-10-11 19:30",
+      "home": "广东广州豹",
+      "away": "定南赣联",
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401091",
+      "round": 27,
+      "date": "2026-10-17 15:00",
+      "home": "延边龙鼎",
+      "away": "佛山南狮",
+      "homeGoals": 5,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401097",
+      "round": 27,
+      "date": "2026-10-17 19:00",
+      "home": "宁波",
+      "away": "苏州东吴",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401099",
+      "round": 27,
+      "date": "2026-10-17 19:00",
+      "home": "无锡吴钩",
+      "away": "定南赣联",
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54401101",
+      "round": 27,
+      "date": "2026-10-17 19:00",
+      "home": "深圳青年人",
+      "away": "大连鲲城",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54401104",
+      "round": 27,
+      "date": "2026-10-17 19:30",
+      "home": "广西恒宸",
+      "away": "长春亚泰",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54401109",
+      "round": 27,
+      "date": "2026-10-18 16:00",
+      "home": "陕西联合",
+      "away": "广东广州豹",
+      "homeGoals": 4,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54401111",
+      "round": 27,
+      "date": "2026-10-18 19:30",
+      "home": "梅州客家",
+      "away": "南通支云",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": false
+    },
+    {
+      "id": "54401115",
+      "round": 27,
+      "date": "2026-10-18 19:30",
+      "home": "南京城市",
+      "away": "石家庄功夫",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": false
+    },
+    {
+      "id": "54401064",
+      "round": 28,
+      "date": "2026-10-24 15:00",
+      "home": "大连鲲城",
+      "away": "广西恒宸",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54401068",
+      "round": 28,
+      "date": "2026-10-24 15:30",
+      "home": "长春亚泰",
+      "away": "梅州客家",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54401073",
+      "round": 28,
+      "date": "2026-10-24 19:30",
+      "home": "佛山南狮",
+      "away": "南京城市",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54401075",
+      "round": 28,
+      "date": "2026-10-24 19:30",
+      "home": "南通支云",
+      "away": "深圳青年人",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54401077",
+      "round": 28,
+      "date": "2026-10-24 19:30",
+      "home": "石家庄功夫",
+      "away": "宁波",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54401080",
+      "round": 28,
+      "date": "2026-10-25 19:00",
+      "home": "无锡吴钩",
+      "away": "陕西联合",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54401083",
+      "round": 28,
+      "date": "2026-10-25 19:30",
+      "home": "定南赣联",
+      "away": "延边龙鼎",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54401086",
+      "round": 28,
+      "date": "2026-10-25 19:30",
+      "home": "广东广州豹",
+      "away": "苏州东吴",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54401035",
+      "round": 29,
+      "date": "2026-10-31 14:30",
+      "home": "佛山南狮",
+      "away": "宁波",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54401037",
+      "round": 29,
+      "date": "2026-10-31 14:30",
+      "home": "南京城市",
+      "away": "大连鲲城",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54401040",
+      "round": 29,
+      "date": "2026-10-31 14:30",
+      "home": "定南赣联",
+      "away": "深圳青年人",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54401043",
+      "round": 29,
+      "date": "2026-10-31 14:30",
+      "home": "广西恒宸",
+      "away": "无锡吴钩",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54401046",
+      "round": 29,
+      "date": "2026-10-31 14:30",
+      "home": "梅州客家",
+      "away": "陕西联合",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54401051",
+      "round": 29,
+      "date": "2026-10-31 14:30",
+      "home": "石家庄功夫",
+      "away": "广东广州豹",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54401052",
+      "round": 29,
+      "date": "2026-10-31 14:30",
+      "home": "苏州东吴",
+      "away": "延边龙鼎",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54401055",
+      "round": 29,
+      "date": "2026-10-31 14:30",
+      "home": "长春亚泰",
+      "away": "南通支云",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54400973",
+      "round": 30,
+      "date": "2026-11-07 14:30",
+      "home": "南通支云",
+      "away": "佛山南狮",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54400974",
+      "round": 30,
+      "date": "2026-11-07 14:30",
+      "home": "大连鲲城",
+      "away": "梅州客家",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54400977",
+      "round": 30,
+      "date": "2026-11-07 14:30",
+      "home": "宁波",
+      "away": "定南赣联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54400981",
+      "round": 30,
+      "date": "2026-11-07 14:30",
+      "home": "广东广州豹",
+      "away": "南京城市",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54400984",
+      "round": 30,
+      "date": "2026-11-07 14:30",
+      "home": "延边龙鼎",
+      "away": "石家庄功夫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54400987",
+      "round": 30,
+      "date": "2026-11-07 14:30",
+      "home": "无锡吴钩",
+      "away": "长春亚泰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54400989",
+      "round": 30,
+      "date": "2026-11-07 14:30",
+      "home": "深圳青年人",
+      "away": "苏州东吴",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54400991",
+      "round": 30,
+      "date": "2026-11-07 14:30",
+      "home": "陕西联合",
+      "away": "广西恒宸",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    }
+  ],
+  "points": {
+    "win": 3,
+    "draw": 1,
+    "loss": 0
+  },
+  "tiebreak": [
+    "points",
+    "gd",
+    "gf",
+    "wins"
+  ],
+  "slots": [
+    {
+      "from": 1,
+      "to": 1,
+      "type": "title",
+      "label": "冠军",
+      "color": "#ffd54f"
+    },
+    {
+      "from": 1,
+      "to": 2,
+      "type": "promotion",
+      "label": "升级 (2 席)",
+      "color": "#2e7d32"
+    },
+    {
+      "from": 15,
+      "to": 16,
+      "type": "relegation",
+      "label": "降级",
+      "color": "#c62828"
+    }
+  ],
+  "model": {},
+  "meta": {
+    "source": "dongqiudi:129",
+    "fetchedAt": "2026-10-18T12:39:24.724Z",
+    "maxRound": 30,
+    "url": "https://www.dongqiudi.com/data?cid=129&tab=schedule",
+    "cid": 129,
+    "officialTable": [
+      {
+        "rank": 1,
+        "name": "广东广州豹",
+        "played": null,
+        "wins": 27,
+        "draws": 18,
+        "losses": 6,
+        "gf": 55,
+        "ga": 26,
+        "gd": 29,
+        "points": 60
+      },
+      {
+        "rank": 2,
+        "name": "南通支云",
+        "played": null,
+        "wins": 26,
+        "draws": 13,
+        "losses": 9,
+        "gf": 35,
+        "ga": 20,
+        "gd": 15,
+        "points": 48
+      },
+      {
+        "rank": 3,
+        "name": "广西恒宸",
+        "played": null,
+        "wins": 27,
+        "draws": 13,
+        "losses": 8,
+        "gf": 43,
+        "ga": 30,
+        "gd": 13,
+        "points": 47
+      },
+      {
+        "rank": 4,
+        "name": "深圳青年人",
+        "played": null,
+        "wins": 27,
+        "draws": 12,
+        "losses": 10,
+        "gf": 42,
+        "ga": 31,
+        "gd": 11,
+        "points": 46
+      },
+      {
+        "rank": 5,
+        "name": "陕西联合",
+        "played": null,
+        "wins": 27,
+        "draws": 13,
+        "losses": 6,
+        "gf": 51,
+        "ga": 28,
+        "gd": 23,
+        "points": 45
+      },
+      {
+        "rank": 6,
+        "name": "延边龙鼎",
+        "played": null,
+        "wins": 27,
+        "draws": 10,
+        "losses": 9,
+        "gf": 39,
+        "ga": 29,
+        "gd": 10,
+        "points": 39
+      },
+      {
+        "rank": 7,
+        "name": "石家庄功夫",
+        "played": null,
+        "wins": 26,
+        "draws": 10,
+        "losses": 7,
+        "gf": 26,
+        "ga": 25,
+        "gd": 1,
+        "points": 37
+      },
+      {
+        "rank": 8,
+        "name": "无锡吴钩",
+        "played": null,
+        "wins": 27,
+        "draws": 10,
+        "losses": 6,
+        "gf": 41,
+        "ga": 33,
+        "gd": 8,
+        "points": 36
+      },
+      {
+        "rank": 9,
+        "name": "长春亚泰",
+        "played": null,
+        "wins": 27,
+        "draws": 10,
+        "losses": 6,
+        "gf": 41,
+        "ga": 44,
+        "gd": -3,
+        "points": 32
+      },
+      {
+        "rank": 10,
+        "name": "宁波",
+        "played": null,
+        "wins": 27,
+        "draws": 9,
+        "losses": 7,
+        "gf": 28,
+        "ga": 32,
+        "gd": -4,
+        "points": 31
+      },
+      {
+        "rank": 11,
+        "name": "大连鲲城",
+        "played": null,
+        "wins": 27,
+        "draws": 7,
+        "losses": 10,
+        "gf": 32,
+        "ga": 39,
+        "gd": -7,
+        "points": 31
+      },
+      {
+        "rank": 12,
+        "name": "苏州东吴",
+        "played": null,
+        "wins": 27,
+        "draws": 7,
+        "losses": 10,
+        "gf": 31,
+        "ga": 39,
+        "gd": -8,
+        "points": 28
+      },
+      {
+        "rank": 13,
+        "name": "定南赣联",
+        "played": null,
+        "wins": 27,
+        "draws": 5,
+        "losses": 12,
+        "gf": 38,
+        "ga": 49,
+        "gd": -11,
+        "points": 27
+      },
+      {
+        "rank": 14,
+        "name": "南京城市",
+        "played": null,
+        "wins": 26,
+        "draws": 5,
+        "losses": 7,
+        "gf": 21,
+        "ga": 37,
+        "gd": -16,
+        "points": 22
+      },
+      {
+        "rank": 15,
+        "name": "梅州客家",
+        "played": null,
+        "wins": 26,
+        "draws": 7,
+        "losses": 4,
+        "gf": 25,
+        "ga": 53,
+        "gd": -28,
+        "points": 16
+      },
+      {
+        "rank": 16,
+        "name": "佛山南狮",
+        "played": null,
+        "wins": 27,
+        "draws": 3,
+        "losses": 7,
+        "gf": 26,
+        "ga": 59,
+        "gd": -33,
+        "points": 16
+      }
+    ],
+    "deductions": [
+      {
+        "team": "宁波",
+        "deduction": 3,
+        "computed": 34,
+        "official": 31
+      },
+      {
+        "team": "梅州客家",
+        "deduction": 9,
+        "computed": 25,
+        "official": 16
+      },
+      {
+        "team": "苏州东吴",
+        "deduction": 3,
+        "computed": 31,
+        "official": 28
+      },
+      {
+        "team": "长春亚泰",
+        "deduction": 4,
+        "computed": 36,
+        "official": 32
+      }
+    ]
+  }
+}

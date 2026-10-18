@@ -1,0 +1,3416 @@
+{
+  "id": "bundesliga",
+  "name": "德甲",
+  "season": "2026-27",
+  "teams": [
+    {
+      "id": "拜仁慕尼黑",
+      "name": "拜仁慕尼黑"
+    },
+    {
+      "id": "斯图加特",
+      "name": "斯图加特"
+    },
+    {
+      "id": "埃尔沃斯贝格",
+      "name": "埃尔沃斯贝格"
+    },
+    {
+      "id": "勒沃库森",
+      "name": "勒沃库森"
+    },
+    {
+      "id": "科隆",
+      "name": "科隆"
+    },
+    {
+      "id": "霍芬海姆",
+      "name": "霍芬海姆"
+    },
+    {
+      "id": "美因茨",
+      "name": "美因茨"
+    },
+    {
+      "id": "帕德博恩",
+      "name": "帕德博恩"
+    },
+    {
+      "id": "RB莱比锡",
+      "name": "RB莱比锡"
+    },
+    {
+      "id": "门兴格拉德巴赫",
+      "name": "门兴格拉德巴赫"
+    },
+    {
+      "id": "柏林联合",
+      "name": "柏林联合"
+    },
+    {
+      "id": "法兰克福",
+      "name": "法兰克福"
+    },
+    {
+      "id": "多特蒙德",
+      "name": "多特蒙德"
+    },
+    {
+      "id": "汉堡",
+      "name": "汉堡"
+    },
+    {
+      "id": "弗赖堡",
+      "name": "弗赖堡"
+    },
+    {
+      "id": "云达不莱梅",
+      "name": "云达不莱梅"
+    },
+    {
+      "id": "奥格斯堡",
+      "name": "奥格斯堡"
+    },
+    {
+      "id": "沙尔克04",
+      "name": "沙尔克04"
+    }
+  ],
+  "matches": [
+    {
+      "id": "54493869",
+      "round": 1,
+      "date": "2026-08-29 02:30",
+      "home": "拜仁慕尼黑",
+      "away": "斯图加特",
+      "homeGoals": 5,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54494412",
+      "round": 1,
+      "date": "2026-08-29 21:30",
+      "home": "埃尔沃斯贝格",
+      "away": "勒沃库森",
+      "homeGoals": 3,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54494413",
+      "round": 1,
+      "date": "2026-08-29 21:30",
+      "home": "科隆",
+      "away": "霍芬海姆",
+      "homeGoals": 3,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54494415",
+      "round": 1,
+      "date": "2026-08-29 21:30",
+      "home": "美因茨",
+      "away": "帕德博恩",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54494416",
+      "round": 1,
+      "date": "2026-08-29 21:30",
+      "home": "RB莱比锡",
+      "away": "门兴格拉德巴赫",
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54494417",
+      "round": 1,
+      "date": "2026-08-29 21:30",
+      "home": "柏林联合",
+      "away": "法兰克福",
+      "homeGoals": 3,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54494411",
+      "round": 1,
+      "date": "2026-08-30 00:30",
+      "home": "多特蒙德",
+      "away": "汉堡",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54494414",
+      "round": 1,
+      "date": "2026-08-30 21:30",
+      "home": "弗赖堡",
+      "away": "云达不莱梅",
+      "homeGoals": 4,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54494410",
+      "round": 1,
+      "date": "2026-08-30 23:30",
+      "home": "奥格斯堡",
+      "away": "沙尔克04",
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54494418",
+      "round": 2,
+      "date": "2026-09-05 02:30",
+      "home": "斯图加特",
+      "away": "科隆",
+      "homeGoals": 4,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54494419",
+      "round": 2,
+      "date": "2026-09-05 21:30",
+      "home": "霍芬海姆",
+      "away": "多特蒙德",
+      "homeGoals": 2,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54494420",
+      "round": 2,
+      "date": "2026-09-05 21:30",
+      "home": "勒沃库森",
+      "away": "柏林联合",
+      "homeGoals": 4,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54494422",
+      "round": 2,
+      "date": "2026-09-05 21:30",
+      "home": "门兴格拉德巴赫",
+      "away": "埃尔沃斯贝格",
+      "homeGoals": 3,
+      "awayGoals": 4,
+      "played": true
+    },
+    {
+      "id": "54494424",
+      "round": 2,
+      "date": "2026-09-05 21:30",
+      "home": "云达不莱梅",
+      "away": "RB莱比锡",
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54494426",
+      "round": 2,
+      "date": "2026-09-05 21:30",
+      "home": "帕德博恩",
+      "away": "弗赖堡",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54494425",
+      "round": 2,
+      "date": "2026-09-06 00:30",
+      "home": "沙尔克04",
+      "away": "拜仁慕尼黑",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54494423",
+      "round": 2,
+      "date": "2026-09-06 21:30",
+      "home": "汉堡",
+      "away": "美因茨",
+      "homeGoals": 0,
+      "awayGoals": 5,
+      "played": true
+    },
+    {
+      "id": "54494421",
+      "round": 2,
+      "date": "2026-09-06 23:30",
+      "home": "法兰克福",
+      "away": "奥格斯堡",
+      "homeGoals": 1,
+      "awayGoals": 4,
+      "played": true
+    },
+    {
+      "id": "54494445",
+      "round": 3,
+      "date": "2026-09-12 02:30",
+      "home": "柏林联合",
+      "away": "沙尔克04",
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54494429",
+      "round": 3,
+      "date": "2026-09-12 21:30",
+      "home": "多特蒙德",
+      "away": "帕德博恩",
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54494431",
+      "round": 3,
+      "date": "2026-09-12 21:30",
+      "home": "霍芬海姆",
+      "away": "斯图加特",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54494435",
+      "round": 3,
+      "date": "2026-09-12 21:30",
+      "home": "弗赖堡",
+      "away": "门兴格拉德巴赫",
+      "homeGoals": 5,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54494438",
+      "round": 3,
+      "date": "2026-09-12 21:30",
+      "home": "奥格斯堡",
+      "away": "勒沃库森",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54494442",
+      "round": 3,
+      "date": "2026-09-12 21:30",
+      "home": "美因茨",
+      "away": "法兰克福",
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54494446",
+      "round": 3,
+      "date": "2026-09-13 00:30",
+      "home": "科隆",
+      "away": "云达不莱梅",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54494430",
+      "round": 3,
+      "date": "2026-09-13 21:30",
+      "home": "RB莱比锡",
+      "away": "汉堡",
+      "homeGoals": 5,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54494448",
+      "round": 3,
+      "date": "2026-09-13 23:30",
+      "home": "埃尔沃斯贝格",
+      "away": "拜仁慕尼黑",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54494452",
+      "round": 4,
+      "date": "2026-09-19 02:30",
+      "home": "拜仁慕尼黑",
+      "away": "柏林联合",
+      "homeGoals": 7,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54494466",
+      "round": 4,
+      "date": "2026-09-19 21:30",
+      "home": "法兰克福",
+      "away": "弗赖堡",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54494470",
+      "round": 4,
+      "date": "2026-09-19 21:30",
+      "home": "汉堡",
+      "away": "科隆",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54494472",
+      "round": 4,
+      "date": "2026-09-19 21:30",
+      "home": "云达不莱梅",
+      "away": "奥格斯堡",
+      "homeGoals": 3,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54494730",
+      "round": 4,
+      "date": "2026-09-19 21:30",
+      "home": "门兴格拉德巴赫",
+      "away": "美因茨",
+      "homeGoals": 3,
+      "awayGoals": 4,
+      "played": true
+    },
+    {
+      "id": "54494453",
+      "round": 4,
+      "date": "2026-09-20 00:30",
+      "home": "斯图加特",
+      "away": "多特蒙德",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54494456",
+      "round": 4,
+      "date": "2026-09-20 21:30",
+      "home": "勒沃库森",
+      "away": "RB莱比锡",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54494474",
+      "round": 4,
+      "date": "2026-09-20 23:30",
+      "home": "沙尔克04",
+      "away": "埃尔沃斯贝格",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54494476",
+      "round": 4,
+      "date": "2026-09-21 01:30",
+      "home": "帕德博恩",
+      "away": "霍芬海姆",
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54494481",
+      "round": 5,
+      "date": "2026-10-10 02:30",
+      "home": "多特蒙德",
+      "away": "云达不莱梅",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54494486",
+      "round": 5,
+      "date": "2026-10-10 21:30",
+      "home": "霍芬海姆",
+      "away": "汉堡",
+      "homeGoals": 2,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54494489",
+      "round": 5,
+      "date": "2026-10-10 21:30",
+      "home": "奥格斯堡",
+      "away": "拜仁慕尼黑",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54494492",
+      "round": 5,
+      "date": "2026-10-10 21:30",
+      "home": "美因茨",
+      "away": "勒沃库森",
+      "homeGoals": 3,
+      "awayGoals": 4,
+      "played": true
+    },
+    {
+      "id": "54494495",
+      "round": 5,
+      "date": "2026-10-10 21:30",
+      "home": "柏林联合",
+      "away": "埃尔沃斯贝格",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54494501",
+      "round": 5,
+      "date": "2026-10-10 21:30",
+      "home": "帕德博恩",
+      "away": "斯图加特",
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54494483",
+      "round": 5,
+      "date": "2026-10-11 00:30",
+      "home": "RB莱比锡",
+      "away": "法兰克福",
+      "homeGoals": 6,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54494498",
+      "round": 5,
+      "date": "2026-10-11 21:30",
+      "home": "科隆",
+      "away": "门兴格拉德巴赫",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54494487",
+      "round": 5,
+      "date": "2026-10-11 23:30",
+      "home": "弗赖堡",
+      "away": "沙尔克04",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54494512",
+      "round": 6,
+      "date": "2026-10-17 02:30",
+      "home": "法兰克福",
+      "away": "科隆",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54494513",
+      "round": 6,
+      "date": "2026-10-17 21:30",
+      "home": "柏林联合",
+      "away": "多特蒙德",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54494516",
+      "round": 6,
+      "date": "2026-10-17 21:30",
+      "home": "汉堡",
+      "away": "斯图加特",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54494519",
+      "round": 6,
+      "date": "2026-10-17 21:30",
+      "home": "云达不莱梅",
+      "away": "帕德博恩",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54494522",
+      "round": 6,
+      "date": "2026-10-17 21:30",
+      "home": "沙尔克04",
+      "away": "美因茨",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54494525",
+      "round": 6,
+      "date": "2026-10-17 21:30",
+      "home": "埃尔沃斯贝格",
+      "away": "奥格斯堡",
+      "homeGoals": 4,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54494507",
+      "round": 6,
+      "date": "2026-10-18 00:30",
+      "home": "拜仁慕尼黑",
+      "away": "RB莱比锡",
+      "homeGoals": 6,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54494510",
+      "round": 6,
+      "date": "2026-10-18 21:30",
+      "home": "勒沃库森",
+      "away": "弗赖堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494515",
+      "round": 6,
+      "date": "2026-10-18 23:30",
+      "home": "门兴格拉德巴赫",
+      "away": "霍芬海姆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494540",
+      "round": 7,
+      "date": "2026-10-24 02:30",
+      "home": "斯图加特",
+      "away": "门兴格拉德巴赫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494539",
+      "round": 7,
+      "date": "2026-10-24 21:30",
+      "home": "RB莱比锡",
+      "away": "埃尔沃斯贝格",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494548",
+      "round": 7,
+      "date": "2026-10-24 21:30",
+      "home": "奥格斯堡",
+      "away": "柏林联合",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494551",
+      "round": 7,
+      "date": "2026-10-24 21:30",
+      "home": "美因茨",
+      "away": "云达不莱梅",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494554",
+      "round": 7,
+      "date": "2026-10-24 21:30",
+      "home": "科隆",
+      "away": "沙尔克04",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494556",
+      "round": 7,
+      "date": "2026-10-24 21:30",
+      "home": "帕德博恩",
+      "away": "汉堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494536",
+      "round": 7,
+      "date": "2026-10-25 00:30",
+      "home": "多特蒙德",
+      "away": "法兰克福",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494542",
+      "round": 7,
+      "date": "2026-10-25 22:30",
+      "home": "霍芬海姆",
+      "away": "勒沃库森",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494546",
+      "round": 7,
+      "date": "2026-10-26 00:30",
+      "home": "弗赖堡",
+      "away": "拜仁慕尼黑",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494584",
+      "round": 8,
+      "date": "2026-10-31 03:30",
+      "home": "埃尔沃斯贝格",
+      "away": "美因茨",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494564",
+      "round": 8,
+      "date": "2026-10-31 22:30",
+      "home": "勒沃库森",
+      "away": "斯图加特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494568",
+      "round": 8,
+      "date": "2026-10-31 22:30",
+      "home": "奥格斯堡",
+      "away": "弗赖堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494575",
+      "round": 8,
+      "date": "2026-10-31 22:30",
+      "home": "门兴格拉德巴赫",
+      "away": "帕德博恩",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494577",
+      "round": 8,
+      "date": "2026-10-31 22:30",
+      "home": "云达不莱梅",
+      "away": "霍芬海姆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494580",
+      "round": 8,
+      "date": "2026-10-31 22:30",
+      "home": "沙尔克04",
+      "away": "RB莱比锡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494561",
+      "round": 8,
+      "date": "2026-11-01 01:30",
+      "home": "拜仁慕尼黑",
+      "away": "多特蒙德",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494571",
+      "round": 8,
+      "date": "2026-11-01 22:30",
+      "home": "柏林联合",
+      "away": "科隆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494566",
+      "round": 8,
+      "date": "2026-11-02 00:30",
+      "home": "法兰克福",
+      "away": "汉堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494600",
+      "round": 9,
+      "date": "2026-11-07 03:30",
+      "home": "汉堡",
+      "away": "门兴格拉德巴赫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494590",
+      "round": 9,
+      "date": "2026-11-07 22:30",
+      "home": "多特蒙德",
+      "away": "埃尔沃斯贝格",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494591",
+      "round": 9,
+      "date": "2026-11-07 22:30",
+      "home": "RB莱比锡",
+      "away": "奥格斯堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494599",
+      "round": 9,
+      "date": "2026-11-07 22:30",
+      "home": "美因茨",
+      "away": "拜仁慕尼黑",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494602",
+      "round": 9,
+      "date": "2026-11-07 22:30",
+      "home": "帕德博恩",
+      "away": "法兰克福",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494593",
+      "round": 9,
+      "date": "2026-11-08 01:30",
+      "home": "斯图加特",
+      "away": "云达不莱梅",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494601",
+      "round": 9,
+      "date": "2026-11-08 22:30",
+      "home": "科隆",
+      "away": "勒沃库森",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494597",
+      "round": 9,
+      "date": "2026-11-09 00:30",
+      "home": "弗赖堡",
+      "away": "柏林联合",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494595",
+      "round": 9,
+      "date": "2026-11-09 02:30",
+      "home": "霍芬海姆",
+      "away": "沙尔克04",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494605",
+      "round": 10,
+      "date": "2026-11-21 03:30",
+      "home": "拜仁慕尼黑",
+      "away": "科隆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494607",
+      "round": 10,
+      "date": "2026-11-21 22:30",
+      "home": "勒沃库森",
+      "away": "帕德博恩",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494610",
+      "round": 10,
+      "date": "2026-11-21 22:30",
+      "home": "法兰克福",
+      "away": "霍芬海姆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494614",
+      "round": 10,
+      "date": "2026-11-21 22:30",
+      "home": "柏林联合",
+      "away": "RB莱比锡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494616",
+      "round": 10,
+      "date": "2026-11-21 22:30",
+      "home": "门兴格拉德巴赫",
+      "away": "多特蒙德",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494729",
+      "round": 10,
+      "date": "2026-11-21 22:30",
+      "home": "埃尔沃斯贝格",
+      "away": "弗赖堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494620",
+      "round": 10,
+      "date": "2026-11-22 01:30",
+      "home": "沙尔克04",
+      "away": "斯图加特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494612",
+      "round": 10,
+      "date": "2026-11-22 22:30",
+      "home": "奥格斯堡",
+      "away": "美因茨",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494618",
+      "round": 10,
+      "date": "2026-11-23 00:30",
+      "home": "云达不莱梅",
+      "away": "汉堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494640",
+      "round": 11,
+      "date": "2026-11-28 03:30",
+      "home": "云达不莱梅",
+      "away": "门兴格拉德巴赫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494634",
+      "round": 11,
+      "date": "2026-11-28 22:30",
+      "home": "美因茨",
+      "away": "柏林联合",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494635",
+      "round": 11,
+      "date": "2026-11-28 22:30",
+      "home": "汉堡",
+      "away": "拜仁慕尼黑",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494637",
+      "round": 11,
+      "date": "2026-11-28 22:30",
+      "home": "科隆",
+      "away": "埃尔沃斯贝格",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494643",
+      "round": 11,
+      "date": "2026-11-28 22:30",
+      "home": "帕德博恩",
+      "away": "沙尔克04",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494627",
+      "round": 11,
+      "date": "2026-11-29 01:30",
+      "home": "斯图加特",
+      "away": "法兰克福",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494632",
+      "round": 11,
+      "date": "2026-11-29 22:30",
+      "home": "弗赖堡",
+      "away": "RB莱比锡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494629",
+      "round": 11,
+      "date": "2026-11-30 00:30",
+      "home": "霍芬海姆",
+      "away": "奥格斯堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494625",
+      "round": 11,
+      "date": "2026-11-30 02:30",
+      "home": "多特蒙德",
+      "away": "勒沃库森",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494654",
+      "round": 12,
+      "date": "2026-12-05 22:30",
+      "home": "拜仁慕尼黑",
+      "away": "帕德博恩",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494657",
+      "round": 12,
+      "date": "2026-12-05 22:30",
+      "home": "RB莱比锡",
+      "away": "美因茨",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494659",
+      "round": 12,
+      "date": "2026-12-05 22:30",
+      "home": "勒沃库森",
+      "away": "门兴格拉德巴赫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494661",
+      "round": 12,
+      "date": "2026-12-05 22:30",
+      "home": "弗赖堡",
+      "away": "霍芬海姆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494666",
+      "round": 12,
+      "date": "2026-12-05 22:30",
+      "home": "法兰克福",
+      "away": "云达不莱梅",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494669",
+      "round": 12,
+      "date": "2026-12-05 22:30",
+      "home": "奥格斯堡",
+      "away": "科隆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494671",
+      "round": 12,
+      "date": "2026-12-05 22:30",
+      "home": "柏林联合",
+      "away": "汉堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494674",
+      "round": 12,
+      "date": "2026-12-05 22:30",
+      "home": "沙尔克04",
+      "away": "多特蒙德",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494675",
+      "round": 12,
+      "date": "2026-12-05 22:30",
+      "home": "埃尔沃斯贝格",
+      "away": "斯图加特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494441",
+      "round": 13,
+      "date": "2026-12-12 22:30",
+      "home": "多特蒙德",
+      "away": "奥格斯堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494444",
+      "round": 13,
+      "date": "2026-12-12 22:30",
+      "home": "斯图加特",
+      "away": "柏林联合",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494450",
+      "round": 13,
+      "date": "2026-12-12 22:30",
+      "home": "美因茨",
+      "away": "弗赖堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494455",
+      "round": 13,
+      "date": "2026-12-12 22:30",
+      "home": "汉堡",
+      "away": "沙尔克04",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494465",
+      "round": 13,
+      "date": "2026-12-12 22:30",
+      "home": "科隆",
+      "away": "RB莱比锡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494467",
+      "round": 13,
+      "date": "2026-12-12 22:30",
+      "home": "云达不莱梅",
+      "away": "勒沃库森",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494468",
+      "round": 13,
+      "date": "2026-12-12 22:30",
+      "home": "帕德博恩",
+      "away": "埃尔沃斯贝格",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494480",
+      "round": 13,
+      "date": "2026-12-12 22:30",
+      "home": "霍芬海姆",
+      "away": "拜仁慕尼黑",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494485",
+      "round": 13,
+      "date": "2026-12-12 22:30",
+      "home": "门兴格拉德巴赫",
+      "away": "法兰克福",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494490",
+      "round": 14,
+      "date": "2026-12-18 21:30",
+      "home": "拜仁慕尼黑",
+      "away": "云达不莱梅",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494494",
+      "round": 14,
+      "date": "2026-12-18 21:30",
+      "home": "RB莱比锡",
+      "away": "多特蒙德",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494497",
+      "round": 14,
+      "date": "2026-12-18 21:30",
+      "home": "勒沃库森",
+      "away": "法兰克福",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494500",
+      "round": 14,
+      "date": "2026-12-18 21:30",
+      "home": "弗赖堡",
+      "away": "斯图加特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494503",
+      "round": 14,
+      "date": "2026-12-18 21:30",
+      "home": "奥格斯堡",
+      "away": "帕德博恩",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494506",
+      "round": 14,
+      "date": "2026-12-18 21:30",
+      "home": "柏林联合",
+      "away": "霍芬海姆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494508",
+      "round": 14,
+      "date": "2026-12-18 21:30",
+      "home": "沙尔克04",
+      "away": "门兴格拉德巴赫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494511",
+      "round": 14,
+      "date": "2026-12-18 21:30",
+      "home": "埃尔沃斯贝格",
+      "away": "汉堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494514",
+      "round": 14,
+      "date": "2026-12-18 21:30",
+      "home": "美因茨",
+      "away": "科隆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494518",
+      "round": 15,
+      "date": "2027-01-08 21:30",
+      "home": "多特蒙德",
+      "away": "美因茨",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494520",
+      "round": 15,
+      "date": "2027-01-08 21:30",
+      "home": "斯图加特",
+      "away": "奥格斯堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494524",
+      "round": 15,
+      "date": "2027-01-08 21:30",
+      "home": "霍芬海姆",
+      "away": "埃尔沃斯贝格",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494526",
+      "round": 15,
+      "date": "2027-01-08 21:30",
+      "home": "法兰克福",
+      "away": "沙尔克04",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494529",
+      "round": 15,
+      "date": "2027-01-08 21:30",
+      "home": "门兴格拉德巴赫",
+      "away": "拜仁慕尼黑",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494531",
+      "round": 15,
+      "date": "2027-01-08 21:30",
+      "home": "汉堡",
+      "away": "勒沃库森",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494533",
+      "round": 15,
+      "date": "2027-01-08 21:30",
+      "home": "科隆",
+      "away": "弗赖堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494534",
+      "round": 15,
+      "date": "2027-01-08 21:30",
+      "home": "云达不莱梅",
+      "away": "柏林联合",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494537",
+      "round": 15,
+      "date": "2027-01-08 21:30",
+      "home": "帕德博恩",
+      "away": "RB莱比锡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494541",
+      "round": 16,
+      "date": "2027-01-12 21:30",
+      "home": "拜仁慕尼黑",
+      "away": "勒沃库森",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494543",
+      "round": 16,
+      "date": "2027-01-12 21:30",
+      "home": "RB莱比锡",
+      "away": "斯图加特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494545",
+      "round": 16,
+      "date": "2027-01-12 21:30",
+      "home": "弗赖堡",
+      "away": "汉堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494547",
+      "round": 16,
+      "date": "2027-01-12 21:30",
+      "home": "奥格斯堡",
+      "away": "门兴格拉德巴赫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494549",
+      "round": 16,
+      "date": "2027-01-12 21:30",
+      "home": "美因茨",
+      "away": "霍芬海姆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494552",
+      "round": 16,
+      "date": "2027-01-12 21:30",
+      "home": "柏林联合",
+      "away": "帕德博恩",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494555",
+      "round": 16,
+      "date": "2027-01-12 21:30",
+      "home": "科隆",
+      "away": "多特蒙德",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494557",
+      "round": 16,
+      "date": "2027-01-12 21:30",
+      "home": "沙尔克04",
+      "away": "云达不莱梅",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494563",
+      "round": 16,
+      "date": "2027-01-12 21:30",
+      "home": "埃尔沃斯贝格",
+      "away": "法兰克福",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494570",
+      "round": 17,
+      "date": "2027-01-15 21:30",
+      "home": "多特蒙德",
+      "away": "弗赖堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494572",
+      "round": 17,
+      "date": "2027-01-15 21:30",
+      "home": "斯图加特",
+      "away": "美因茨",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494574",
+      "round": 17,
+      "date": "2027-01-15 21:30",
+      "home": "霍芬海姆",
+      "away": "RB莱比锡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494576",
+      "round": 17,
+      "date": "2027-01-15 21:30",
+      "home": "勒沃库森",
+      "away": "沙尔克04",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494578",
+      "round": 17,
+      "date": "2027-01-15 21:30",
+      "home": "法兰克福",
+      "away": "拜仁慕尼黑",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494581",
+      "round": 17,
+      "date": "2027-01-15 21:30",
+      "home": "门兴格拉德巴赫",
+      "away": "柏林联合",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494583",
+      "round": 17,
+      "date": "2027-01-15 21:30",
+      "home": "汉堡",
+      "away": "奥格斯堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494586",
+      "round": 17,
+      "date": "2027-01-15 21:30",
+      "home": "云达不莱梅",
+      "away": "埃尔沃斯贝格",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494587",
+      "round": 17,
+      "date": "2027-01-15 21:30",
+      "home": "帕德博恩",
+      "away": "科隆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494639",
+      "round": 18,
+      "date": "2027-01-22 21:30",
+      "home": "斯图加特",
+      "away": "拜仁慕尼黑",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494642",
+      "round": 18,
+      "date": "2027-01-22 21:30",
+      "home": "霍芬海姆",
+      "away": "科隆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494645",
+      "round": 18,
+      "date": "2027-01-22 21:30",
+      "home": "勒沃库森",
+      "away": "埃尔沃斯贝格",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494647",
+      "round": 18,
+      "date": "2027-01-22 21:30",
+      "home": "法兰克福",
+      "away": "柏林联合",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494649",
+      "round": 18,
+      "date": "2027-01-22 21:30",
+      "home": "门兴格拉德巴赫",
+      "away": "RB莱比锡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494651",
+      "round": 18,
+      "date": "2027-01-22 21:30",
+      "home": "汉堡",
+      "away": "多特蒙德",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494653",
+      "round": 18,
+      "date": "2027-01-22 21:30",
+      "home": "云达不莱梅",
+      "away": "弗赖堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494656",
+      "round": 18,
+      "date": "2027-01-22 21:30",
+      "home": "沙尔克04",
+      "away": "奥格斯堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494658",
+      "round": 18,
+      "date": "2027-01-22 21:30",
+      "home": "帕德博恩",
+      "away": "美因茨",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494660",
+      "round": 19,
+      "date": "2027-01-29 21:30",
+      "home": "拜仁慕尼黑",
+      "away": "沙尔克04",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494662",
+      "round": 19,
+      "date": "2027-01-29 21:30",
+      "home": "多特蒙德",
+      "away": "霍芬海姆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494663",
+      "round": 19,
+      "date": "2027-01-29 21:30",
+      "home": "RB莱比锡",
+      "away": "云达不莱梅",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494665",
+      "round": 19,
+      "date": "2027-01-29 21:30",
+      "home": "弗赖堡",
+      "away": "帕德博恩",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494668",
+      "round": 19,
+      "date": "2027-01-29 21:30",
+      "home": "奥格斯堡",
+      "away": "法兰克福",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494677",
+      "round": 19,
+      "date": "2027-01-29 21:30",
+      "home": "美因茨",
+      "away": "汉堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494680",
+      "round": 19,
+      "date": "2027-01-29 21:30",
+      "home": "柏林联合",
+      "away": "勒沃库森",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494682",
+      "round": 19,
+      "date": "2027-01-29 21:30",
+      "home": "科隆",
+      "away": "斯图加特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494683",
+      "round": 19,
+      "date": "2027-01-29 21:30",
+      "home": "埃尔沃斯贝格",
+      "away": "门兴格拉德巴赫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494693",
+      "round": 20,
+      "date": "2027-02-05 21:30",
+      "home": "拜仁慕尼黑",
+      "away": "埃尔沃斯贝格",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494694",
+      "round": 20,
+      "date": "2027-02-05 21:30",
+      "home": "斯图加特",
+      "away": "霍芬海姆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494695",
+      "round": 20,
+      "date": "2027-02-05 21:30",
+      "home": "勒沃库森",
+      "away": "奥格斯堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494696",
+      "round": 20,
+      "date": "2027-02-05 21:30",
+      "home": "法兰克福",
+      "away": "美因茨",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494697",
+      "round": 20,
+      "date": "2027-02-05 21:30",
+      "home": "门兴格拉德巴赫",
+      "away": "弗赖堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494699",
+      "round": 20,
+      "date": "2027-02-05 21:30",
+      "home": "汉堡",
+      "away": "RB莱比锡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494703",
+      "round": 20,
+      "date": "2027-02-05 21:30",
+      "home": "沙尔克04",
+      "away": "柏林联合",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494705",
+      "round": 20,
+      "date": "2027-02-05 21:30",
+      "home": "帕德博恩",
+      "away": "多特蒙德",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494707",
+      "round": 20,
+      "date": "2027-02-05 21:30",
+      "home": "云达不莱梅",
+      "away": "科隆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494711",
+      "round": 21,
+      "date": "2027-02-12 21:30",
+      "home": "多特蒙德",
+      "away": "斯图加特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494712",
+      "round": 21,
+      "date": "2027-02-12 21:30",
+      "home": "RB莱比锡",
+      "away": "勒沃库森",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494713",
+      "round": 21,
+      "date": "2027-02-12 21:30",
+      "home": "霍芬海姆",
+      "away": "帕德博恩",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494715",
+      "round": 21,
+      "date": "2027-02-12 21:30",
+      "home": "弗赖堡",
+      "away": "法兰克福",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494717",
+      "round": 21,
+      "date": "2027-02-12 21:30",
+      "home": "奥格斯堡",
+      "away": "云达不莱梅",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494719",
+      "round": 21,
+      "date": "2027-02-12 21:30",
+      "home": "美因茨",
+      "away": "门兴格拉德巴赫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494721",
+      "round": 21,
+      "date": "2027-02-12 21:30",
+      "home": "柏林联合",
+      "away": "拜仁慕尼黑",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494723",
+      "round": 21,
+      "date": "2027-02-12 21:30",
+      "home": "科隆",
+      "away": "汉堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494726",
+      "round": 21,
+      "date": "2027-02-12 21:30",
+      "home": "埃尔沃斯贝格",
+      "away": "沙尔克04",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494714",
+      "round": 22,
+      "date": "2027-02-19 21:30",
+      "home": "拜仁慕尼黑",
+      "away": "奥格斯堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494716",
+      "round": 22,
+      "date": "2027-02-19 21:30",
+      "home": "斯图加特",
+      "away": "帕德博恩",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494718",
+      "round": 22,
+      "date": "2027-02-19 21:30",
+      "home": "勒沃库森",
+      "away": "美因茨",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494720",
+      "round": 22,
+      "date": "2027-02-19 21:30",
+      "home": "法兰克福",
+      "away": "RB莱比锡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494722",
+      "round": 22,
+      "date": "2027-02-19 21:30",
+      "home": "门兴格拉德巴赫",
+      "away": "科隆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494724",
+      "round": 22,
+      "date": "2027-02-19 21:30",
+      "home": "汉堡",
+      "away": "霍芬海姆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494725",
+      "round": 22,
+      "date": "2027-02-19 21:30",
+      "home": "云达不莱梅",
+      "away": "多特蒙德",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494727",
+      "round": 22,
+      "date": "2027-02-19 21:30",
+      "home": "沙尔克04",
+      "away": "弗赖堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494728",
+      "round": 22,
+      "date": "2027-02-19 21:30",
+      "home": "埃尔沃斯贝格",
+      "away": "柏林联合",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494698",
+      "round": 23,
+      "date": "2027-02-26 21:30",
+      "home": "多特蒙德",
+      "away": "柏林联合",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494700",
+      "round": 23,
+      "date": "2027-02-26 21:30",
+      "home": "RB莱比锡",
+      "away": "拜仁慕尼黑",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494701",
+      "round": 23,
+      "date": "2027-02-26 21:30",
+      "home": "斯图加特",
+      "away": "汉堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494702",
+      "round": 23,
+      "date": "2027-02-26 21:30",
+      "home": "霍芬海姆",
+      "away": "门兴格拉德巴赫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494704",
+      "round": 23,
+      "date": "2027-02-26 21:30",
+      "home": "弗赖堡",
+      "away": "勒沃库森",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494706",
+      "round": 23,
+      "date": "2027-02-26 21:30",
+      "home": "奥格斯堡",
+      "away": "埃尔沃斯贝格",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494708",
+      "round": 23,
+      "date": "2027-02-26 21:30",
+      "home": "美因茨",
+      "away": "沙尔克04",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494709",
+      "round": 23,
+      "date": "2027-02-26 21:30",
+      "home": "科隆",
+      "away": "法兰克福",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494710",
+      "round": 23,
+      "date": "2027-02-26 21:30",
+      "home": "帕德博恩",
+      "away": "云达不莱梅",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494684",
+      "round": 24,
+      "date": "2027-03-02 21:30",
+      "home": "拜仁慕尼黑",
+      "away": "弗赖堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494685",
+      "round": 24,
+      "date": "2027-03-02 21:30",
+      "home": "勒沃库森",
+      "away": "霍芬海姆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494686",
+      "round": 24,
+      "date": "2027-03-02 21:30",
+      "home": "法兰克福",
+      "away": "多特蒙德",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494687",
+      "round": 24,
+      "date": "2027-03-02 21:30",
+      "home": "柏林联合",
+      "away": "奥格斯堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494688",
+      "round": 24,
+      "date": "2027-03-02 21:30",
+      "home": "门兴格拉德巴赫",
+      "away": "斯图加特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494689",
+      "round": 24,
+      "date": "2027-03-02 21:30",
+      "home": "汉堡",
+      "away": "帕德博恩",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494690",
+      "round": 24,
+      "date": "2027-03-02 21:30",
+      "home": "云达不莱梅",
+      "away": "美因茨",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494691",
+      "round": 24,
+      "date": "2027-03-02 21:30",
+      "home": "沙尔克04",
+      "away": "科隆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494692",
+      "round": 24,
+      "date": "2027-03-02 21:30",
+      "home": "埃尔沃斯贝格",
+      "away": "RB莱比锡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494664",
+      "round": 25,
+      "date": "2027-03-05 21:30",
+      "home": "多特蒙德",
+      "away": "拜仁慕尼黑",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494667",
+      "round": 25,
+      "date": "2027-03-05 21:30",
+      "home": "RB莱比锡",
+      "away": "沙尔克04",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494670",
+      "round": 25,
+      "date": "2027-03-05 21:30",
+      "home": "斯图加特",
+      "away": "勒沃库森",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494672",
+      "round": 25,
+      "date": "2027-03-05 21:30",
+      "home": "霍芬海姆",
+      "away": "云达不莱梅",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494673",
+      "round": 25,
+      "date": "2027-03-05 21:30",
+      "home": "弗赖堡",
+      "away": "奥格斯堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494676",
+      "round": 25,
+      "date": "2027-03-05 21:30",
+      "home": "美因茨",
+      "away": "埃尔沃斯贝格",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494678",
+      "round": 25,
+      "date": "2027-03-05 21:30",
+      "home": "汉堡",
+      "away": "法兰克福",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494679",
+      "round": 25,
+      "date": "2027-03-05 21:30",
+      "home": "科隆",
+      "away": "柏林联合",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494681",
+      "round": 25,
+      "date": "2027-03-05 21:30",
+      "home": "帕德博恩",
+      "away": "门兴格拉德巴赫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494636",
+      "round": 26,
+      "date": "2027-03-12 21:30",
+      "home": "拜仁慕尼黑",
+      "away": "美因茨",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494638",
+      "round": 26,
+      "date": "2027-03-12 21:30",
+      "home": "勒沃库森",
+      "away": "科隆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494641",
+      "round": 26,
+      "date": "2027-03-12 21:30",
+      "home": "法兰克福",
+      "away": "帕德博恩",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494644",
+      "round": 26,
+      "date": "2027-03-12 21:30",
+      "home": "奥格斯堡",
+      "away": "RB莱比锡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494646",
+      "round": 26,
+      "date": "2027-03-12 21:30",
+      "home": "柏林联合",
+      "away": "弗赖堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494648",
+      "round": 26,
+      "date": "2027-03-12 21:30",
+      "home": "门兴格拉德巴赫",
+      "away": "汉堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494650",
+      "round": 26,
+      "date": "2027-03-12 21:30",
+      "home": "云达不莱梅",
+      "away": "斯图加特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494652",
+      "round": 26,
+      "date": "2027-03-12 21:30",
+      "home": "沙尔克04",
+      "away": "霍芬海姆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494655",
+      "round": 26,
+      "date": "2027-03-12 21:30",
+      "home": "埃尔沃斯贝格",
+      "away": "多特蒙德",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494619",
+      "round": 27,
+      "date": "2027-03-19 21:30",
+      "home": "多特蒙德",
+      "away": "门兴格拉德巴赫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494621",
+      "round": 27,
+      "date": "2027-03-19 21:30",
+      "home": "RB莱比锡",
+      "away": "柏林联合",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494622",
+      "round": 27,
+      "date": "2027-03-19 21:30",
+      "home": "斯图加特",
+      "away": "沙尔克04",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494623",
+      "round": 27,
+      "date": "2027-03-19 21:30",
+      "home": "霍芬海姆",
+      "away": "法兰克福",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494624",
+      "round": 27,
+      "date": "2027-03-19 21:30",
+      "home": "弗赖堡",
+      "away": "埃尔沃斯贝格",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494626",
+      "round": 27,
+      "date": "2027-03-19 21:30",
+      "home": "美因茨",
+      "away": "奥格斯堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494628",
+      "round": 27,
+      "date": "2027-03-19 21:30",
+      "home": "汉堡",
+      "away": "云达不莱梅",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494630",
+      "round": 27,
+      "date": "2027-03-19 21:30",
+      "home": "科隆",
+      "away": "拜仁慕尼黑",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494631",
+      "round": 27,
+      "date": "2027-03-19 21:30",
+      "home": "帕德博恩",
+      "away": "勒沃库森",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494603",
+      "round": 28,
+      "date": "2027-04-02 21:30",
+      "home": "拜仁慕尼黑",
+      "away": "汉堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494604",
+      "round": 28,
+      "date": "2027-04-02 21:30",
+      "home": "RB莱比锡",
+      "away": "弗赖堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494606",
+      "round": 28,
+      "date": "2027-04-02 21:30",
+      "home": "勒沃库森",
+      "away": "多特蒙德",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494608",
+      "round": 28,
+      "date": "2027-04-02 21:30",
+      "home": "法兰克福",
+      "away": "斯图加特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494609",
+      "round": 28,
+      "date": "2027-04-02 21:30",
+      "home": "奥格斯堡",
+      "away": "霍芬海姆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494611",
+      "round": 28,
+      "date": "2027-04-02 21:30",
+      "home": "柏林联合",
+      "away": "美因茨",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494613",
+      "round": 28,
+      "date": "2027-04-02 21:30",
+      "home": "门兴格拉德巴赫",
+      "away": "云达不莱梅",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494615",
+      "round": 28,
+      "date": "2027-04-02 21:30",
+      "home": "沙尔克04",
+      "away": "帕德博恩",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494617",
+      "round": 28,
+      "date": "2027-04-02 21:30",
+      "home": "埃尔沃斯贝格",
+      "away": "科隆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494579",
+      "round": 29,
+      "date": "2027-04-09 21:30",
+      "home": "多特蒙德",
+      "away": "沙尔克04",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494582",
+      "round": 29,
+      "date": "2027-04-09 21:30",
+      "home": "斯图加特",
+      "away": "埃尔沃斯贝格",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494585",
+      "round": 29,
+      "date": "2027-04-09 21:30",
+      "home": "霍芬海姆",
+      "away": "弗赖堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494588",
+      "round": 29,
+      "date": "2027-04-09 21:30",
+      "home": "美因茨",
+      "away": "RB莱比锡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494589",
+      "round": 29,
+      "date": "2027-04-09 21:30",
+      "home": "门兴格拉德巴赫",
+      "away": "勒沃库森",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494592",
+      "round": 29,
+      "date": "2027-04-09 21:30",
+      "home": "汉堡",
+      "away": "柏林联合",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494594",
+      "round": 29,
+      "date": "2027-04-09 21:30",
+      "home": "科隆",
+      "away": "奥格斯堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494596",
+      "round": 29,
+      "date": "2027-04-09 21:30",
+      "home": "云达不莱梅",
+      "away": "法兰克福",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494598",
+      "round": 29,
+      "date": "2027-04-09 21:30",
+      "home": "帕德博恩",
+      "away": "拜仁慕尼黑",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494544",
+      "round": 30,
+      "date": "2027-04-16 21:30",
+      "home": "拜仁慕尼黑",
+      "away": "霍芬海姆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494550",
+      "round": 30,
+      "date": "2027-04-16 21:30",
+      "home": "RB莱比锡",
+      "away": "科隆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494553",
+      "round": 30,
+      "date": "2027-04-16 21:30",
+      "home": "勒沃库森",
+      "away": "云达不莱梅",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494560",
+      "round": 30,
+      "date": "2027-04-16 21:30",
+      "home": "弗赖堡",
+      "away": "美因茨",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494562",
+      "round": 30,
+      "date": "2027-04-16 21:30",
+      "home": "法兰克福",
+      "away": "门兴格拉德巴赫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494565",
+      "round": 30,
+      "date": "2027-04-16 21:30",
+      "home": "奥格斯堡",
+      "away": "多特蒙德",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494567",
+      "round": 30,
+      "date": "2027-04-16 21:30",
+      "home": "柏林联合",
+      "away": "斯图加特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494569",
+      "round": 30,
+      "date": "2027-04-16 21:30",
+      "home": "沙尔克04",
+      "away": "汉堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494573",
+      "round": 30,
+      "date": "2027-04-16 21:30",
+      "home": "埃尔沃斯贝格",
+      "away": "帕德博恩",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494517",
+      "round": 31,
+      "date": "2027-04-23 21:30",
+      "home": "多特蒙德",
+      "away": "RB莱比锡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494521",
+      "round": 31,
+      "date": "2027-04-23 21:30",
+      "home": "斯图加特",
+      "away": "弗赖堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494523",
+      "round": 31,
+      "date": "2027-04-23 21:30",
+      "home": "霍芬海姆",
+      "away": "柏林联合",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494527",
+      "round": 31,
+      "date": "2027-04-23 21:30",
+      "home": "法兰克福",
+      "away": "勒沃库森",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494528",
+      "round": 31,
+      "date": "2027-04-23 21:30",
+      "home": "门兴格拉德巴赫",
+      "away": "沙尔克04",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494530",
+      "round": 31,
+      "date": "2027-04-23 21:30",
+      "home": "汉堡",
+      "away": "埃尔沃斯贝格",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494532",
+      "round": 31,
+      "date": "2027-04-23 21:30",
+      "home": "科隆",
+      "away": "美因茨",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494535",
+      "round": 31,
+      "date": "2027-04-23 21:30",
+      "home": "云达不莱梅",
+      "away": "拜仁慕尼黑",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494538",
+      "round": 31,
+      "date": "2027-04-23 21:30",
+      "home": "帕德博恩",
+      "away": "奥格斯堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494488",
+      "round": 32,
+      "date": "2027-05-07 21:30",
+      "home": "拜仁慕尼黑",
+      "away": "门兴格拉德巴赫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494491",
+      "round": 32,
+      "date": "2027-05-07 21:30",
+      "home": "RB莱比锡",
+      "away": "帕德博恩",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494493",
+      "round": 32,
+      "date": "2027-05-07 21:30",
+      "home": "勒沃库森",
+      "away": "汉堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494496",
+      "round": 32,
+      "date": "2027-05-07 21:30",
+      "home": "弗赖堡",
+      "away": "科隆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494499",
+      "round": 32,
+      "date": "2027-05-07 21:30",
+      "home": "奥格斯堡",
+      "away": "斯图加特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494502",
+      "round": 32,
+      "date": "2027-05-07 21:30",
+      "home": "美因茨",
+      "away": "多特蒙德",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494504",
+      "round": 32,
+      "date": "2027-05-07 21:30",
+      "home": "柏林联合",
+      "away": "云达不莱梅",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494505",
+      "round": 32,
+      "date": "2027-05-07 21:30",
+      "home": "沙尔克04",
+      "away": "法兰克福",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494509",
+      "round": 32,
+      "date": "2027-05-07 21:30",
+      "home": "埃尔沃斯贝格",
+      "away": "霍芬海姆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494469",
+      "round": 33,
+      "date": "2027-05-14 21:30",
+      "home": "多特蒙德",
+      "away": "科隆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494471",
+      "round": 33,
+      "date": "2027-05-14 21:30",
+      "home": "斯图加特",
+      "away": "RB莱比锡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494473",
+      "round": 33,
+      "date": "2027-05-14 21:30",
+      "home": "霍芬海姆",
+      "away": "美因茨",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494475",
+      "round": 33,
+      "date": "2027-05-14 21:30",
+      "home": "勒沃库森",
+      "away": "拜仁慕尼黑",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494477",
+      "round": 33,
+      "date": "2027-05-14 21:30",
+      "home": "法兰克福",
+      "away": "埃尔沃斯贝格",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494478",
+      "round": 33,
+      "date": "2027-05-14 21:30",
+      "home": "门兴格拉德巴赫",
+      "away": "奥格斯堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494479",
+      "round": 33,
+      "date": "2027-05-14 21:30",
+      "home": "汉堡",
+      "away": "弗赖堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494482",
+      "round": 33,
+      "date": "2027-05-14 21:30",
+      "home": "云达不莱梅",
+      "away": "沙尔克04",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494484",
+      "round": 33,
+      "date": "2027-05-14 21:30",
+      "home": "帕德博恩",
+      "away": "柏林联合",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494436",
+      "round": 34,
+      "date": "2027-05-22 21:30",
+      "home": "拜仁慕尼黑",
+      "away": "法兰克福",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494437",
+      "round": 34,
+      "date": "2027-05-22 21:30",
+      "home": "RB莱比锡",
+      "away": "霍芬海姆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494439",
+      "round": 34,
+      "date": "2027-05-22 21:30",
+      "home": "弗赖堡",
+      "away": "多特蒙德",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494440",
+      "round": 34,
+      "date": "2027-05-22 21:30",
+      "home": "奥格斯堡",
+      "away": "汉堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494443",
+      "round": 34,
+      "date": "2027-05-22 21:30",
+      "home": "美因茨",
+      "away": "斯图加特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494447",
+      "round": 34,
+      "date": "2027-05-22 21:30",
+      "home": "柏林联合",
+      "away": "门兴格拉德巴赫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494449",
+      "round": 34,
+      "date": "2027-05-22 21:30",
+      "home": "科隆",
+      "away": "帕德博恩",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494451",
+      "round": 34,
+      "date": "2027-05-22 21:30",
+      "home": "沙尔克04",
+      "away": "勒沃库森",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54494454",
+      "round": 34,
+      "date": "2027-05-22 21:30",
+      "home": "埃尔沃斯贝格",
+      "away": "云达不莱梅",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    }
+  ],
+  "points": {
+    "win": 3,
+    "draw": 1,
+    "loss": 0
+  },
+  "tiebreak": [
+    "points",
+    "gd",
+    "gf",
+    "wins"
+  ],
+  "slots": [
+    {
+      "from": 1,
+      "to": 1,
+      "type": "title",
+      "label": "冠军",
+      "color": "#ffd54f"
+    },
+    {
+      "from": 1,
+      "to": 4,
+      "type": "ucl",
+      "label": "欧冠区",
+      "color": "#1565c0"
+    },
+    {
+      "from": 5,
+      "to": 5,
+      "type": "uel",
+      "label": "欧联区",
+      "color": "#1565c0"
+    },
+    {
+      "from": 16,
+      "to": 17,
+      "type": "relegation",
+      "label": "降级",
+      "color": "#c62828"
+    },
+    {
+      "from": 18,
+      "to": 18,
+      "type": "playoff",
+      "label": "降级附加赛",
+      "color": "#ef6c00"
+    }
+  ],
+  "model": {},
+  "meta": {
+    "source": "dongqiudi:5",
+    "fetchedAt": "2026-10-18T12:39:29.060Z",
+    "maxRound": 34,
+    "url": "https://www.dongqiudi.com/data?cid=5&tab=schedule",
+    "cid": 5,
+    "officialTable": [
+      {
+        "rank": 1,
+        "name": "拜仁慕尼黑",
+        "played": null,
+        "wins": 6,
+        "draws": 4,
+        "losses": 2,
+        "gf": 22,
+        "ga": 5,
+        "gd": 17,
+        "points": 14
+      },
+      {
+        "rank": 2,
+        "name": "多特蒙德",
+        "played": null,
+        "wins": 6,
+        "draws": 4,
+        "losses": 2,
+        "gf": 11,
+        "ga": 4,
+        "gd": 7,
+        "points": 14
+      },
+      {
+        "rank": 3,
+        "name": "弗赖堡",
+        "played": null,
+        "wins": 5,
+        "draws": 4,
+        "losses": 1,
+        "gf": 14,
+        "ga": 4,
+        "gd": 10,
+        "points": 13
+      },
+      {
+        "rank": 4,
+        "name": "勒沃库森",
+        "played": null,
+        "wins": 5,
+        "draws": 3,
+        "losses": 1,
+        "gf": 14,
+        "ga": 8,
+        "gd": 6,
+        "points": 10
+      },
+      {
+        "rank": 5,
+        "name": "美因茨",
+        "played": null,
+        "wins": 6,
+        "draws": 3,
+        "losses": 1,
+        "gf": 14,
+        "ga": 10,
+        "gd": 4,
+        "points": 10
+      },
+      {
+        "rank": 6,
+        "name": "埃尔沃斯贝格",
+        "played": null,
+        "wins": 6,
+        "draws": 3,
+        "losses": 1,
+        "gf": 12,
+        "ga": 11,
+        "gd": 1,
+        "points": 10
+      },
+      {
+        "rank": 7,
+        "name": "RB莱比锡",
+        "played": null,
+        "wins": 6,
+        "draws": 3,
+        "losses": 0,
+        "gf": 16,
+        "ga": 11,
+        "gd": 5,
+        "points": 9
+      },
+      {
+        "rank": 8,
+        "name": "云达不莱梅",
+        "played": null,
+        "wins": 6,
+        "draws": 2,
+        "losses": 3,
+        "gf": 12,
+        "ga": 12,
+        "gd": 0,
+        "points": 9
+      },
+      {
+        "rank": 9,
+        "name": "汉堡",
+        "played": null,
+        "wins": 6,
+        "draws": 3,
+        "losses": 0,
+        "gf": 6,
+        "ga": 15,
+        "gd": -9,
+        "points": 9
+      },
+      {
+        "rank": 10,
+        "name": "奥格斯堡",
+        "played": null,
+        "wins": 6,
+        "draws": 2,
+        "losses": 2,
+        "gf": 16,
+        "ga": 12,
+        "gd": 4,
+        "points": 8
+      },
+      {
+        "rank": 11,
+        "name": "法兰克福",
+        "played": null,
+        "wins": 6,
+        "draws": 2,
+        "losses": 2,
+        "gf": 10,
+        "ga": 16,
+        "gd": -6,
+        "points": 8
+      },
+      {
+        "rank": 12,
+        "name": "科隆",
+        "played": null,
+        "wins": 6,
+        "draws": 2,
+        "losses": 1,
+        "gf": 8,
+        "ga": 11,
+        "gd": -3,
+        "points": 7
+      },
+      {
+        "rank": 13,
+        "name": "斯图加特",
+        "played": null,
+        "wins": 6,
+        "draws": 2,
+        "losses": 0,
+        "gf": 8,
+        "ga": 10,
+        "gd": -2,
+        "points": 6
+      },
+      {
+        "rank": 14,
+        "name": "沙尔克04",
+        "played": null,
+        "wins": 6,
+        "draws": 1,
+        "losses": 2,
+        "gf": 4,
+        "ga": 7,
+        "gd": -3,
+        "points": 5
+      },
+      {
+        "rank": 15,
+        "name": "帕德博恩",
+        "played": null,
+        "wins": 6,
+        "draws": 1,
+        "losses": 2,
+        "gf": 5,
+        "ga": 9,
+        "gd": -4,
+        "points": 5
+      },
+      {
+        "rank": 16,
+        "name": "柏林联合",
+        "played": null,
+        "wins": 6,
+        "draws": 1,
+        "losses": 2,
+        "gf": 5,
+        "ga": 17,
+        "gd": -12,
+        "points": 5
+      },
+      {
+        "rank": 17,
+        "name": "霍芬海姆",
+        "played": null,
+        "wins": 5,
+        "draws": 1,
+        "losses": 0,
+        "gf": 9,
+        "ga": 13,
+        "gd": -4,
+        "points": 3
+      },
+      {
+        "rank": 18,
+        "name": "门兴格拉德巴赫",
+        "played": null,
+        "wins": 5,
+        "draws": 0,
+        "losses": 0,
+        "gf": 7,
+        "ga": 18,
+        "gd": -11,
+        "points": 0
+      }
+    ],
+    "deductions": []
+  }
+}

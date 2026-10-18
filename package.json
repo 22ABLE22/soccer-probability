@@ -1,0 +1,23 @@
+{
+  "name": "soccer-probability",
+  "version": "1.0.0",
+  "description": "通用足球联赛概率计算器：夺冠 / 升级 / 附加赛 / 保级，双泊松 + 蒙特卡洛",
+  "main": "src/engine.js",
+  "bin": {
+    "soccer-prob": "bin/cli.js",
+    "soccer-prob-serve": "bin/serve.js"
+  },
+  "scripts": {
+    "test": "node tests/test-engine.js && node tests/test-ui.js && node tests/test-ui-deep.js && node tests/test-offline.js",
+    "test:cal": "node tests/test-calibration.js",
+    "build": "node bin/build.js",
+    "serve": "node bin/serve.js",
+    "demo": "node bin/cli.js demo",
+    "fetch:all": "node bin/fetch-all.js"
+  },
+  "keywords": ["football", "soccer", "monte-carlo", "poisson", "league-table", "relegation", "promotion", "probability"],
+  "license": "MIT",
+  "engines": { "node": ">=16" },
+  "dependencies": {},
+  "devDependencies": {}
+}

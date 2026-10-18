@@ -1,0 +1,4181 @@
+{
+  "id": "laliga",
+  "name": "西甲",
+  "season": "2026-27",
+  "teams": [
+    {
+      "id": "阿拉维斯",
+      "name": "阿拉维斯"
+    },
+    {
+      "id": "赫塔费",
+      "name": "赫塔费"
+    },
+    {
+      "id": "塞维利亚",
+      "name": "塞维利亚"
+    },
+    {
+      "id": "巴列卡诺",
+      "name": "巴列卡诺"
+    },
+    {
+      "id": "桑坦德竞技",
+      "name": "桑坦德竞技"
+    },
+    {
+      "id": "比利亚雷亚尔",
+      "name": "比利亚雷亚尔"
+    },
+    {
+      "id": "西班牙人",
+      "name": "西班牙人"
+    },
+    {
+      "id": "莱万特",
+      "name": "莱万特"
+    },
+    {
+      "id": "拉科鲁尼亚",
+      "name": "拉科鲁尼亚"
+    },
+    {
+      "id": "埃尔切",
+      "name": "埃尔切"
+    },
+    {
+      "id": "马德里竞技",
+      "name": "马德里竞技"
+    },
+    {
+      "id": "马拉加",
+      "name": "马拉加"
+    },
+    {
+      "id": "瓦伦西亚",
+      "name": "瓦伦西亚"
+    },
+    {
+      "id": "皇家贝蒂斯",
+      "name": "皇家贝蒂斯"
+    },
+    {
+      "id": "皇家马德里",
+      "name": "皇家马德里"
+    },
+    {
+      "id": "皇家社会",
+      "name": "皇家社会"
+    },
+    {
+      "id": "塞尔塔",
+      "name": "塞尔塔"
+    },
+    {
+      "id": "奥萨苏纳",
+      "name": "奥萨苏纳"
+    },
+    {
+      "id": "巴塞罗那",
+      "name": "巴塞罗那"
+    },
+    {
+      "id": "毕尔巴鄂竞技",
+      "name": "毕尔巴鄂竞技"
+    }
+  ],
+  "matches": [
+    {
+      "id": "54493153",
+      "round": 1,
+      "date": "2026-08-16 01:30",
+      "home": "阿拉维斯",
+      "away": "赫塔费",
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54493161",
+      "round": 1,
+      "date": "2026-08-16 03:30",
+      "home": "塞维利亚",
+      "away": "巴列卡诺",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54493159",
+      "round": 1,
+      "date": "2026-08-16 23:00",
+      "home": "桑坦德竞技",
+      "away": "比利亚雷亚尔",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54493157",
+      "round": 1,
+      "date": "2026-08-17 01:00",
+      "home": "西班牙人",
+      "away": "莱万特",
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54493156",
+      "round": 1,
+      "date": "2026-08-18 03:00",
+      "home": "拉科鲁尼亚",
+      "away": "埃尔切",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54493154",
+      "round": 1,
+      "date": "2026-08-20 03:00",
+      "home": "马德里竞技",
+      "away": "马拉加",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54493162",
+      "round": 1,
+      "date": "2026-08-26 03:00",
+      "home": "瓦伦西亚",
+      "away": "皇家贝蒂斯",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54493160",
+      "round": 1,
+      "date": "2026-08-27 03:00",
+      "home": "皇家马德里",
+      "away": "皇家社会",
+      "homeGoals": 4,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54493155",
+      "round": 1,
+      "date": "2026-08-28 02:30",
+      "home": "塞尔塔",
+      "away": "奥萨苏纳",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54493158",
+      "round": 1,
+      "date": "2026-08-28 03:00",
+      "home": "巴塞罗那",
+      "away": "毕尔巴鄂竞技",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54493172",
+      "round": 2,
+      "date": "2026-08-21 03:00",
+      "home": "巴列卡诺",
+      "away": "阿拉维斯",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54493166",
+      "round": 2,
+      "date": "2026-08-22 03:00",
+      "home": "皇家贝蒂斯",
+      "away": "皇家社会",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54493164",
+      "round": 2,
+      "date": "2026-08-22 23:00",
+      "home": "毕尔巴鄂竞技",
+      "away": "塞维利亚",
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54493173",
+      "round": 2,
+      "date": "2026-08-23 01:30",
+      "home": "瓦伦西亚",
+      "away": "塞尔塔",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54493168",
+      "round": 2,
+      "date": "2026-08-23 03:30",
+      "home": "西班牙人",
+      "away": "皇家马德里",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54493165",
+      "round": 2,
+      "date": "2026-08-23 23:00",
+      "home": "马德里竞技",
+      "away": "比利亚雷亚尔",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54493169",
+      "round": 2,
+      "date": "2026-08-24 01:30",
+      "home": "赫塔费",
+      "away": "桑坦德竞技",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54493167",
+      "round": 2,
+      "date": "2026-08-24 03:30",
+      "home": "埃尔切",
+      "away": "巴塞罗那",
+      "homeGoals": 0,
+      "awayGoals": 5,
+      "played": true
+    },
+    {
+      "id": "54493171",
+      "round": 2,
+      "date": "2026-08-25 01:30",
+      "home": "奥萨苏纳",
+      "away": "莱万特",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54493170",
+      "round": 2,
+      "date": "2026-08-25 03:30",
+      "home": "马拉加",
+      "away": "拉科鲁尼亚",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54493187",
+      "round": 3,
+      "date": "2026-08-29 01:00",
+      "home": "桑坦德竞技",
+      "away": "埃尔切",
+      "homeGoals": 3,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54493176",
+      "round": 3,
+      "date": "2026-08-29 03:30",
+      "home": "阿拉维斯",
+      "away": "比利亚雷亚尔",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54493183",
+      "round": 3,
+      "date": "2026-08-29 23:00",
+      "home": "莱万特",
+      "away": "皇家贝蒂斯",
+      "homeGoals": 5,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54493191",
+      "round": 3,
+      "date": "2026-08-30 01:00",
+      "home": "皇家社会",
+      "away": "西班牙人",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54493192",
+      "round": 3,
+      "date": "2026-08-30 03:30",
+      "home": "塞维利亚",
+      "away": "马德里竞技",
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54493189",
+      "round": 3,
+      "date": "2026-08-30 23:00",
+      "home": "皇家马德里",
+      "away": "马拉加",
+      "homeGoals": 4,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54493180",
+      "round": 3,
+      "date": "2026-08-31 01:30",
+      "home": "拉科鲁尼亚",
+      "away": "瓦伦西亚",
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54493178",
+      "round": 3,
+      "date": "2026-08-31 03:30",
+      "home": "塞尔塔",
+      "away": "毕尔巴鄂竞技",
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54493185",
+      "round": 3,
+      "date": "2026-09-01 01:30",
+      "home": "奥萨苏纳",
+      "away": "赫塔费",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54493181",
+      "round": 3,
+      "date": "2026-09-01 03:30",
+      "home": "巴塞罗那",
+      "away": "巴列卡诺",
+      "homeGoals": 5,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54493212",
+      "round": 4,
+      "date": "2026-09-05 03:00",
+      "home": "皇家贝蒂斯",
+      "away": "皇家马德里",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54527366",
+      "round": 4,
+      "date": "2026-09-05 22:15",
+      "home": "毕尔巴鄂竞技",
+      "away": "马德里竞技",
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54493219",
+      "round": 4,
+      "date": "2026-09-06 00:30",
+      "home": "巴列卡诺",
+      "away": "桑坦德竞技",
+      "homeGoals": 3,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54493221",
+      "round": 4,
+      "date": "2026-09-06 03:00",
+      "home": "比利亚雷亚尔",
+      "away": "拉科鲁尼亚",
+      "homeGoals": 2,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54493220",
+      "round": 4,
+      "date": "2026-09-06 22:15",
+      "home": "瓦伦西亚",
+      "away": "巴塞罗那",
+      "homeGoals": 0,
+      "awayGoals": 5,
+      "played": true
+    },
+    {
+      "id": "54493196",
+      "round": 4,
+      "date": "2026-09-07 00:30",
+      "home": "阿拉维斯",
+      "away": "奥萨苏纳",
+      "homeGoals": 5,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54493218",
+      "round": 4,
+      "date": "2026-09-07 00:30",
+      "home": "马拉加",
+      "away": "莱万特",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54493215",
+      "round": 4,
+      "date": "2026-09-07 03:00",
+      "home": "西班牙人",
+      "away": "塞维利亚",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54493217",
+      "round": 4,
+      "date": "2026-09-08 01:00",
+      "home": "赫塔费",
+      "away": "塞尔塔",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54493214",
+      "round": 4,
+      "date": "2026-09-08 03:30",
+      "home": "埃尔切",
+      "away": "皇家社会",
+      "homeGoals": 2,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54493234",
+      "round": 5,
+      "date": "2026-09-12 03:00",
+      "home": "塞维利亚",
+      "away": "瓦伦西亚",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54493229",
+      "round": 5,
+      "date": "2026-09-12 20:00",
+      "home": "桑坦德竞技",
+      "away": "阿拉维斯",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54493228",
+      "round": 5,
+      "date": "2026-09-12 22:15",
+      "home": "奥萨苏纳",
+      "away": "西班牙人",
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54493222",
+      "round": 5,
+      "date": "2026-09-13 00:30",
+      "home": "毕尔巴鄂竞技",
+      "away": "埃尔切",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54493230",
+      "round": 5,
+      "date": "2026-09-13 03:00",
+      "home": "皇家马德里",
+      "away": "巴列卡诺",
+      "homeGoals": 4,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54493223",
+      "round": 5,
+      "date": "2026-09-13 20:00",
+      "home": "塞尔塔",
+      "away": "马拉加",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54493226",
+      "round": 5,
+      "date": "2026-09-13 22:15",
+      "home": "莱万特",
+      "away": "巴塞罗那",
+      "homeGoals": 2,
+      "awayGoals": 4,
+      "played": true
+    },
+    {
+      "id": "54493225",
+      "round": 5,
+      "date": "2026-09-14 00:30",
+      "home": "赫塔费",
+      "away": "拉科鲁尼亚",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54493232",
+      "round": 5,
+      "date": "2026-09-14 03:00",
+      "home": "皇家社会",
+      "away": "马德里竞技",
+      "homeGoals": 0,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54493236",
+      "round": 5,
+      "date": "2026-09-15 03:00",
+      "home": "比利亚雷亚尔",
+      "away": "皇家贝蒂斯",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54493255",
+      "round": 6,
+      "date": "2026-09-04 03:00",
+      "home": "皇家社会",
+      "away": "塞尔塔",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54493254",
+      "round": 6,
+      "date": "2026-09-16 01:00",
+      "home": "巴列卡诺",
+      "away": "西班牙人",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54493241",
+      "round": 6,
+      "date": "2026-09-16 02:00",
+      "home": "阿拉维斯",
+      "away": "瓦伦西亚",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54493247",
+      "round": 6,
+      "date": "2026-09-16 03:30",
+      "home": "埃尔切",
+      "away": "皇家马德里",
+      "homeGoals": 2,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54493243",
+      "round": 6,
+      "date": "2026-09-17 01:00",
+      "home": "马德里竞技",
+      "away": "奥萨苏纳",
+      "homeGoals": 4,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54493245",
+      "round": 6,
+      "date": "2026-09-17 01:00",
+      "home": "拉科鲁尼亚",
+      "away": "塞维利亚",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54493249",
+      "round": 6,
+      "date": "2026-09-17 03:30",
+      "home": "巴塞罗那",
+      "away": "桑坦德竞技",
+      "homeGoals": 7,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54493244",
+      "round": 6,
+      "date": "2026-09-18 01:00",
+      "home": "皇家贝蒂斯",
+      "away": "赫塔费",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54493252",
+      "round": 6,
+      "date": "2026-09-18 03:30",
+      "home": "马拉加",
+      "away": "比利亚雷亚尔",
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54493251",
+      "round": 6,
+      "date": "2026-10-22 02:00",
+      "home": "莱万特",
+      "away": "毕尔巴鄂竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493260",
+      "round": 7,
+      "date": "2026-09-19 03:00",
+      "home": "西班牙人",
+      "away": "埃尔切",
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54493262",
+      "round": 7,
+      "date": "2026-09-19 20:00",
+      "home": "奥萨苏纳",
+      "away": "巴列卡诺",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54493256",
+      "round": 7,
+      "date": "2026-09-19 22:15",
+      "home": "毕尔巴鄂竞技",
+      "away": "阿拉维斯",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54493258",
+      "round": 7,
+      "date": "2026-09-20 00:30",
+      "home": "塞尔塔",
+      "away": "桑坦德竞技",
+      "homeGoals": 5,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54493263",
+      "round": 7,
+      "date": "2026-09-20 03:00",
+      "home": "塞维利亚",
+      "away": "巴塞罗那",
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54493261",
+      "round": 7,
+      "date": "2026-09-20 20:00",
+      "home": "赫塔费",
+      "away": "马拉加",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54493257",
+      "round": 7,
+      "date": "2026-09-20 22:15",
+      "home": "马德里竞技",
+      "away": "皇家马德里",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54493259",
+      "round": 7,
+      "date": "2026-09-21 00:30",
+      "home": "拉科鲁尼亚",
+      "away": "皇家贝蒂斯",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54493267",
+      "round": 7,
+      "date": "2026-09-21 00:30",
+      "home": "比利亚雷亚尔",
+      "away": "莱万特",
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54493265",
+      "round": 7,
+      "date": "2026-09-21 03:00",
+      "home": "瓦伦西亚",
+      "away": "皇家社会",
+      "homeGoals": 2,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54493275",
+      "round": 8,
+      "date": "2026-10-10 03:00",
+      "home": "马拉加",
+      "away": "西班牙人",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54493278",
+      "round": 8,
+      "date": "2026-10-10 20:00",
+      "home": "巴列卡诺",
+      "away": "毕尔巴鄂竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493268",
+      "round": 8,
+      "date": "2026-10-10 22:15",
+      "home": "阿拉维斯",
+      "away": "马德里竞技",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54493272",
+      "round": 8,
+      "date": "2026-10-11 00:30",
+      "home": "巴塞罗那",
+      "away": "赫塔费",
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54493280",
+      "round": 8,
+      "date": "2026-10-11 03:00",
+      "home": "皇家马德里",
+      "away": "比利亚雷亚尔",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54493270",
+      "round": 8,
+      "date": "2026-10-11 20:00",
+      "home": "埃尔切",
+      "away": "塞尔塔",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54493281",
+      "round": 8,
+      "date": "2026-10-11 22:15",
+      "home": "皇家社会",
+      "away": "拉科鲁尼亚",
+      "homeGoals": 3,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54493269",
+      "round": 8,
+      "date": "2026-10-12 00:30",
+      "home": "皇家贝蒂斯",
+      "away": "奥萨苏纳",
+      "homeGoals": 5,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54493276",
+      "round": 8,
+      "date": "2026-10-12 03:00",
+      "home": "桑坦德竞技",
+      "away": "瓦伦西亚",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54493274",
+      "round": 8,
+      "date": "2026-10-13 03:00",
+      "home": "莱万特",
+      "away": "塞维利亚",
+      "homeGoals": 3,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54493289",
+      "round": 9,
+      "date": "2026-10-17 03:00",
+      "home": "拉科鲁尼亚",
+      "away": "莱万特",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54493290",
+      "round": 9,
+      "date": "2026-10-17 20:00",
+      "home": "西班牙人",
+      "away": "马德里竞技",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54493300",
+      "round": 9,
+      "date": "2026-10-17 22:15",
+      "home": "比利亚雷亚尔",
+      "away": "埃尔切",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54493285",
+      "round": 9,
+      "date": "2026-10-18 00:30",
+      "home": "皇家贝蒂斯",
+      "away": "巴塞罗那",
+      "homeGoals": 2,
+      "awayGoals": 5,
+      "played": true
+    },
+    {
+      "id": "54493298",
+      "round": 9,
+      "date": "2026-10-18 03:00",
+      "home": "瓦伦西亚",
+      "away": "毕尔巴鄂竞技",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54493295",
+      "round": 9,
+      "date": "2026-10-18 20:00",
+      "home": "奥萨苏纳",
+      "away": "桑坦德竞技",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": false
+    },
+    {
+      "id": "54493287",
+      "round": 9,
+      "date": "2026-10-18 22:15",
+      "home": "塞尔塔",
+      "away": "阿拉维斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493293",
+      "round": 9,
+      "date": "2026-10-19 00:30",
+      "home": "马拉加",
+      "away": "皇家社会",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493296",
+      "round": 9,
+      "date": "2026-10-19 03:00",
+      "home": "皇家马德里",
+      "away": "塞维利亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493291",
+      "round": 9,
+      "date": "2026-10-20 03:00",
+      "home": "赫塔费",
+      "away": "巴列卡诺",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493303",
+      "round": 10,
+      "date": "2026-10-24 03:00",
+      "home": "阿拉维斯",
+      "away": "马拉加",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493312",
+      "round": 10,
+      "date": "2026-10-24 20:00",
+      "home": "巴列卡诺",
+      "away": "埃尔切",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493311",
+      "round": 10,
+      "date": "2026-10-24 22:15",
+      "home": "桑坦德竞技",
+      "away": "西班牙人",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493317",
+      "round": 10,
+      "date": "2026-10-25 00:30",
+      "home": "瓦伦西亚",
+      "away": "比利亚雷亚尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493306",
+      "round": 10,
+      "date": "2026-10-25 03:00",
+      "home": "马德里竞技",
+      "away": "拉科鲁尼亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493305",
+      "round": 10,
+      "date": "2026-10-25 21:00",
+      "home": "毕尔巴鄂竞技",
+      "away": "赫塔费",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493308",
+      "round": 10,
+      "date": "2026-10-25 23:15",
+      "home": "塞尔塔",
+      "away": "皇家贝蒂斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493314",
+      "round": 10,
+      "date": "2026-10-26 01:30",
+      "home": "皇家社会",
+      "away": "莱万特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493310",
+      "round": 10,
+      "date": "2026-10-26 04:00",
+      "home": "巴塞罗那",
+      "away": "皇家马德里",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493315",
+      "round": 10,
+      "date": "2026-10-27 04:00",
+      "home": "塞维利亚",
+      "away": "奥萨苏纳",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493342",
+      "round": 11,
+      "date": "2026-10-31 04:00",
+      "home": "比利亚雷亚尔",
+      "away": "西班牙人",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493338",
+      "round": 11,
+      "date": "2026-10-31 21:00",
+      "home": "莱万特",
+      "away": "马德里竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493341",
+      "round": 11,
+      "date": "2026-10-31 23:15",
+      "home": "巴列卡诺",
+      "away": "塞尔塔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493331",
+      "round": 11,
+      "date": "2026-11-01 01:30",
+      "home": "皇家贝蒂斯",
+      "away": "马拉加",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493335",
+      "round": 11,
+      "date": "2026-11-01 04:00",
+      "home": "巴塞罗那",
+      "away": "阿拉维斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493337",
+      "round": 11,
+      "date": "2026-11-01 21:00",
+      "home": "赫塔费",
+      "away": "塞维利亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493340",
+      "round": 11,
+      "date": "2026-11-01 23:15",
+      "home": "桑坦德竞技",
+      "away": "皇家马德里",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493334",
+      "round": 11,
+      "date": "2026-11-02 01:30",
+      "home": "埃尔切",
+      "away": "瓦伦西亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493329",
+      "round": 11,
+      "date": "2026-11-02 04:00",
+      "home": "毕尔巴鄂竞技",
+      "away": "皇家社会",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493333",
+      "round": 11,
+      "date": "2026-11-03 04:00",
+      "home": "拉科鲁尼亚",
+      "away": "奥萨苏纳",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493413",
+      "round": 12,
+      "date": "2026-11-07 04:00",
+      "home": "塞维利亚",
+      "away": "阿拉维斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493409",
+      "round": 12,
+      "date": "2026-11-07 21:00",
+      "home": "马拉加",
+      "away": "桑坦德竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493405",
+      "round": 12,
+      "date": "2026-11-07 23:15",
+      "home": "西班牙人",
+      "away": "拉科鲁尼亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493410",
+      "round": 12,
+      "date": "2026-11-08 01:30",
+      "home": "奥萨苏纳",
+      "away": "毕尔巴鄂竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493414",
+      "round": 12,
+      "date": "2026-11-08 04:00",
+      "home": "瓦伦西亚",
+      "away": "皇家马德里",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493404",
+      "round": 12,
+      "date": "2026-11-08 21:00",
+      "home": "埃尔切",
+      "away": "皇家贝蒂斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493411",
+      "round": 12,
+      "date": "2026-11-08 23:15",
+      "home": "皇家社会",
+      "away": "巴列卡诺",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493402",
+      "round": 12,
+      "date": "2026-11-09 01:30",
+      "home": "塞尔塔",
+      "away": "莱万特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493416",
+      "round": 12,
+      "date": "2026-11-09 01:30",
+      "home": "比利亚雷亚尔",
+      "away": "赫塔费",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493345",
+      "round": 12,
+      "date": "2026-11-09 04:00",
+      "home": "马德里竞技",
+      "away": "巴塞罗那",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493441",
+      "round": 13,
+      "date": "2026-11-23 00:00",
+      "home": "阿拉维斯",
+      "away": "拉科鲁尼亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493443",
+      "round": 13,
+      "date": "2026-11-23 00:00",
+      "home": "巴塞罗那",
+      "away": "比利亚雷亚尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493445",
+      "round": 13,
+      "date": "2026-11-23 00:00",
+      "home": "赫塔费",
+      "away": "马德里竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493446",
+      "round": 13,
+      "date": "2026-11-23 00:00",
+      "home": "莱万特",
+      "away": "埃尔切",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493448",
+      "round": 13,
+      "date": "2026-11-23 00:00",
+      "home": "奥萨苏纳",
+      "away": "马拉加",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493449",
+      "round": 13,
+      "date": "2026-11-23 00:00",
+      "home": "桑坦德竞技",
+      "away": "皇家社会",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493450",
+      "round": 13,
+      "date": "2026-11-23 00:00",
+      "home": "巴列卡诺",
+      "away": "瓦伦西亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493451",
+      "round": 13,
+      "date": "2026-11-23 00:00",
+      "home": "皇家马德里",
+      "away": "塞尔塔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493453",
+      "round": 13,
+      "date": "2026-11-23 00:00",
+      "home": "塞维利亚",
+      "away": "皇家贝蒂斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493458",
+      "round": 13,
+      "date": "2026-11-23 00:00",
+      "home": "毕尔巴鄂竞技",
+      "away": "西班牙人",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493462",
+      "round": 14,
+      "date": "2026-11-30 00:00",
+      "home": "皇家贝蒂斯",
+      "away": "巴列卡诺",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493464",
+      "round": 14,
+      "date": "2026-11-30 00:00",
+      "home": "塞尔塔",
+      "away": "比利亚雷亚尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493466",
+      "round": 14,
+      "date": "2026-11-30 00:00",
+      "home": "拉科鲁尼亚",
+      "away": "巴塞罗那",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493468",
+      "round": 14,
+      "date": "2026-11-30 00:00",
+      "home": "埃尔切",
+      "away": "马德里竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493469",
+      "round": 14,
+      "date": "2026-11-30 00:00",
+      "home": "西班牙人",
+      "away": "赫塔费",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493471",
+      "round": 14,
+      "date": "2026-11-30 00:00",
+      "home": "莱万特",
+      "away": "桑坦德竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493473",
+      "round": 14,
+      "date": "2026-11-30 00:00",
+      "home": "马拉加",
+      "away": "毕尔巴鄂竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493475",
+      "round": 14,
+      "date": "2026-11-30 00:00",
+      "home": "皇家马德里",
+      "away": "阿拉维斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493478",
+      "round": 14,
+      "date": "2026-11-30 00:00",
+      "home": "皇家社会",
+      "away": "塞维利亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493480",
+      "round": 14,
+      "date": "2026-11-30 00:00",
+      "home": "瓦伦西亚",
+      "away": "奥萨苏纳",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493499",
+      "round": 15,
+      "date": "2026-12-06 03:00",
+      "home": "比利亚雷亚尔",
+      "away": "皇家社会",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493489",
+      "round": 15,
+      "date": "2026-12-07 00:00",
+      "home": "阿拉维斯",
+      "away": "西班牙人",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493491",
+      "round": 15,
+      "date": "2026-12-07 00:00",
+      "home": "毕尔巴鄂竞技",
+      "away": "皇家马德里",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493492",
+      "round": 15,
+      "date": "2026-12-07 00:00",
+      "home": "马德里竞技",
+      "away": "皇家贝蒂斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493493",
+      "round": 15,
+      "date": "2026-12-07 00:00",
+      "home": "巴塞罗那",
+      "away": "塞尔塔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493494",
+      "round": 15,
+      "date": "2026-12-07 00:00",
+      "home": "赫塔费",
+      "away": "瓦伦西亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493495",
+      "round": 15,
+      "date": "2026-12-07 00:00",
+      "home": "奥萨苏纳",
+      "away": "埃尔切",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493496",
+      "round": 15,
+      "date": "2026-12-07 00:00",
+      "home": "桑坦德竞技",
+      "away": "拉科鲁尼亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493497",
+      "round": 15,
+      "date": "2026-12-07 00:00",
+      "home": "巴列卡诺",
+      "away": "莱万特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493498",
+      "round": 15,
+      "date": "2026-12-07 00:00",
+      "home": "塞维利亚",
+      "away": "马拉加",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493500",
+      "round": 16,
+      "date": "2026-12-14 00:00",
+      "home": "马德里竞技",
+      "away": "瓦伦西亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493501",
+      "round": 16,
+      "date": "2026-12-14 00:00",
+      "home": "皇家贝蒂斯",
+      "away": "桑坦德竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493502",
+      "round": 16,
+      "date": "2026-12-14 00:00",
+      "home": "拉科鲁尼亚",
+      "away": "毕尔巴鄂竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493503",
+      "round": 16,
+      "date": "2026-12-14 00:00",
+      "home": "埃尔切",
+      "away": "塞维利亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493504",
+      "round": 16,
+      "date": "2026-12-14 00:00",
+      "home": "西班牙人",
+      "away": "塞尔塔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493505",
+      "round": 16,
+      "date": "2026-12-14 00:00",
+      "home": "莱万特",
+      "away": "阿拉维斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493506",
+      "round": 16,
+      "date": "2026-12-14 00:00",
+      "home": "马拉加",
+      "away": "巴塞罗那",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493507",
+      "round": 16,
+      "date": "2026-12-14 00:00",
+      "home": "皇家马德里",
+      "away": "奥萨苏纳",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493508",
+      "round": 16,
+      "date": "2026-12-14 00:00",
+      "home": "皇家社会",
+      "away": "赫塔费",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493509",
+      "round": 16,
+      "date": "2026-12-14 00:00",
+      "home": "比利亚雷亚尔",
+      "away": "巴列卡诺",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493510",
+      "round": 17,
+      "date": "2026-12-20 03:00",
+      "home": "阿拉维斯",
+      "away": "埃尔切",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493511",
+      "round": 17,
+      "date": "2026-12-20 03:00",
+      "home": "毕尔巴鄂竞技",
+      "away": "皇家贝蒂斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493512",
+      "round": 17,
+      "date": "2026-12-20 03:00",
+      "home": "塞尔塔",
+      "away": "马德里竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493513",
+      "round": 17,
+      "date": "2026-12-20 03:00",
+      "home": "拉科鲁尼亚",
+      "away": "皇家马德里",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493514",
+      "round": 17,
+      "date": "2026-12-20 03:00",
+      "home": "巴塞罗那",
+      "away": "皇家社会",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493515",
+      "round": 17,
+      "date": "2026-12-20 03:00",
+      "home": "赫塔费",
+      "away": "莱万特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493516",
+      "round": 17,
+      "date": "2026-12-20 03:00",
+      "home": "奥萨苏纳",
+      "away": "比利亚雷亚尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493517",
+      "round": 17,
+      "date": "2026-12-20 03:00",
+      "home": "巴列卡诺",
+      "away": "马拉加",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493518",
+      "round": 17,
+      "date": "2026-12-20 03:00",
+      "home": "塞维利亚",
+      "away": "桑坦德竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493519",
+      "round": 17,
+      "date": "2026-12-20 03:00",
+      "home": "瓦伦西亚",
+      "away": "西班牙人",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493520",
+      "round": 18,
+      "date": "2027-01-03 03:00",
+      "home": "皇家贝蒂斯",
+      "away": "阿拉维斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493521",
+      "round": 18,
+      "date": "2027-01-03 03:00",
+      "home": "塞尔塔",
+      "away": "拉科鲁尼亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493522",
+      "round": 18,
+      "date": "2027-01-03 03:00",
+      "home": "西班牙人",
+      "away": "巴塞罗那",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493523",
+      "round": 18,
+      "date": "2027-01-03 03:00",
+      "home": "莱万特",
+      "away": "瓦伦西亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493524",
+      "round": 18,
+      "date": "2027-01-03 03:00",
+      "home": "马拉加",
+      "away": "埃尔切",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493525",
+      "round": 18,
+      "date": "2027-01-03 03:00",
+      "home": "桑坦德竞技",
+      "away": "毕尔巴鄂竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493526",
+      "round": 18,
+      "date": "2027-01-03 03:00",
+      "home": "巴列卡诺",
+      "away": "马德里竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493527",
+      "round": 18,
+      "date": "2027-01-03 03:00",
+      "home": "皇家马德里",
+      "away": "赫塔费",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493528",
+      "round": 18,
+      "date": "2027-01-03 03:00",
+      "home": "皇家社会",
+      "away": "奥萨苏纳",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493529",
+      "round": 18,
+      "date": "2027-01-03 03:00",
+      "home": "比利亚雷亚尔",
+      "away": "塞维利亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493530",
+      "round": 19,
+      "date": "2027-01-10 03:00",
+      "home": "阿拉维斯",
+      "away": "皇家社会",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493531",
+      "round": 19,
+      "date": "2027-01-10 03:00",
+      "home": "毕尔巴鄂竞技",
+      "away": "比利亚雷亚尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493532",
+      "round": 19,
+      "date": "2027-01-10 03:00",
+      "home": "马德里竞技",
+      "away": "桑坦德竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493533",
+      "round": 19,
+      "date": "2027-01-10 03:00",
+      "home": "拉科鲁尼亚",
+      "away": "巴列卡诺",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493534",
+      "round": 19,
+      "date": "2027-01-10 03:00",
+      "home": "埃尔切",
+      "away": "赫塔费",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493535",
+      "round": 19,
+      "date": "2027-01-10 03:00",
+      "home": "西班牙人",
+      "away": "皇家贝蒂斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493536",
+      "round": 19,
+      "date": "2027-01-10 03:00",
+      "home": "奥萨苏纳",
+      "away": "巴塞罗那",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493537",
+      "round": 19,
+      "date": "2027-01-10 03:00",
+      "home": "皇家马德里",
+      "away": "莱万特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493538",
+      "round": 19,
+      "date": "2027-01-10 03:00",
+      "home": "塞维利亚",
+      "away": "塞尔塔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493539",
+      "round": 19,
+      "date": "2027-01-10 03:00",
+      "home": "瓦伦西亚",
+      "away": "马拉加",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493479",
+      "round": 20,
+      "date": "2027-01-17 03:00",
+      "home": "马德里竞技",
+      "away": "皇家社会",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493481",
+      "round": 20,
+      "date": "2027-01-17 03:00",
+      "home": "皇家贝蒂斯",
+      "away": "拉科鲁尼亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493482",
+      "round": 20,
+      "date": "2027-01-17 03:00",
+      "home": "塞尔塔",
+      "away": "瓦伦西亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493483",
+      "round": 20,
+      "date": "2027-01-17 03:00",
+      "home": "巴塞罗那",
+      "away": "埃尔切",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493484",
+      "round": 20,
+      "date": "2027-01-17 03:00",
+      "home": "赫塔费",
+      "away": "毕尔巴鄂竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493485",
+      "round": 20,
+      "date": "2027-01-17 03:00",
+      "home": "莱万特",
+      "away": "西班牙人",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493486",
+      "round": 20,
+      "date": "2027-01-17 03:00",
+      "home": "马拉加",
+      "away": "皇家马德里",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493487",
+      "round": 20,
+      "date": "2027-01-17 03:00",
+      "home": "桑坦德竞技",
+      "away": "奥萨苏纳",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493488",
+      "round": 20,
+      "date": "2027-01-17 03:00",
+      "home": "巴列卡诺",
+      "away": "塞维利亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493490",
+      "round": 20,
+      "date": "2027-01-17 03:00",
+      "home": "比利亚雷亚尔",
+      "away": "阿拉维斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493460",
+      "round": 21,
+      "date": "2027-01-24 03:00",
+      "home": "阿拉维斯",
+      "away": "巴塞罗那",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493461",
+      "round": 21,
+      "date": "2027-01-24 03:00",
+      "home": "毕尔巴鄂竞技",
+      "away": "莱万特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493463",
+      "round": 21,
+      "date": "2027-01-24 03:00",
+      "home": "拉科鲁尼亚",
+      "away": "马德里竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493465",
+      "round": 21,
+      "date": "2027-01-24 03:00",
+      "home": "埃尔切",
+      "away": "巴列卡诺",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493467",
+      "round": 21,
+      "date": "2027-01-24 03:00",
+      "home": "西班牙人",
+      "away": "比利亚雷亚尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493470",
+      "round": 21,
+      "date": "2027-01-24 03:00",
+      "home": "赫塔费",
+      "away": "奥萨苏纳",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493472",
+      "round": 21,
+      "date": "2027-01-24 03:00",
+      "home": "桑坦德竞技",
+      "away": "塞尔塔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493474",
+      "round": 21,
+      "date": "2027-01-24 03:00",
+      "home": "皇家马德里",
+      "away": "皇家贝蒂斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493476",
+      "round": 21,
+      "date": "2027-01-24 03:00",
+      "home": "皇家社会",
+      "away": "马拉加",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493477",
+      "round": 21,
+      "date": "2027-01-24 03:00",
+      "home": "瓦伦西亚",
+      "away": "塞维利亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493440",
+      "round": 22,
+      "date": "2027-01-31 03:00",
+      "home": "马德里竞技",
+      "away": "西班牙人",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493442",
+      "round": 22,
+      "date": "2027-01-31 03:00",
+      "home": "皇家贝蒂斯",
+      "away": "埃尔切",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493444",
+      "round": 22,
+      "date": "2027-01-31 03:00",
+      "home": "塞尔塔",
+      "away": "赫塔费",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493447",
+      "round": 22,
+      "date": "2027-01-31 03:00",
+      "home": "莱万特",
+      "away": "皇家社会",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493452",
+      "round": 22,
+      "date": "2027-01-31 03:00",
+      "home": "马拉加",
+      "away": "阿拉维斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493454",
+      "round": 22,
+      "date": "2027-01-31 03:00",
+      "home": "奥萨苏纳",
+      "away": "拉科鲁尼亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493455",
+      "round": 22,
+      "date": "2027-01-31 03:00",
+      "home": "巴列卡诺",
+      "away": "皇家马德里",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493456",
+      "round": 22,
+      "date": "2027-01-31 03:00",
+      "home": "塞维利亚",
+      "away": "毕尔巴鄂竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493457",
+      "round": 22,
+      "date": "2027-01-31 03:00",
+      "home": "比利亚雷亚尔",
+      "away": "桑坦德竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493459",
+      "round": 22,
+      "date": "2027-01-31 03:00",
+      "home": "巴塞罗那",
+      "away": "瓦伦西亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493430",
+      "round": 23,
+      "date": "2027-02-07 03:00",
+      "home": "阿拉维斯",
+      "away": "塞尔塔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493431",
+      "round": 23,
+      "date": "2027-02-07 03:00",
+      "home": "毕尔巴鄂竞技",
+      "away": "奥萨苏纳",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493432",
+      "round": 23,
+      "date": "2027-02-07 03:00",
+      "home": "皇家贝蒂斯",
+      "away": "塞维利亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493433",
+      "round": 23,
+      "date": "2027-02-07 03:00",
+      "home": "拉科鲁尼亚",
+      "away": "马拉加",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493434",
+      "round": 23,
+      "date": "2027-02-07 03:00",
+      "home": "埃尔切",
+      "away": "莱万特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493435",
+      "round": 23,
+      "date": "2027-02-07 03:00",
+      "home": "西班牙人",
+      "away": "巴列卡诺",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493436",
+      "round": 23,
+      "date": "2027-02-07 03:00",
+      "home": "巴塞罗那",
+      "away": "马德里竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493437",
+      "round": 23,
+      "date": "2027-02-07 03:00",
+      "home": "赫塔费",
+      "away": "比利亚雷亚尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493438",
+      "round": 23,
+      "date": "2027-02-07 03:00",
+      "home": "皇家社会",
+      "away": "皇家马德里",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493439",
+      "round": 23,
+      "date": "2027-02-07 03:00",
+      "home": "瓦伦西亚",
+      "away": "桑坦德竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493420",
+      "round": 24,
+      "date": "2027-02-14 03:00",
+      "home": "塞尔塔",
+      "away": "巴列卡诺",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493421",
+      "round": 24,
+      "date": "2027-02-14 03:00",
+      "home": "埃尔切",
+      "away": "拉科鲁尼亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493422",
+      "round": 24,
+      "date": "2027-02-14 03:00",
+      "home": "莱万特",
+      "away": "马拉加",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493423",
+      "round": 24,
+      "date": "2027-02-14 03:00",
+      "home": "奥萨苏纳",
+      "away": "马德里竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493424",
+      "round": 24,
+      "date": "2027-02-14 03:00",
+      "home": "桑坦德竞技",
+      "away": "赫塔费",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493425",
+      "round": 24,
+      "date": "2027-02-14 03:00",
+      "home": "皇家马德里",
+      "away": "毕尔巴鄂竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493426",
+      "round": 24,
+      "date": "2027-02-14 03:00",
+      "home": "皇家社会",
+      "away": "皇家贝蒂斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493427",
+      "round": 24,
+      "date": "2027-02-14 03:00",
+      "home": "塞维利亚",
+      "away": "西班牙人",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493428",
+      "round": 24,
+      "date": "2027-02-14 03:00",
+      "home": "瓦伦西亚",
+      "away": "阿拉维斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493429",
+      "round": 24,
+      "date": "2027-02-14 03:00",
+      "home": "比利亚雷亚尔",
+      "away": "巴塞罗那",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493401",
+      "round": 25,
+      "date": "2027-02-21 03:00",
+      "home": "阿拉维斯",
+      "away": "桑坦德竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493403",
+      "round": 25,
+      "date": "2027-02-21 03:00",
+      "home": "毕尔巴鄂竞技",
+      "away": "塞尔塔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493406",
+      "round": 25,
+      "date": "2027-02-21 03:00",
+      "home": "马德里竞技",
+      "away": "埃尔切",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493407",
+      "round": 25,
+      "date": "2027-02-21 03:00",
+      "home": "拉科鲁尼亚",
+      "away": "皇家社会",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493408",
+      "round": 25,
+      "date": "2027-02-21 03:00",
+      "home": "西班牙人",
+      "away": "奥萨苏纳",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493412",
+      "round": 25,
+      "date": "2027-02-21 03:00",
+      "home": "巴塞罗那",
+      "away": "莱万特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493415",
+      "round": 25,
+      "date": "2027-02-21 03:00",
+      "home": "马拉加",
+      "away": "皇家贝蒂斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493417",
+      "round": 25,
+      "date": "2027-02-21 03:00",
+      "home": "巴列卡诺",
+      "away": "赫塔费",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493418",
+      "round": 25,
+      "date": "2027-02-21 03:00",
+      "home": "塞维利亚",
+      "away": "皇家马德里",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493419",
+      "round": 25,
+      "date": "2027-02-21 03:00",
+      "home": "比利亚雷亚尔",
+      "away": "瓦伦西亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493384",
+      "round": 26,
+      "date": "2027-02-28 03:00",
+      "home": "毕尔巴鄂竞技",
+      "away": "巴塞罗那",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493385",
+      "round": 26,
+      "date": "2027-02-28 03:00",
+      "home": "皇家贝蒂斯",
+      "away": "比利亚雷亚尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493386",
+      "round": 26,
+      "date": "2027-02-28 03:00",
+      "home": "塞尔塔",
+      "away": "西班牙人",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493387",
+      "round": 26,
+      "date": "2027-02-28 03:00",
+      "home": "赫塔费",
+      "away": "阿拉维斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493388",
+      "round": 26,
+      "date": "2027-02-28 03:00",
+      "home": "莱万特",
+      "away": "拉科鲁尼亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493389",
+      "round": 26,
+      "date": "2027-02-28 03:00",
+      "home": "马拉加",
+      "away": "马德里竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493390",
+      "round": 26,
+      "date": "2027-02-28 03:00",
+      "home": "奥萨苏纳",
+      "away": "塞维利亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493391",
+      "round": 26,
+      "date": "2027-02-28 03:00",
+      "home": "桑坦德竞技",
+      "away": "巴列卡诺",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493399",
+      "round": 26,
+      "date": "2027-02-28 03:00",
+      "home": "皇家马德里",
+      "away": "瓦伦西亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493400",
+      "round": 26,
+      "date": "2027-02-28 03:00",
+      "home": "皇家社会",
+      "away": "埃尔切",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493374",
+      "round": 27,
+      "date": "2027-03-07 03:00",
+      "home": "阿拉维斯",
+      "away": "毕尔巴鄂竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493375",
+      "round": 27,
+      "date": "2027-03-07 03:00",
+      "home": "马德里竞技",
+      "away": "塞尔塔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493376",
+      "round": 27,
+      "date": "2027-03-07 03:00",
+      "home": "拉科鲁尼亚",
+      "away": "赫塔费",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493377",
+      "round": 27,
+      "date": "2027-03-07 03:00",
+      "home": "埃尔切",
+      "away": "马拉加",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493378",
+      "round": 27,
+      "date": "2027-03-07 03:00",
+      "home": "西班牙人",
+      "away": "桑坦德竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493379",
+      "round": 27,
+      "date": "2027-03-07 03:00",
+      "home": "巴塞罗那",
+      "away": "皇家贝蒂斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493380",
+      "round": 27,
+      "date": "2027-03-07 03:00",
+      "home": "巴列卡诺",
+      "away": "奥萨苏纳",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493381",
+      "round": 27,
+      "date": "2027-03-07 03:00",
+      "home": "塞维利亚",
+      "away": "皇家社会",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493382",
+      "round": 27,
+      "date": "2027-03-07 03:00",
+      "home": "瓦伦西亚",
+      "away": "莱万特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493383",
+      "round": 27,
+      "date": "2027-03-07 03:00",
+      "home": "比利亚雷亚尔",
+      "away": "皇家马德里",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493364",
+      "round": 28,
+      "date": "2027-03-14 03:00",
+      "home": "阿拉维斯",
+      "away": "塞维利亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493365",
+      "round": 28,
+      "date": "2027-03-14 03:00",
+      "home": "毕尔巴鄂竞技",
+      "away": "瓦伦西亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493366",
+      "round": 28,
+      "date": "2027-03-14 03:00",
+      "home": "皇家贝蒂斯",
+      "away": "莱万特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493367",
+      "round": 28,
+      "date": "2027-03-14 03:00",
+      "home": "埃尔切",
+      "away": "比利亚雷亚尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493368",
+      "round": 28,
+      "date": "2027-03-14 03:00",
+      "home": "巴塞罗那",
+      "away": "拉科鲁尼亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493369",
+      "round": 28,
+      "date": "2027-03-14 03:00",
+      "home": "赫塔费",
+      "away": "皇家社会",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493370",
+      "round": 28,
+      "date": "2027-03-14 03:00",
+      "home": "马拉加",
+      "away": "巴列卡诺",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493371",
+      "round": 28,
+      "date": "2027-03-14 03:00",
+      "home": "奥萨苏纳",
+      "away": "塞尔塔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493372",
+      "round": 28,
+      "date": "2027-03-14 03:00",
+      "home": "桑坦德竞技",
+      "away": "马德里竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493373",
+      "round": 28,
+      "date": "2027-03-14 03:00",
+      "home": "皇家马德里",
+      "away": "西班牙人",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493354",
+      "round": 29,
+      "date": "2027-03-21 03:00",
+      "home": "马德里竞技",
+      "away": "赫塔费",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493355",
+      "round": 29,
+      "date": "2027-03-21 03:00",
+      "home": "塞尔塔",
+      "away": "皇家马德里",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493356",
+      "round": 29,
+      "date": "2027-03-21 03:00",
+      "home": "西班牙人",
+      "away": "毕尔巴鄂竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493357",
+      "round": 29,
+      "date": "2027-03-21 03:00",
+      "home": "莱万特",
+      "away": "奥萨苏纳",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493358",
+      "round": 29,
+      "date": "2027-03-21 03:00",
+      "home": "桑坦德竞技",
+      "away": "皇家贝蒂斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493359",
+      "round": 29,
+      "date": "2027-03-21 03:00",
+      "home": "巴列卡诺",
+      "away": "巴塞罗那",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493360",
+      "round": 29,
+      "date": "2027-03-21 03:00",
+      "home": "皇家社会",
+      "away": "阿拉维斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493361",
+      "round": 29,
+      "date": "2027-03-21 03:00",
+      "home": "塞维利亚",
+      "away": "埃尔切",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493362",
+      "round": 29,
+      "date": "2027-03-21 03:00",
+      "home": "瓦伦西亚",
+      "away": "拉科鲁尼亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493363",
+      "round": 29,
+      "date": "2027-03-21 03:00",
+      "home": "比利亚雷亚尔",
+      "away": "马拉加",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493343",
+      "round": 30,
+      "date": "2027-04-04 03:00",
+      "home": "毕尔巴鄂竞技",
+      "away": "桑坦德竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493344",
+      "round": 30,
+      "date": "2027-04-04 03:00",
+      "home": "皇家贝蒂斯",
+      "away": "塞尔塔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493346",
+      "round": 30,
+      "date": "2027-04-04 03:00",
+      "home": "拉科鲁尼亚",
+      "away": "比利亚雷亚尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493347",
+      "round": 30,
+      "date": "2027-04-04 03:00",
+      "home": "埃尔切",
+      "away": "阿拉维斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493348",
+      "round": 30,
+      "date": "2027-04-04 03:00",
+      "home": "巴塞罗那",
+      "away": "塞维利亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493349",
+      "round": 30,
+      "date": "2027-04-04 03:00",
+      "home": "赫塔费",
+      "away": "西班牙人",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493350",
+      "round": 30,
+      "date": "2027-04-04 03:00",
+      "home": "莱万特",
+      "away": "巴列卡诺",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493351",
+      "round": 30,
+      "date": "2027-04-04 03:00",
+      "home": "马拉加",
+      "away": "奥萨苏纳",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493352",
+      "round": 30,
+      "date": "2027-04-04 03:00",
+      "home": "皇家马德里",
+      "away": "马德里竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493353",
+      "round": 30,
+      "date": "2027-04-04 03:00",
+      "home": "皇家社会",
+      "away": "瓦伦西亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493323",
+      "round": 31,
+      "date": "2027-04-11 03:00",
+      "home": "阿拉维斯",
+      "away": "皇家贝蒂斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493324",
+      "round": 31,
+      "date": "2027-04-11 03:00",
+      "home": "马德里竞技",
+      "away": "莱万特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493325",
+      "round": 31,
+      "date": "2027-04-11 03:00",
+      "home": "塞尔塔",
+      "away": "埃尔切",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493326",
+      "round": 31,
+      "date": "2027-04-11 03:00",
+      "home": "西班牙人",
+      "away": "马拉加",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493327",
+      "round": 31,
+      "date": "2027-04-11 03:00",
+      "home": "奥萨苏纳",
+      "away": "皇家马德里",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493328",
+      "round": 31,
+      "date": "2027-04-11 03:00",
+      "home": "桑坦德竞技",
+      "away": "巴塞罗那",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493330",
+      "round": 31,
+      "date": "2027-04-11 03:00",
+      "home": "巴列卡诺",
+      "away": "皇家社会",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493332",
+      "round": 31,
+      "date": "2027-04-11 03:00",
+      "home": "塞维利亚",
+      "away": "拉科鲁尼亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493336",
+      "round": 31,
+      "date": "2027-04-11 03:00",
+      "home": "瓦伦西亚",
+      "away": "赫塔费",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493339",
+      "round": 31,
+      "date": "2027-04-11 03:00",
+      "home": "比利亚雷亚尔",
+      "away": "毕尔巴鄂竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493304",
+      "round": 32,
+      "date": "2027-04-18 03:00",
+      "home": "阿拉维斯",
+      "away": "巴列卡诺",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493307",
+      "round": 32,
+      "date": "2027-04-18 03:00",
+      "home": "马德里竞技",
+      "away": "塞维利亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493309",
+      "round": 32,
+      "date": "2027-04-18 03:00",
+      "home": "皇家贝蒂斯",
+      "away": "毕尔巴鄂竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493313",
+      "round": 32,
+      "date": "2027-04-18 03:00",
+      "home": "拉科鲁尼亚",
+      "away": "塞尔塔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493316",
+      "round": 32,
+      "date": "2027-04-18 03:00",
+      "home": "埃尔切",
+      "away": "奥萨苏纳",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493318",
+      "round": 32,
+      "date": "2027-04-18 03:00",
+      "home": "巴塞罗那",
+      "away": "西班牙人",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493319",
+      "round": 32,
+      "date": "2027-04-18 03:00",
+      "home": "赫塔费",
+      "away": "皇家马德里",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493320",
+      "round": 32,
+      "date": "2027-04-18 03:00",
+      "home": "莱万特",
+      "away": "比利亚雷亚尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493321",
+      "round": 32,
+      "date": "2027-04-18 03:00",
+      "home": "马拉加",
+      "away": "瓦伦西亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493322",
+      "round": 32,
+      "date": "2027-04-18 03:00",
+      "home": "皇家社会",
+      "away": "桑坦德竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493283",
+      "round": 33,
+      "date": "2027-04-21 03:00",
+      "home": "毕尔巴鄂竞技",
+      "away": "拉科鲁尼亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493284",
+      "round": 33,
+      "date": "2027-04-21 03:00",
+      "home": "塞尔塔",
+      "away": "巴塞罗那",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493286",
+      "round": 33,
+      "date": "2027-04-21 03:00",
+      "home": "西班牙人",
+      "away": "皇家社会",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493288",
+      "round": 33,
+      "date": "2027-04-21 03:00",
+      "home": "赫塔费",
+      "away": "皇家贝蒂斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493292",
+      "round": 33,
+      "date": "2027-04-21 03:00",
+      "home": "奥萨苏纳",
+      "away": "阿拉维斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493294",
+      "round": 33,
+      "date": "2027-04-21 03:00",
+      "home": "桑坦德竞技",
+      "away": "马拉加",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493297",
+      "round": 33,
+      "date": "2027-04-21 03:00",
+      "home": "皇家马德里",
+      "away": "埃尔切",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493299",
+      "round": 33,
+      "date": "2027-04-21 03:00",
+      "home": "塞维利亚",
+      "away": "莱万特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493301",
+      "round": 33,
+      "date": "2027-04-21 03:00",
+      "home": "瓦伦西亚",
+      "away": "巴列卡诺",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493302",
+      "round": 33,
+      "date": "2027-04-21 03:00",
+      "home": "比利亚雷亚尔",
+      "away": "马德里竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493246",
+      "round": 34,
+      "date": "2027-05-02 03:00",
+      "home": "马德里竞技",
+      "away": "阿拉维斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493248",
+      "round": 34,
+      "date": "2027-05-02 03:00",
+      "home": "皇家贝蒂斯",
+      "away": "瓦伦西亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493250",
+      "round": 34,
+      "date": "2027-05-02 03:00",
+      "home": "塞尔塔",
+      "away": "塞维利亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493253",
+      "round": 34,
+      "date": "2027-05-02 03:00",
+      "home": "拉科鲁尼亚",
+      "away": "桑坦德竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493264",
+      "round": 34,
+      "date": "2027-05-02 03:00",
+      "home": "埃尔切",
+      "away": "西班牙人",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493266",
+      "round": 34,
+      "date": "2027-05-02 03:00",
+      "home": "巴塞罗那",
+      "away": "奥萨苏纳",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493271",
+      "round": 34,
+      "date": "2027-05-02 03:00",
+      "home": "莱万特",
+      "away": "皇家马德里",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493273",
+      "round": 34,
+      "date": "2027-05-02 03:00",
+      "home": "马拉加",
+      "away": "赫塔费",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493277",
+      "round": 34,
+      "date": "2027-05-02 03:00",
+      "home": "巴列卡诺",
+      "away": "比利亚雷亚尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493279",
+      "round": 34,
+      "date": "2027-05-02 03:00",
+      "home": "皇家社会",
+      "away": "毕尔巴鄂竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493224",
+      "round": 35,
+      "date": "2027-05-09 03:00",
+      "home": "阿拉维斯",
+      "away": "莱万特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493227",
+      "round": 35,
+      "date": "2027-05-09 03:00",
+      "home": "毕尔巴鄂竞技",
+      "away": "马拉加",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493231",
+      "round": 35,
+      "date": "2027-05-09 03:00",
+      "home": "皇家贝蒂斯",
+      "away": "西班牙人",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493233",
+      "round": 35,
+      "date": "2027-05-09 03:00",
+      "home": "赫塔费",
+      "away": "埃尔切",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493235",
+      "round": 35,
+      "date": "2027-05-09 03:00",
+      "home": "奥萨苏纳",
+      "away": "皇家社会",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493237",
+      "round": 35,
+      "date": "2027-05-09 03:00",
+      "home": "桑坦德竞技",
+      "away": "塞维利亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493238",
+      "round": 35,
+      "date": "2027-05-09 03:00",
+      "home": "巴列卡诺",
+      "away": "拉科鲁尼亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493239",
+      "round": 35,
+      "date": "2027-05-09 03:00",
+      "home": "皇家马德里",
+      "away": "巴塞罗那",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493240",
+      "round": 35,
+      "date": "2027-05-09 03:00",
+      "home": "瓦伦西亚",
+      "away": "马德里竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493242",
+      "round": 35,
+      "date": "2027-05-09 03:00",
+      "home": "比利亚雷亚尔",
+      "away": "塞尔塔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493204",
+      "round": 36,
+      "date": "2027-05-16 03:00",
+      "home": "马德里竞技",
+      "away": "巴列卡诺",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493205",
+      "round": 36,
+      "date": "2027-05-16 03:00",
+      "home": "拉科鲁尼亚",
+      "away": "阿拉维斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493206",
+      "round": 36,
+      "date": "2027-05-16 03:00",
+      "home": "埃尔切",
+      "away": "毕尔巴鄂竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493207",
+      "round": 36,
+      "date": "2027-05-16 03:00",
+      "home": "西班牙人",
+      "away": "瓦伦西亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493208",
+      "round": 36,
+      "date": "2027-05-16 03:00",
+      "home": "莱万特",
+      "away": "赫塔费",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493209",
+      "round": 36,
+      "date": "2027-05-16 03:00",
+      "home": "马拉加",
+      "away": "塞尔塔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493210",
+      "round": 36,
+      "date": "2027-05-16 03:00",
+      "home": "奥萨苏纳",
+      "away": "皇家贝蒂斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493211",
+      "round": 36,
+      "date": "2027-05-16 03:00",
+      "home": "皇家马德里",
+      "away": "桑坦德竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493213",
+      "round": 36,
+      "date": "2027-05-16 03:00",
+      "home": "皇家社会",
+      "away": "巴塞罗那",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493216",
+      "round": 36,
+      "date": "2027-05-16 03:00",
+      "home": "塞维利亚",
+      "away": "比利亚雷亚尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493193",
+      "round": 37,
+      "date": "2027-05-23 03:00",
+      "home": "阿拉维斯",
+      "away": "皇家马德里",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493194",
+      "round": 37,
+      "date": "2027-05-23 03:00",
+      "home": "马德里竞技",
+      "away": "毕尔巴鄂竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493195",
+      "round": 37,
+      "date": "2027-05-23 03:00",
+      "home": "塞尔塔",
+      "away": "皇家社会",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493197",
+      "round": 37,
+      "date": "2027-05-23 03:00",
+      "home": "拉科鲁尼亚",
+      "away": "西班牙人",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493198",
+      "round": 37,
+      "date": "2027-05-23 03:00",
+      "home": "巴塞罗那",
+      "away": "马拉加",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493199",
+      "round": 37,
+      "date": "2027-05-23 03:00",
+      "home": "桑坦德竞技",
+      "away": "莱万特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493200",
+      "round": 37,
+      "date": "2027-05-23 03:00",
+      "home": "巴列卡诺",
+      "away": "皇家贝蒂斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493201",
+      "round": 37,
+      "date": "2027-05-23 03:00",
+      "home": "塞维利亚",
+      "away": "赫塔费",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493202",
+      "round": 37,
+      "date": "2027-05-23 03:00",
+      "home": "瓦伦西亚",
+      "away": "埃尔切",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493203",
+      "round": 37,
+      "date": "2027-05-23 03:00",
+      "home": "比利亚雷亚尔",
+      "away": "奥萨苏纳",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493163",
+      "round": 38,
+      "date": "2027-05-30 03:00",
+      "home": "毕尔巴鄂竞技",
+      "away": "巴列卡诺",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493174",
+      "round": 38,
+      "date": "2027-05-30 03:00",
+      "home": "皇家贝蒂斯",
+      "away": "马德里竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493175",
+      "round": 38,
+      "date": "2027-05-30 03:00",
+      "home": "埃尔切",
+      "away": "桑坦德竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493177",
+      "round": 38,
+      "date": "2027-05-30 03:00",
+      "home": "西班牙人",
+      "away": "阿拉维斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493179",
+      "round": 38,
+      "date": "2027-05-30 03:00",
+      "home": "赫塔费",
+      "away": "巴塞罗那",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493182",
+      "round": 38,
+      "date": "2027-05-30 03:00",
+      "home": "莱万特",
+      "away": "塞尔塔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493184",
+      "round": 38,
+      "date": "2027-05-30 03:00",
+      "home": "马拉加",
+      "away": "塞维利亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493186",
+      "round": 38,
+      "date": "2027-05-30 03:00",
+      "home": "奥萨苏纳",
+      "away": "瓦伦西亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493188",
+      "round": 38,
+      "date": "2027-05-30 03:00",
+      "home": "皇家马德里",
+      "away": "拉科鲁尼亚",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493190",
+      "round": 38,
+      "date": "2027-05-30 03:00",
+      "home": "皇家社会",
+      "away": "比利亚雷亚尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    }
+  ],
+  "points": {
+    "win": 3,
+    "draw": 1,
+    "loss": 0
+  },
+  "tiebreak": [
+    "points",
+    "gd",
+    "gf",
+    "wins"
+  ],
+  "slots": [
+    {
+      "from": 1,
+      "to": 1,
+      "type": "title",
+      "label": "冠军",
+      "color": "#ffd54f"
+    },
+    {
+      "from": 1,
+      "to": 4,
+      "type": "ucl",
+      "label": "欧冠区",
+      "color": "#1565c0"
+    },
+    {
+      "from": 5,
+      "to": 6,
+      "type": "uel",
+      "label": "欧联/欧协",
+      "color": "#1565c0"
+    },
+    {
+      "from": 18,
+      "to": 20,
+      "type": "relegation",
+      "label": "降级",
+      "color": "#c62828"
+    }
+  ],
+  "model": {},
+  "meta": {
+    "source": "dongqiudi:3",
+    "fetchedAt": "2026-10-18T12:39:26.816Z",
+    "maxRound": 38,
+    "url": "https://www.dongqiudi.com/data?cid=3&tab=schedule",
+    "cid": 3,
+    "officialTable": [
+      {
+        "rank": 1,
+        "name": "巴塞罗那",
+        "played": null,
+        "wins": 9,
+        "draws": 9,
+        "losses": 0,
+        "gf": 39,
+        "ga": 9,
+        "gd": 30,
+        "points": 27
+      },
+      {
+        "rank": 2,
+        "name": "马德里竞技",
+        "played": null,
+        "wins": 9,
+        "draws": 7,
+        "losses": 1,
+        "gf": 19,
+        "ga": 8,
+        "gd": 11,
+        "points": 22
+      },
+      {
+        "rank": 3,
+        "name": "皇家贝蒂斯",
+        "played": null,
+        "wins": 9,
+        "draws": 6,
+        "losses": 1,
+        "gf": 16,
+        "ga": 14,
+        "gd": 2,
+        "points": 19
+      },
+      {
+        "rank": 4,
+        "name": "皇家马德里",
+        "played": null,
+        "wins": 8,
+        "draws": 6,
+        "losses": 0,
+        "gf": 19,
+        "ga": 8,
+        "gd": 11,
+        "points": 18
+      },
+      {
+        "rank": 5,
+        "name": "塞维利亚",
+        "played": null,
+        "wins": 8,
+        "draws": 4,
+        "losses": 2,
+        "gf": 13,
+        "ga": 12,
+        "gd": 1,
+        "points": 14
+      },
+      {
+        "rank": 6,
+        "name": "皇家社会",
+        "played": null,
+        "wins": 8,
+        "draws": 4,
+        "losses": 1,
+        "gf": 12,
+        "ga": 15,
+        "gd": -3,
+        "points": 13
+      },
+      {
+        "rank": 7,
+        "name": "阿拉维斯",
+        "played": null,
+        "wins": 8,
+        "draws": 3,
+        "losses": 2,
+        "gf": 12,
+        "ga": 8,
+        "gd": 4,
+        "points": 11
+      },
+      {
+        "rank": 8,
+        "name": "拉科鲁尼亚",
+        "played": null,
+        "wins": 9,
+        "draws": 2,
+        "losses": 5,
+        "gf": 13,
+        "ga": 12,
+        "gd": 1,
+        "points": 11
+      },
+      {
+        "rank": 9,
+        "name": "毕尔巴鄂竞技",
+        "played": null,
+        "wins": 7,
+        "draws": 2,
+        "losses": 3,
+        "gf": 7,
+        "ga": 6,
+        "gd": 1,
+        "points": 9
+      },
+      {
+        "rank": 10,
+        "name": "比利亚雷亚尔",
+        "played": null,
+        "wins": 9,
+        "draws": 2,
+        "losses": 3,
+        "gf": 13,
+        "ga": 13,
+        "gd": 0,
+        "points": 9
+      },
+      {
+        "rank": 11,
+        "name": "塞尔塔",
+        "played": null,
+        "wins": 8,
+        "draws": 1,
+        "losses": 5,
+        "gf": 8,
+        "ga": 6,
+        "gd": 2,
+        "points": 8
+      },
+      {
+        "rank": 12,
+        "name": "西班牙人",
+        "played": null,
+        "wins": 9,
+        "draws": 2,
+        "losses": 2,
+        "gf": 11,
+        "ga": 12,
+        "gd": -1,
+        "points": 8
+      },
+      {
+        "rank": 13,
+        "name": "巴列卡诺",
+        "played": null,
+        "wins": 7,
+        "draws": 2,
+        "losses": 2,
+        "gf": 11,
+        "ga": 16,
+        "gd": -5,
+        "points": 8
+      },
+      {
+        "rank": 14,
+        "name": "赫塔费",
+        "played": null,
+        "wins": 8,
+        "draws": 2,
+        "losses": 2,
+        "gf": 4,
+        "ga": 10,
+        "gd": -6,
+        "points": 8
+      },
+      {
+        "rank": 15,
+        "name": "桑坦德竞技",
+        "played": null,
+        "wins": 8,
+        "draws": 2,
+        "losses": 2,
+        "gf": 13,
+        "ga": 23,
+        "gd": -10,
+        "points": 8
+      },
+      {
+        "rank": 16,
+        "name": "奥萨苏纳",
+        "played": null,
+        "wins": 8,
+        "draws": 2,
+        "losses": 2,
+        "gf": 8,
+        "ga": 18,
+        "gd": -10,
+        "points": 8
+      },
+      {
+        "rank": 17,
+        "name": "莱万特",
+        "played": null,
+        "wins": 8,
+        "draws": 1,
+        "losses": 4,
+        "gf": 12,
+        "ga": 16,
+        "gd": -4,
+        "points": 7
+      },
+      {
+        "rank": 18,
+        "name": "埃尔切",
+        "played": null,
+        "wins": 9,
+        "draws": 1,
+        "losses": 4,
+        "gf": 11,
+        "ga": 17,
+        "gd": -6,
+        "points": 7
+      },
+      {
+        "rank": 19,
+        "name": "瓦伦西亚",
+        "played": null,
+        "wins": 9,
+        "draws": 1,
+        "losses": 3,
+        "gf": 6,
+        "ga": 15,
+        "gd": -9,
+        "points": 6
+      },
+      {
+        "rank": 20,
+        "name": "马拉加",
+        "played": null,
+        "wins": 8,
+        "draws": 0,
+        "losses": 4,
+        "gf": 4,
+        "ga": 13,
+        "gd": -9,
+        "points": 4
+      }
+    ],
+    "deductions": []
+  }
+}

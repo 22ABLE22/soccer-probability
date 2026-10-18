@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>足球联赛概率计算器 · Soccer Probability</title>
+<style>
+  :root{
+    --bg:#0f1216; --panel:#171b21; --panel2:#1d232b; --line:#2a323d;
+    --fg:#e6e9ef; --dim:#8b95a5; --accent:#3ea6ff; --green:#3ddc84;
+    --yellow:#ffcc00; --red:#ff5c5c; --radius:10px;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font:14px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+  }
+  header{
+    padding:18px 22px; border-bottom:1px solid var(--line);
+    display:flex; align-items:center; gap:14px; flex-wrap:wrap;
+    background:linear-gradient(180deg,#161b22,#0f1216);
+  }
+  header h1{font-size:17px;margin:0;font-weight:650;letter-spacing:.2px}
+  header .sub{color:var(--dim);font-size:12.5px}
+  main{padding:18px 22px 60px;max-width:1400px;margin:0 auto}
+  .bar{
+    display:flex;gap:10px;flex-wrap:wrap;align-items:center;
+    background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+    padding:12px 14px;margin-bottom:16px;
+  }
+  label{color:var(--dim);font-size:12.5px;display:flex;flex-direction:column;gap:4px}
+  select,input{
+    background:var(--panel2);color:var(--fg);border:1px solid var(--line);
+    border-radius:7px;padding:6px 9px;font-size:13px;font-family:inherit;min-width:110px;
+  }
+  input[type=number]{width:110px}
+  button{
+    background:var(--accent);color:#04121f;border:0;border-radius:7px;
+    padding:8px 16px;font-weight:650;font-size:13px;cursor:pointer;font-family:inherit;
+  }
+  button:hover{filter:brightness(1.1)}
+  button:disabled{opacity:.5;cursor:progress}
+  button.ghost{background:transparent;color:var(--fg);border:1px solid var(--line);font-weight:500}
+  .grid{display:grid;grid-template-columns:1fr;gap:16px}
+  .card{
+    background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+    overflow:hidden;
+  }
+  .card h2{
+    margin:0;padding:11px 14px;font-size:13.5px;font-weight:650;
+    border-bottom:1px solid var(--line);background:var(--panel2);
+    display:flex;justify-content:space-between;align-items:center;gap:10px;
+  }
+  .card h2 .meta{color:var(--dim);font-weight:400;font-size:12px}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th,td{padding:7px 10px;text-align:right;white-space:nowrap}
+  th{color:var(--dim);font-weight:500;font-size:11.5px;text-transform:uppercase;
+     letter-spacing:.4px;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--panel2)}
+  td:first-child,th:first-child{text-align:left}
+  td.name,th.name{text-align:left;max-width:190px;overflow:hidden;text-overflow:ellipsis}
+  tbody tr{border-bottom:1px solid #212832}
+  tbody tr:last-child{border-bottom:0}
+  tbody tr:hover{background:#1b2129}
+  .rank{color:var(--dim);width:34px;display:inline-block}
+  .bar-cell{position:relative;min-width:86px}
+  .bar-cell .fill{
+    position:absolute;left:0;top:50%;transform:translateY(-50%);
+    height:16px;border-radius:3px;opacity:.28;z-index:0;
+  }
+  .bar-cell .v{position:relative;z-index:1}
+  .p-high{color:var(--green)} .p-mid{color:var(--yellow)} .p-low{color:var(--dim)} .p-zero{color:#4a525e}
+  .tag{font-size:11px;padding:1px 6px;border-radius:4px;background:#243040;color:#9fc4e8}
+  .hint{color:var(--dim);font-size:12px;padding:10px 14px;line-height:1.6}
+  .row{display:flex;gap:14px;flex-wrap:wrap}
+  .row>*{flex:1;min-width:260px}
+  .err{color:var(--red);padding:12px 14px;font-size:13px}
+  .spin{display:inline-block;width:13px;height:13px;border:2px solid #ffffff33;
+        border-top-color:#fff;border-radius:50%;animation:s .7s linear infinite;vertical-align:-2px}
+  @keyframes s{to{transform:rotate(360deg)}}
+  #whatifList{display:flex;flex-direction:column;gap:6px;padding:10px 14px}
+  .wf{display:flex;gap:8px;align-items:center;font-size:12.5px}
+  .wf select,.wf input{min-width:0;flex:1}
+  .wf .del{background:transparent;color:var(--red);border:0;cursor:pointer;font-size:15px;padding:0 4px}
+  footer{color:var(--dim);font-size:12px;padding:20px 22px;text-align:center;border-top:1px solid var(--line)}
+  a{color:var(--accent)}
+</style>
+</head>
+<body>
+<header>
+  <h1>⚽ 足球联赛概率计算器</h1>
+  <span class="sub">蒙特卡洛 · 夺冠 / 晋级 / 附加赛 / 保级</span>
+</header>
+
+<main>
+  <div class="bar">
+    <label>联赛
+      <select id="leagueSel"></select>
+    </label>
+    <label>截至轮次
+      <select id="roundSel"></select>
+    </label>
+    <label>模拟次数
+      <select id="iterSel">
+        <option value="10000">10,000</option>
+        <option value="50000" selected>50,000</option>
+        <option value="200000">200,000</option>
+        <option value="500000">500,000</option>
+      </select>
+    </label>
+    <label>数据源
+      <select id="srcSel">
+        <option value="bundled">内置快照</option>
+        <option value="live">在线抓取</option>
+      </select>
+    </label>
+    <label>&nbsp;
+      <button id="runBtn">开始计算</button>
+    </label>
+    <label>&nbsp;
+      <button id="addWfBtn" class="ghost">+ what-if</button>
+    </label>
+  </div>
+
+  <div class="card" id="wfCard" style="display:none;margin-bottom:16px">
+    <h2>what-if：强制指定某些比赛结果 <span class="meta">留空的比赛按模型模拟</span></h2>
+    <div id="whatifList"></div>
+  </div>
+
+  <div id="status" class="hint">选择联赛后点击「开始计算」。</div>
+
+  <div class="grid" id="out" style="display:none">
+    <div class="card">
+      <h2>当前积分榜 <span class="meta" id="tableMeta"></span></h2>
+      <div style="overflow:auto;max-height:760px"><table id="curTable"></table></div>
+    </div>
+
+    <div class="card">
+      <h2>概率预测 <span class="meta" id="probMeta"></span></h2>
+      <div style="overflow:auto"><table id="probTable"></table></div>
+      <div class="hint" id="probHint"></div>
+    </div>
+
+    <div class="row">
+      <div class="card">
+        <h2>名次分布（前 8 名）</h2>
+        <div style="overflow:auto"><table id="posTable"></table></div>
+      </div>
+      <div class="card">
+        <h2>模型参数</h2>
+        <div class="hint" id="modelInfo"></div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  引擎 <span id="ver"></span> · 纯前端运行，不上传任何数据 ·
+  双泊松模型 + 蒙特卡洛
+</footer>
+
+<script src="engine.js"></script>
+<script>
+'use strict';
+
+const E = window.SoccerEngine;
+document.getElementById('ver').textContent = 'v' + E.VERSION;
+
+/* ---------------- 内置联赛目录（含离线快照地址） ---------------- */
+const LEAGUES = [
+  { key:'china-l1',   name:'中甲 · 升级 / 降级',      cid:129,  file:'data/china-l1-2026.json' },
+  { key:'csl',        name:'中超 · 亚冠 / 降级',      cid:43,   file:'data/csl-2026.json' },
+  { key:'epl',        name:'英超 · 冠军 / 欧战 / 降级', cid:4,  file:'data/epl-2026-27.json' },
+  { key:'laliga',     name:'西甲 · 冠军 / 欧战 / 降级', cid:3,  file:'data/laliga-2026-27.json' },
+  { key:'seriea',     name:'意甲 · 冠军 / 欧战 / 降级', cid:9,  file:'data/seriea-2026-27.json' },
+  { key:'bundesliga', name:'德甲 · 冠军 / 欧战 / 降级', cid:5,  file:'data/bundesliga-2026-27.json' },
+  { key:'ligue1',     name:'法甲 · 冠军 / 欧战 / 降级', cid:12, file:'data/ligue1-2026-27.json' }
+];
+const leagueSel = document.getElementById('leagueSel');
+for (const l of LEAGUES) {
+  const o = document.createElement('option');
+  o.value = l.key; o.textContent = l.name;
+  leagueSel.appendChild(o);
+}
+
+let state = {
+  league: null,     // 原始 JSON
+  norm: null,       // normalizeLeague 结果
+  maxRound: null,
+  whatIfs: []
+};
+
+/* ---------------- 数据加载 ---------------- */
+// 构建时会把数据内联到 window.SOCCER_DATA；file:// 下无法 fetch，必须走内联。
+function bundledData(key) {
+  const bag = window.SOCCER_DATA;
+  if (bag && bag[key]) return bag[key];
+  return null;
+}
+
+async function loadBundled(key) {
+  const inline = bundledData(key);
+  if (inline) return inline;
+
+  const l = LEAGUES.find(x => x.key === key);
+  if (!l) throw new Error('未知联赛 ' + key);
+  let res;
+  try {
+    res = await fetch(l.file, { cache: 'no-store' });
+  } catch (e) {
+    throw new Error('读取 ' + l.file + ' 失败（以 file:// 打开时需要构建版本 dist/index.html，' +
+      '它已内联数据；或运行 node bin/serve.js 后访问 http://127.0.0.1:8787）');
+  }
+  if (!res.ok) throw new Error('找不到快照 ' + l.file + '（' + res.status + '）');
+  return await res.json();
+}
+
+async function loadLive(key) {
+  // 浏览器直连会被 CORS 拦住，因此在线模式需要本地代理：
+  //   node bin/serve.js  →  http://127.0.0.1:8787
+  const base = window.SOCCER_PROXY || 'http://127.0.0.1:8787';
+  const res = await fetch(base + '/api/league?league=' + encodeURIComponent(key));
+  if (!res.ok) {
+    let msg = 'HTTP ' + res.status;
+    try { const j = await res.json(); msg = j.error || msg; } catch (e) {}
+    throw new Error('在线抓取失败：' + msg + '（需要先运行 node bin/serve.js）');
+  }
+  return await res.json();
+}
+
+/* ---------------- 轮次下拉 ---------------- */
+function rebuildRounds(league) {
+  const rs = Array.from(new Set(league.matches.map(m => m.round).filter(x => x != null)))
+    .sort((a, b) => a - b);
+  const sel = document.getElementById('roundSel');
+  sel.innerHTML = '';
+  const optAll = document.createElement('option');
+  optAll.value = '';
+  optAll.textContent = '全部（当前真实进度）';
+  sel.appendChild(optAll);
+  for (const r of rs) {
+    const o = document.createElement('option');
+    o.value = r;
+    o.textContent = '第 ' + r + ' 轮';
+    sel.appendChild(o);
+  }
+  sel.value = '';
+  return rs;
+}
+
+/* ---------------- what-if 编辑 ---------------- */
+function renderWhatIfs() {
+  const box = document.getElementById('whatifList');
+  box.innerHTML = '';
+  if (!state.whatIfs.length) {
+    box.innerHTML = '<div class="hint" style="padding:0">还没有添加。点击上方「+ what-if」添加一条。</div>';
+    return;
+  }
+  const teams = state.league ? state.league.teams.map(t => t.name) : [];
+  state.whatIfs.forEach((wf, i) => {
+    const row = document.createElement('div');
+    row.className = 'wf';
+
+    const home = document.createElement('select');
+    const away = document.createElement('select');
+    for (const t of teams) {
+      home.appendChild(new Option(t, t));
+      away.appendChild(new Option(t, t));
+    }
+    home.value = wf.home; away.value = wf.away;
+
+    const hg = document.createElement('input');
+    hg.type = 'number'; hg.min = 0; hg.max = 15; hg.value = wf.hg; hg.style.width = '60px';
+    const ag = document.createElement('input');
+    ag.type = 'number'; ag.min = 0; ag.max = 15; ag.value = wf.ag; ag.style.width = '60px';
+
+    const del = document.createElement('button');
+    del.className = 'del'; del.textContent = '✕'; del.title = '删除';
+    del.onclick = () => { state.whatIfs.splice(i, 1); renderWhatIfs(); };
+
+    home.onchange = () => { wf.home = home.value; };
+    away.onchange = () => { wf.away = away.value; };
+    hg.oninput = () => { wf.hg = Number(hg.value); };
+    ag.oninput = () => { wf.ag = Number(ag.value); };
+
+    row.append(home, hg, ag, away, del);
+    box.appendChild(row);
+  });
+}
+
+document.getElementById('addWfBtn').onclick = () => {
+  if (!state.league) { alert('请先加载一个联赛'); return; }
+  const names = state.league.teams.map(t => t.name);
+  state.whatIfs.push({ home: names[0], away: names[1] || names[0], hg: 1, ag: 0 });
+  document.getElementById('wfCard').style.display = '';
+  renderWhatIfs();
+};
+
+/* ---------------- 渲染 ---------------- */
+function pct(x, d) { return (x * 100).toFixed(d == null ? 1 : d) + '%'; }
+function heatClass(p) {
+  if (p >= 0.5) return 'p-high';
+  if (p >= 0.05) return 'p-mid';
+  if (p > 0) return 'p-low';
+  return 'p-zero';
+}
+function esc(s) {
+  return String(s).replace(/[&<>"']/g, c =>
+    ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+
+function renderCurrentTable(rows, meta) {
+  document.getElementById('tableMeta').textContent = meta;
+  const t = document.getElementById('curTable');
+  let html = '<thead><tr><th>#</th><th class="name">球队</th><th>赛</th><th>胜</th><th>平</th>' +
+    '<th>负</th><th>进/失</th><th>净胜</th><th>积分</th></tr></thead><tbody>';
+  for (const r of rows) {
+    html += '<tr><td><span class="rank">' + r.rank + '</span></td>' +
+      '<td class="name">' + esc(r.name) + '</td>' +
+      '<td>' + r.played + '</td><td>' + r.wins + '</td><td>' + r.draws + '</td>' +
+      '<td>' + r.losses + '</td><td>' + r.gf + '/' + r.ga + '</td>' +
+      '<td>' + (r.gd > 0 ? '+' : '') + r.gd + '</td>' +
+      '<td><b>' + r.points + '</b></td></tr>';
+  }
+  t.innerHTML = html + '</tbody>';
+}
+
+function renderProbTable(res, slots) {
+  const types = [];
+  for (const s of slots) if (types.indexOf(s.type) < 0) types.push(s.type);
+
+  document.getElementById('probMeta').textContent =
+    res.iterations.toLocaleString() + ' 次模拟' +
+    (res.asOfRound != null ? ' · 截至第 ' + res.asOfRound + ' 轮' : '');
+
+  const t = document.getElementById('probTable');
+  let html = '<thead><tr><th>#</th><th class="name">球队</th><th>期望分</th><th>期望名次</th>' +
+    '<th>最可能名次</th>';
+  for (const type of types) {
+    const s = slots.find(x => x.type === type);
+    html += '<th>' + esc(s.label || type) + '</th>';
+  }
+  html += '</tr></thead><tbody>';
+
+  const ordered = res.projectedTable.map(p => res.teams.find(x => x.id === p.id));
+  ordered.forEach((tm, i) => {
+    html += '<tr><td><span class="rank">' + (i + 1) + '</span></td>' +
+      '<td class="name">' + esc(tm.name) + '</td>' +
+      '<td>' + tm.expectedPoints.toFixed(1) + '</td>' +
+      '<td>' + tm.expectedPosition.toFixed(2) + '</td>' +
+      '<td>' + tm.mostLikelyPosition + '</td>';
+    for (const type of types) {
+      const p = tm.slots[type] || 0;
+      html += '<td class="bar-cell">' +
+        '<div class="fill" style="width:' + Math.max(0, Math.min(100, p * 100)) + '%;background:' +
+        (p >= 0.5 ? 'var(--green)' : p >= 0.05 ? 'var(--yellow)' : 'var(--accent)') + '"></div>' +
+        '<span class="v ' + heatClass(p) + '">' + pct(p) + '</span></td>';
+    }
+    html += '</tr>';
+  });
+  t.innerHTML = html + '</tbody>';
+}
+
+function renderPositionTable(res) {
+  const t = document.getElementById('posTable');
+  const top = res.teams.slice().sort((a, b) => a.expectedPosition - b.expectedPosition).slice(0, 8);
+  let html = '<thead><tr><th class="name">球队</th>';
+  for (let p = 1; p <= 8; p++) html += '<th>' + p + '</th>';
+  html += '</tr></thead><tbody>';
+  for (const tm of top) {
+    html += '<tr><td class="name">' + esc(tm.name) + '</td>';
+    for (let p = 1; p <= 8; p++) {
+      const v = tm.positions[p] || 0;
+      const alpha = Math.min(1, v * 1.6);
+      html += '<td style="background:rgba(62,166,255,' + (alpha * 0.45).toFixed(3) + ')">' +
+        (v >= 0.005 ? (v * 100).toFixed(0) + '%' : '·') + '</td>';
+    }
+    html += '</tr>';
+  }
+  t.innerHTML = html + '</tbody>';
+}
+
+function renderModel(res) {
+  const m = res.model;
+  const lines = [
+    '联赛场均进球（每队）：<b>' + m.globalAvg.toFixed(3) + '</b>',
+    '主场系数：<b>' + m.homeAdvantage.toFixed(3) + '</b>（客场 ' + (1 / m.homeAdvantage).toFixed(3) + '）',
+    '用于估计参数的已赛比赛：<b>' + m.playedMatches + '</b> 场',
+    '随机种子：<code>' + esc(String(res.seed)) + '</code>',
+    ''
+  ];
+  const sorted = m.attack.slice().sort((a, b) => (b.attack / b.defence) - (a.attack / a.defence)).slice(0, 6);
+  lines.push('<b>实力指数前 6</b>（攻/防之比）');
+  for (const a of sorted) {
+    lines.push('&nbsp;&nbsp;' + esc(a.name) + '：攻 ' + a.attack.toFixed(2) + ' / 防 ' + a.defence.toFixed(2));
+  }
+  document.getElementById('modelInfo').innerHTML = lines.join('<br>');
+}
+
+/* ---------------- 主流程 ---------------- */
+async function run() {
+  const btn = document.getElementById('runBtn');
+  const status = document.getElementById('status');
+  btn.disabled = true;
+  status.innerHTML = '<span class="spin"></span> 正在加载数据…';
+  document.getElementById('out').style.display = 'none';
+
+  try {
+    const key = document.getElementById('leagueSel').value;
+    const src = document.getElementById('srcSel').value;
+
+    if (!state.league || state.leagueKey !== key) {
+      state.league = src === 'live' ? await loadLive(key) : await loadBundled(key);
+      state.leagueKey = key;
+      state.maxRound = rebuildRounds(state.league);
+      renderWhatIfs();
+    }
+    const roundSel = document.getElementById('roundSel');
+    const asOfRound = roundSel.value === '' ? null : Number(roundSel.value);
+    const iterations = Number(document.getElementById('iterSel').value);
+
+    status.innerHTML = '<span class="spin"></span> 正在模拟 ' + iterations.toLocaleString() + ' 次…';
+    await new Promise(r => setTimeout(r, 16));   // 让 UI 先刷新
+
+    const norm = E.normalizeLeague(state.league);
+
+    const whatIf = state.whatIfs.map(w => ({
+      home: w.home, away: w.away, homeGoals: w.hg, awayGoals: w.ag
+    }));
+
+    const t0 = performance.now();
+    const res = E.simulate(norm, {
+      iterations,
+      asOfRound,
+      whatIf,
+      seed: 'web-' + key + '-' + (asOfRound == null ? 'all' : asOfRound) + '-' + whatIf.length
+    });
+    const ms = performance.now() - t0;
+
+    renderCurrentTable(res.currentTable, asOfRound == null
+      ? '当前真实进度'
+      : '截至第 ' + asOfRound + ' 轮');
+    renderProbTable(res, norm.slots);
+    renderPositionTable(res);
+    renderModel(res);
+
+    document.getElementById('probHint').innerHTML = whatIf.length
+      ? '已应用 ' + whatIf.length + ' 条 what-if 指定结果。'
+      : '概率为 ' + iterations.toLocaleString() + ' 次模拟的频率估计，标准误约 ±' +
+        (50 / Math.sqrt(iterations)).toFixed(2) + ' 个百分点（p=0.5 时最坏）。耗时 ' + ms.toFixed(0) + ' ms。';
+
+    status.style.display = 'none';
+    document.getElementById('out').style.display = '';
+  } catch (e) {
+    status.className = 'err';
+    status.textContent = '出错了：' + (e && e.message ? e.message : e);
+  } finally {
+    btn.disabled = false;
+  }
+}
+
+document.getElementById('runBtn').onclick = run;
+leagueSel.onchange = () => { state.league = null; state.leagueKey = null; };
+document.getElementById('srcSel').onchange = () => { state.league = null; state.leagueKey = null; };
+
+// 首次自动加载
+run();
+</script>
+</body>
+</html>

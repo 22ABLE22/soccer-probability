@@ -1,0 +1,4181 @@
+{
+  "id": "epl",
+  "name": "英超",
+  "season": "2026-27",
+  "teams": [
+    {
+      "id": "阿森纳",
+      "name": "阿森纳"
+    },
+    {
+      "id": "考文垂",
+      "name": "考文垂"
+    },
+    {
+      "id": "赫尔城",
+      "name": "赫尔城"
+    },
+    {
+      "id": "曼联",
+      "name": "曼联"
+    },
+    {
+      "id": "埃弗顿",
+      "name": "埃弗顿"
+    },
+    {
+      "id": "水晶宫",
+      "name": "水晶宫"
+    },
+    {
+      "id": "伊普斯维奇",
+      "name": "伊普斯维奇"
+    },
+    {
+      "id": "桑德兰",
+      "name": "桑德兰"
+    },
+    {
+      "id": "诺丁汉森林",
+      "name": "诺丁汉森林"
+    },
+    {
+      "id": "利兹联",
+      "name": "利兹联"
+    },
+    {
+      "id": "布伦特福德",
+      "name": "布伦特福德"
+    },
+    {
+      "id": "托特纳姆热刺",
+      "name": "托特纳姆热刺"
+    },
+    {
+      "id": "布莱顿",
+      "name": "布莱顿"
+    },
+    {
+      "id": "阿斯顿维拉",
+      "name": "阿斯顿维拉"
+    },
+    {
+      "id": "曼城",
+      "name": "曼城"
+    },
+    {
+      "id": "伯恩茅斯",
+      "name": "伯恩茅斯"
+    },
+    {
+      "id": "纽卡斯尔联",
+      "name": "纽卡斯尔联"
+    },
+    {
+      "id": "利物浦",
+      "name": "利物浦"
+    },
+    {
+      "id": "富勒姆",
+      "name": "富勒姆"
+    },
+    {
+      "id": "切尔西",
+      "name": "切尔西"
+    }
+  ],
+  "matches": [
+    {
+      "id": "54483541",
+      "round": 1,
+      "date": "2026-08-22 03:00",
+      "home": "阿森纳",
+      "away": "考文垂",
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54483543",
+      "round": 1,
+      "date": "2026-08-22 19:30",
+      "home": "赫尔城",
+      "away": "曼联",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54483544",
+      "round": 1,
+      "date": "2026-08-22 22:00",
+      "home": "埃弗顿",
+      "away": "水晶宫",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54483546",
+      "round": 1,
+      "date": "2026-08-22 22:00",
+      "home": "伊普斯维奇",
+      "away": "桑德兰",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54483549",
+      "round": 1,
+      "date": "2026-08-22 22:00",
+      "home": "诺丁汉森林",
+      "away": "利兹联",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54483553",
+      "round": 1,
+      "date": "2026-08-23 00:30",
+      "home": "布伦特福德",
+      "away": "托特纳姆热刺",
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54483557",
+      "round": 1,
+      "date": "2026-08-23 21:00",
+      "home": "布莱顿",
+      "away": "阿斯顿维拉",
+      "homeGoals": 4,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54483562",
+      "round": 1,
+      "date": "2026-08-23 21:00",
+      "home": "曼城",
+      "away": "伯恩茅斯",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54483565",
+      "round": 1,
+      "date": "2026-08-23 23:30",
+      "home": "纽卡斯尔联",
+      "away": "利物浦",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54483568",
+      "round": 1,
+      "date": "2026-08-25 03:00",
+      "home": "富勒姆",
+      "away": "切尔西",
+      "homeGoals": 2,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54483585",
+      "round": 2,
+      "date": "2026-08-29 03:00",
+      "home": "水晶宫",
+      "away": "曼城",
+      "homeGoals": 1,
+      "awayGoals": 4,
+      "played": true
+    },
+    {
+      "id": "54483591",
+      "round": 2,
+      "date": "2026-08-29 19:30",
+      "home": "利物浦",
+      "away": "诺丁汉森林",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54483575",
+      "round": 2,
+      "date": "2026-08-29 22:00",
+      "home": "伯恩茅斯",
+      "away": "埃弗顿",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54483582",
+      "round": 2,
+      "date": "2026-08-29 22:00",
+      "home": "考文垂",
+      "away": "赫尔城",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54483597",
+      "round": 2,
+      "date": "2026-08-30 00:30",
+      "home": "托特纳姆热刺",
+      "away": "纽卡斯尔联",
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54483577",
+      "round": 2,
+      "date": "2026-08-30 21:00",
+      "home": "切尔西",
+      "away": "布莱顿",
+      "homeGoals": 4,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54483588",
+      "round": 2,
+      "date": "2026-08-30 21:00",
+      "home": "利兹联",
+      "away": "布伦特福德",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54483595",
+      "round": 2,
+      "date": "2026-08-30 21:00",
+      "home": "桑德兰",
+      "away": "富勒姆",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54483594",
+      "round": 2,
+      "date": "2026-08-30 23:30",
+      "home": "曼联",
+      "away": "伊普斯维奇",
+      "homeGoals": 5,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54483572",
+      "round": 2,
+      "date": "2026-09-01 03:00",
+      "home": "阿斯顿维拉",
+      "away": "阿森纳",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54483619",
+      "round": 3,
+      "date": "2026-09-05 03:00",
+      "home": "伊普斯维奇",
+      "away": "利物浦",
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54483622",
+      "round": 3,
+      "date": "2026-09-05 19:30",
+      "home": "纽卡斯尔联",
+      "away": "伯恩茅斯",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54483610",
+      "round": 3,
+      "date": "2026-09-05 22:00",
+      "home": "布伦特福德",
+      "away": "桑德兰",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54483612",
+      "round": 3,
+      "date": "2026-09-05 22:00",
+      "home": "布莱顿",
+      "away": "利兹联",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54483616",
+      "round": 3,
+      "date": "2026-09-05 22:00",
+      "home": "富勒姆",
+      "away": "水晶宫",
+      "homeGoals": 2,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54483620",
+      "round": 3,
+      "date": "2026-09-05 22:00",
+      "home": "曼城",
+      "away": "考文垂",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54483625",
+      "round": 3,
+      "date": "2026-09-05 22:00",
+      "home": "诺丁汉森林",
+      "away": "托特纳姆热刺",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54483618",
+      "round": 3,
+      "date": "2026-09-06 00:30",
+      "home": "赫尔城",
+      "away": "阿斯顿维拉",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54483614",
+      "round": 3,
+      "date": "2026-09-06 21:00",
+      "home": "埃弗顿",
+      "away": "曼联",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54483605",
+      "round": 3,
+      "date": "2026-09-06 23:30",
+      "home": "阿森纳",
+      "away": "切尔西",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54483628",
+      "round": 4,
+      "date": "2026-09-12 22:00",
+      "home": "阿斯顿维拉",
+      "away": "诺丁汉森林",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54483630",
+      "round": 4,
+      "date": "2026-09-12 22:00",
+      "home": "伯恩茅斯",
+      "away": "布伦特福德",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54483631",
+      "round": 4,
+      "date": "2026-09-12 22:00",
+      "home": "切尔西",
+      "away": "赫尔城",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54483634",
+      "round": 4,
+      "date": "2026-09-12 22:00",
+      "home": "水晶宫",
+      "away": "伊普斯维奇",
+      "homeGoals": 2,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54483637",
+      "round": 4,
+      "date": "2026-09-12 22:00",
+      "home": "利物浦",
+      "away": "富勒姆",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54483644",
+      "round": 4,
+      "date": "2026-09-13 00:30",
+      "home": "托特纳姆热刺",
+      "away": "埃弗顿",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54483643",
+      "round": 4,
+      "date": "2026-09-13 03:00",
+      "home": "桑德兰",
+      "away": "阿森纳",
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54483632",
+      "round": 4,
+      "date": "2026-09-13 21:00",
+      "home": "考文垂",
+      "away": "布莱顿",
+      "homeGoals": 0,
+      "awayGoals": 5,
+      "played": true
+    },
+    {
+      "id": "54483641",
+      "round": 4,
+      "date": "2026-09-13 23:30",
+      "home": "曼联",
+      "away": "曼城",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54483636",
+      "round": 4,
+      "date": "2026-09-15 03:00",
+      "home": "利兹联",
+      "away": "纽卡斯尔联",
+      "homeGoals": 4,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54483650",
+      "round": 5,
+      "date": "2026-09-19 03:00",
+      "home": "布伦特福德",
+      "away": "切尔西",
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54483671",
+      "round": 5,
+      "date": "2026-09-19 19:30",
+      "home": "托特纳姆热刺",
+      "away": "阿斯顿维拉",
+      "homeGoals": 2,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54483653",
+      "round": 5,
+      "date": "2026-09-19 22:00",
+      "home": "布莱顿",
+      "away": "阿森纳",
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54483656",
+      "round": 5,
+      "date": "2026-09-19 22:00",
+      "home": "埃弗顿",
+      "away": "伊普斯维奇",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54483669",
+      "round": 5,
+      "date": "2026-09-19 22:00",
+      "home": "纽卡斯尔联",
+      "away": "赫尔城",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54483670",
+      "round": 5,
+      "date": "2026-09-20 00:30",
+      "home": "诺丁汉森林",
+      "away": "考文垂",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54483647",
+      "round": 5,
+      "date": "2026-09-20 21:00",
+      "home": "伯恩茅斯",
+      "away": "利物浦",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54483663",
+      "round": 5,
+      "date": "2026-09-20 21:00",
+      "home": "利兹联",
+      "away": "水晶宫",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54483666",
+      "round": 5,
+      "date": "2026-09-20 21:00",
+      "home": "曼城",
+      "away": "桑德兰",
+      "homeGoals": 5,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54483659",
+      "round": 5,
+      "date": "2026-09-20 23:30",
+      "home": "富勒姆",
+      "away": "曼联",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54483673",
+      "round": 6,
+      "date": "2026-10-10 19:30",
+      "home": "阿森纳",
+      "away": "利兹联",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54483675",
+      "round": 6,
+      "date": "2026-10-10 22:00",
+      "home": "阿斯顿维拉",
+      "away": "布伦特福德",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54483677",
+      "round": 6,
+      "date": "2026-10-10 22:00",
+      "home": "切尔西",
+      "away": "伯恩茅斯",
+      "homeGoals": 5,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54483683",
+      "round": 6,
+      "date": "2026-10-10 22:00",
+      "home": "伊普斯维奇",
+      "away": "富勒姆",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54483690",
+      "round": 6,
+      "date": "2026-10-10 22:00",
+      "home": "桑德兰",
+      "away": "布莱顿",
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54483687",
+      "round": 6,
+      "date": "2026-10-11 00:30",
+      "home": "曼联",
+      "away": "托特纳姆热刺",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54483680",
+      "round": 6,
+      "date": "2026-10-11 21:00",
+      "home": "水晶宫",
+      "away": "诺丁汉森林",
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54483682",
+      "round": 6,
+      "date": "2026-10-11 21:00",
+      "home": "赫尔城",
+      "away": "埃弗顿",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54483685",
+      "round": 6,
+      "date": "2026-10-11 23:30",
+      "home": "利物浦",
+      "away": "曼城",
+      "homeGoals": 0,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54483678",
+      "round": 6,
+      "date": "2026-10-13 03:00",
+      "home": "考文垂",
+      "away": "纽卡斯尔联",
+      "homeGoals": 4,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54483695",
+      "round": 7,
+      "date": "2026-10-17 19:30",
+      "home": "埃弗顿",
+      "away": "切尔西",
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54483692",
+      "round": 7,
+      "date": "2026-10-17 22:00",
+      "home": "布伦特福德",
+      "away": "利物浦",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54483698",
+      "round": 7,
+      "date": "2026-10-17 22:00",
+      "home": "富勒姆",
+      "away": "赫尔城",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54483703",
+      "round": 7,
+      "date": "2026-10-17 22:00",
+      "home": "曼城",
+      "away": "伊普斯维奇",
+      "homeGoals": 3,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54483715",
+      "round": 7,
+      "date": "2026-10-18 00:30",
+      "home": "纽卡斯尔联",
+      "away": "阿斯顿维拉",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54483691",
+      "round": 7,
+      "date": "2026-10-18 21:00",
+      "home": "伯恩茅斯",
+      "away": "桑德兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483694",
+      "round": 7,
+      "date": "2026-10-18 21:00",
+      "home": "布莱顿",
+      "away": "水晶宫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483700",
+      "round": 7,
+      "date": "2026-10-18 21:00",
+      "home": "利兹联",
+      "away": "曼联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483708",
+      "round": 7,
+      "date": "2026-10-18 23:30",
+      "home": "诺丁汉森林",
+      "away": "阿森纳",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483718",
+      "round": 7,
+      "date": "2026-10-20 03:00",
+      "home": "托特纳姆热刺",
+      "away": "考文垂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483740",
+      "round": 8,
+      "date": "2026-10-24 03:00",
+      "home": "伊普斯维奇",
+      "away": "诺丁汉森林",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483726",
+      "round": 8,
+      "date": "2026-10-24 19:30",
+      "home": "阿斯顿维拉",
+      "away": "曼城",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483729",
+      "round": 8,
+      "date": "2026-10-24 22:00",
+      "home": "阿森纳",
+      "away": "埃弗顿",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483735",
+      "round": 8,
+      "date": "2026-10-24 22:00",
+      "home": "考文垂",
+      "away": "富勒姆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483731",
+      "round": 8,
+      "date": "2026-10-25 00:30",
+      "home": "切尔西",
+      "away": "托特纳姆热刺",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483737",
+      "round": 8,
+      "date": "2026-10-25 22:00",
+      "home": "水晶宫",
+      "away": "纽卡斯尔联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483739",
+      "round": 8,
+      "date": "2026-10-25 22:00",
+      "home": "赫尔城",
+      "away": "布伦特福德",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483742",
+      "round": 8,
+      "date": "2026-10-25 22:00",
+      "home": "利物浦",
+      "away": "布莱顿",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483743",
+      "round": 8,
+      "date": "2026-10-25 22:00",
+      "home": "曼联",
+      "away": "伯恩茅斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483744",
+      "round": 8,
+      "date": "2026-10-26 00:30",
+      "home": "桑德兰",
+      "away": "利兹联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483753",
+      "round": 9,
+      "date": "2026-10-31 20:30",
+      "home": "切尔西",
+      "away": "曼联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483749",
+      "round": 9,
+      "date": "2026-10-31 23:00",
+      "home": "伯恩茅斯",
+      "away": "利兹联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483751",
+      "round": 9,
+      "date": "2026-10-31 23:00",
+      "home": "布伦特福德",
+      "away": "诺丁汉森林",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483758",
+      "round": 9,
+      "date": "2026-10-31 23:00",
+      "home": "考文垂",
+      "away": "桑德兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483772",
+      "round": 9,
+      "date": "2026-10-31 23:00",
+      "home": "赫尔城",
+      "away": "伊普斯维奇",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483781",
+      "round": 9,
+      "date": "2026-10-31 23:00",
+      "home": "曼城",
+      "away": "布莱顿",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483788",
+      "round": 9,
+      "date": "2026-11-01 01:30",
+      "home": "托特纳姆热刺",
+      "away": "水晶宫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483747",
+      "round": 9,
+      "date": "2026-11-01 04:00",
+      "home": "阿斯顿维拉",
+      "away": "富勒姆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483776",
+      "round": 9,
+      "date": "2026-11-02 00:30",
+      "home": "利物浦",
+      "away": "阿森纳",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483785",
+      "round": 9,
+      "date": "2026-11-03 04:00",
+      "home": "纽卡斯尔联",
+      "away": "埃弗顿",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483805",
+      "round": 10,
+      "date": "2026-11-07 04:00",
+      "home": "埃弗顿",
+      "away": "考文垂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483815",
+      "round": 10,
+      "date": "2026-11-07 20:30",
+      "home": "利兹联",
+      "away": "托特纳姆热刺",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483793",
+      "round": 10,
+      "date": "2026-11-07 23:00",
+      "home": "阿森纳",
+      "away": "赫尔城",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483808",
+      "round": 10,
+      "date": "2026-11-07 23:00",
+      "home": "富勒姆",
+      "away": "纽卡斯尔联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483821",
+      "round": 10,
+      "date": "2026-11-08 01:30",
+      "home": "诺丁汉森林",
+      "away": "曼城",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483797",
+      "round": 10,
+      "date": "2026-11-08 22:00",
+      "home": "布莱顿",
+      "away": "布伦特福德",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483802",
+      "round": 10,
+      "date": "2026-11-08 22:00",
+      "home": "水晶宫",
+      "away": "利物浦",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483810",
+      "round": 10,
+      "date": "2026-11-08 22:00",
+      "home": "伊普斯维奇",
+      "away": "伯恩茅斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483827",
+      "round": 10,
+      "date": "2026-11-08 22:00",
+      "home": "桑德兰",
+      "away": "切尔西",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483818",
+      "round": 10,
+      "date": "2026-11-09 00:30",
+      "home": "曼联",
+      "away": "阿斯顿维拉",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483581",
+      "round": 11,
+      "date": "2026-11-21 20:30",
+      "home": "曼城",
+      "away": "富勒姆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483547",
+      "round": 11,
+      "date": "2026-11-21 23:00",
+      "home": "阿斯顿维拉",
+      "away": "桑德兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483558",
+      "round": 11,
+      "date": "2026-11-21 23:00",
+      "home": "伯恩茅斯",
+      "away": "诺丁汉森林",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483564",
+      "round": 11,
+      "date": "2026-11-21 23:00",
+      "home": "切尔西",
+      "away": "利兹联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483592",
+      "round": 11,
+      "date": "2026-11-21 23:00",
+      "home": "托特纳姆热刺",
+      "away": "伊普斯维奇",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483606",
+      "round": 11,
+      "date": "2026-11-21 23:00",
+      "home": "考文垂",
+      "away": "水晶宫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483586",
+      "round": 11,
+      "date": "2026-11-22 01:30",
+      "home": "纽卡斯尔联",
+      "away": "阿森纳",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483574",
+      "round": 11,
+      "date": "2026-11-22 22:00",
+      "home": "赫尔城",
+      "away": "布莱顿",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483578",
+      "round": 11,
+      "date": "2026-11-23 00:30",
+      "home": "利物浦",
+      "away": "曼联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483560",
+      "round": 11,
+      "date": "2026-11-24 04:00",
+      "home": "布伦特福德",
+      "away": "埃弗顿",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483640",
+      "round": 12,
+      "date": "2026-11-28 04:00",
+      "home": "诺丁汉森林",
+      "away": "切尔西",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483635",
+      "round": 12,
+      "date": "2026-11-28 23:00",
+      "home": "利兹联",
+      "away": "考文垂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483638",
+      "round": 12,
+      "date": "2026-11-28 23:00",
+      "home": "曼联",
+      "away": "布伦特福德",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483633",
+      "round": 12,
+      "date": "2026-11-29 01:30",
+      "home": "伊普斯维奇",
+      "away": "阿斯顿维拉",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483629",
+      "round": 12,
+      "date": "2026-11-29 20:00",
+      "home": "埃弗顿",
+      "away": "利物浦",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483623",
+      "round": 12,
+      "date": "2026-11-29 22:05",
+      "home": "布莱顿",
+      "away": "纽卡斯尔联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483626",
+      "round": 12,
+      "date": "2026-11-29 22:05",
+      "home": "水晶宫",
+      "away": "赫尔城",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483642",
+      "round": 12,
+      "date": "2026-11-29 22:05",
+      "home": "桑德兰",
+      "away": "托特纳姆热刺",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483929",
+      "round": 12,
+      "date": "2026-11-29 22:05",
+      "home": "富勒姆",
+      "away": "伯恩茅斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483621",
+      "round": 12,
+      "date": "2026-11-30 00:30",
+      "home": "阿森纳",
+      "away": "曼城",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483645",
+      "round": 13,
+      "date": "2026-12-03 04:00",
+      "home": "阿斯顿维拉",
+      "away": "埃弗顿",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483646",
+      "round": 13,
+      "date": "2026-12-03 04:00",
+      "home": "伯恩茅斯",
+      "away": "布莱顿",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483648",
+      "round": 13,
+      "date": "2026-12-03 04:00",
+      "home": "布伦特福德",
+      "away": "阿森纳",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483649",
+      "round": 13,
+      "date": "2026-12-03 04:00",
+      "home": "切尔西",
+      "away": "水晶宫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483652",
+      "round": 13,
+      "date": "2026-12-03 04:00",
+      "home": "考文垂",
+      "away": "伊普斯维奇",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483657",
+      "round": 13,
+      "date": "2026-12-03 04:00",
+      "home": "赫尔城",
+      "away": "诺丁汉森林",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483660",
+      "round": 13,
+      "date": "2026-12-03 04:00",
+      "home": "利物浦",
+      "away": "桑德兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483662",
+      "round": 13,
+      "date": "2026-12-03 04:00",
+      "home": "曼城",
+      "away": "利兹联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483665",
+      "round": 13,
+      "date": "2026-12-03 04:00",
+      "home": "纽卡斯尔联",
+      "away": "曼联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483667",
+      "round": 13,
+      "date": "2026-12-03 04:00",
+      "home": "托特纳姆热刺",
+      "away": "富勒姆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483696",
+      "round": 14,
+      "date": "2026-12-05 23:00",
+      "home": "阿斯顿维拉",
+      "away": "水晶宫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483697",
+      "round": 14,
+      "date": "2026-12-05 23:00",
+      "home": "伯恩茅斯",
+      "away": "赫尔城",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483699",
+      "round": 14,
+      "date": "2026-12-05 23:00",
+      "home": "布伦特福德",
+      "away": "曼城",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483702",
+      "round": 14,
+      "date": "2026-12-05 23:00",
+      "home": "切尔西",
+      "away": "利物浦",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483705",
+      "round": 14,
+      "date": "2026-12-05 23:00",
+      "home": "埃弗顿",
+      "away": "富勒姆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483707",
+      "round": 14,
+      "date": "2026-12-05 23:00",
+      "home": "利兹联",
+      "away": "伊普斯维奇",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483710",
+      "round": 14,
+      "date": "2026-12-05 23:00",
+      "home": "曼联",
+      "away": "考文垂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483712",
+      "round": 14,
+      "date": "2026-12-05 23:00",
+      "home": "纽卡斯尔联",
+      "away": "桑德兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483713",
+      "round": 14,
+      "date": "2026-12-05 23:00",
+      "home": "诺丁汉森林",
+      "away": "布莱顿",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483716",
+      "round": 14,
+      "date": "2026-12-05 23:00",
+      "home": "托特纳姆热刺",
+      "away": "阿森纳",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483719",
+      "round": 15,
+      "date": "2026-12-12 23:00",
+      "home": "阿森纳",
+      "away": "伯恩茅斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483721",
+      "round": 15,
+      "date": "2026-12-12 23:00",
+      "home": "布莱顿",
+      "away": "埃弗顿",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483723",
+      "round": 15,
+      "date": "2026-12-12 23:00",
+      "home": "考文垂",
+      "away": "阿斯顿维拉",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483725",
+      "round": 15,
+      "date": "2026-12-12 23:00",
+      "home": "水晶宫",
+      "away": "曼联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483727",
+      "round": 15,
+      "date": "2026-12-12 23:00",
+      "home": "富勒姆",
+      "away": "布伦特福德",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483728",
+      "round": 15,
+      "date": "2026-12-12 23:00",
+      "home": "赫尔城",
+      "away": "托特纳姆热刺",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483730",
+      "round": 15,
+      "date": "2026-12-12 23:00",
+      "home": "伊普斯维奇",
+      "away": "纽卡斯尔联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483734",
+      "round": 15,
+      "date": "2026-12-12 23:00",
+      "home": "利物浦",
+      "away": "利兹联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483736",
+      "round": 15,
+      "date": "2026-12-12 23:00",
+      "home": "曼城",
+      "away": "切尔西",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483738",
+      "round": 15,
+      "date": "2026-12-12 23:00",
+      "home": "桑德兰",
+      "away": "诺丁汉森林",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483754",
+      "round": 16,
+      "date": "2026-12-19 23:00",
+      "home": "阿森纳",
+      "away": "曼联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483757",
+      "round": 16,
+      "date": "2026-12-19 23:00",
+      "home": "伯恩茅斯",
+      "away": "考文垂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483761",
+      "round": 16,
+      "date": "2026-12-19 23:00",
+      "home": "布伦特福德",
+      "away": "纽卡斯尔联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483769",
+      "round": 16,
+      "date": "2026-12-19 23:00",
+      "home": "布莱顿",
+      "away": "伊普斯维奇",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483770",
+      "round": 16,
+      "date": "2026-12-19 23:00",
+      "home": "切尔西",
+      "away": "阿斯顿维拉",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483771",
+      "round": 16,
+      "date": "2026-12-19 23:00",
+      "home": "利兹联",
+      "away": "富勒姆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483774",
+      "round": 16,
+      "date": "2026-12-19 23:00",
+      "home": "利物浦",
+      "away": "托特纳姆热刺",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483778",
+      "round": 16,
+      "date": "2026-12-19 23:00",
+      "home": "曼城",
+      "away": "赫尔城",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483782",
+      "round": 16,
+      "date": "2026-12-19 23:00",
+      "home": "桑德兰",
+      "away": "水晶宫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483930",
+      "round": 16,
+      "date": "2026-12-19 23:00",
+      "home": "诺丁汉森林",
+      "away": "埃弗顿",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483791",
+      "round": 17,
+      "date": "2026-12-26 20:30",
+      "home": "阿斯顿维拉",
+      "away": "利兹联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483801",
+      "round": 17,
+      "date": "2026-12-26 23:00",
+      "home": "埃弗顿",
+      "away": "桑德兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483811",
+      "round": 17,
+      "date": "2026-12-26 23:00",
+      "home": "伊普斯维奇",
+      "away": "布伦特福德",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483819",
+      "round": 17,
+      "date": "2026-12-26 23:00",
+      "home": "托特纳姆热刺",
+      "away": "伯恩茅斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483931",
+      "round": 17,
+      "date": "2026-12-26 23:00",
+      "home": "富勒姆",
+      "away": "布莱顿",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483807",
+      "round": 17,
+      "date": "2026-12-27 01:30",
+      "home": "赫尔城",
+      "away": "利物浦",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483817",
+      "round": 17,
+      "date": "2026-12-27 04:00",
+      "home": "纽卡斯尔联",
+      "away": "曼城",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483794",
+      "round": 17,
+      "date": "2026-12-27 22:00",
+      "home": "考文垂",
+      "away": "切尔西",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483814",
+      "round": 17,
+      "date": "2026-12-28 00:30",
+      "home": "曼联",
+      "away": "诺丁汉森林",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483798",
+      "round": 17,
+      "date": "2026-12-28 03:00",
+      "home": "水晶宫",
+      "away": "阿森纳",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483839",
+      "round": 18,
+      "date": "2026-12-30 03:30",
+      "home": "赫尔城",
+      "away": "利兹联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483848",
+      "round": 18,
+      "date": "2026-12-30 03:30",
+      "home": "托特纳姆热刺",
+      "away": "布莱顿",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483834",
+      "round": 18,
+      "date": "2026-12-30 04:15",
+      "home": "埃弗顿",
+      "away": "曼城",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483831",
+      "round": 18,
+      "date": "2026-12-31 03:30",
+      "home": "水晶宫",
+      "away": "伯恩茅斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483836",
+      "round": 18,
+      "date": "2026-12-31 03:30",
+      "home": "富勒姆",
+      "away": "阿森纳",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483845",
+      "round": 18,
+      "date": "2026-12-31 03:30",
+      "home": "曼联",
+      "away": "桑德兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483846",
+      "round": 18,
+      "date": "2026-12-31 03:30",
+      "home": "纽卡斯尔联",
+      "away": "诺丁汉森林",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483932",
+      "round": 18,
+      "date": "2026-12-31 03:30",
+      "home": "考文垂",
+      "away": "布伦特福德",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483825",
+      "round": 18,
+      "date": "2026-12-31 04:15",
+      "home": "阿斯顿维拉",
+      "away": "利物浦",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483842",
+      "round": 18,
+      "date": "2026-12-31 04:15",
+      "home": "伊普斯维奇",
+      "away": "切尔西",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483860",
+      "round": 19,
+      "date": "2027-01-02 04:00",
+      "home": "利兹联",
+      "away": "埃弗顿",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483856",
+      "round": 19,
+      "date": "2027-01-02 20:30",
+      "home": "布莱顿",
+      "away": "曼联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483852",
+      "round": 19,
+      "date": "2027-01-02 23:00",
+      "home": "阿森纳",
+      "away": "伊普斯维奇",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483854",
+      "round": 19,
+      "date": "2027-01-02 23:00",
+      "home": "布伦特福德",
+      "away": "水晶宫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483862",
+      "round": 19,
+      "date": "2027-01-02 23:00",
+      "home": "利物浦",
+      "away": "考文垂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483868",
+      "round": 19,
+      "date": "2027-01-02 23:00",
+      "home": "诺丁汉森林",
+      "away": "富勒姆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483870",
+      "round": 19,
+      "date": "2027-01-02 23:00",
+      "home": "桑德兰",
+      "away": "赫尔城",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483853",
+      "round": 19,
+      "date": "2027-01-03 01:30",
+      "home": "伯恩茅斯",
+      "away": "阿斯顿维拉",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483858",
+      "round": 19,
+      "date": "2027-01-03 22:00",
+      "home": "切尔西",
+      "away": "纽卡斯尔联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483865",
+      "round": 19,
+      "date": "2027-01-04 00:30",
+      "home": "曼城",
+      "away": "托特纳姆热刺",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483876",
+      "round": 20,
+      "date": "2027-01-06 03:30",
+      "home": "阿森纳",
+      "away": "布伦特福德",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483878",
+      "round": 20,
+      "date": "2027-01-06 03:30",
+      "home": "布莱顿",
+      "away": "伯恩茅斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483887",
+      "round": 20,
+      "date": "2027-01-06 03:30",
+      "home": "埃弗顿",
+      "away": "阿斯顿维拉",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483899",
+      "round": 20,
+      "date": "2027-01-06 03:30",
+      "home": "诺丁汉森林",
+      "away": "赫尔城",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483901",
+      "round": 20,
+      "date": "2027-01-06 04:15",
+      "home": "桑德兰",
+      "away": "利物浦",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483881",
+      "round": 20,
+      "date": "2027-01-07 03:30",
+      "home": "水晶宫",
+      "away": "切尔西",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483891",
+      "round": 20,
+      "date": "2027-01-07 03:30",
+      "home": "伊普斯维奇",
+      "away": "考文垂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483933",
+      "round": 20,
+      "date": "2027-01-07 03:30",
+      "home": "富勒姆",
+      "away": "托特纳姆热刺",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483895",
+      "round": 20,
+      "date": "2027-01-07 04:15",
+      "home": "利兹联",
+      "away": "曼城",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483897",
+      "round": 20,
+      "date": "2027-01-08 04:00",
+      "home": "曼联",
+      "away": "纽卡斯尔联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483542",
+      "round": 21,
+      "date": "2027-01-16 23:00",
+      "home": "阿斯顿维拉",
+      "away": "曼联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483545",
+      "round": 21,
+      "date": "2027-01-16 23:00",
+      "home": "伯恩茅斯",
+      "away": "伊普斯维奇",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483548",
+      "round": 21,
+      "date": "2027-01-16 23:00",
+      "home": "布伦特福德",
+      "away": "布莱顿",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483550",
+      "round": 21,
+      "date": "2027-01-16 23:00",
+      "home": "切尔西",
+      "away": "桑德兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483551",
+      "round": 21,
+      "date": "2027-01-16 23:00",
+      "home": "考文垂",
+      "away": "埃弗顿",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483555",
+      "round": 21,
+      "date": "2027-01-16 23:00",
+      "home": "赫尔城",
+      "away": "阿森纳",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483559",
+      "round": 21,
+      "date": "2027-01-16 23:00",
+      "home": "利物浦",
+      "away": "水晶宫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483561",
+      "round": 21,
+      "date": "2027-01-16 23:00",
+      "home": "曼城",
+      "away": "诺丁汉森林",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483563",
+      "round": 21,
+      "date": "2027-01-16 23:00",
+      "home": "纽卡斯尔联",
+      "away": "富勒姆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483566",
+      "round": 21,
+      "date": "2027-01-16 23:00",
+      "home": "托特纳姆热刺",
+      "away": "利兹联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483571",
+      "round": 22,
+      "date": "2027-01-23 23:00",
+      "home": "阿森纳",
+      "away": "纽卡斯尔联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483579",
+      "round": 22,
+      "date": "2027-01-23 23:00",
+      "home": "布莱顿",
+      "away": "曼城",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483584",
+      "round": 22,
+      "date": "2027-01-23 23:00",
+      "home": "水晶宫",
+      "away": "托特纳姆热刺",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483590",
+      "round": 22,
+      "date": "2027-01-23 23:00",
+      "home": "富勒姆",
+      "away": "阿斯顿维拉",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483593",
+      "round": 22,
+      "date": "2027-01-23 23:00",
+      "home": "伊普斯维奇",
+      "away": "赫尔城",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483596",
+      "round": 22,
+      "date": "2027-01-23 23:00",
+      "home": "利兹联",
+      "away": "切尔西",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483599",
+      "round": 22,
+      "date": "2027-01-23 23:00",
+      "home": "曼联",
+      "away": "利物浦",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483602",
+      "round": 22,
+      "date": "2027-01-23 23:00",
+      "home": "诺丁汉森林",
+      "away": "伯恩茅斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483607",
+      "round": 22,
+      "date": "2027-01-23 23:00",
+      "home": "桑德兰",
+      "away": "考文垂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483693",
+      "round": 22,
+      "date": "2027-01-23 23:00",
+      "home": "埃弗顿",
+      "away": "布伦特福德",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483615",
+      "round": 23,
+      "date": "2027-01-30 23:00",
+      "home": "伯恩茅斯",
+      "away": "富勒姆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483617",
+      "round": 23,
+      "date": "2027-01-30 23:00",
+      "home": "布伦特福德",
+      "away": "曼联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483624",
+      "round": 23,
+      "date": "2027-01-30 23:00",
+      "home": "阿斯顿维拉",
+      "away": "伊普斯维奇",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483627",
+      "round": 23,
+      "date": "2027-01-30 23:00",
+      "home": "切尔西",
+      "away": "诺丁汉森林",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483639",
+      "round": 23,
+      "date": "2027-01-30 23:00",
+      "home": "考文垂",
+      "away": "利兹联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483651",
+      "round": 23,
+      "date": "2027-01-30 23:00",
+      "home": "赫尔城",
+      "away": "水晶宫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483654",
+      "round": 23,
+      "date": "2027-01-30 23:00",
+      "home": "利物浦",
+      "away": "埃弗顿",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483658",
+      "round": 23,
+      "date": "2027-01-30 23:00",
+      "home": "曼城",
+      "away": "阿森纳",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483661",
+      "round": 23,
+      "date": "2027-01-30 23:00",
+      "home": "纽卡斯尔联",
+      "away": "布莱顿",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483664",
+      "round": 23,
+      "date": "2027-01-30 23:00",
+      "home": "托特纳姆热刺",
+      "away": "桑德兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483668",
+      "round": 24,
+      "date": "2027-02-06 23:00",
+      "home": "阿森纳",
+      "away": "利物浦",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483672",
+      "round": 24,
+      "date": "2027-02-06 23:00",
+      "home": "布莱顿",
+      "away": "赫尔城",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483674",
+      "round": 24,
+      "date": "2027-02-06 23:00",
+      "home": "水晶宫",
+      "away": "考文垂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483676",
+      "round": 24,
+      "date": "2027-02-06 23:00",
+      "home": "埃弗顿",
+      "away": "纽卡斯尔联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483679",
+      "round": 24,
+      "date": "2027-02-06 23:00",
+      "home": "富勒姆",
+      "away": "曼城",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483681",
+      "round": 24,
+      "date": "2027-02-06 23:00",
+      "home": "伊普斯维奇",
+      "away": "托特纳姆热刺",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483684",
+      "round": 24,
+      "date": "2027-02-06 23:00",
+      "home": "利兹联",
+      "away": "伯恩茅斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483686",
+      "round": 24,
+      "date": "2027-02-06 23:00",
+      "home": "曼联",
+      "away": "切尔西",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483688",
+      "round": 24,
+      "date": "2027-02-06 23:00",
+      "home": "诺丁汉森林",
+      "away": "布伦特福德",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483689",
+      "round": 24,
+      "date": "2027-02-06 23:00",
+      "home": "桑德兰",
+      "away": "阿斯顿维拉",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483701",
+      "round": 25,
+      "date": "2027-02-11 04:00",
+      "home": "阿斯顿维拉",
+      "away": "伯恩茅斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483704",
+      "round": 25,
+      "date": "2027-02-11 04:00",
+      "home": "考文垂",
+      "away": "利物浦",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483706",
+      "round": 25,
+      "date": "2027-02-11 04:00",
+      "home": "水晶宫",
+      "away": "布伦特福德",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483709",
+      "round": 25,
+      "date": "2027-02-11 04:00",
+      "home": "埃弗顿",
+      "away": "利兹联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483711",
+      "round": 25,
+      "date": "2027-02-11 04:00",
+      "home": "富勒姆",
+      "away": "诺丁汉森林",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483714",
+      "round": 25,
+      "date": "2027-02-11 04:00",
+      "home": "赫尔城",
+      "away": "桑德兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483717",
+      "round": 25,
+      "date": "2027-02-11 04:00",
+      "home": "伊普斯维奇",
+      "away": "阿森纳",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483720",
+      "round": 25,
+      "date": "2027-02-11 04:00",
+      "home": "曼联",
+      "away": "布莱顿",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483722",
+      "round": 25,
+      "date": "2027-02-11 04:00",
+      "home": "纽卡斯尔联",
+      "away": "切尔西",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483724",
+      "round": 25,
+      "date": "2027-02-11 04:00",
+      "home": "托特纳姆热刺",
+      "away": "曼城",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483745",
+      "round": 26,
+      "date": "2027-02-20 23:00",
+      "home": "阿森纳",
+      "away": "富勒姆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483746",
+      "round": 26,
+      "date": "2027-02-20 23:00",
+      "home": "伯恩茅斯",
+      "away": "水晶宫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483748",
+      "round": 26,
+      "date": "2027-02-20 23:00",
+      "home": "布伦特福德",
+      "away": "考文垂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483750",
+      "round": 26,
+      "date": "2027-02-20 23:00",
+      "home": "布莱顿",
+      "away": "托特纳姆热刺",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483755",
+      "round": 26,
+      "date": "2027-02-20 23:00",
+      "home": "切尔西",
+      "away": "伊普斯维奇",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483760",
+      "round": 26,
+      "date": "2027-02-20 23:00",
+      "home": "利兹联",
+      "away": "阿斯顿维拉",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483762",
+      "round": 26,
+      "date": "2027-02-20 23:00",
+      "home": "利物浦",
+      "away": "赫尔城",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483764",
+      "round": 26,
+      "date": "2027-02-20 23:00",
+      "home": "曼城",
+      "away": "纽卡斯尔联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483766",
+      "round": 26,
+      "date": "2027-02-20 23:00",
+      "home": "诺丁汉森林",
+      "away": "曼联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483768",
+      "round": 26,
+      "date": "2027-02-20 23:00",
+      "home": "桑德兰",
+      "away": "埃弗顿",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483773",
+      "round": 27,
+      "date": "2027-02-27 23:00",
+      "home": "阿斯顿维拉",
+      "away": "切尔西",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483775",
+      "round": 27,
+      "date": "2027-02-27 23:00",
+      "home": "考文垂",
+      "away": "伯恩茅斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483780",
+      "round": 27,
+      "date": "2027-02-27 23:00",
+      "home": "水晶宫",
+      "away": "桑德兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483784",
+      "round": 27,
+      "date": "2027-02-27 23:00",
+      "home": "埃弗顿",
+      "away": "诺丁汉森林",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483787",
+      "round": 27,
+      "date": "2027-02-27 23:00",
+      "home": "富勒姆",
+      "away": "利兹联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483789",
+      "round": 27,
+      "date": "2027-02-27 23:00",
+      "home": "赫尔城",
+      "away": "曼城",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483790",
+      "round": 27,
+      "date": "2027-02-27 23:00",
+      "home": "伊普斯维奇",
+      "away": "布莱顿",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483795",
+      "round": 27,
+      "date": "2027-02-27 23:00",
+      "home": "曼联",
+      "away": "阿森纳",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483799",
+      "round": 27,
+      "date": "2027-02-27 23:00",
+      "home": "纽卡斯尔联",
+      "away": "布伦特福德",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483803",
+      "round": 27,
+      "date": "2027-02-27 23:00",
+      "home": "托特纳姆热刺",
+      "away": "利物浦",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483822",
+      "round": 28,
+      "date": "2027-03-04 04:00",
+      "home": "阿森纳",
+      "away": "水晶宫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483824",
+      "round": 28,
+      "date": "2027-03-04 04:00",
+      "home": "伯恩茅斯",
+      "away": "托特纳姆热刺",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483829",
+      "round": 28,
+      "date": "2027-03-04 04:00",
+      "home": "布伦特福德",
+      "away": "伊普斯维奇",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483833",
+      "round": 28,
+      "date": "2027-03-04 04:00",
+      "home": "布莱顿",
+      "away": "富勒姆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483837",
+      "round": 28,
+      "date": "2027-03-04 04:00",
+      "home": "切尔西",
+      "away": "考文垂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483841",
+      "round": 28,
+      "date": "2027-03-04 04:00",
+      "home": "利兹联",
+      "away": "赫尔城",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483844",
+      "round": 28,
+      "date": "2027-03-04 04:00",
+      "home": "利物浦",
+      "away": "阿斯顿维拉",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483847",
+      "round": 28,
+      "date": "2027-03-04 04:00",
+      "home": "曼城",
+      "away": "埃弗顿",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483850",
+      "round": 28,
+      "date": "2027-03-04 04:00",
+      "home": "诺丁汉森林",
+      "away": "纽卡斯尔联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483851",
+      "round": 28,
+      "date": "2027-03-04 04:00",
+      "home": "桑德兰",
+      "away": "曼联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483855",
+      "round": 29,
+      "date": "2027-03-13 23:00",
+      "home": "阿斯顿维拉",
+      "away": "赫尔城",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483857",
+      "round": 29,
+      "date": "2027-03-13 23:00",
+      "home": "伯恩茅斯",
+      "away": "纽卡斯尔联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483859",
+      "round": 29,
+      "date": "2027-03-13 23:00",
+      "home": "切尔西",
+      "away": "阿森纳",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483861",
+      "round": 29,
+      "date": "2027-03-13 23:00",
+      "home": "考文垂",
+      "away": "曼城",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483863",
+      "round": 29,
+      "date": "2027-03-13 23:00",
+      "home": "水晶宫",
+      "away": "富勒姆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483867",
+      "round": 29,
+      "date": "2027-03-13 23:00",
+      "home": "利兹联",
+      "away": "布莱顿",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483871",
+      "round": 29,
+      "date": "2027-03-13 23:00",
+      "home": "利物浦",
+      "away": "伊普斯维奇",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483873",
+      "round": 29,
+      "date": "2027-03-13 23:00",
+      "home": "曼联",
+      "away": "埃弗顿",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483875",
+      "round": 29,
+      "date": "2027-03-13 23:00",
+      "home": "桑德兰",
+      "away": "布伦特福德",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483877",
+      "round": 29,
+      "date": "2027-03-13 23:00",
+      "home": "托特纳姆热刺",
+      "away": "诺丁汉森林",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483880",
+      "round": 30,
+      "date": "2027-03-20 23:00",
+      "home": "阿森纳",
+      "away": "桑德兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483883",
+      "round": 30,
+      "date": "2027-03-20 23:00",
+      "home": "布伦特福德",
+      "away": "伯恩茅斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483886",
+      "round": 30,
+      "date": "2027-03-20 23:00",
+      "home": "埃弗顿",
+      "away": "托特纳姆热刺",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483890",
+      "round": 30,
+      "date": "2027-03-20 23:00",
+      "home": "富勒姆",
+      "away": "利物浦",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483892",
+      "round": 30,
+      "date": "2027-03-20 23:00",
+      "home": "布莱顿",
+      "away": "考文垂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483894",
+      "round": 30,
+      "date": "2027-03-20 23:00",
+      "home": "赫尔城",
+      "away": "切尔西",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483896",
+      "round": 30,
+      "date": "2027-03-20 23:00",
+      "home": "伊普斯维奇",
+      "away": "水晶宫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483898",
+      "round": 30,
+      "date": "2027-03-20 23:00",
+      "home": "曼城",
+      "away": "曼联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483900",
+      "round": 30,
+      "date": "2027-03-20 23:00",
+      "home": "纽卡斯尔联",
+      "away": "利兹联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483903",
+      "round": 30,
+      "date": "2027-03-20 23:00",
+      "home": "诺丁汉森林",
+      "away": "阿斯顿维拉",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483914",
+      "round": 31,
+      "date": "2027-04-10 22:00",
+      "home": "阿斯顿维拉",
+      "away": "布莱顿",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483915",
+      "round": 31,
+      "date": "2027-04-10 22:00",
+      "home": "伯恩茅斯",
+      "away": "曼城",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483916",
+      "round": 31,
+      "date": "2027-04-10 22:00",
+      "home": "切尔西",
+      "away": "富勒姆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483922",
+      "round": 31,
+      "date": "2027-04-10 22:00",
+      "home": "考文垂",
+      "away": "阿森纳",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483923",
+      "round": 31,
+      "date": "2027-04-10 22:00",
+      "home": "水晶宫",
+      "away": "埃弗顿",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483924",
+      "round": 31,
+      "date": "2027-04-10 22:00",
+      "home": "利兹联",
+      "away": "诺丁汉森林",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483925",
+      "round": 31,
+      "date": "2027-04-10 22:00",
+      "home": "利物浦",
+      "away": "纽卡斯尔联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483926",
+      "round": 31,
+      "date": "2027-04-10 22:00",
+      "home": "曼联",
+      "away": "赫尔城",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483927",
+      "round": 31,
+      "date": "2027-04-10 22:00",
+      "home": "桑德兰",
+      "away": "伊普斯维奇",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483928",
+      "round": 31,
+      "date": "2027-04-10 22:00",
+      "home": "托特纳姆热刺",
+      "away": "布伦特福德",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483866",
+      "round": 32,
+      "date": "2027-04-17 22:00",
+      "home": "阿森纳",
+      "away": "阿斯顿维拉",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483869",
+      "round": 32,
+      "date": "2027-04-17 22:00",
+      "home": "布伦特福德",
+      "away": "利兹联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483872",
+      "round": 32,
+      "date": "2027-04-17 22:00",
+      "home": "布莱顿",
+      "away": "切尔西",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483874",
+      "round": 32,
+      "date": "2027-04-17 22:00",
+      "home": "埃弗顿",
+      "away": "伯恩茅斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483879",
+      "round": 32,
+      "date": "2027-04-17 22:00",
+      "home": "富勒姆",
+      "away": "桑德兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483882",
+      "round": 32,
+      "date": "2027-04-17 22:00",
+      "home": "赫尔城",
+      "away": "考文垂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483884",
+      "round": 32,
+      "date": "2027-04-17 22:00",
+      "home": "伊普斯维奇",
+      "away": "曼联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483888",
+      "round": 32,
+      "date": "2027-04-17 22:00",
+      "home": "纽卡斯尔联",
+      "away": "托特纳姆热刺",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483889",
+      "round": 32,
+      "date": "2027-04-17 22:00",
+      "home": "诺丁汉森林",
+      "away": "利物浦",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483893",
+      "round": 32,
+      "date": "2027-04-17 22:00",
+      "home": "曼城",
+      "away": "水晶宫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483902",
+      "round": 33,
+      "date": "2027-04-24 22:00",
+      "home": "阿斯顿维拉",
+      "away": "考文垂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483904",
+      "round": 33,
+      "date": "2027-04-24 22:00",
+      "home": "伯恩茅斯",
+      "away": "阿森纳",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483906",
+      "round": 33,
+      "date": "2027-04-24 22:00",
+      "home": "布伦特福德",
+      "away": "富勒姆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483907",
+      "round": 33,
+      "date": "2027-04-24 22:00",
+      "home": "切尔西",
+      "away": "曼城",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483908",
+      "round": 33,
+      "date": "2027-04-24 22:00",
+      "home": "埃弗顿",
+      "away": "布莱顿",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483909",
+      "round": 33,
+      "date": "2027-04-24 22:00",
+      "home": "利兹联",
+      "away": "利物浦",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483910",
+      "round": 33,
+      "date": "2027-04-24 22:00",
+      "home": "曼联",
+      "away": "水晶宫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483911",
+      "round": 33,
+      "date": "2027-04-24 22:00",
+      "home": "纽卡斯尔联",
+      "away": "伊普斯维奇",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483912",
+      "round": 33,
+      "date": "2027-04-24 22:00",
+      "home": "诺丁汉森林",
+      "away": "桑德兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483913",
+      "round": 33,
+      "date": "2027-04-24 22:00",
+      "home": "托特纳姆热刺",
+      "away": "赫尔城",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483823",
+      "round": 34,
+      "date": "2027-05-01 22:00",
+      "home": "阿森纳",
+      "away": "托特纳姆热刺",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483826",
+      "round": 34,
+      "date": "2027-05-01 22:00",
+      "home": "布莱顿",
+      "away": "诺丁汉森林",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483828",
+      "round": 34,
+      "date": "2027-05-01 22:00",
+      "home": "考文垂",
+      "away": "曼联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483830",
+      "round": 34,
+      "date": "2027-05-01 22:00",
+      "home": "水晶宫",
+      "away": "阿斯顿维拉",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483832",
+      "round": 34,
+      "date": "2027-05-01 22:00",
+      "home": "富勒姆",
+      "away": "埃弗顿",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483835",
+      "round": 34,
+      "date": "2027-05-01 22:00",
+      "home": "赫尔城",
+      "away": "伯恩茅斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483838",
+      "round": 34,
+      "date": "2027-05-01 22:00",
+      "home": "伊普斯维奇",
+      "away": "利兹联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483840",
+      "round": 34,
+      "date": "2027-05-01 22:00",
+      "home": "利物浦",
+      "away": "切尔西",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483843",
+      "round": 34,
+      "date": "2027-05-01 22:00",
+      "home": "曼城",
+      "away": "布伦特福德",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483849",
+      "round": 34,
+      "date": "2027-05-01 22:00",
+      "home": "桑德兰",
+      "away": "纽卡斯尔联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483792",
+      "round": 35,
+      "date": "2027-05-08 22:00",
+      "home": "伯恩茅斯",
+      "away": "曼联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483796",
+      "round": 35,
+      "date": "2027-05-08 22:00",
+      "home": "布伦特福德",
+      "away": "阿斯顿维拉",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483800",
+      "round": 35,
+      "date": "2027-05-08 22:00",
+      "home": "布莱顿",
+      "away": "桑德兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483804",
+      "round": 35,
+      "date": "2027-05-08 22:00",
+      "home": "埃弗顿",
+      "away": "赫尔城",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483806",
+      "round": 35,
+      "date": "2027-05-08 22:00",
+      "home": "富勒姆",
+      "away": "伊普斯维奇",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483809",
+      "round": 35,
+      "date": "2027-05-08 22:00",
+      "home": "利兹联",
+      "away": "阿森纳",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483812",
+      "round": 35,
+      "date": "2027-05-08 22:00",
+      "home": "曼城",
+      "away": "利物浦",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483813",
+      "round": 35,
+      "date": "2027-05-08 22:00",
+      "home": "纽卡斯尔联",
+      "away": "考文垂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483816",
+      "round": 35,
+      "date": "2027-05-08 22:00",
+      "home": "诺丁汉森林",
+      "away": "水晶宫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483820",
+      "round": 35,
+      "date": "2027-05-08 22:00",
+      "home": "托特纳姆热刺",
+      "away": "切尔西",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483752",
+      "round": 36,
+      "date": "2027-05-15 22:00",
+      "home": "阿森纳",
+      "away": "诺丁汉森林",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483756",
+      "round": 36,
+      "date": "2027-05-15 22:00",
+      "home": "阿斯顿维拉",
+      "away": "纽卡斯尔联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483759",
+      "round": 36,
+      "date": "2027-05-15 22:00",
+      "home": "切尔西",
+      "away": "埃弗顿",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483763",
+      "round": 36,
+      "date": "2027-05-15 22:00",
+      "home": "考文垂",
+      "away": "托特纳姆热刺",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483765",
+      "round": 36,
+      "date": "2027-05-15 22:00",
+      "home": "水晶宫",
+      "away": "布莱顿",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483767",
+      "round": 36,
+      "date": "2027-05-15 22:00",
+      "home": "赫尔城",
+      "away": "富勒姆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483777",
+      "round": 36,
+      "date": "2027-05-15 22:00",
+      "home": "伊普斯维奇",
+      "away": "曼城",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483779",
+      "round": 36,
+      "date": "2027-05-15 22:00",
+      "home": "利物浦",
+      "away": "布伦特福德",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483783",
+      "round": 36,
+      "date": "2027-05-15 22:00",
+      "home": "曼联",
+      "away": "利兹联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483786",
+      "round": 36,
+      "date": "2027-05-15 22:00",
+      "home": "桑德兰",
+      "away": "伯恩茅斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483587",
+      "round": 37,
+      "date": "2027-05-23 22:00",
+      "home": "伯恩茅斯",
+      "away": "切尔西",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483589",
+      "round": 37,
+      "date": "2027-05-23 22:00",
+      "home": "布伦特福德",
+      "away": "赫尔城",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483600",
+      "round": 37,
+      "date": "2027-05-23 22:00",
+      "home": "布莱顿",
+      "away": "利物浦",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483601",
+      "round": 37,
+      "date": "2027-05-23 22:00",
+      "home": "埃弗顿",
+      "away": "阿森纳",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483603",
+      "round": 37,
+      "date": "2027-05-23 22:00",
+      "home": "富勒姆",
+      "away": "考文垂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483604",
+      "round": 37,
+      "date": "2027-05-23 22:00",
+      "home": "利兹联",
+      "away": "桑德兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483608",
+      "round": 37,
+      "date": "2027-05-23 22:00",
+      "home": "曼城",
+      "away": "阿斯顿维拉",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483609",
+      "round": 37,
+      "date": "2027-05-23 22:00",
+      "home": "纽卡斯尔联",
+      "away": "水晶宫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483611",
+      "round": 37,
+      "date": "2027-05-23 22:00",
+      "home": "诺丁汉森林",
+      "away": "伊普斯维奇",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483613",
+      "round": 37,
+      "date": "2027-05-23 22:00",
+      "home": "托特纳姆热刺",
+      "away": "曼联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483552",
+      "round": 38,
+      "date": "2027-05-30 23:00",
+      "home": "阿森纳",
+      "away": "布莱顿",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483554",
+      "round": 38,
+      "date": "2027-05-30 23:00",
+      "home": "阿斯顿维拉",
+      "away": "托特纳姆热刺",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483556",
+      "round": 38,
+      "date": "2027-05-30 23:00",
+      "home": "切尔西",
+      "away": "布伦特福德",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483567",
+      "round": 38,
+      "date": "2027-05-30 23:00",
+      "home": "考文垂",
+      "away": "诺丁汉森林",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483569",
+      "round": 38,
+      "date": "2027-05-30 23:00",
+      "home": "水晶宫",
+      "away": "利兹联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483570",
+      "round": 38,
+      "date": "2027-05-30 23:00",
+      "home": "赫尔城",
+      "away": "纽卡斯尔联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483573",
+      "round": 38,
+      "date": "2027-05-30 23:00",
+      "home": "伊普斯维奇",
+      "away": "埃弗顿",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483576",
+      "round": 38,
+      "date": "2027-05-30 23:00",
+      "home": "利物浦",
+      "away": "伯恩茅斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483580",
+      "round": 38,
+      "date": "2027-05-30 23:00",
+      "home": "曼联",
+      "away": "富勒姆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483583",
+      "round": 38,
+      "date": "2027-05-30 23:00",
+      "home": "桑德兰",
+      "away": "曼城",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    }
+  ],
+  "points": {
+    "win": 3,
+    "draw": 1,
+    "loss": 0
+  },
+  "tiebreak": [
+    "points",
+    "gd",
+    "gf",
+    "wins"
+  ],
+  "slots": [
+    {
+      "from": 1,
+      "to": 1,
+      "type": "title",
+      "label": "冠军",
+      "color": "#ffd54f"
+    },
+    {
+      "from": 1,
+      "to": 4,
+      "type": "ucl",
+      "label": "欧冠区",
+      "color": "#1565c0"
+    },
+    {
+      "from": 5,
+      "to": 5,
+      "type": "uel",
+      "label": "欧联区",
+      "color": "#1565c0"
+    },
+    {
+      "from": 18,
+      "to": 20,
+      "type": "relegation",
+      "label": "降级",
+      "color": "#c62828"
+    }
+  ],
+  "model": {},
+  "meta": {
+    "source": "dongqiudi:4",
+    "fetchedAt": "2026-10-18T12:39:25.776Z",
+    "maxRound": 38,
+    "url": "https://www.dongqiudi.com/data?cid=4&tab=schedule",
+    "cid": 4,
+    "officialTable": [
+      {
+        "rank": 1,
+        "name": "曼城",
+        "played": null,
+        "wins": 7,
+        "draws": 7,
+        "losses": 0,
+        "gf": 19,
+        "ga": 7,
+        "gd": 12,
+        "points": 21
+      },
+      {
+        "rank": 2,
+        "name": "阿森纳",
+        "played": null,
+        "wins": 6,
+        "draws": 5,
+        "losses": 0,
+        "gf": 10,
+        "ga": 5,
+        "gd": 5,
+        "points": 15
+      },
+      {
+        "rank": 3,
+        "name": "布莱顿",
+        "played": null,
+        "wins": 6,
+        "draws": 4,
+        "losses": 1,
+        "gf": 18,
+        "ga": 5,
+        "gd": 13,
+        "points": 13
+      },
+      {
+        "rank": 4,
+        "name": "切尔西",
+        "played": null,
+        "wins": 7,
+        "draws": 4,
+        "losses": 1,
+        "gf": 17,
+        "ga": 13,
+        "gd": 4,
+        "points": 13
+      },
+      {
+        "rank": 5,
+        "name": "利物浦",
+        "played": null,
+        "wins": 7,
+        "draws": 3,
+        "losses": 3,
+        "gf": 9,
+        "ga": 8,
+        "gd": 1,
+        "points": 12
+      },
+      {
+        "rank": 6,
+        "name": "布伦特福德",
+        "played": null,
+        "wins": 7,
+        "draws": 2,
+        "losses": 4,
+        "gf": 13,
+        "ga": 8,
+        "gd": 5,
+        "points": 10
+      },
+      {
+        "rank": 7,
+        "name": "埃弗顿",
+        "played": null,
+        "wins": 7,
+        "draws": 2,
+        "losses": 4,
+        "gf": 8,
+        "ga": 7,
+        "gd": 1,
+        "points": 10
+      },
+      {
+        "rank": 8,
+        "name": "利兹联",
+        "played": null,
+        "wins": 6,
+        "draws": 2,
+        "losses": 3,
+        "gf": 8,
+        "ga": 5,
+        "gd": 3,
+        "points": 9
+      },
+      {
+        "rank": 9,
+        "name": "赫尔城",
+        "played": null,
+        "wins": 7,
+        "draws": 2,
+        "losses": 3,
+        "gf": 8,
+        "ga": 7,
+        "gd": 1,
+        "points": 9
+      },
+      {
+        "rank": 10,
+        "name": "伊普斯维奇",
+        "played": null,
+        "wins": 7,
+        "draws": 3,
+        "losses": 0,
+        "gf": 11,
+        "ga": 15,
+        "gd": -4,
+        "points": 9
+      },
+      {
+        "rank": 11,
+        "name": "纽卡斯尔联",
+        "played": null,
+        "wins": 7,
+        "draws": 2,
+        "losses": 2,
+        "gf": 10,
+        "ga": 14,
+        "gd": -4,
+        "points": 8
+      },
+      {
+        "rank": 12,
+        "name": "阿斯顿维拉",
+        "played": null,
+        "wins": 7,
+        "draws": 2,
+        "losses": 2,
+        "gf": 7,
+        "ga": 11,
+        "gd": -4,
+        "points": 8
+      },
+      {
+        "rank": 13,
+        "name": "水晶宫",
+        "played": null,
+        "wins": 6,
+        "draws": 2,
+        "losses": 1,
+        "gf": 9,
+        "ga": 12,
+        "gd": -3,
+        "points": 7
+      },
+      {
+        "rank": 14,
+        "name": "曼联",
+        "played": null,
+        "wins": 6,
+        "draws": 1,
+        "losses": 3,
+        "gf": 9,
+        "ga": 9,
+        "gd": 0,
+        "points": 6
+      },
+      {
+        "rank": 15,
+        "name": "考文垂",
+        "played": null,
+        "wins": 6,
+        "draws": 2,
+        "losses": 0,
+        "gf": 5,
+        "ga": 11,
+        "gd": -6,
+        "points": 6
+      },
+      {
+        "rank": 16,
+        "name": "富勒姆",
+        "played": null,
+        "wins": 7,
+        "draws": 1,
+        "losses": 2,
+        "gf": 7,
+        "ga": 10,
+        "gd": -3,
+        "points": 5
+      },
+      {
+        "rank": 17,
+        "name": "诺丁汉森林",
+        "played": null,
+        "wins": 6,
+        "draws": 1,
+        "losses": 2,
+        "gf": 5,
+        "ga": 8,
+        "gd": -3,
+        "points": 5
+      },
+      {
+        "rank": 18,
+        "name": "桑德兰",
+        "played": null,
+        "wins": 6,
+        "draws": 1,
+        "losses": 1,
+        "gf": 6,
+        "ga": 12,
+        "gd": -6,
+        "points": 4
+      },
+      {
+        "rank": 19,
+        "name": "伯恩茅斯",
+        "played": null,
+        "wins": 6,
+        "draws": 0,
+        "losses": 3,
+        "gf": 7,
+        "ga": 13,
+        "gd": -6,
+        "points": 3
+      },
+      {
+        "rank": 20,
+        "name": "托特纳姆热刺",
+        "played": null,
+        "wins": 6,
+        "draws": 0,
+        "losses": 3,
+        "gf": 3,
+        "ga": 9,
+        "gd": -6,
+        "points": 3
+      }
+    ],
+    "deductions": []
+  }
+}

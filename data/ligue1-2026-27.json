@@ -1,0 +1,3409 @@
+{
+  "id": "ligue1",
+  "name": "法甲",
+  "season": "2026-27",
+  "teams": [
+    {
+      "id": "马赛",
+      "name": "马赛"
+    },
+    {
+      "id": "斯特拉斯堡",
+      "name": "斯特拉斯堡"
+    },
+    {
+      "id": "朗斯",
+      "name": "朗斯"
+    },
+    {
+      "id": "欧塞尔",
+      "name": "欧塞尔"
+    },
+    {
+      "id": "勒芒",
+      "name": "勒芒"
+    },
+    {
+      "id": "布雷斯特",
+      "name": "布雷斯特"
+    },
+    {
+      "id": "尼斯",
+      "name": "尼斯"
+    },
+    {
+      "id": "洛里昂",
+      "name": "洛里昂"
+    },
+    {
+      "id": "图卢兹",
+      "name": "图卢兹"
+    },
+    {
+      "id": "里昂",
+      "name": "里昂"
+    },
+    {
+      "id": "特鲁瓦",
+      "name": "特鲁瓦"
+    },
+    {
+      "id": "巴黎FC",
+      "name": "巴黎FC"
+    },
+    {
+      "id": "昂热",
+      "name": "昂热"
+    },
+    {
+      "id": "里尔",
+      "name": "里尔"
+    },
+    {
+      "id": "勒阿弗尔",
+      "name": "勒阿弗尔"
+    },
+    {
+      "id": "摩纳哥",
+      "name": "摩纳哥"
+    },
+    {
+      "id": "雷恩",
+      "name": "雷恩"
+    },
+    {
+      "id": "巴黎圣日耳曼",
+      "name": "巴黎圣日耳曼"
+    }
+  ],
+  "matches": [
+    {
+      "id": "54473851",
+      "round": 1,
+      "date": "2026-08-22 02:45",
+      "home": "马赛",
+      "away": "斯特拉斯堡",
+      "homeGoals": 4,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54473850",
+      "round": 1,
+      "date": "2026-08-22 23:15",
+      "home": "朗斯",
+      "away": "欧塞尔",
+      "homeGoals": 5,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54473849",
+      "round": 1,
+      "date": "2026-08-23 02:45",
+      "home": "勒芒",
+      "away": "布雷斯特",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54473852",
+      "round": 1,
+      "date": "2026-08-23 02:45",
+      "home": "尼斯",
+      "away": "洛里昂",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54473854",
+      "round": 1,
+      "date": "2026-08-23 02:45",
+      "home": "图卢兹",
+      "away": "里昂",
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54473855",
+      "round": 1,
+      "date": "2026-08-23 02:45",
+      "home": "特鲁瓦",
+      "away": "巴黎FC",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54473847",
+      "round": 1,
+      "date": "2026-08-23 21:00",
+      "home": "昂热",
+      "away": "里尔",
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54473848",
+      "round": 1,
+      "date": "2026-08-23 23:15",
+      "home": "勒阿弗尔",
+      "away": "摩纳哥",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54474051",
+      "round": 1,
+      "date": "2026-08-24 02:45",
+      "home": "雷恩",
+      "away": "巴黎圣日耳曼",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54473864",
+      "round": 2,
+      "date": "2026-08-29 03:00",
+      "home": "里尔",
+      "away": "巴黎圣日耳曼",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54473863",
+      "round": 2,
+      "date": "2026-08-29 23:15",
+      "home": "斯特拉斯堡",
+      "away": "朗斯",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54473856",
+      "round": 2,
+      "date": "2026-08-30 02:45",
+      "home": "欧塞尔",
+      "away": "昂热",
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54473857",
+      "round": 2,
+      "date": "2026-08-30 02:45",
+      "home": "布雷斯特",
+      "away": "图卢兹",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54473858",
+      "round": 2,
+      "date": "2026-08-30 02:45",
+      "home": "洛里昂",
+      "away": "特鲁瓦",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54473859",
+      "round": 2,
+      "date": "2026-08-30 02:45",
+      "home": "里昂",
+      "away": "勒阿弗尔",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54473861",
+      "round": 2,
+      "date": "2026-08-30 21:00",
+      "home": "巴黎FC",
+      "away": "尼斯",
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54473862",
+      "round": 2,
+      "date": "2026-08-30 23:15",
+      "home": "雷恩",
+      "away": "勒芒",
+      "homeGoals": 3,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54473860",
+      "round": 2,
+      "date": "2026-08-31 02:45",
+      "home": "摩纳哥",
+      "away": "马赛",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54473872",
+      "round": 3,
+      "date": "2026-09-04 02:45",
+      "home": "图卢兹",
+      "away": "里尔",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54473868",
+      "round": 3,
+      "date": "2026-09-05 01:00",
+      "home": "里昂",
+      "away": "欧塞尔",
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54473871",
+      "round": 3,
+      "date": "2026-09-05 03:05",
+      "home": "巴黎圣日耳曼",
+      "away": "摩纳哥",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54473867",
+      "round": 3,
+      "date": "2026-09-05 23:15",
+      "home": "朗斯",
+      "away": "洛里昂",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54473866",
+      "round": 3,
+      "date": "2026-09-06 02:45",
+      "home": "勒阿弗尔",
+      "away": "布雷斯特",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54473870",
+      "round": 3,
+      "date": "2026-09-06 02:45",
+      "home": "尼斯",
+      "away": "勒芒",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54473873",
+      "round": 3,
+      "date": "2026-09-06 21:00",
+      "home": "特鲁瓦",
+      "away": "斯特拉斯堡",
+      "homeGoals": 2,
+      "awayGoals": 6,
+      "played": true
+    },
+    {
+      "id": "54473865",
+      "round": 3,
+      "date": "2026-09-06 23:15",
+      "home": "昂热",
+      "away": "雷恩",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54473869",
+      "round": 3,
+      "date": "2026-09-07 02:45",
+      "home": "马赛",
+      "away": "巴黎FC",
+      "homeGoals": 2,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54473881",
+      "round": 4,
+      "date": "2026-09-12 02:45",
+      "home": "雷恩",
+      "away": "马赛",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54473882",
+      "round": 4,
+      "date": "2026-09-12 23:15",
+      "home": "斯特拉斯堡",
+      "away": "摩纳哥",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54473874",
+      "round": 4,
+      "date": "2026-09-13 02:45",
+      "home": "欧塞尔",
+      "away": "尼斯",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54473876",
+      "round": 4,
+      "date": "2026-09-13 02:45",
+      "home": "勒阿弗尔",
+      "away": "昂热",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54473879",
+      "round": 4,
+      "date": "2026-09-13 02:45",
+      "home": "洛里昂",
+      "away": "图卢兹",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54473880",
+      "round": 4,
+      "date": "2026-09-13 02:45",
+      "home": "巴黎FC",
+      "away": "里昂",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54473878",
+      "round": 4,
+      "date": "2026-09-13 21:00",
+      "home": "里尔",
+      "away": "特鲁瓦",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54473877",
+      "round": 4,
+      "date": "2026-09-13 23:15",
+      "home": "勒芒",
+      "away": "朗斯",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54473875",
+      "round": 4,
+      "date": "2026-09-14 02:45",
+      "home": "布雷斯特",
+      "away": "巴黎圣日耳曼",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54473887",
+      "round": 5,
+      "date": "2026-09-19 02:45",
+      "home": "摩纳哥",
+      "away": "朗斯",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54473889",
+      "round": 5,
+      "date": "2026-09-19 23:15",
+      "home": "巴黎FC",
+      "away": "斯特拉斯堡",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54473883",
+      "round": 5,
+      "date": "2026-09-20 02:45",
+      "home": "昂热",
+      "away": "特鲁瓦",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54473885",
+      "round": 5,
+      "date": "2026-09-20 02:45",
+      "home": "勒芒",
+      "away": "洛里昂",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54473886",
+      "round": 5,
+      "date": "2026-09-20 02:45",
+      "home": "里昂",
+      "away": "雷恩",
+      "homeGoals": 4,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54473890",
+      "round": 5,
+      "date": "2026-09-20 02:45",
+      "home": "图卢兹",
+      "away": "勒阿弗尔",
+      "homeGoals": 3,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54473884",
+      "round": 5,
+      "date": "2026-09-20 21:00",
+      "home": "欧塞尔",
+      "away": "布雷斯特",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54473888",
+      "round": 5,
+      "date": "2026-09-20 23:15",
+      "home": "尼斯",
+      "away": "里尔",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54473891",
+      "round": 5,
+      "date": "2026-09-21 02:45",
+      "home": "马赛",
+      "away": "巴黎圣日耳曼",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54473893",
+      "round": 6,
+      "date": "2026-10-10 02:45",
+      "home": "朗斯",
+      "away": "里昂",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54473894",
+      "round": 6,
+      "date": "2026-10-10 23:15",
+      "home": "里尔",
+      "away": "勒阿弗尔",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54473892",
+      "round": 6,
+      "date": "2026-10-11 02:45",
+      "home": "布雷斯特",
+      "away": "昂热",
+      "homeGoals": 5,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54473895",
+      "round": 6,
+      "date": "2026-10-11 02:45",
+      "home": "洛里昂",
+      "away": "巴黎FC",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
+    },
+    {
+      "id": "54473896",
+      "round": 6,
+      "date": "2026-10-11 02:45",
+      "home": "摩纳哥",
+      "away": "图卢兹",
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54473898",
+      "round": 6,
+      "date": "2026-10-11 02:45",
+      "home": "巴黎圣日耳曼",
+      "away": "勒芒",
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54473897",
+      "round": 6,
+      "date": "2026-10-11 21:00",
+      "home": "尼斯",
+      "away": "斯特拉斯堡",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54473899",
+      "round": 6,
+      "date": "2026-10-11 23:15",
+      "home": "雷恩",
+      "away": "欧塞尔",
+      "homeGoals": 4,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54473900",
+      "round": 6,
+      "date": "2026-10-12 02:45",
+      "home": "特鲁瓦",
+      "away": "马赛",
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "played": true
+    },
+    {
+      "id": "54473903",
+      "round": 7,
+      "date": "2026-10-17 02:45",
+      "home": "勒芒",
+      "away": "图卢兹",
+      "homeGoals": 0,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54473908",
+      "round": 7,
+      "date": "2026-10-17 23:15",
+      "home": "斯特拉斯堡",
+      "away": "巴黎圣日耳曼",
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54473904",
+      "round": 7,
+      "date": "2026-10-18 02:45",
+      "home": "里尔",
+      "away": "布雷斯特",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
+    },
+    {
+      "id": "54473909",
+      "round": 7,
+      "date": "2026-10-18 02:45",
+      "home": "特鲁瓦",
+      "away": "朗斯",
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "played": true
+    },
+    {
+      "id": "54473901",
+      "round": 7,
+      "date": "2026-10-18 21:00",
+      "home": "昂热",
+      "away": "马赛",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473902",
+      "round": 7,
+      "date": "2026-10-18 23:15",
+      "home": "勒阿弗尔",
+      "away": "欧塞尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473905",
+      "round": 7,
+      "date": "2026-10-18 23:15",
+      "home": "洛里昂",
+      "away": "摩纳哥",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473907",
+      "round": 7,
+      "date": "2026-10-18 23:15",
+      "home": "巴黎FC",
+      "away": "雷恩",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473906",
+      "round": 7,
+      "date": "2026-10-19 02:45",
+      "home": "里昂",
+      "away": "尼斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473912",
+      "round": 8,
+      "date": "2026-10-24 02:45",
+      "home": "布雷斯特",
+      "away": "尼斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473917",
+      "round": 8,
+      "date": "2026-10-24 23:15",
+      "home": "图卢兹",
+      "away": "特鲁瓦",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473913",
+      "round": 8,
+      "date": "2026-10-25 02:45",
+      "home": "朗斯",
+      "away": "巴黎FC",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473915",
+      "round": 8,
+      "date": "2026-10-25 22:00",
+      "home": "摩纳哥",
+      "away": "里尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473910",
+      "round": 8,
+      "date": "2026-10-26 00:15",
+      "home": "昂热",
+      "away": "洛里昂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473911",
+      "round": 8,
+      "date": "2026-10-26 00:15",
+      "home": "欧塞尔",
+      "away": "勒芒",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473914",
+      "round": 8,
+      "date": "2026-10-26 00:15",
+      "home": "马赛",
+      "away": "勒阿弗尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473916",
+      "round": 8,
+      "date": "2026-10-26 00:15",
+      "home": "雷恩",
+      "away": "斯特拉斯堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473918",
+      "round": 8,
+      "date": "2026-10-26 03:45",
+      "home": "巴黎圣日耳曼",
+      "away": "里昂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473919",
+      "round": 9,
+      "date": "2026-10-31 02:00",
+      "home": "勒阿弗尔",
+      "away": "巴黎圣日耳曼",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473920",
+      "round": 9,
+      "date": "2026-10-31 04:05",
+      "home": "里尔",
+      "away": "朗斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473924",
+      "round": 9,
+      "date": "2026-11-01 00:15",
+      "home": "尼斯",
+      "away": "雷恩",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473921",
+      "round": 9,
+      "date": "2026-11-01 03:45",
+      "home": "洛里昂",
+      "away": "布雷斯特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473922",
+      "round": 9,
+      "date": "2026-11-01 03:45",
+      "home": "里昂",
+      "away": "昂热",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473927",
+      "round": 9,
+      "date": "2026-11-01 03:45",
+      "home": "特鲁瓦",
+      "away": "勒芒",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473926",
+      "round": 9,
+      "date": "2026-11-01 22:00",
+      "home": "斯特拉斯堡",
+      "away": "欧塞尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473925",
+      "round": 9,
+      "date": "2026-11-02 00:15",
+      "home": "巴黎FC",
+      "away": "摩纳哥",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473923",
+      "round": 9,
+      "date": "2026-11-02 03:45",
+      "home": "马赛",
+      "away": "图卢兹",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473935",
+      "round": 10,
+      "date": "2026-11-07 03:45",
+      "home": "图卢兹",
+      "away": "斯特拉斯堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473929",
+      "round": 10,
+      "date": "2026-11-08 00:15",
+      "home": "欧塞尔",
+      "away": "巴黎FC",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473933",
+      "round": 10,
+      "date": "2026-11-08 03:45",
+      "home": "巴黎圣日耳曼",
+      "away": "特鲁瓦",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473934",
+      "round": 10,
+      "date": "2026-11-08 22:00",
+      "home": "雷恩",
+      "away": "里尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473928",
+      "round": 10,
+      "date": "2026-11-09 00:15",
+      "home": "昂热",
+      "away": "尼斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473930",
+      "round": 10,
+      "date": "2026-11-09 00:15",
+      "home": "布雷斯特",
+      "away": "里昂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473931",
+      "round": 10,
+      "date": "2026-11-09 00:15",
+      "home": "勒阿弗尔",
+      "away": "洛里昂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473932",
+      "round": 10,
+      "date": "2026-11-09 00:15",
+      "home": "勒芒",
+      "away": "摩纳哥",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473936",
+      "round": 10,
+      "date": "2026-11-09 03:45",
+      "home": "朗斯",
+      "away": "马赛",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473945",
+      "round": 11,
+      "date": "2026-11-21 03:45",
+      "home": "特鲁瓦",
+      "away": "勒阿弗尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473942",
+      "round": 11,
+      "date": "2026-11-22 00:15",
+      "home": "尼斯",
+      "away": "巴黎圣日耳曼",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473937",
+      "round": 11,
+      "date": "2026-11-22 03:45",
+      "home": "朗斯",
+      "away": "图卢兹",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473938",
+      "round": 11,
+      "date": "2026-11-22 03:45",
+      "home": "里尔",
+      "away": "里昂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473941",
+      "round": 11,
+      "date": "2026-11-22 03:45",
+      "home": "摩纳哥",
+      "away": "欧塞尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473944",
+      "round": 11,
+      "date": "2026-11-22 03:45",
+      "home": "斯特拉斯堡",
+      "away": "布雷斯特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473943",
+      "round": 11,
+      "date": "2026-11-22 22:00",
+      "home": "巴黎FC",
+      "away": "昂热",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473939",
+      "round": 11,
+      "date": "2026-11-23 00:15",
+      "home": "洛里昂",
+      "away": "雷恩",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473940",
+      "round": 11,
+      "date": "2026-11-23 03:45",
+      "home": "马赛",
+      "away": "勒芒",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473948",
+      "round": 12,
+      "date": "2026-11-28 03:45",
+      "home": "布雷斯特",
+      "away": "巴黎FC",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473946",
+      "round": 12,
+      "date": "2026-11-29 00:15",
+      "home": "昂热",
+      "away": "朗斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473949",
+      "round": 12,
+      "date": "2026-11-29 03:45",
+      "home": "勒阿弗尔",
+      "away": "斯特拉斯堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473950",
+      "round": 12,
+      "date": "2026-11-29 03:45",
+      "home": "勒芒",
+      "away": "里尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473952",
+      "round": 12,
+      "date": "2026-11-29 03:45",
+      "home": "尼斯",
+      "away": "特鲁瓦",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473953",
+      "round": 12,
+      "date": "2026-11-29 03:45",
+      "home": "巴黎圣日耳曼",
+      "away": "洛里昂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473947",
+      "round": 12,
+      "date": "2026-11-29 22:00",
+      "home": "欧塞尔",
+      "away": "马赛",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473954",
+      "round": 12,
+      "date": "2026-11-30 00:15",
+      "home": "图卢兹",
+      "away": "雷恩",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473951",
+      "round": 12,
+      "date": "2026-11-30 03:45",
+      "home": "里昂",
+      "away": "摩纳哥",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473955",
+      "round": 13,
+      "date": "2026-12-06 00:00",
+      "home": "朗斯",
+      "away": "勒阿弗尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473956",
+      "round": 13,
+      "date": "2026-12-06 00:00",
+      "home": "里尔",
+      "away": "欧塞尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473957",
+      "round": 13,
+      "date": "2026-12-06 00:00",
+      "home": "马赛",
+      "away": "尼斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473958",
+      "round": 13,
+      "date": "2026-12-06 00:00",
+      "home": "摩纳哥",
+      "away": "昂热",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473959",
+      "round": 13,
+      "date": "2026-12-06 00:00",
+      "home": "巴黎FC",
+      "away": "勒芒",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473960",
+      "round": 13,
+      "date": "2026-12-06 00:00",
+      "home": "雷恩",
+      "away": "布雷斯特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473961",
+      "round": 13,
+      "date": "2026-12-06 00:00",
+      "home": "斯特拉斯堡",
+      "away": "洛里昂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473962",
+      "round": 13,
+      "date": "2026-12-06 00:00",
+      "home": "图卢兹",
+      "away": "巴黎圣日耳曼",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473963",
+      "round": 13,
+      "date": "2026-12-06 00:00",
+      "home": "特鲁瓦",
+      "away": "里昂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473964",
+      "round": 14,
+      "date": "2026-12-13 00:00",
+      "home": "昂热",
+      "away": "斯特拉斯堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473965",
+      "round": 14,
+      "date": "2026-12-13 00:00",
+      "home": "欧塞尔",
+      "away": "图卢兹",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473966",
+      "round": 14,
+      "date": "2026-12-13 00:00",
+      "home": "布雷斯特",
+      "away": "特鲁瓦",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473967",
+      "round": 14,
+      "date": "2026-12-13 00:00",
+      "home": "勒阿弗尔",
+      "away": "勒芒",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473968",
+      "round": 14,
+      "date": "2026-12-13 00:00",
+      "home": "洛里昂",
+      "away": "里尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473969",
+      "round": 14,
+      "date": "2026-12-13 00:00",
+      "home": "尼斯",
+      "away": "朗斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473970",
+      "round": 14,
+      "date": "2026-12-13 00:00",
+      "home": "巴黎圣日耳曼",
+      "away": "巴黎FC",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473971",
+      "round": 14,
+      "date": "2026-12-13 00:00",
+      "home": "雷恩",
+      "away": "摩纳哥",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473972",
+      "round": 14,
+      "date": "2026-12-14 03:45",
+      "home": "里昂",
+      "away": "马赛",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473973",
+      "round": 15,
+      "date": "2027-01-03 00:00",
+      "home": "布雷斯特",
+      "away": "马赛",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473974",
+      "round": 15,
+      "date": "2027-01-03 00:00",
+      "home": "勒芒",
+      "away": "里昂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473975",
+      "round": 15,
+      "date": "2027-01-03 00:00",
+      "home": "里尔",
+      "away": "斯特拉斯堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473976",
+      "round": 15,
+      "date": "2027-01-03 00:00",
+      "home": "洛里昂",
+      "away": "欧塞尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473977",
+      "round": 15,
+      "date": "2027-01-03 00:00",
+      "home": "摩纳哥",
+      "away": "尼斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473978",
+      "round": 15,
+      "date": "2027-01-03 00:00",
+      "home": "巴黎FC",
+      "away": "勒阿弗尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473979",
+      "round": 15,
+      "date": "2027-01-03 00:00",
+      "home": "图卢兹",
+      "away": "昂热",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473980",
+      "round": 15,
+      "date": "2027-01-03 00:00",
+      "home": "特鲁瓦",
+      "away": "雷恩",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473981",
+      "round": 15,
+      "date": "2027-01-04 03:45",
+      "home": "朗斯",
+      "away": "巴黎圣日耳曼",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473982",
+      "round": 16,
+      "date": "2027-01-17 00:00",
+      "home": "昂热",
+      "away": "巴黎圣日耳曼",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473983",
+      "round": 16,
+      "date": "2027-01-17 00:00",
+      "home": "欧塞尔",
+      "away": "特鲁瓦",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473984",
+      "round": 16,
+      "date": "2027-01-17 00:00",
+      "home": "里昂",
+      "away": "洛里昂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473985",
+      "round": 16,
+      "date": "2027-01-17 00:00",
+      "home": "马赛",
+      "away": "里尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473986",
+      "round": 16,
+      "date": "2027-01-17 00:00",
+      "home": "摩纳哥",
+      "away": "布雷斯特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473987",
+      "round": 16,
+      "date": "2027-01-17 00:00",
+      "home": "尼斯",
+      "away": "勒阿弗尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473988",
+      "round": 16,
+      "date": "2027-01-17 00:00",
+      "home": "巴黎FC",
+      "away": "图卢兹",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473989",
+      "round": 16,
+      "date": "2027-01-17 00:00",
+      "home": "雷恩",
+      "away": "朗斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473990",
+      "round": 16,
+      "date": "2027-01-17 00:00",
+      "home": "斯特拉斯堡",
+      "away": "勒芒",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473991",
+      "round": 17,
+      "date": "2027-01-24 00:00",
+      "home": "勒阿弗尔",
+      "away": "雷恩",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473992",
+      "round": 17,
+      "date": "2027-01-24 00:00",
+      "home": "勒芒",
+      "away": "昂热",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473993",
+      "round": 17,
+      "date": "2027-01-24 00:00",
+      "home": "朗斯",
+      "away": "布雷斯特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473994",
+      "round": 17,
+      "date": "2027-01-24 00:00",
+      "home": "里尔",
+      "away": "巴黎FC",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473995",
+      "round": 17,
+      "date": "2027-01-24 00:00",
+      "home": "洛里昂",
+      "away": "马赛",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473996",
+      "round": 17,
+      "date": "2027-01-24 00:00",
+      "home": "巴黎圣日耳曼",
+      "away": "欧塞尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473997",
+      "round": 17,
+      "date": "2027-01-24 00:00",
+      "home": "斯特拉斯堡",
+      "away": "里昂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473998",
+      "round": 17,
+      "date": "2027-01-24 00:00",
+      "home": "图卢兹",
+      "away": "尼斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473999",
+      "round": 17,
+      "date": "2027-01-24 00:00",
+      "home": "特鲁瓦",
+      "away": "摩纳哥",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474000",
+      "round": 18,
+      "date": "2027-01-31 00:00",
+      "home": "昂热",
+      "away": "勒阿弗尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474001",
+      "round": 18,
+      "date": "2027-01-31 00:00",
+      "home": "布雷斯特",
+      "away": "斯特拉斯堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474002",
+      "round": 18,
+      "date": "2027-01-31 00:00",
+      "home": "勒芒",
+      "away": "尼斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474003",
+      "round": 18,
+      "date": "2027-01-31 00:00",
+      "home": "里昂",
+      "away": "里尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474004",
+      "round": 18,
+      "date": "2027-01-31 00:00",
+      "home": "马赛",
+      "away": "特鲁瓦",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474005",
+      "round": 18,
+      "date": "2027-01-31 00:00",
+      "home": "摩纳哥",
+      "away": "巴黎圣日耳曼",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474006",
+      "round": 18,
+      "date": "2027-01-31 00:00",
+      "home": "巴黎FC",
+      "away": "欧塞尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474007",
+      "round": 18,
+      "date": "2027-01-31 00:00",
+      "home": "雷恩",
+      "away": "洛里昂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474008",
+      "round": 18,
+      "date": "2027-01-31 00:00",
+      "home": "图卢兹",
+      "away": "朗斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474009",
+      "round": 19,
+      "date": "2027-02-07 00:00",
+      "home": "欧塞尔",
+      "away": "摩纳哥",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474010",
+      "round": 19,
+      "date": "2027-02-07 00:00",
+      "home": "勒阿弗尔",
+      "away": "图卢兹",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474011",
+      "round": 19,
+      "date": "2027-02-07 00:00",
+      "home": "朗斯",
+      "away": "昂热",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474012",
+      "round": 19,
+      "date": "2027-02-07 00:00",
+      "home": "洛里昂",
+      "away": "勒芒",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474013",
+      "round": 19,
+      "date": "2027-02-07 00:00",
+      "home": "尼斯",
+      "away": "布雷斯特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474014",
+      "round": 19,
+      "date": "2027-02-07 00:00",
+      "home": "雷恩",
+      "away": "里昂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474015",
+      "round": 19,
+      "date": "2027-02-07 00:00",
+      "home": "斯特拉斯堡",
+      "away": "巴黎FC",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474016",
+      "round": 19,
+      "date": "2027-02-07 00:00",
+      "home": "特鲁瓦",
+      "away": "里尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474017",
+      "round": 19,
+      "date": "2027-02-08 03:45",
+      "home": "巴黎圣日耳曼",
+      "away": "马赛",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474018",
+      "round": 20,
+      "date": "2027-02-14 00:00",
+      "home": "欧塞尔",
+      "away": "斯特拉斯堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474019",
+      "round": 20,
+      "date": "2027-02-14 00:00",
+      "home": "布雷斯特",
+      "away": "雷恩",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474020",
+      "round": 20,
+      "date": "2027-02-14 00:00",
+      "home": "勒芒",
+      "away": "巴黎圣日耳曼",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474021",
+      "round": 20,
+      "date": "2027-02-14 00:00",
+      "home": "里尔",
+      "away": "尼斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474022",
+      "round": 20,
+      "date": "2027-02-14 00:00",
+      "home": "洛里昂",
+      "away": "勒阿弗尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474023",
+      "round": 20,
+      "date": "2027-02-14 00:00",
+      "home": "里昂",
+      "away": "朗斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474024",
+      "round": 20,
+      "date": "2027-02-14 00:00",
+      "home": "马赛",
+      "away": "昂热",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474025",
+      "round": 20,
+      "date": "2027-02-14 00:00",
+      "home": "巴黎FC",
+      "away": "特鲁瓦",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474026",
+      "round": 20,
+      "date": "2027-02-14 00:00",
+      "home": "图卢兹",
+      "away": "摩纳哥",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474027",
+      "round": 21,
+      "date": "2027-02-21 00:00",
+      "home": "昂热",
+      "away": "巴黎FC",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474028",
+      "round": 21,
+      "date": "2027-02-21 00:00",
+      "home": "勒阿弗尔",
+      "away": "里昂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474029",
+      "round": 21,
+      "date": "2027-02-21 00:00",
+      "home": "朗斯",
+      "away": "特鲁瓦",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474030",
+      "round": 21,
+      "date": "2027-02-21 00:00",
+      "home": "里尔",
+      "away": "洛里昂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474031",
+      "round": 21,
+      "date": "2027-02-21 00:00",
+      "home": "摩纳哥",
+      "away": "勒芒",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474032",
+      "round": 21,
+      "date": "2027-02-21 00:00",
+      "home": "尼斯",
+      "away": "欧塞尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474033",
+      "round": 21,
+      "date": "2027-02-21 00:00",
+      "home": "巴黎圣日耳曼",
+      "away": "布雷斯特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474034",
+      "round": 21,
+      "date": "2027-02-21 00:00",
+      "home": "雷恩",
+      "away": "图卢兹",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474035",
+      "round": 21,
+      "date": "2027-02-21 00:00",
+      "home": "斯特拉斯堡",
+      "away": "马赛",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474036",
+      "round": 22,
+      "date": "2027-02-28 00:00",
+      "home": "欧塞尔",
+      "away": "里尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474037",
+      "round": 22,
+      "date": "2027-02-28 00:00",
+      "home": "布雷斯特",
+      "away": "摩纳哥",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474038",
+      "round": 22,
+      "date": "2027-02-28 00:00",
+      "home": "勒芒",
+      "away": "巴黎FC",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474039",
+      "round": 22,
+      "date": "2027-02-28 00:00",
+      "home": "洛里昂",
+      "away": "昂热",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474040",
+      "round": 22,
+      "date": "2027-02-28 00:00",
+      "home": "里昂",
+      "away": "图卢兹",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474041",
+      "round": 22,
+      "date": "2027-02-28 00:00",
+      "home": "马赛",
+      "away": "雷恩",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474042",
+      "round": 22,
+      "date": "2027-02-28 00:00",
+      "home": "斯特拉斯堡",
+      "away": "勒阿弗尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474043",
+      "round": 22,
+      "date": "2027-02-28 00:00",
+      "home": "特鲁瓦",
+      "away": "尼斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474044",
+      "round": 22,
+      "date": "2027-03-01 03:45",
+      "home": "巴黎圣日耳曼",
+      "away": "朗斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473853",
+      "round": 23,
+      "date": "2027-03-07 00:00",
+      "home": "巴黎圣日耳曼",
+      "away": "雷恩",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474045",
+      "round": 23,
+      "date": "2027-03-07 00:00",
+      "home": "昂热",
+      "away": "欧塞尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474046",
+      "round": 23,
+      "date": "2027-03-07 00:00",
+      "home": "勒阿弗尔",
+      "away": "尼斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474047",
+      "round": 23,
+      "date": "2027-03-07 00:00",
+      "home": "朗斯",
+      "away": "斯特拉斯堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474048",
+      "round": 23,
+      "date": "2027-03-07 00:00",
+      "home": "里尔",
+      "away": "马赛",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474049",
+      "round": 23,
+      "date": "2027-03-07 00:00",
+      "home": "摩纳哥",
+      "away": "里昂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474050",
+      "round": 23,
+      "date": "2027-03-07 00:00",
+      "home": "巴黎FC",
+      "away": "布雷斯特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474052",
+      "round": 23,
+      "date": "2027-03-07 00:00",
+      "home": "图卢兹",
+      "away": "勒芒",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474053",
+      "round": 23,
+      "date": "2027-03-07 00:00",
+      "home": "特鲁瓦",
+      "away": "洛里昂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474054",
+      "round": 24,
+      "date": "2027-03-14 00:00",
+      "home": "欧塞尔",
+      "away": "巴黎圣日耳曼",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474055",
+      "round": 24,
+      "date": "2027-03-14 00:00",
+      "home": "布雷斯特",
+      "away": "里尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474056",
+      "round": 24,
+      "date": "2027-03-14 00:00",
+      "home": "勒阿弗尔",
+      "away": "朗斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474057",
+      "round": 24,
+      "date": "2027-03-14 00:00",
+      "home": "勒芒",
+      "away": "雷恩",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474058",
+      "round": 24,
+      "date": "2027-03-14 00:00",
+      "home": "里昂",
+      "away": "特鲁瓦",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474059",
+      "round": 24,
+      "date": "2027-03-14 00:00",
+      "home": "马赛",
+      "away": "摩纳哥",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474060",
+      "round": 24,
+      "date": "2027-03-14 00:00",
+      "home": "尼斯",
+      "away": "图卢兹",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474061",
+      "round": 24,
+      "date": "2027-03-14 00:00",
+      "home": "巴黎FC",
+      "away": "洛里昂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474062",
+      "round": 24,
+      "date": "2027-03-14 00:00",
+      "home": "斯特拉斯堡",
+      "away": "昂热",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474063",
+      "round": 25,
+      "date": "2027-03-21 00:00",
+      "home": "昂热",
+      "away": "勒芒",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474064",
+      "round": 25,
+      "date": "2027-03-21 00:00",
+      "home": "朗斯",
+      "away": "里尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474065",
+      "round": 25,
+      "date": "2027-03-21 00:00",
+      "home": "洛里昂",
+      "away": "尼斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474066",
+      "round": 25,
+      "date": "2027-03-21 00:00",
+      "home": "摩纳哥",
+      "away": "勒阿弗尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474067",
+      "round": 25,
+      "date": "2027-03-21 00:00",
+      "home": "巴黎圣日耳曼",
+      "away": "斯特拉斯堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474068",
+      "round": 25,
+      "date": "2027-03-21 00:00",
+      "home": "雷恩",
+      "away": "巴黎FC",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474069",
+      "round": 25,
+      "date": "2027-03-21 00:00",
+      "home": "图卢兹",
+      "away": "布雷斯特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474070",
+      "round": 25,
+      "date": "2027-03-21 00:00",
+      "home": "特鲁瓦",
+      "away": "欧塞尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474071",
+      "round": 25,
+      "date": "2027-03-22 03:45",
+      "home": "马赛",
+      "away": "里昂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474072",
+      "round": 26,
+      "date": "2027-04-03 23:00",
+      "home": "昂热",
+      "away": "摩纳哥",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474073",
+      "round": 26,
+      "date": "2027-04-03 23:00",
+      "home": "欧塞尔",
+      "away": "朗斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474074",
+      "round": 26,
+      "date": "2027-04-03 23:00",
+      "home": "布雷斯特",
+      "away": "洛里昂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474146",
+      "round": 26,
+      "date": "2027-04-03 23:00",
+      "home": "勒阿弗尔",
+      "away": "特鲁瓦",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474147",
+      "round": 26,
+      "date": "2027-04-03 23:00",
+      "home": "勒芒",
+      "away": "马赛",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474148",
+      "round": 26,
+      "date": "2027-04-03 23:00",
+      "home": "里尔",
+      "away": "雷恩",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474149",
+      "round": 26,
+      "date": "2027-04-03 23:00",
+      "home": "尼斯",
+      "away": "里昂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474150",
+      "round": 26,
+      "date": "2027-04-03 23:00",
+      "home": "巴黎FC",
+      "away": "巴黎圣日耳曼",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474151",
+      "round": 26,
+      "date": "2027-04-03 23:00",
+      "home": "斯特拉斯堡",
+      "away": "图卢兹",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474075",
+      "round": 27,
+      "date": "2027-04-10 23:00",
+      "home": "里尔",
+      "away": "图卢兹",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474076",
+      "round": 27,
+      "date": "2027-04-10 23:00",
+      "home": "洛里昂",
+      "away": "朗斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474077",
+      "round": 27,
+      "date": "2027-04-10 23:00",
+      "home": "里昂",
+      "away": "斯特拉斯堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474078",
+      "round": 27,
+      "date": "2027-04-10 23:00",
+      "home": "马赛",
+      "away": "布雷斯特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474079",
+      "round": 27,
+      "date": "2027-04-10 23:00",
+      "home": "摩纳哥",
+      "away": "雷恩",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474080",
+      "round": 27,
+      "date": "2027-04-10 23:00",
+      "home": "尼斯",
+      "away": "巴黎FC",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474081",
+      "round": 27,
+      "date": "2027-04-10 23:00",
+      "home": "巴黎圣日耳曼",
+      "away": "勒阿弗尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474082",
+      "round": 27,
+      "date": "2027-04-10 23:00",
+      "home": "特鲁瓦",
+      "away": "昂热",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474152",
+      "round": 27,
+      "date": "2027-04-10 23:00",
+      "home": "勒芒",
+      "away": "欧塞尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474083",
+      "round": 28,
+      "date": "2027-04-17 23:00",
+      "home": "昂热",
+      "away": "里昂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474084",
+      "round": 28,
+      "date": "2027-04-17 23:00",
+      "home": "欧塞尔",
+      "away": "洛里昂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474085",
+      "round": 28,
+      "date": "2027-04-17 23:00",
+      "home": "布雷斯特",
+      "away": "勒芒",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474086",
+      "round": 28,
+      "date": "2027-04-17 23:00",
+      "home": "勒阿弗尔",
+      "away": "马赛",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474087",
+      "round": 28,
+      "date": "2027-04-17 23:00",
+      "home": "朗斯",
+      "away": "尼斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474088",
+      "round": 28,
+      "date": "2027-04-17 23:00",
+      "home": "摩纳哥",
+      "away": "斯特拉斯堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474089",
+      "round": 28,
+      "date": "2027-04-17 23:00",
+      "home": "巴黎圣日耳曼",
+      "away": "里尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474090",
+      "round": 28,
+      "date": "2027-04-17 23:00",
+      "home": "雷恩",
+      "away": "特鲁瓦",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474091",
+      "round": 28,
+      "date": "2027-04-17 23:00",
+      "home": "图卢兹",
+      "away": "巴黎FC",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474092",
+      "round": 29,
+      "date": "2027-04-24 23:00",
+      "home": "勒芒",
+      "away": "勒阿弗尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474093",
+      "round": 29,
+      "date": "2027-04-24 23:00",
+      "home": "里尔",
+      "away": "摩纳哥",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474094",
+      "round": 29,
+      "date": "2027-04-24 23:00",
+      "home": "洛里昂",
+      "away": "巴黎圣日耳曼",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474095",
+      "round": 29,
+      "date": "2027-04-24 23:00",
+      "home": "里昂",
+      "away": "布雷斯特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474096",
+      "round": 29,
+      "date": "2027-04-24 23:00",
+      "home": "马赛",
+      "away": "欧塞尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474097",
+      "round": 29,
+      "date": "2027-04-24 23:00",
+      "home": "尼斯",
+      "away": "昂热",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474098",
+      "round": 29,
+      "date": "2027-04-24 23:00",
+      "home": "巴黎FC",
+      "away": "朗斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474099",
+      "round": 29,
+      "date": "2027-04-24 23:00",
+      "home": "斯特拉斯堡",
+      "away": "雷恩",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474100",
+      "round": 29,
+      "date": "2027-04-24 23:00",
+      "home": "特鲁瓦",
+      "away": "图卢兹",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474101",
+      "round": 30,
+      "date": "2027-05-01 23:00",
+      "home": "欧塞尔",
+      "away": "里昂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474102",
+      "round": 30,
+      "date": "2027-05-01 23:00",
+      "home": "勒阿弗尔",
+      "away": "巴黎FC",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474103",
+      "round": 30,
+      "date": "2027-05-01 23:00",
+      "home": "朗斯",
+      "away": "勒芒",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474104",
+      "round": 30,
+      "date": "2027-05-01 23:00",
+      "home": "摩纳哥",
+      "away": "洛里昂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474105",
+      "round": 30,
+      "date": "2027-05-01 23:00",
+      "home": "巴黎圣日耳曼",
+      "away": "昂热",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474106",
+      "round": 30,
+      "date": "2027-05-01 23:00",
+      "home": "雷恩",
+      "away": "尼斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474107",
+      "round": 30,
+      "date": "2027-05-01 23:00",
+      "home": "斯特拉斯堡",
+      "away": "里尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474108",
+      "round": 30,
+      "date": "2027-05-01 23:00",
+      "home": "图卢兹",
+      "away": "马赛",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474109",
+      "round": 30,
+      "date": "2027-05-01 23:00",
+      "home": "特鲁瓦",
+      "away": "布雷斯特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474110",
+      "round": 31,
+      "date": "2027-05-08 23:00",
+      "home": "昂热",
+      "away": "图卢兹",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474111",
+      "round": 31,
+      "date": "2027-05-08 23:00",
+      "home": "布雷斯特",
+      "away": "欧塞尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474112",
+      "round": 31,
+      "date": "2027-05-08 23:00",
+      "home": "勒芒",
+      "away": "特鲁瓦",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474113",
+      "round": 31,
+      "date": "2027-05-08 23:00",
+      "home": "朗斯",
+      "away": "摩纳哥",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474114",
+      "round": 31,
+      "date": "2027-05-08 23:00",
+      "home": "洛里昂",
+      "away": "斯特拉斯堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474115",
+      "round": 31,
+      "date": "2027-05-08 23:00",
+      "home": "尼斯",
+      "away": "马赛",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474116",
+      "round": 31,
+      "date": "2027-05-08 23:00",
+      "home": "巴黎FC",
+      "away": "里尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474117",
+      "round": 31,
+      "date": "2027-05-08 23:00",
+      "home": "雷恩",
+      "away": "勒阿弗尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474118",
+      "round": 31,
+      "date": "2027-05-10 02:45",
+      "home": "里昂",
+      "away": "巴黎圣日耳曼",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474119",
+      "round": 32,
+      "date": "2027-05-16 23:00",
+      "home": "欧塞尔",
+      "away": "雷恩",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474120",
+      "round": 32,
+      "date": "2027-05-16 23:00",
+      "home": "布雷斯特",
+      "away": "勒阿弗尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474121",
+      "round": 32,
+      "date": "2027-05-16 23:00",
+      "home": "里尔",
+      "away": "昂热",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474122",
+      "round": 32,
+      "date": "2027-05-16 23:00",
+      "home": "里昂",
+      "away": "勒芒",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474123",
+      "round": 32,
+      "date": "2027-05-16 23:00",
+      "home": "马赛",
+      "away": "朗斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474124",
+      "round": 32,
+      "date": "2027-05-16 23:00",
+      "home": "摩纳哥",
+      "away": "巴黎FC",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474125",
+      "round": 32,
+      "date": "2027-05-16 23:00",
+      "home": "巴黎圣日耳曼",
+      "away": "尼斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474126",
+      "round": 32,
+      "date": "2027-05-16 23:00",
+      "home": "斯特拉斯堡",
+      "away": "特鲁瓦",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474127",
+      "round": 32,
+      "date": "2027-05-16 23:00",
+      "home": "图卢兹",
+      "away": "洛里昂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474128",
+      "round": 33,
+      "date": "2027-05-22 23:00",
+      "home": "昂热",
+      "away": "布雷斯特",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474129",
+      "round": 33,
+      "date": "2027-05-22 23:00",
+      "home": "勒阿弗尔",
+      "away": "里尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474130",
+      "round": 33,
+      "date": "2027-05-22 23:00",
+      "home": "勒芒",
+      "away": "斯特拉斯堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474131",
+      "round": 33,
+      "date": "2027-05-22 23:00",
+      "home": "朗斯",
+      "away": "雷恩",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474132",
+      "round": 33,
+      "date": "2027-05-22 23:00",
+      "home": "洛里昂",
+      "away": "里昂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474133",
+      "round": 33,
+      "date": "2027-05-22 23:00",
+      "home": "尼斯",
+      "away": "摩纳哥",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474134",
+      "round": 33,
+      "date": "2027-05-22 23:00",
+      "home": "巴黎FC",
+      "away": "马赛",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474135",
+      "round": 33,
+      "date": "2027-05-22 23:00",
+      "home": "图卢兹",
+      "away": "欧塞尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474136",
+      "round": 33,
+      "date": "2027-05-22 23:00",
+      "home": "特鲁瓦",
+      "away": "巴黎圣日耳曼",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474137",
+      "round": 34,
+      "date": "2027-05-30 03:00",
+      "home": "欧塞尔",
+      "away": "勒阿弗尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474138",
+      "round": 34,
+      "date": "2027-05-30 03:00",
+      "home": "布雷斯特",
+      "away": "朗斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474139",
+      "round": 34,
+      "date": "2027-05-30 03:00",
+      "home": "里尔",
+      "away": "勒芒",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474140",
+      "round": 34,
+      "date": "2027-05-30 03:00",
+      "home": "里昂",
+      "away": "巴黎FC",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474141",
+      "round": 34,
+      "date": "2027-05-30 03:00",
+      "home": "马赛",
+      "away": "洛里昂",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474142",
+      "round": 34,
+      "date": "2027-05-30 03:00",
+      "home": "摩纳哥",
+      "away": "特鲁瓦",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474143",
+      "round": 34,
+      "date": "2027-05-30 03:00",
+      "home": "巴黎圣日耳曼",
+      "away": "图卢兹",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474144",
+      "round": 34,
+      "date": "2027-05-30 03:00",
+      "home": "雷恩",
+      "away": "昂热",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54474145",
+      "round": 34,
+      "date": "2027-05-30 03:00",
+      "home": "斯特拉斯堡",
+      "away": "尼斯",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    }
+  ],
+  "points": {
+    "win": 3,
+    "draw": 1,
+    "loss": 0
+  },
+  "tiebreak": [
+    "points",
+    "gd",
+    "gf",
+    "wins"
+  ],
+  "slots": [
+    {
+      "from": 1,
+      "to": 1,
+      "type": "title",
+      "label": "冠军",
+      "color": "#ffd54f"
+    },
+    {
+      "from": 1,
+      "to": 4,
+      "type": "ucl",
+      "label": "欧冠区",
+      "color": "#1565c0"
+    },
+    {
+      "from": 16,
+      "to": 17,
+      "type": "relegation",
+      "label": "降级",
+      "color": "#c62828"
+    },
+    {
+      "from": 18,
+      "to": 18,
+      "type": "playoff",
+      "label": "降级附加赛",
+      "color": "#ef6c00"
+    }
+  ],
+  "model": {},
+  "meta": {
+    "source": "dongqiudi:12",
+    "fetchedAt": "2026-10-18T12:39:30.039Z",
+    "maxRound": 34,
+    "url": "https://www.dongqiudi.com/data?cid=12&tab=schedule",
+    "cid": 12,
+    "officialTable": [
+      {
+        "rank": 1,
+        "name": "巴黎圣日耳曼",
+        "played": null,
+        "wins": 7,
+        "draws": 4,
+        "losses": 2,
+        "gf": 14,
+        "ga": 9,
+        "gd": 5,
+        "points": 14
+      },
+      {
+        "rank": 2,
+        "name": "摩纳哥",
+        "played": null,
+        "wins": 6,
+        "draws": 4,
+        "losses": 2,
+        "gf": 10,
+        "ga": 5,
+        "gd": 5,
+        "points": 14
+      },
+      {
+        "rank": 3,
+        "name": "里尔",
+        "played": null,
+        "wins": 7,
+        "draws": 4,
+        "losses": 2,
+        "gf": 10,
+        "ga": 5,
+        "gd": 5,
+        "points": 14
+      },
+      {
+        "rank": 4,
+        "name": "雷恩",
+        "played": null,
+        "wins": 6,
+        "draws": 4,
+        "losses": 1,
+        "gf": 12,
+        "ga": 10,
+        "gd": 2,
+        "points": 13
+      },
+      {
+        "rank": 5,
+        "name": "里昂",
+        "played": null,
+        "wins": 6,
+        "draws": 3,
+        "losses": 2,
+        "gf": 11,
+        "ga": 4,
+        "gd": 7,
+        "points": 11
+      },
+      {
+        "rank": 6,
+        "name": "巴黎FC",
+        "played": null,
+        "wins": 6,
+        "draws": 3,
+        "losses": 2,
+        "gf": 8,
+        "ga": 4,
+        "gd": 4,
+        "points": 11
+      },
+      {
+        "rank": 7,
+        "name": "朗斯",
+        "played": null,
+        "wins": 7,
+        "draws": 3,
+        "losses": 1,
+        "gf": 14,
+        "ga": 11,
+        "gd": 3,
+        "points": 10
+      },
+      {
+        "rank": 8,
+        "name": "布雷斯特",
+        "played": null,
+        "wins": 7,
+        "draws": 2,
+        "losses": 3,
+        "gf": 13,
+        "ga": 10,
+        "gd": 3,
+        "points": 9
+      },
+      {
+        "rank": 9,
+        "name": "图卢兹",
+        "played": null,
+        "wins": 7,
+        "draws": 2,
+        "losses": 3,
+        "gf": 12,
+        "ga": 11,
+        "gd": 1,
+        "points": 9
+      },
+      {
+        "rank": 10,
+        "name": "洛里昂",
+        "played": null,
+        "wins": 6,
+        "draws": 2,
+        "losses": 2,
+        "gf": 6,
+        "ga": 6,
+        "gd": 0,
+        "points": 8
+      },
+      {
+        "rank": 11,
+        "name": "尼斯",
+        "played": null,
+        "wins": 6,
+        "draws": 2,
+        "losses": 2,
+        "gf": 5,
+        "ga": 7,
+        "gd": -2,
+        "points": 8
+      },
+      {
+        "rank": 12,
+        "name": "斯特拉斯堡",
+        "played": null,
+        "wins": 7,
+        "draws": 2,
+        "losses": 1,
+        "gf": 12,
+        "ga": 15,
+        "gd": -3,
+        "points": 7
+      },
+      {
+        "rank": 13,
+        "name": "昂热",
+        "played": null,
+        "wins": 6,
+        "draws": 2,
+        "losses": 1,
+        "gf": 7,
+        "ga": 10,
+        "gd": -3,
+        "points": 7
+      },
+      {
+        "rank": 14,
+        "name": "马赛",
+        "played": null,
+        "wins": 6,
+        "draws": 2,
+        "losses": 0,
+        "gf": 9,
+        "ga": 8,
+        "gd": 1,
+        "points": 6
+      },
+      {
+        "rank": 15,
+        "name": "勒芒",
+        "played": null,
+        "wins": 7,
+        "draws": 1,
+        "losses": 3,
+        "gf": 10,
+        "ga": 15,
+        "gd": -5,
+        "points": 6
+      },
+      {
+        "rank": 16,
+        "name": "欧塞尔",
+        "played": null,
+        "wins": 6,
+        "draws": 2,
+        "losses": 0,
+        "gf": 8,
+        "ga": 16,
+        "gd": -8,
+        "points": 6
+      },
+      {
+        "rank": 17,
+        "name": "特鲁瓦",
+        "played": null,
+        "wins": 7,
+        "draws": 1,
+        "losses": 1,
+        "gf": 5,
+        "ga": 16,
+        "gd": -11,
+        "points": 4
+      },
+      {
+        "rank": 18,
+        "name": "勒阿弗尔",
+        "played": null,
+        "wins": 6,
+        "draws": 0,
+        "losses": 2,
+        "gf": 4,
+        "ga": 8,
+        "gd": -4,
+        "points": 2
+      }
+    ],
+    "deductions": []
+  }
+}
