@@ -10,6 +10,7 @@
   "scripts": {
     "test": "node tests/test-engine.js && node tests/test-ui.js && node tests/test-ui-deep.js && node tests/test-offline.js",
     "test:cal": "node tests/test-calibration.js",
+    "test:live": "node tests/test-live.js",
     "build": "node bin/build.js",
     "serve": "node bin/serve.js",
     "demo": "node bin/cli.js demo",
