@@ -1,13 +1,11 @@
 name: Refresh league data
 
-# 定时抓取最新赛果并提交回仓库，
-# 这样 GitHub Pages 上的「获取最新数据」拿到的就是新快照。
+# 每天抓取一次最新赛果并提交回仓库。
+# GitHub Pages 上的「获取数据」读的就是这些快照。
 on:
   schedule:
-    # 每天 3 次（UTC）；中甲/中超比赛多在 UTC 11:00-14:00 结束
-    - cron: '15 15 * * *'   # UTC 15:15 = 北京 23:15
-    - cron: '15 3 * * *'    # UTC 03:15 = 北京 11:15
-    - cron: '15 9 * * *'    # UTC 09:15 = 北京 17:15
+    # UTC 20:10 = 北京 04:10，此时当天所有比赛都已结束
+    - cron: '10 20 * * *'
   workflow_dispatch:
 
 permissions:

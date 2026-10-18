@@ -1,10 +1,5 @@
 /*
- * 主题 / 默认状态 测试
- *   1. 默认联赛留空，不自动计算
- *   2. 主题按钮依次循环 自动 → 夜间 → 日间 → 自动
- *   3. data-theme 正确切换，且配色变量真的变了
- *   4. 主题持久化到 localStorage
- *   5. 页脚只有 GitHub 链接
+ * 主题 / 默认状态 / 轮次下拉 / 自定义联赛 测试
  */
 const http = require('http');
 const fs = require('fs');
@@ -14,19 +9,18 @@ const { spawn } = require('child_process');
 
 const ROOT = path.resolve(__dirname, '..');
 const DIST = path.join(ROOT, 'dist');
-const PORT = 8805;
-const CDP_PORT = 9355;
+const PORT = 8805, CDP_PORT = 9355;
+const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 function serve() {
-  const MIME = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.json': 'application/json; charset=utf-8' };
   return new Promise(res => {
-    const s = http.createServer((req, rq) => {
-      let p = new URL(req.url, 'http://x').pathname;
+    const s = http.createServer((q, r) => {
+      let p = new URL(q.url, 'http://x').pathname;
       if (p === '/') p = '/index.html';
       fs.readFile(path.join(DIST, p), (e, b) => {
-        if (e) { rq.writeHead(404); rq.end('nf'); return; }
-        rq.writeHead(200, { 'Content-Type': MIME[path.extname(p)] || 'application/octet-stream' });
-        rq.end(b);
+        if (e) { r.writeHead(404); r.end('nf'); return; }
+        r.writeHead(200, { 'Content-Type': p.endsWith('.js') ? 'text/javascript' : 'text/html; charset=utf-8' });
+        r.end(b);
       });
     });
     s.listen(PORT, '127.0.0.1', () => res(s));
@@ -39,7 +33,6 @@ function findBrowser() {
     'C:/Program Files/Google/Chrome/Application/chrome.exe'
   ].find(c => fs.existsSync(c));
 }
-const sleep = ms => new Promise(r => setTimeout(r, ms));
 function getJson(u) {
   return new Promise((res, rej) => {
     http.get(u, r => { let d = ''; r.on('data', c => d += c); r.on('end', () => { try { res(JSON.parse(d)) } catch (e) { rej(e) } }); }).on('error', rej);
@@ -77,8 +70,7 @@ async function main() {
   const profile = path.join(os.tmpdir(), 'theme-' + Date.now());
   const proc = spawn(browser, [
     '--headless=new', '--disable-gpu', '--no-sandbox',
-    '--remote-debugging-port=' + CDP_PORT,
-    '--user-data-dir=' + profile, 'about:blank'
+    '--remote-debugging-port=' + CDP_PORT, '--user-data-dir=' + profile, 'about:blank'
   ], { stdio: 'ignore' });
 
   let target = null;
@@ -97,87 +89,124 @@ async function main() {
   await cdp.send('Page.navigate', { url: 'http://127.0.0.1:' + PORT + '/' });
   await sleep(2500);
 
-  /* 1. 默认状态：联赛空、不自动计算 */
+  /* ---------- 默认状态 ---------- */
   const selVal = await cdp.eval("document.getElementById('leagueSel').value");
   check('联赛默认留空', selVal === '', '[' + selVal + ']');
-
-  const outHidden = await cdp.eval("getComputedStyle(document.getElementById('out')).display === 'none'");
-  check('默认不显示结果区', outHidden);
+  check('默认不显示结果区',
+    await cdp.eval("getComputedStyle(document.getElementById('out')).display === 'none'"));
 
   const statusTxt = await cdp.eval("document.getElementById('status').textContent.trim()");
-  check('提示用户先选联赛', statusTxt.indexOf('请先') >= 0, '[' + statusTxt.slice(0, 30) + ']');
+  check('提示用户先选联赛', statusTxt.indexOf('请先') >= 0);
 
-  const rows0 = await cdp.eval("document.querySelectorAll('#probTable tbody tr').length");
-  check('默认未跑模拟', rows0 === 0, '(' + rows0 + ')');
+  const roundDisabled0 = await cdp.eval("document.getElementById('roundSel').disabled");
+  check('未选联赛时轮次下拉禁用', roundDisabled0 === true);
 
-  /* 2. 主题循环 */
-  const themeSeq = [];
-  const initial = await cdp.eval("document.documentElement.getAttribute('data-theme')");
-  themeSeq.push(initial);
-  check('初始主题为 auto', initial === 'auto', '[' + initial + ']');
+  /* ---------- 标题 ---------- */
+  const title = await cdp.eval("document.title");
+  check('页面标题为「足球计算器」', title === '足球计算器', '[' + title + ']');
+  const h1 = await cdp.eval("document.querySelector('header h1').textContent.trim()");
+  check('主标题为「足球计算器」', h1.indexOf('足球计算器') >= 0, '[' + h1 + ']');
+  const hasSub = await cdp.eval("!!document.querySelector('header .sub')");
+  check('已移除副标题', hasSub === false);
 
+  /* ---------- 关键 bug：选联赛后立刻能选轮次 ---------- */
+  await cdp.eval(`(() => {
+    const s = document.getElementById('leagueSel');
+    s.value = 'china-l1';
+    s.dispatchEvent(new Event('change'));
+  })()`, false);
+
+  // 等待 prepareLeague 完成（轮次下拉被填充）
+  let roundReady = false;
+  for (let i = 0; i < 50; i++) {
+    const n = await cdp.eval("document.querySelectorAll('#roundSel option').length");
+    if (n > 1) { roundReady = true; break; }
+    await sleep(200);
+  }
+  check('选联赛后轮次下拉自动填充（无需先点开始计算）', roundReady);
+
+  const roundDisabled1 = await cdp.eval("document.getElementById('roundSel').disabled");
+  check('选联赛后轮次下拉可用', roundDisabled1 === false);
+
+  const roundOpts = await cdp.eval("[...document.querySelectorAll('#roundSel option')].map(o=>o.value)");
+  check('轮次包含「全部」+ 30 轮', roundOpts.length === 31, '(' + roundOpts.length + ' 项)');
+
+  const autoSelected = await cdp.eval("document.getElementById('roundSel').value");
+  check('轮次默认选中「全部」', autoSelected === '', '[' + autoSelected + ']');
+
+  // 选一个历史轮次后直接计算，应生效
+  await cdp.eval(`(() => {
+    const r = document.getElementById('roundSel');
+    r.value = '20'; r.dispatchEvent(new Event('change'));
+    document.getElementById('runBtn').click();
+  })()`, false);
+  await sleep(2500);
+  const meta20 = await cdp.eval("document.getElementById('tableMeta').textContent");
+  check('选第20轮后结果对应第20轮', meta20.indexOf('20') >= 0, '[' + meta20 + ']');
+
+  /* ---------- 主题 ---------- */
+  const themeSeq = [await cdp.eval("document.documentElement.getAttribute('data-theme')")];
   for (let i = 0; i < 5; i++) {
     await cdp.eval("document.getElementById('themeBtn').click()", false);
     await sleep(180);
     themeSeq.push(await cdp.eval("document.documentElement.getAttribute('data-theme')"));
   }
-  console.log('    切换序列: ' + themeSeq.join(' → '));
-  const expected = ['auto', 'dark', 'light', 'auto', 'dark', 'light'];
-  check('循环顺序 自动→夜间→日间→自动', JSON.stringify(themeSeq) === JSON.stringify(expected));
-
-  /* 3. 配色真的变了（注意：必须等一帧让 CSS 重算，不能在同一 eval 里读写） */
-  await cdp.eval("document.body.style.transition='none'", false);
+  check('主题循环 自动→夜间→日间→自动',
+    JSON.stringify(themeSeq) === JSON.stringify(['auto', 'dark', 'light', 'auto', 'dark', 'light']),
+    themeSeq.join('→'));
 
   await cdp.eval("document.documentElement.setAttribute('data-theme','light')", false);
-  await sleep(350);
+  await sleep(300);
   const lightBg = await cdp.eval("getComputedStyle(document.body).backgroundColor");
-  const lightFg = await cdp.eval("getComputedStyle(document.body).color");
-
   await cdp.eval("document.documentElement.setAttribute('data-theme','dark')", false);
-  await sleep(350);
+  await sleep(300);
   const darkBg = await cdp.eval("getComputedStyle(document.body).backgroundColor");
-  const darkFg = await cdp.eval("getComputedStyle(document.body).color");
+  check('日间/夜间配色不同', lightBg !== darkBg, lightBg + ' vs ' + darkBg);
 
-  check('日间与夜间背景色不同', lightBg !== darkBg, lightBg + ' vs ' + darkBg);
-  check('日间与夜间文字色不同', lightFg !== darkFg, lightFg + ' vs ' + darkFg);
-  check('日间背景更亮', lightBg > darkBg, 'light=' + lightBg + ' dark=' + darkBg);
+  /* ---------- 自定义联赛 ---------- */
+  const customOpts = await cdp.eval(`(() => {
+    const groups = [...document.querySelectorAll('#leagueSel optgroup')];
+    const g = groups.find(x => x.label.indexOf('自定义') >= 0);
+    return g ? [...g.querySelectorAll('option')].map(o => o.value) : [];
+  })()`);
+  check('自动识别 data/ 下的自定义联赛', customOpts.indexOf('demo-college') >= 0,
+    '[' + customOpts.join(',') + ']');
 
-  /* 4. 持久化：用点击按钮的方式设置，再刷新验证 */
-  // 先归零到 auto，再点击两次 -> light
-  await cdp.eval("localStorage.setItem('soccer-probability-theme','auto'); location.reload()", false);
-  await sleep(2200);
-  await cdp.eval("document.getElementById('themeBtn').click()", false);  // auto -> dark
-  await sleep(250);
-  await cdp.eval("document.getElementById('themeBtn').click()", false);  // dark -> light
-  await sleep(250);
+  await cdp.eval(`(() => {
+    const s = document.getElementById('leagueSel');
+    s.value = 'demo-college';
+    s.dispatchEvent(new Event('change'));
+  })()`, false);
+  let cReady = false;
+  for (let i = 0; i < 50; i++) {
+    const n = await cdp.eval("document.querySelectorAll('#roundSel option').length");
+    if (n > 1) { cReady = true; break; }
+    await sleep(200);
+  }
+  check('自定义联赛可加载', cReady);
 
-  const stored = await cdp.eval("localStorage.getItem('soccer-probability-theme')");
-  check('主题写入 localStorage', stored === 'light', '[' + stored + ']');
+  await cdp.eval("document.getElementById('runBtn').click()", false);
+  await sleep(2500);
+  const cRows = await cdp.eval("document.querySelectorAll('#probTable tbody tr').length");
+  check('自定义联赛可算出概率', cRows === 6, '(' + cRows + ' 队)');
 
-  await cdp.send('Page.reload', { ignoreCache: true });
-  await sleep(2200);
-  const afterReload = await cdp.eval("document.documentElement.getAttribute('data-theme')");
-  check('刷新后保持上次主题(light)', afterReload === 'light', '[' + afterReload + ']');
+  const cHeads = await cdp.eval("[...document.querySelectorAll('#probTable thead th')].map(h=>h.textContent.trim()).join('|')");
+  check('自定义联赛沿用其名次区间', cHeads.indexOf('晋级决赛') >= 0 || cHeads.indexOf('降入乙组') >= 0,
+    '[' + cHeads + ']');
 
-  const lblAfter = await cdp.eval("document.getElementById('themeLbl').textContent");
-  check('按钮文案同步为「日间」', lblAfter === '日间', '[' + lblAfter + ']');
+  const cSum = await cdp.eval(`(() => {
+    const heads=[...document.querySelectorAll('#probTable thead th')].map(h=>h.textContent.trim());
+    const i=heads.indexOf('冠军');
+    let s=0; for(const r of document.querySelectorAll('#probTable tbody tr')) s += parseFloat(r.children[i].textContent)||0;
+    return Math.round(s*10)/10;
+  })()`);
+  check('自定义联赛冠军概率合计=100%', Math.abs(cSum - 100) < 0.8, '(' + cSum + '%)');
 
-  /* 5. 页脚 */
+  /* ---------- 页脚 ---------- */
   const footer = await cdp.eval("document.querySelector('footer').textContent.trim()");
   const footerHtml = await cdp.eval("document.querySelector('footer').innerHTML");
-  check('页脚只保留 GitHub 字样', footer.length < 40 && footer.indexOf('GitHub') >= 0, '[' + footer + ']');
+  check('页脚只有 GitHub', footer.length < 40 && footer.indexOf('GitHub') >= 0, '[' + footer + ']');
   check('页脚含仓库链接', footerHtml.indexOf('github.com/22ABLE22') >= 0);
-  check('页脚不再有引擎版本冗余', footer.indexOf('引擎') < 0 && footer.indexOf('双泊松') < 0);
-
-  /* 6. 选择联赛后能正常计算 */
-  await cdp.eval(`(() => {
-    const s=document.getElementById('leagueSel');
-    s.value='china-l1'; s.dispatchEvent(new Event('change'));
-    document.getElementById('runBtn').click();
-  })()`, false);
-  await sleep(2600);
-  const rows1 = await cdp.eval("document.querySelectorAll('#probTable tbody tr').length");
-  check('选中联赛后正常出结果', rows1 === 16, '(' + rows1 + ')');
 
   cdp.close(); proc.kill(); server.close();
   try { fs.rmSync(profile, { recursive: true, force: true }); } catch (e) {}

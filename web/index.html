@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>足球联赛概率计算器 · Soccer Probability</title>
+<title>足球计算器</title>
 <style>
   /* ---- 主题变量：dark / light 两套，auto 跟随系统 ---- */
   :root{
@@ -149,8 +149,7 @@
 </head>
 <body>
 <header>
-  <h1>⚽ 足球联赛概率计算器</h1>
-  <span class="sub">蒙特卡洛 · 夺冠 / 晋级 / 附加赛 / 保级</span>
+  <h1>⚽ 足球计算器</h1>
   <button id="themeBtn" class="theme-btn" type="button" title="切换主题（自动 → 夜间 → 日间）">
     <span class="ico" id="themeIco">◐</span><span class="lbl" id="themeLbl">自动</span>
   </button>
@@ -233,8 +232,12 @@
 
 const E = window.SoccerEngine;
 
-/* ---------------- 内置联赛目录（含离线快照地址） ---------------- */
-const LEAGUES = [
+/* ---------------- 联赛目录 ----------------
+ * 内置联赛写死在这里；此外，任何放进 data/ 的 JSON 只要带 id/name/teams/matches，
+ * 构建时会自动注入 window.SOCCER_DATA，这里会自动补进下拉框。
+ * 想加校级联赛：把 JSON 丢进 data/，提交后 CI 重新构建即可。
+ */
+const BUILTIN_LEAGUES = [
   { key:'china-l1',   name:'中甲 · 升级 / 降级',      cid:129,  file:'data/china-l1-2026.json',
     season:'2026',    promotion:2, relegation:2 },
   { key:'csl',        name:'中超 · 亚冠 / 降级',      cid:43,   file:'data/csl-2026.json',
@@ -256,13 +259,60 @@ const LEAGUES = [
     season:'2026-27', relegation:2, relegationPlayoff:1,
     extraSlots:[{from:1,to:4,type:'ucl',label:'欧冠区'}] }
 ];
-const leagueSel = document.getElementById('leagueSel');
-for (const l of LEAGUES) {
-  const o = document.createElement('option');
-  o.value = l.key; o.textContent = l.name;
-  leagueSel.appendChild(o);
+
+/** 把注入的自定义联赛补进目录（已存在的 key 不覆盖） */
+function collectLeagues() {
+  const out = BUILTIN_LEAGUES.slice();
+  const known = new Set(out.map(l => l.key));
+  const bag = window.SOCCER_DATA || {};
+  for (const key of Object.keys(bag)) {
+    if (known.has(key)) continue;
+    const L = bag[key];
+    if (!L || !Array.isArray(L.teams) || !Array.isArray(L.matches)) continue;
+    const teams = L.teams.length;
+    const slots = Array.isArray(L.slots) && L.slots.length
+      ? L.slots.map(x => x.label).join(' / ')
+      : '自动';
+    out.push({
+      key,
+      name: (L.name || key) + (L.season ? ' ' + L.season : '') + '（自定义）',
+      file: null,
+      cid: null,
+      season: L.season || '',
+      custom: true,
+      _slotsDesc: slots,
+      _teams: teams
+    });
+    known.add(key);
+  }
+  return out;
 }
-leagueSel.value = '';   // 默认留空
+
+const LEAGUES = collectLeagues();
+const leagueSel = document.getElementById('leagueSel');
+
+(function fillLeagueSelect() {
+  const builtin = LEAGUES.filter(l => !l.custom);
+  const custom = LEAGUES.filter(l => l.custom);
+
+  const addGroup = (label, items) => {
+    if (!items.length) return;
+    const g = document.createElement('optgroup');
+    g.label = label;
+    for (const l of items) {
+      const o = document.createElement('option');
+      o.value = l.key;
+      o.textContent = l.name;
+      if (l.custom) o.title = l._teams + ' 队，名次区间：' + l._slotsDesc;
+      g.appendChild(o);
+    }
+    leagueSel.appendChild(g);
+  };
+
+  addGroup('内置联赛', builtin);
+  addGroup('自定义联赛（data/ 目录）', custom);
+  leagueSel.value = '';   // 默认留空
+})();
 
 /* ---------------- 主题切换：自动 → 夜间 → 日间 → 循环 ---------------- */
 const THEMES = ['auto', 'dark', 'light'];
@@ -330,12 +380,12 @@ async function loadBundled(key) {
 
   const l = LEAGUES.find(x => x.key === key);
   if (!l) throw new Error('未知联赛 ' + key);
+  if (!l.file) throw new Error('自定义联赛 ' + key + ' 的数据未内联，请确认它已放入 data/ 并重新构建');
   let res;
   try {
     res = await fetch(l.file, { cache: 'no-store' });
   } catch (e) {
-    throw new Error('读取 ' + l.file + ' 失败（以 file:// 打开时需要构建版本 dist/index.html，' +
-      '它已内联数据；或运行 node bin/serve.js 后访问 http://127.0.0.1:8787）');
+    throw new Error('读取 ' + l.file + ' 失败（请使用构建产物 dist/index.html，它已内联数据）');
   }
   if (!res.ok) throw new Error('找不到快照 ' + l.file + '（' + res.status + '）');
   return await res.json();
@@ -380,6 +430,13 @@ async function fetchJsonWithTimeout(url, ms) {
 async function loadLive(key, onProgress) {
   const l = LEAGUES.find(x => x.key === key);
   if (!l) throw new Error('未知联赛 ' + key);
+  if (!l.file) {
+    // 自定义联赛没有在线源，直接用内联数据
+    if (onProgress) onProgress('自定义联赛（本地数据）');
+    const j = await loadBundled(key);
+    j.meta = Object.assign({}, j.meta, { via: '自定义联赛（本地数据）' });
+    return j;
+  }
   const errors = [];
 
   if (window.SOCCER_PROXY) {
@@ -427,6 +484,17 @@ function freshnessNote(league) {
 }
 
 /* ---------------- 轮次下拉 ---------------- */
+function resetRoundSelect() {
+  const sel = document.getElementById('roundSel');
+  sel.innerHTML = '';
+  const o = document.createElement('option');
+  o.value = '';
+  o.textContent = '— 先选联赛 —';
+  sel.appendChild(o);
+  sel.value = '';
+  sel.disabled = true;
+}
+
 function rebuildRounds(league) {
   const rs = Array.from(new Set(league.matches.map(m => m.round).filter(x => x != null)))
     .sort((a, b) => a - b);
@@ -443,7 +511,8 @@ function rebuildRounds(league) {
     sel.appendChild(o);
   }
   sel.value = '';
-  return rs;
+  sel.disabled = false;
+  return rs.length ? rs[rs.length - 1] : null;
 }
 
 /* ---------------- what-if 编辑 ---------------- */
@@ -698,21 +767,73 @@ async function run() {
 }
 
 document.getElementById('runBtn').onclick = run;
-leagueSel.onchange = () => {
+
+/** 选联赛后立刻把数据准备好（填充轮次下拉），但不跑模拟 */
+async function prepareLeague() {
+  const key = leagueSel.value;
+  const status = document.getElementById('status');
+
   state.league = null;
   state.leagueKey = null;
-  if (!leagueSel.value) {
-    const status = document.getElementById('status');
+
+  if (!key) {
+    resetRoundSelect();
     status.className = 'hint empty';
     status.style.display = '';
     status.textContent = '请先在上方「联赛」中选择一个联赛，再点击「开始计算」。';
     document.getElementById('out').style.display = 'none';
+    const dn = document.getElementById('dataNote');
+    if (dn) dn.style.display = 'none';
+    return;
   }
+
+  status.className = 'hint empty';
+  status.style.display = '';
+  status.innerHTML = '<span class="spin"></span> 正在准备数据…';
+
+  try {
+    const src = document.getElementById('srcSel').value;
+    if (src === 'live') {
+      try {
+        state.league = await loadLive(key, label => {
+          status.innerHTML = '<span class="spin"></span> 正在获取最新数据（' + label + '）…';
+        });
+      } catch (e) {
+        state.league = await loadBundled(key);
+        state.league.meta = Object.assign({}, state.league.meta, {
+          via: '内置快照（在线获取失败，已回退）',
+          liveError: String(e && e.message ? e.message : e)
+        });
+      }
+    } else {
+      state.league = await loadBundled(key);
+    }
+    state.leagueKey = key;
+    state.srcKey = src;
+    state.maxRound = rebuildRounds(state.league);
+    renderWhatIfs();
+
+    status.className = 'hint empty';
+    status.textContent = '已就绪：' + state.league.name +
+      (state.league.meta && state.league.meta.season ? ' ' + state.league.meta.season : '') +
+      '（' + state.league.teams.length + ' 队，共 ' + state.maxRound + ' 轮）。'
+      + '可以选择「截至轮次」后点击「开始计算」。';
+  } catch (e) {
+    status.className = 'err';
+    status.textContent = '加载失败：' + (e && e.message ? e.message : e);
+  }
+}
+
+leagueSel.onchange = prepareLeague;
+document.getElementById('srcSel').onchange = () => {
+  state.league = null;
+  state.leagueKey = null;
+  if (leagueSel.value) prepareLeague();
 };
-document.getElementById('srcSel').onchange = () => { state.league = null; state.leagueKey = null; };
 
 // 默认不自动计算：等待用户选择联赛
 (function initPrompt() {
+  resetRoundSelect();
   const status = document.getElementById('status');
   status.className = 'hint empty';
   status.style.display = '';

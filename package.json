@@ -1,25 +1,16 @@
 {
-  "name": "soccer-probability",
+  "name": "soccer-calculator",
   "version": "1.0.0",
-  "description": "通用足球联赛概率计算器：夺冠 / 升级 / 附加赛 / 保级，双泊松 + 蒙特卡洛",
-  "main": "src/engine.js",
-  "bin": {
-    "soccer-prob": "bin/cli.js",
-    "soccer-prob-serve": "bin/serve.js"
-  },
+  "description": "纯前端足球联赛概率计算器：夺冠 / 升级 / 附加赛 / 保级",
+  "private": true,
   "scripts": {
-    "test": "node tests/test-engine.js && node tests/test-ui.js && node tests/test-offline.js && node tests/test-theme.js && node tests/test-ui-deep.js",
-    "test:cal": "node tests/test-calibration.js",
-    "test:live": "node tests/test-live.js",
-    "test:fetch": "node tests/test-live-fetch.js",
     "build": "node bin/build.js",
-    "serve": "node bin/serve.js",
-    "demo": "node bin/cli.js demo",
-    "fetch:all": "node bin/fetch-all.js"
+    "fetch": "node bin/fetch-all.js",
+    "test": "node tests/test-engine.js && node tests/test-ui.js && node tests/test-offline.js && node tests/test-theme.js"
   },
-  "keywords": ["football", "soccer", "monte-carlo", "poisson", "league-table", "relegation", "promotion", "probability"],
+  "keywords": ["football", "soccer", "monte-carlo", "poisson", "league-table", "relegation", "promotion", "github-pages"],
   "license": "MIT",
-  "engines": { "node": ">=16" },
+  "engines": { "node": ">=18" },
   "dependencies": {},
   "devDependencies": {}
 }

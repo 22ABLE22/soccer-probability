@@ -66,7 +66,7 @@ async function main() {
   const dom = fs.readFileSync(dump, 'utf8');
 
   check('引擎已内联', /SoccerEngine/.test(dom));
-  check('七大联赛都在下拉里', ['china-l1','csl','epl','laliga','seriea','bundesliga','ligue1']
+  check('内置联赛都在下拉里', ['china-l1','csl','epl','laliga','seriea','bundesliga','ligue1']
     .every(k => dom.indexOf('value="' + k + '"') >= 0));
   check('存在「请选择」空选项', /<option value="">— 请选择 —<\/option>/.test(dom));
   check('默认显示引导提示', dom.indexOf('请先在上方「联赛」中选择一个联赛') >= 0);
