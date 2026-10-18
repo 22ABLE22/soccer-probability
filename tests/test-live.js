@@ -66,19 +66,15 @@ async function main(){
   await cdp.send('Page.navigate',{url:SITE});
   await sleep(4000);
 
-  let ok=false;
-  for(let i=0;i<50;i++){
-    ok = await cdp.eval("document.querySelectorAll('#probTable tbody tr').length > 0");
-    if(ok) break;
-    await sleep(400);
-  }
-  check('线上页面完成首次计算', ok);
+  // 页面默认留空，不再自动计算；先断言这一点
+  const blankSel = await cdp.eval("document.getElementById('leagueSel').value");
+  check('线上页面默认联赛留空', blankSel === '', '[' + blankSel + ']');
 
   const opts = await cdp.eval("[...document.querySelectorAll('#leagueSel option')].map(o=>o.value)");
   const expected = ['china-l1','csl','epl','laliga','seriea','bundesliga','ligue1'];
-  check('联赛下拉含七大联赛', expected.every(k=>opts.includes(k)), '('+opts.join(',')+')');
+  check('联赛下拉含七大联赛', expected.every(k=>opts.includes(k)), '('+opts.filter(Boolean).join(',')+')');
 
-  // 逐个联赛切换并核对
+  // 逐个联赛切换并核对（列索引按表头动态定位）
   const probes = [
     { key:'epl',        team:'曼城',     file:'英超' },
     { key:'laliga',     team:'皇家马德里', file:'西甲' },
@@ -89,30 +85,43 @@ async function main(){
     { key:'china-l1',   team:'广东广州豹', file:'中甲' }
   ];
 
+  // 每个联赛的队数，用于确认表格真的换了
+  const EXPECT_TEAMS = {
+    'epl': 20, 'laliga': 20, 'seriea': 20,
+    'bundesliga': 18, 'ligue1': 18, 'csl': 16, 'china-l1': 16
+  };
+
   for(const p of probes){
+    const want = EXPECT_TEAMS[p.key];
+
     await cdp.eval(`(() => {
       const s=document.getElementById('leagueSel');
       s.value=${JSON.stringify(p.key)};
       s.dispatchEvent(new Event('change'));
       document.getElementById('runBtn').click();
     })()`, false);
-    await sleep(2600);
 
-    const found = await cdp.eval(`(() => {
-      const rows=[...document.querySelectorAll('#probTable tbody tr')];
-      const r=rows.find(x=>x.children[1].textContent.trim()===${JSON.stringify(p.team)});
-      if(!r) return null;
-      return { title: r.children[5].textContent.trim(), n: rows.length };
-    })()`);
-    check(p.file+' 可计算（队名 '+p.team+' 命中）', !!found,
-      found ? '(共 '+found.n+' 队)' : '');
+    // 等到行数等于该联赛队数，且目标球队出现
+    let info = null;
+    for (let i = 0; i < 60; i++) {
+      info = await cdp.eval(`(() => {
+        const rows=[...document.querySelectorAll('#probTable tbody tr')];
+        if(rows.length !== ${want}) return {ready:false, n:rows.length};
+        const heads=[...document.querySelectorAll('#probTable thead th')].map(h=>h.textContent.trim());
+        const titleIdx = heads.indexOf('冠军');
+        const r = rows.find(x=>x.children[1].textContent.trim()===${JSON.stringify(p.team)});
+        let sum=0;
+        for(const row of rows) sum += parseFloat(row.children[titleIdx].textContent)||0;
+        return {ready:true, found:!!r, n:rows.length, sum:Math.round(sum*10)/10};
+      })()`);
+      if (info && info.ready && info.found) break;
+      await sleep(300);
+    }
 
-    const sumTitle = await cdp.eval(`(() => {
-      const rows=[...document.querySelectorAll('#probTable tbody tr')];
-      let s=0; for(const r of rows) s += parseFloat(r.children[5].textContent)||0;
-      return Math.round(s*10)/10;
-    })()`);
-    check(p.file+' 冠军概率合计=100%', Math.abs(sumTitle-100)<0.8, '('+sumTitle+'%)');
+    check(p.file+' 可计算（'+p.team+' 命中）', !!(info && info.found),
+      info ? '(共 '+info.n+' 队)' : '(无数据)');
+    check(p.file+' 冠军概率合计=100%', !!(info && Math.abs(info.sum-100)<0.8),
+      info ? '('+info.sum+'%)' : '');
   }
 
   cdp.close(); proc.kill();

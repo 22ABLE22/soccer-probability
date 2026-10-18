@@ -620,7 +620,10 @@ async function run() {
   try {
     const src = document.getElementById('srcSel').value;
 
-    if (!state.league || state.leagueKey !== key || state.srcKey !== src) {
+    // 只要联赛或数据源与上次不同，就重新加载。
+    // 注意 state.leagueKey 必须与 key 严格比较，二者任一改变都要重取。
+    const needReload = !state.league || state.leagueKey !== key || state.srcKey !== src;
+    if (needReload) {
       if (src === 'live') {
         try {
           state.league = await loadLive(key, label => {
