@@ -2306,7 +2306,7 @@
       "away": "青岛西海岸",
       "homeGoals": 1,
       "awayGoals": 0,
-      "played": false
+      "played": true
     },
     {
       "id": "54389878",
@@ -2314,9 +2314,9 @@
       "date": "2026-10-18 20:00",
       "home": "上海海港",
       "away": "成都蓉城",
-      "homeGoals": 0,
+      "homeGoals": 3,
       "awayGoals": 0,
-      "played": false
+      "played": true
     },
     {
       "id": "54389825",
@@ -2502,8 +2502,7 @@
       "from": 1,
       "to": 3,
       "type": "afc",
-      "label": "亚冠区",
-      "color": "#1565c0"
+      "label": "亚冠区"
     },
     {
       "from": 15,
@@ -2516,21 +2515,58 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:43",
-    "fetchedAt": "2026-10-18T12:39:23.396Z",
+    "fetchedAt": "2026-10-18T22:23:31.043Z",
     "maxRound": 30,
-    "url": "https://www.dongqiudi.com/data?cid=43&tab=schedule",
-    "cid": 43,
+    "url": "https://www.dongqiudi.com/data?cid=43",
+    "deductions": [
+      {
+        "team": "天津津门虎",
+        "deduction": 10
+      },
+      {
+        "team": "山东泰山",
+        "deduction": 6
+      },
+      {
+        "team": "上海申花",
+        "deduction": 10
+      },
+      {
+        "team": "上海海港",
+        "deduction": 5
+      },
+      {
+        "team": "河南",
+        "deduction": 6
+      },
+      {
+        "team": "青岛海牛",
+        "deduction": 7
+      },
+      {
+        "team": "浙江",
+        "deduction": 5
+      },
+      {
+        "team": "武汉三镇",
+        "deduction": 5
+      },
+      {
+        "team": "北京国安",
+        "deduction": 5
+      }
+    ],
     "officialTable": [
       {
         "rank": 1,
         "name": "成都蓉城",
         "played": null,
-        "wins": 27,
+        "wins": 28,
         "draws": 15,
         "losses": 7,
         "gf": 51,
-        "ga": 31,
-        "gd": 20,
+        "ga": 34,
+        "gd": 17,
         "points": 52
       },
       {
@@ -2549,13 +2585,13 @@
         "rank": 3,
         "name": "北京国安",
         "played": null,
-        "wins": 27,
-        "draws": 12,
+        "wins": 28,
+        "draws": 13,
         "losses": 10,
-        "gf": 52,
+        "gf": 53,
         "ga": 33,
-        "gd": 19,
-        "points": 41
+        "gd": 20,
+        "points": 44
       },
       {
         "rank": 4,
@@ -2571,6 +2607,18 @@
       },
       {
         "rank": 5,
+        "name": "上海海港",
+        "played": null,
+        "wins": 28,
+        "draws": 12,
+        "losses": 8,
+        "gf": 47,
+        "ga": 35,
+        "gd": 12,
+        "points": 39
+      },
+      {
+        "rank": 6,
         "name": "云南玉昆",
         "played": null,
         "wins": 28,
@@ -2582,19 +2630,19 @@
         "points": 39
       },
       {
-        "rank": 6,
+        "rank": 7,
         "name": "青岛西海岸",
         "played": null,
-        "wins": 27,
+        "wins": 28,
         "draws": 8,
         "losses": 14,
         "gf": 31,
-        "ga": 36,
-        "gd": -5,
+        "ga": 37,
+        "gd": -6,
         "points": 38
       },
       {
-        "rank": 7,
+        "rank": 8,
         "name": "上海申花",
         "played": null,
         "wins": 28,
@@ -2604,18 +2652,6 @@
         "ga": 48,
         "gd": 14,
         "points": 37
-      },
-      {
-        "rank": 8,
-        "name": "上海海港",
-        "played": null,
-        "wins": 27,
-        "draws": 11,
-        "losses": 8,
-        "gf": 44,
-        "ga": 35,
-        "gd": 9,
-        "points": 36
       },
       {
         "rank": 9,
@@ -2712,62 +2748,6 @@
         "ga": 60,
         "gd": -26,
         "points": 14
-      }
-    ],
-    "deductions": [
-      {
-        "team": "天津津门虎",
-        "deduction": 10,
-        "computed": 41,
-        "official": 31
-      },
-      {
-        "team": "山东泰山",
-        "deduction": 6,
-        "computed": 47,
-        "official": 41
-      },
-      {
-        "team": "上海申花",
-        "deduction": 10,
-        "computed": 47,
-        "official": 37
-      },
-      {
-        "team": "上海海港",
-        "deduction": 5,
-        "computed": 41,
-        "official": 36
-      },
-      {
-        "team": "河南",
-        "deduction": 6,
-        "computed": 34,
-        "official": 28
-      },
-      {
-        "team": "青岛海牛",
-        "deduction": 7,
-        "computed": 21,
-        "official": 14
-      },
-      {
-        "team": "浙江",
-        "deduction": 5,
-        "computed": 36,
-        "official": 31
-      },
-      {
-        "team": "武汉三镇",
-        "deduction": 5,
-        "computed": 27,
-        "official": 22
-      },
-      {
-        "team": "北京国安",
-        "deduction": 5,
-        "computed": 46,
-        "official": 41
       }
     ]
   }

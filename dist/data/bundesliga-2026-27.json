@@ -603,9 +603,9 @@
       "date": "2026-10-18 21:30",
       "home": "勒沃库森",
       "away": "弗赖堡",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
     },
     {
       "id": "54494515",
@@ -613,9 +613,9 @@
       "date": "2026-10-18 23:30",
       "home": "门兴格拉德巴赫",
       "away": "霍芬海姆",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
     },
     {
       "id": "54494540",
@@ -3161,15 +3161,13 @@
       "from": 1,
       "to": 4,
       "type": "ucl",
-      "label": "欧冠区",
-      "color": "#1565c0"
+      "label": "欧冠区"
     },
     {
       "from": 5,
       "to": 5,
       "type": "uel",
-      "label": "欧联区",
-      "color": "#1565c0"
+      "label": "欧联区"
     },
     {
       "from": 16,
@@ -3189,10 +3187,10 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:5",
-    "fetchedAt": "2026-10-18T12:39:29.060Z",
+    "fetchedAt": "2026-10-18T22:23:49.032Z",
     "maxRound": 34,
-    "url": "https://www.dongqiudi.com/data?cid=5&tab=schedule",
-    "cid": 5,
+    "url": "https://www.dongqiudi.com/data?cid=5",
+    "deductions": [],
     "officialTable": [
       {
         "rank": 1,
@@ -3222,25 +3220,25 @@
         "rank": 3,
         "name": "弗赖堡",
         "played": null,
-        "wins": 5,
+        "wins": 6,
         "draws": 4,
         "losses": 1,
-        "gf": 14,
-        "ga": 4,
-        "gd": 10,
+        "gf": 15,
+        "ga": 6,
+        "gd": 9,
         "points": 13
       },
       {
         "rank": 4,
         "name": "勒沃库森",
         "played": null,
-        "wins": 5,
-        "draws": 3,
+        "wins": 6,
+        "draws": 4,
         "losses": 1,
-        "gf": 14,
-        "ga": 8,
-        "gd": 6,
-        "points": 10
+        "gf": 16,
+        "ga": 9,
+        "gd": 7,
+        "points": 13
       },
       {
         "rank": 5,
@@ -3352,6 +3350,18 @@
       },
       {
         "rank": 14,
+        "name": "霍芬海姆",
+        "played": null,
+        "wins": 6,
+        "draws": 2,
+        "losses": 0,
+        "gf": 11,
+        "ga": 14,
+        "gd": -3,
+        "points": 6
+      },
+      {
+        "rank": 15,
         "name": "沙尔克04",
         "played": null,
         "wins": 6,
@@ -3363,7 +3373,7 @@
         "points": 5
       },
       {
-        "rank": 15,
+        "rank": 16,
         "name": "帕德博恩",
         "played": null,
         "wins": 6,
@@ -3375,7 +3385,7 @@
         "points": 5
       },
       {
-        "rank": 16,
+        "rank": 17,
         "name": "柏林联合",
         "played": null,
         "wins": 6,
@@ -3387,30 +3397,17 @@
         "points": 5
       },
       {
-        "rank": 17,
-        "name": "霍芬海姆",
-        "played": null,
-        "wins": 5,
-        "draws": 1,
-        "losses": 0,
-        "gf": 9,
-        "ga": 13,
-        "gd": -4,
-        "points": 3
-      },
-      {
         "rank": 18,
         "name": "门兴格拉德巴赫",
         "played": null,
-        "wins": 5,
+        "wins": 6,
         "draws": 0,
         "losses": 0,
-        "gf": 7,
-        "ga": 18,
-        "gd": -11,
+        "gf": 8,
+        "ga": 20,
+        "gd": -12,
         "points": 0
       }
-    ],
-    "deductions": []
+    ]
   }
 }
