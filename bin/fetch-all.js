@@ -9,6 +9,11 @@
  */
 'use strict';
 
+// GitHub Actions 的日志按 UTF-8 解析，但 Node 在 Linux runner 上按管道编码
+// 输出中文会变成乱码。这里统一用 UTF-8 Buffer 写 stdout。
+const out = (s) => process.stdout.write(Buffer.from(String(s), 'utf8'));
+const outln = (s) => out((s == null ? '' : s) + '\n');
+
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
@@ -104,7 +109,7 @@ async function request(url, opts) {
       if (i === attempts || !retryable) break;
       // 1.5s, 4s, 8s ...
       const wait = Math.round(1500 * Math.pow(1.8, i - 1));
-      if (o.label) process.stdout.write('[retry ' + i + '/' + (attempts - 1) + ' ' + wait + 'ms] ');
+      if (o.label) out('[retry ' + i + '/' + (attempts - 1) + ' ' + wait + 'ms] ');
       await sleep(wait);
     }
   }
@@ -314,7 +319,7 @@ async function main() {
   const failList = [];
 
   for (const meta of LEAGUES) {
-    process.stdout.write('  ' + meta.key.padEnd(12));
+    out('  ' + meta.key.padEnd(12));
     const file = path.join(OUT, meta.key + '-' + (meta.season || 'latest') + '.json');
 
     try {
@@ -327,7 +332,7 @@ async function main() {
           const old = JSON.parse(fs.readFileSync(file, 'utf8'));
           const oldPlayed = old.matches.filter(m => m.played).length;
           if (played < oldPlayed) {
-            console.log('⚠ 已赛数倒退（新 ' + played + ' < 旧 ' + oldPlayed + '），保留旧文件');
+            outln('⚠ 已赛数倒退（新 ' + played + ' < 旧 ' + oldPlayed + '），保留旧文件');
             failList.push({ key: meta.key, reason: '数据倒退 ' + played + ' < ' + oldPlayed });
             continue;
           }
@@ -335,21 +340,21 @@ async function main() {
       }
 
       fs.writeFileSync(file, JSON.stringify(league, null, 2), 'utf8');
-      console.log('✓  ' + league.teams.length + ' 队  ' + played + '/' + league.matches.length + ' 场');
+      outln('✓  ' + league.teams.length + ' 队  ' + played + '/' + league.matches.length + ' 场');
       okList.push(meta.key);
       await sleep(800);   // 对上游友好
     } catch (e) {
-      console.log('✗  ' + e.message);
+      outln('✗  ' + e.message);
       failList.push({ key: meta.key, reason: e.message });
     }
   }
 
   /* ---- 汇总 ---- */
-  console.log('');
-  console.log('成功 ' + okList.length + '/' + LEAGUES.length + ' 个联赛');
+  outln('');
+  outln('成功 ' + okList.length + '/' + LEAGUES.length + ' 个联赛');
   if (failList.length) {
-    console.log('失败 ' + failList.length + ' 个：');
-    for (const f of failList) console.log('  - ' + f.key + '：' + f.reason);
+    outln('失败 ' + failList.length + ' 个：');
+    for (const f of failList) outln('  - ' + f.key + '：' + f.reason);
   }
 
   // 写一份状态文件，供 CI 与页面提示
