@@ -11,10 +11,11 @@ const fs = require('fs');
 const path = require('path');
 const os = require('os');
 const { execFile } = require('child_process');
+const { findFreePort } = require('./port.js');
 
 const ROOT = path.resolve(__dirname, '..');
 const DIST = path.join(ROOT, 'dist');
-const PORT = 8811;
+let PORT = 8811;
 
 function serve() {
   const MIME = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.json': 'application/json; charset=utf-8' };
@@ -41,6 +42,7 @@ function findBrowser() {
 }
 
 async function main() {
+  PORT = await findFreePort(PORT);
   const server = await serve();
   const browser = findBrowser();
   if (!browser) { console.log('SKIP: 无浏览器'); server.close(); return; }

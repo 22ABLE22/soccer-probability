@@ -6,7 +6,7 @@
   "scripts": {
     "build": "node bin/build.js",
     "fetch": "node bin/fetch-all.js",
-    "test": "node tests/test-engine.js && node tests/test-ui.js && node tests/test-offline.js && node tests/test-theme.js",
+    "test": "node tests/test-engine.js && node tests/test-data.js && node tests/test-ui.js && node tests/test-offline.js && node tests/test-theme.js",
     "test:live": "node tests/live-check.js"
   },
   "keywords": [

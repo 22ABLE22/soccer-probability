@@ -6,10 +6,11 @@ const fs = require('fs');
 const path = require('path');
 const os = require('os');
 const { spawn } = require('child_process');
+const { findFreePort } = require('./port.js');
 
 const ROOT = path.resolve(__dirname, '..');
 const DIST = path.join(ROOT, 'dist');
-const PORT = 8805, CDP_PORT = 9355;
+let PORT = 8805, CDP_PORT = 9355;
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 function serve() {
@@ -63,6 +64,8 @@ class CDP {
 }
 
 async function main() {
+  PORT = await findFreePort(PORT);
+  CDP_PORT = await findFreePort(CDP_PORT);
   const server = await serve();
   const browser = findBrowser();
   if (!browser) { console.log('SKIP 无浏览器'); server.close(); return; }

@@ -18,6 +18,11 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    env:
+      # 让 Node 与 shell 都按 UTF-8 输出，避免日志中文乱码
+      LANG: C.UTF-8
+      LC_ALL: C.UTF-8
+      PYTHONIOENCODING: utf-8
     steps:
       - uses: actions/checkout@v4
 
@@ -25,7 +30,10 @@ jobs:
         with:
           node-version: '20'
 
+      # 抓取失败不中断，先跑完拿到完整结果；最后一步再决定是否报红
       - name: Fetch all leagues
+        id: fetch
+        continue-on-error: true
         run: node bin/fetch-all.js
 
       - name: Rebuild static site
@@ -34,6 +42,14 @@ jobs:
       - name: Sanity check
         run: node tests/test-engine.js
 
+      # 数据完整性：结构、比分一致性、每轮场次、新鲜度
+      # 失败不阻断提交（好数据仍要落地），但会在最后一步报红
+      - name: Data integrity check
+        id: data
+        continue-on-error: true
+        run: node tests/test-data.js --max-days 2
+
+      # 即使部分联赛失败，也把已成功的数据提交上去
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
@@ -45,3 +61,15 @@ jobs:
             git commit -m "chore(data): 自动刷新联赛数据 $(date -u '+%Y-%m-%d %H:%M UTC')"
             git push
           fi
+
+      # 关键：把抓取失败 / 数据异常暴露成红色，而不是静默成功
+      - name: Report result
+        if: steps.fetch.outcome != 'success' || steps.data.outcome != 'success'
+        run: |
+          if [ "${{ steps.fetch.outcome }}" != "success" ]; then
+            echo "::error::部分联赛抓取失败，详见「Fetch all leagues」日志（失败联赛保留旧数据）"
+          fi
+          if [ "${{ steps.data.outcome }}" != "success" ]; then
+            echo "::error::数据完整性检查未通过，详见「Data integrity check」日志"
+          fi
+          exit 1

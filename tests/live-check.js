@@ -7,6 +7,7 @@ const fs = require('fs');
 const os = require('os');
 const path = require('path');
 const { spawn } = require('child_process');
+const { findFreePort } = require('./port.js');
 
 const SITE = 'https://22able22.github.io/soccer-probability/';
 const CDP_PORT = 9391;
@@ -42,6 +43,7 @@ class CDP {
 }
 
 async function main() {
+  CDP_PORT = await findFreePort(CDP_PORT);
   const profile = path.join(os.tmpdir(), 'live-' + Date.now());
   const proc = spawn('C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe', [
     '--headless=new', '--disable-gpu', '--no-sandbox',

@@ -38,9 +38,14 @@ const LEAGUES = [
 ];
 
 /* ------------------------------------------------------------------ *
- * HTTP
+ * HTTP（带重试）
+ * 懂球帝对机房 IP 有反爬，偶发 567 / 403 / 429，重试通常能过。
  * ------------------------------------------------------------------ */
-function request(url, timeoutMs) {
+const RETRYABLE = new Set([403, 429, 500, 502, 503, 504, 520, 521, 522, 523, 524, 567]);
+
+function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+function requestOnce(url, timeoutMs) {
   const u = new URL(url);
   const mod = u.protocol === 'http:' ? http : https;
   return new Promise((resolve, reject) => {
@@ -49,17 +54,26 @@ function request(url, timeoutMs) {
       port: u.port || undefined,
       path: u.pathname + u.search,
       headers: {
-        'User-Agent': 'Mozilla/5.0 (compatible; soccer-calculator/1.0)',
-        'Accept': 'text/html;q=0.9,*/*;q=0.8',
-        'Accept-Language': 'zh-CN,zh;q=0.9'
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 ' +
+          '(KHTML, like Gecko) Chrome/124.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        'Cache-Control': 'no-cache',
+        'Pragma': 'no-cache',
+        'Connection': 'close'
       },
       timeout: timeoutMs || 30000
     }, res => {
       if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
         res.resume();
-        return resolve(request(new URL(res.headers.location, url).toString(), timeoutMs));
+        return resolve(requestOnce(new URL(res.headers.location, url).toString(), timeoutMs));
       }
-      if (res.statusCode !== 200) { res.resume(); return reject(new Error('HTTP ' + res.statusCode)); }
+      if (res.statusCode !== 200) {
+        res.resume();
+        const err = new Error('HTTP ' + res.statusCode);
+        err.status = res.statusCode;
+        return reject(err);
+      }
       const chunks = [];
       res.on('data', c => chunks.push(c));
       res.on('end', () => resolve(Buffer.concat(chunks).toString('utf8')));
@@ -68,6 +82,33 @@ function request(url, timeoutMs) {
     req.on('error', reject);
     req.end();
   });
+}
+
+/**
+ * 带指数退避的重试。
+ * @param {string} url
+ * @param {object} opts { attempts, timeoutMs, label }
+ */
+async function request(url, opts) {
+  const o = opts || {};
+  const attempts = o.attempts || 4;
+  const timeoutMs = o.timeoutMs || 30000;
+  let lastErr;
+
+  for (let i = 1; i <= attempts; i++) {
+    try {
+      return await requestOnce(url, timeoutMs);
+    } catch (e) {
+      lastErr = e;
+      const retryable = e.status == null || RETRYABLE.has(e.status);
+      if (i === attempts || !retryable) break;
+      // 1.5s, 4s, 8s ...
+      const wait = Math.round(1500 * Math.pow(1.8, i - 1));
+      if (o.label) process.stdout.write('[retry ' + i + '/' + (attempts - 1) + ' ' + wait + 'ms] ');
+      await sleep(wait);
+    }
+  }
+  throw lastErr;
 }
 
 /* ------------------------------------------------------------------ *
@@ -243,7 +284,7 @@ function rowsToLeague(rows, meta) {
 
 async function fetchLeague(meta) {
   const base = 'https://www.dongqiudi.com/data?cid=' + meta.cid;
-  const html = await request(base + '&tab=schedule');
+  const html = await request(base + '&tab=schedule', { label: meta.key, attempts: 5 });
   const rows = parseScheduleHtml(html);
   if (!rows.length) throw new Error('赛程页无数据');
 
@@ -251,7 +292,7 @@ async function fetchLeague(meta) {
   league.meta.url = base;
 
   try {
-    const sHtml = await request(base + '&tab=standings');
+    const sHtml = await request(base + '&tab=standings', { label: meta.key, attempts: 3 });
     const official = parseStandingsHtml(sHtml);
     if (official.length) {
       league.meta.deductions = applyDeductions(league, official);
@@ -268,25 +309,59 @@ async function fetchLeague(meta) {
  * ------------------------------------------------------------------ */
 async function main() {
   fs.mkdirSync(OUT, { recursive: true });
-  let ok = 0;
+
+  const okList = [];
+  const failList = [];
 
   for (const meta of LEAGUES) {
     process.stdout.write('  ' + meta.key.padEnd(12));
+    const file = path.join(OUT, meta.key + '-' + (meta.season || 'latest') + '.json');
+
     try {
       const league = await fetchLeague(meta);
-      const file = path.join(OUT, meta.key + '-' + (meta.season || 'latest') + '.json');
-      fs.writeFileSync(file, JSON.stringify(league, null, 2), 'utf8');
       const played = league.matches.filter(m => m.played).length;
+
+      // 防倒退：如果新数据比旧数据"已赛更少"，视为异常，保留旧文件
+      if (fs.existsSync(file)) {
+        try {
+          const old = JSON.parse(fs.readFileSync(file, 'utf8'));
+          const oldPlayed = old.matches.filter(m => m.played).length;
+          if (played < oldPlayed) {
+            console.log('⚠ 已赛数倒退（新 ' + played + ' < 旧 ' + oldPlayed + '），保留旧文件');
+            failList.push({ key: meta.key, reason: '数据倒退 ' + played + ' < ' + oldPlayed });
+            continue;
+          }
+        } catch (e) { /* 旧文件坏了就覆盖 */ }
+      }
+
+      fs.writeFileSync(file, JSON.stringify(league, null, 2), 'utf8');
       console.log('✓  ' + league.teams.length + ' 队  ' + played + '/' + league.matches.length + ' 场');
-      ok++;
-      await new Promise(r => setTimeout(r, 400));   // 对上游友好
+      okList.push(meta.key);
+      await sleep(800);   // 对上游友好
     } catch (e) {
       console.log('✗  ' + e.message);
+      failList.push({ key: meta.key, reason: e.message });
     }
   }
 
-  console.log('\n完成：' + ok + '/' + LEAGUES.length + ' 个联赛');
-  if (ok === 0) process.exitCode = 1;
+  /* ---- 汇总 ---- */
+  console.log('');
+  console.log('成功 ' + okList.length + '/' + LEAGUES.length + ' 个联赛');
+  if (failList.length) {
+    console.log('失败 ' + failList.length + ' 个：');
+    for (const f of failList) console.log('  - ' + f.key + '：' + f.reason);
+  }
+
+  // 写一份状态文件，供 CI 与页面提示
+  const statusFile = path.join(OUT, '_status.json');
+  fs.writeFileSync(statusFile, JSON.stringify({
+    updatedAt: new Date().toISOString(),
+    ok: okList,
+    failed: failList
+  }, null, 2), 'utf8');
+
+  // 只要有失败就返回非零，让 CI 显红（但已成功的联赛文件仍会被提交）
+  if (failList.length) process.exitCode = 2;
 }
 
 main();

@@ -117,6 +117,7 @@
   .p-high{color:var(--green)} .p-mid{color:var(--yellow)} .p-low{color:var(--dim)} .p-zero{color:var(--zero)}
   .tag{font-size:11px;padding:1px 6px;border-radius:4px;background:var(--tag-bg);color:var(--tag-fg)}
   .hint{color:var(--dim);font-size:12px;padding:10px 14px;line-height:1.6}
+  .hint.warn{color:var(--yellow)}
   .row{display:flex;gap:14px;flex-wrap:wrap}
   .row>*{flex:1;min-width:260px}
   .err{color:var(--red);padding:12px 14px;font-size:13px}
@@ -467,20 +468,31 @@ async function loadLive(key, onProgress) {
   throw new Error('获取最新数据失败：\n' + errors.join('\n'));
 }
 
-/** 数据新鲜度说明 */
+/** 数据新鲜度说明；超过 48 小时会明确标注"数据可能不是最新" */
 function freshnessNote(league) {
   const via = (league.meta && league.meta.via) || '内置快照';
   const at = league.meta && league.meta.fetchedAt;
   const played = league.matches.filter(m => m.played).length;
   let s = '来源：' + via;
+
+  let stale = false;
   if (at) {
     const d = new Date(at);
     if (!isNaN(d.getTime())) {
       s += ' · 抓取于 ' + d.toLocaleString('zh-CN', { hour12: false });
+      const hours = (Date.now() - d.getTime()) / 3600000;
+      if (hours > 48) {
+        stale = true;
+        s += '（' + Math.floor(hours / 24) + ' 天前，可能不是最新）';
+      }
     }
+  } else {
+    stale = true;
+    s += '（无抓取时间，可能不是最新）';
   }
+
   s += ' · 已赛 ' + played + '/' + league.matches.length + ' 场';
-  return s;
+  return { text: s, stale };
 }
 
 /* ---------------- 轮次下拉 ---------------- */
@@ -751,7 +763,9 @@ async function run() {
     // 数据新鲜度（来源 / 抓取时间 / 已完成场次）
     const noteEl = document.getElementById('dataNote');
     if (noteEl) {
-      noteEl.textContent = freshnessNote(state.league);
+      const fr = freshnessNote(state.league);
+      noteEl.textContent = fr.text;
+      noteEl.className = 'hint' + (fr.stale ? ' warn' : '');
       noteEl.title = (state.league.meta && state.league.meta.liveError) || '';
       noteEl.style.display = '';
     }

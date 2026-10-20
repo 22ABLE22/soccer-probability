@@ -9,10 +9,11 @@ const path = require('path');
 const os = require('os');
 const http = require('http');
 const { spawn } = require('child_process');
+const { findFreePort } = require('./port.js');
 
 const ROOT = path.resolve(__dirname, '..');
 const DIST = path.join(ROOT, 'dist');
-const CDP = 9361;
+let CDP_PORT = 9361;
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 function findBrowser() {
@@ -29,6 +30,7 @@ function getJson(u) {
 }
 
 async function main() {
+  CDP_PORT = await findFreePort(CDP_PORT);
   const browser = findBrowser();
   if (!browser) { console.log('SKIP: 无浏览器'); return; }
 
@@ -50,12 +52,12 @@ async function main() {
   const fileUrl = 'file:///' + index.replace(/\\/g, '/');
   const proc = spawn(browser, [
     '--headless=new', '--disable-gpu', '--no-sandbox',
-    '--remote-debugging-port=' + CDP, '--user-data-dir=' + profile, 'about:blank'
+    '--remote-debugging-port=' + CDP_PORT, '--user-data-dir=' + profile, 'about:blank'
   ], { stdio: 'ignore' });
 
   let t = null;
   for (let i = 0; i < 50; i++) {
-    try { const l = await getJson('http://127.0.0.1:' + CDP + '/json/list'); t = l.find(x => x.type === 'page'); if (t) break; } catch (e) {}
+    try { const l = await getJson('http://127.0.0.1:' + CDP_PORT + '/json/list'); t = l.find(x => x.type === 'page'); if (t) break; } catch (e) {}
     await sleep(300);
   }
   if (!t) { console.log('  FAIL 无法启动浏览器'); proc.kill(); process.exitCode = 1; return; }

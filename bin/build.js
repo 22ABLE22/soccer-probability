@@ -51,6 +51,7 @@ const skipped = [];
 if (fs.existsSync(DATA)) {
   for (const f of fs.readdirSync(DATA)) {
     if (!f.endsWith('.json')) continue;
+    if (f.startsWith('_')) continue;   // _status.json 等内部文件不当作联赛数据
     const src = path.join(DATA, f);
 
     let json;
