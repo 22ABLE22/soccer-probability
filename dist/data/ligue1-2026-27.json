@@ -713,9 +713,9 @@
       "date": "2026-10-24 02:45",
       "home": "布雷斯特",
       "away": "尼斯",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
     },
     {
       "id": "54473913",
@@ -790,7 +790,7 @@
     {
       "id": "54473918",
       "round": 8,
-      "date": "2026-10-26 03:45",
+      "date": "2026-10-27 03:30",
       "home": "巴黎圣日耳曼",
       "away": "里昂",
       "homeGoals": null,
@@ -3181,7 +3181,7 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:12",
-    "fetchedAt": "2026-10-22T23:17:20.362Z",
+    "fetchedAt": "2026-10-23T23:05:52.178Z",
     "maxRound": 34,
     "url": "https://www.dongqiudi.com/data?cid=12",
     "deductions": [],
@@ -3272,6 +3272,18 @@
       },
       {
         "rank": 8,
+        "name": "尼斯",
+        "played": null,
+        "wins": 8,
+        "draws": 3,
+        "losses": 2,
+        "gf": 8,
+        "ga": 10,
+        "gd": -2,
+        "points": 11
+      },
+      {
+        "rank": 9,
         "name": "朗斯",
         "played": null,
         "wins": 7,
@@ -3283,7 +3295,7 @@
         "points": 10
       },
       {
-        "rank": 9,
+        "rank": 10,
         "name": "马赛",
         "played": null,
         "wins": 7,
@@ -3295,19 +3307,19 @@
         "points": 9
       },
       {
-        "rank": 10,
+        "rank": 11,
         "name": "布雷斯特",
         "played": null,
-        "wins": 7,
+        "wins": 8,
         "draws": 2,
         "losses": 3,
-        "gf": 13,
-        "ga": 10,
-        "gd": 3,
+        "gf": 14,
+        "ga": 12,
+        "gd": 2,
         "points": 9
       },
       {
-        "rank": 11,
+        "rank": 12,
         "name": "图卢兹",
         "played": null,
         "wins": 7,
@@ -3319,7 +3331,7 @@
         "points": 9
       },
       {
-        "rank": 12,
+        "rank": 13,
         "name": "欧塞尔",
         "played": null,
         "wins": 7,
@@ -3329,18 +3341,6 @@
         "ga": 17,
         "gd": -6,
         "points": 9
-      },
-      {
-        "rank": 13,
-        "name": "尼斯",
-        "played": null,
-        "wins": 7,
-        "draws": 2,
-        "losses": 2,
-        "gf": 6,
-        "ga": 9,
-        "gd": -3,
-        "points": 8
       },
       {
         "rank": 14,

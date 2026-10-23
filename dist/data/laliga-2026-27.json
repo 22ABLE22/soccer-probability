@@ -991,9 +991,9 @@
       "date": "2026-10-24 03:00",
       "home": "阿拉维斯",
       "away": "马拉加",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
     },
     {
       "id": "54493312",
@@ -3928,7 +3928,7 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:3",
-    "fetchedAt": "2026-10-22T23:17:08.963Z",
+    "fetchedAt": "2026-10-23T23:05:32.601Z",
     "maxRound": 38,
     "url": "https://www.dongqiudi.com/data?cid=3",
     "deductions": [],
@@ -4009,13 +4009,13 @@
         "rank": 7,
         "name": "阿拉维斯",
         "played": null,
-        "wins": 9,
+        "wins": 10,
         "draws": 3,
-        "losses": 2,
-        "gf": 13,
-        "ga": 10,
+        "losses": 3,
+        "gf": 14,
+        "ga": 11,
         "gd": 3,
-        "points": 11
+        "points": 12
       },
       {
         "rank": 8,
@@ -4165,13 +4165,13 @@
         "rank": 20,
         "name": "马拉加",
         "played": null,
-        "wins": 9,
+        "wins": 10,
         "draws": 0,
-        "losses": 4,
-        "gf": 6,
-        "ga": 18,
+        "losses": 5,
+        "gf": 7,
+        "ga": 19,
         "gd": -12,
-        "points": 4
+        "points": 5
       }
     ]
   }

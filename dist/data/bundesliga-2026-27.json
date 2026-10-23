@@ -623,9 +623,9 @@
       "date": "2026-10-24 02:30",
       "home": "斯图加特",
       "away": "门兴格拉德巴赫",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 2,
+      "awayGoals": 3,
+      "played": true
     },
     {
       "id": "54494539",
@@ -3187,7 +3187,7 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:5",
-    "fetchedAt": "2026-10-22T23:17:16.146Z",
+    "fetchedAt": "2026-10-23T23:05:47.084Z",
     "maxRound": 34,
     "url": "https://www.dongqiudi.com/data?cid=5",
     "deductions": [],
@@ -3338,18 +3338,6 @@
       },
       {
         "rank": 13,
-        "name": "斯图加特",
-        "played": null,
-        "wins": 6,
-        "draws": 2,
-        "losses": 0,
-        "gf": 8,
-        "ga": 10,
-        "gd": -2,
-        "points": 6
-      },
-      {
-        "rank": 14,
         "name": "霍芬海姆",
         "played": null,
         "wins": 6,
@@ -3357,6 +3345,18 @@
         "losses": 0,
         "gf": 11,
         "ga": 14,
+        "gd": -3,
+        "points": 6
+      },
+      {
+        "rank": 14,
+        "name": "斯图加特",
+        "played": null,
+        "wins": 7,
+        "draws": 2,
+        "losses": 0,
+        "gf": 10,
+        "ga": 13,
         "gd": -3,
         "points": 6
       },
@@ -3400,13 +3400,13 @@
         "rank": 18,
         "name": "门兴格拉德巴赫",
         "played": null,
-        "wins": 6,
-        "draws": 0,
+        "wins": 7,
+        "draws": 1,
         "losses": 0,
-        "gf": 8,
-        "ga": 20,
-        "gd": -12,
-        "points": 0
+        "gf": 11,
+        "ga": 22,
+        "gd": -11,
+        "points": 3
       }
     ]
   }
