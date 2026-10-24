@@ -172,12 +172,12 @@ async function main() {
     const g = groups.find(x => x.label.indexOf('自定义') >= 0);
     return g ? [...g.querySelectorAll('option')].map(o => o.value) : [];
   })()`);
-  check('自动识别 data/ 下的自定义联赛', customOpts.indexOf('demo-college') >= 0,
+  check('自动识别 data/ 下的自定义联赛', customOpts.indexOf('sanhang-a') >= 0,
     '[' + customOpts.join(',') + ']');
 
   await cdp.eval(`(() => {
     const s = document.getElementById('leagueSel');
-    s.value = 'demo-college';
+    s.value = 'sanhang-a';
     s.dispatchEvent(new Event('change'));
   })()`, false);
   let cReady = false;
@@ -191,15 +191,17 @@ async function main() {
   await cdp.eval("document.getElementById('runBtn').click()", false);
   await sleep(2500);
   const cRows = await cdp.eval("document.querySelectorAll('#probTable tbody tr').length");
-  check('自定义联赛可算出概率', cRows === 6, '(' + cRows + ' 队)');
+  check('自定义联赛可算出概率', cRows === 10, '(' + cRows + ' 队)');
 
   const cHeads = await cdp.eval("[...document.querySelectorAll('#probTable thead th')].map(h=>h.textContent.trim()).join('|')");
-  check('自定义联赛沿用其名次区间', cHeads.indexOf('晋级决赛') >= 0 || cHeads.indexOf('降入乙组') >= 0,
+  check('自定义联赛沿用其名次区间', cHeads.indexOf('晋级季后赛') >= 0 || cHeads.indexOf('降级至乙组') >= 0,
     '[' + cHeads + ']');
 
   const cSum = await cdp.eval(`(() => {
     const heads=[...document.querySelectorAll('#probTable thead th')].map(h=>h.textContent.trim());
-    const i=heads.indexOf('冠军');
+    // 表头可能是「冠军」或「常规赛冠军」，按包含匹配
+    const i=heads.findIndex(h=>h.indexOf('冠军')>=0);
+    if(i<0) return null;
     let s=0; for(const r of document.querySelectorAll('#probTable tbody tr')) s += parseFloat(r.children[i].textContent)||0;
     return Math.round(s*10)/10;
   })()`);

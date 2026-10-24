@@ -48,55 +48,75 @@
     {
       "id": "m001",
       "round": 1,
-      "date": "2026-11-04",
-      "home": "QM",
-      "away": "计算机",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "date": "2026-10-21",
+      "home": "航海",
+      "away": "力载",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "played": true
     },
     {
       "id": "m002",
       "round": 1,
-      "date": "2026-11-07",
-      "home": "航海",
-      "away": "数统",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "date": "2026-10-22",
+      "home": "自动化",
+      "away": "航天",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
     },
     {
       "id": "m003",
       "round": 1,
-      "date": "2026-11-28",
-      "home": "航天",
-      "away": "机电",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "date": "2026-10-24",
+      "home": "电信",
+      "away": "QM",
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "played": true
     },
     {
       "id": "m004",
       "round": 1,
-      "date": "2026-12-02",
-      "home": "电信",
-      "away": "自动化",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "date": "2026-10-24",
+      "home": "数统",
+      "away": "计算机",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
     },
     {
       "id": "m005",
       "round": 1,
-      "date": "2026-12-06",
-      "home": "航空",
-      "away": "力载",
+      "date": "2026-10-25",
+      "home": "机电",
+      "away": "航空",
       "homeGoals": null,
       "awayGoals": null,
       "played": false
     },
     {
       "id": "m006",
+      "round": 2,
+      "date": "2026-10-27",
+      "home": "航海",
+      "away": "航天",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "m007",
+      "round": 2,
+      "date": "2026-10-29",
+      "home": "电信",
+      "away": "力载",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "m008",
       "round": 2,
       "date": "2026-10-30",
       "home": "自动化",
@@ -106,98 +126,8 @@
       "played": false
     },
     {
-      "id": "m007",
-      "round": 2,
-      "date": "2026-11-01",
-      "home": "QM",
-      "away": "航空",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "m008",
-      "round": 2,
-      "date": "2026-11-03",
-      "home": "力载",
-      "away": "航天",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
       "id": "m009",
       "round": 2,
-      "date": "2026-12-04",
-      "home": "计算机",
-      "away": "航海",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "m010",
-      "round": 2,
-      "date": null,
-      "home": "机电",
-      "away": "电信",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "m011",
-      "round": 3,
-      "date": "2026-10-29",
-      "home": "电信",
-      "away": "力载",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "m012",
-      "round": 3,
-      "date": "2026-11-19",
-      "home": "QM",
-      "away": "航海",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "m013",
-      "round": 3,
-      "date": "2026-11-27",
-      "home": "计算机",
-      "away": "自动化",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "m014",
-      "round": 3,
-      "date": "2026-12-05",
-      "home": "数统",
-      "away": "机电",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "m015",
-      "round": 3,
-      "date": null,
-      "home": "航天",
-      "away": "航空",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "m016",
-      "round": 4,
       "date": "2026-11-01",
       "home": "机电",
       "away": "计算机",
@@ -206,11 +136,81 @@
       "played": false
     },
     {
-      "id": "m017",
-      "round": 4,
+      "id": "m010",
+      "round": 2,
+      "date": "2026-11-01",
+      "home": "QM",
+      "away": "航空",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "m011",
+      "round": 3,
+      "date": "2026-11-03",
+      "home": "力载",
+      "away": "航天",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "m012",
+      "round": 3,
+      "date": "2026-11-04",
+      "home": "QM",
+      "away": "计算机",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "m013",
+      "round": 3,
+      "date": "2026-11-07",
+      "home": "机电",
+      "away": "自动化",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "m014",
+      "round": 3,
+      "date": "2026-11-07",
+      "home": "航海",
+      "away": "数统",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "m015",
+      "round": 3,
       "date": "2026-11-08",
       "home": "电信",
       "away": "航空",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "m016",
+      "round": 4,
+      "date": "2026-11-11",
+      "home": "QM",
+      "away": "自动化",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "m017",
+      "round": 4,
+      "date": "2026-11-12",
+      "home": "电信",
+      "away": "航天",
       "homeGoals": null,
       "awayGoals": null,
       "played": false
@@ -228,46 +228,6 @@
     {
       "id": "m019",
       "round": 4,
-      "date": "2026-12-03",
-      "home": "航天",
-      "away": "QM",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "m020",
-      "round": 4,
-      "date": null,
-      "home": "自动化",
-      "away": "航海",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "m021",
-      "round": 5,
-      "date": "2026-11-11",
-      "home": "QM",
-      "away": "自动化",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "m022",
-      "round": 5,
-      "date": "2026-11-12",
-      "home": "电信",
-      "away": "航天",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "m023",
-      "round": 5,
       "date": "2026-11-14",
       "home": "航海",
       "away": "机电",
@@ -276,58 +236,8 @@
       "played": false
     },
     {
-      "id": "m024",
-      "round": 5,
-      "date": null,
-      "home": "力载",
-      "away": "计算机",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "m025",
-      "round": 5,
-      "date": null,
-      "home": "数统",
-      "away": "航空",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "m026",
-      "round": 6,
-      "date": "2026-10-21",
-      "home": "航海",
-      "away": "力载",
-      "homeGoals": 2,
-      "awayGoals": 0,
-      "played": true
-    },
-    {
-      "id": "m027",
-      "round": 6,
-      "date": "2026-10-24",
-      "home": "电信",
-      "away": "QM",
-      "homeGoals": 3,
-      "awayGoals": 1,
-      "played": true
-    },
-    {
-      "id": "m028",
-      "round": 6,
-      "date": "2026-11-07",
-      "home": "机电",
-      "away": "自动化",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "m029",
-      "round": 6,
+      "id": "m020",
+      "round": 4,
       "date": "2026-11-15",
       "home": "航空",
       "away": "计算机",
@@ -336,8 +246,18 @@
       "played": false
     },
     {
-      "id": "m030",
-      "round": 6,
+      "id": "m021",
+      "round": 5,
+      "date": "2026-11-19",
+      "home": "QM",
+      "away": "航海",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "m022",
+      "round": 5,
       "date": "2026-11-20",
       "home": "航天",
       "away": "数统",
@@ -346,8 +266,58 @@
       "played": false
     },
     {
-      "id": "m031",
-      "round": 7,
+      "id": "m023",
+      "round": 5,
+      "date": "2026-11-21",
+      "home": "力载",
+      "away": "机电",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "m024",
+      "round": 5,
+      "date": "2026-11-21",
+      "home": "航空",
+      "away": "自动化",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "m025",
+      "round": 5,
+      "date": "2026-11-22",
+      "home": "电信",
+      "away": "计算机",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "m026",
+      "round": 6,
+      "date": "2026-11-26",
+      "home": "力载",
+      "away": "QM",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "m027",
+      "round": 6,
+      "date": "2026-11-27",
+      "home": "计算机",
+      "away": "自动化",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "m028",
+      "round": 6,
       "date": "2026-11-28",
       "home": "电信",
       "away": "数统",
@@ -356,8 +326,18 @@
       "played": false
     },
     {
-      "id": "m032",
-      "round": 7,
+      "id": "m029",
+      "round": 6,
+      "date": "2026-11-28",
+      "home": "航天",
+      "away": "机电",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "m030",
+      "round": 6,
       "date": "2026-11-29",
       "home": "航空",
       "away": "航海",
@@ -366,8 +346,68 @@
       "played": false
     },
     {
+      "id": "m031",
+      "round": 7,
+      "date": "2026-12-02",
+      "home": "电信",
+      "away": "自动化",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "m032",
+      "round": 7,
+      "date": "2026-12-03",
+      "home": "航天",
+      "away": "QM",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
       "id": "m033",
       "round": 7,
+      "date": "2026-12-04",
+      "home": "计算机",
+      "away": "航海",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "m034",
+      "round": 7,
+      "date": "2026-12-05",
+      "home": "数统",
+      "away": "机电",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "m035",
+      "round": 7,
+      "date": "2026-12-06",
+      "home": "航空",
+      "away": "力载",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "m036",
+      "round": 8,
+      "date": null,
+      "home": "QM",
+      "away": "数统",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "m037",
+      "round": 8,
       "date": null,
       "home": "QM",
       "away": "机电",
@@ -376,50 +416,10 @@
       "played": false
     },
     {
-      "id": "m034",
-      "round": 7,
-      "date": null,
-      "home": "力载",
-      "away": "自动化",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "m035",
-      "round": 7,
-      "date": null,
-      "home": "航天",
-      "away": "计算机",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "m036",
-      "round": 8,
-      "date": "2026-10-27",
-      "home": "航海",
-      "away": "航天",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "m037",
-      "round": 8,
-      "date": "2026-11-21",
-      "home": "力载",
-      "away": "机电",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
       "id": "m038",
       "round": 8,
-      "date": "2026-11-21",
-      "home": "航空",
+      "date": null,
+      "home": "力载",
       "away": "自动化",
       "homeGoals": null,
       "awayGoals": null,
@@ -428,8 +428,8 @@
     {
       "id": "m039",
       "round": 8,
-      "date": "2026-11-22",
-      "home": "电信",
+      "date": null,
+      "home": "力载",
       "away": "计算机",
       "homeGoals": null,
       "awayGoals": null,
@@ -439,58 +439,58 @@
       "id": "m040",
       "round": 8,
       "date": null,
-      "home": "QM",
-      "away": "数统",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "m041",
-      "round": 9,
-      "date": "2026-10-22",
-      "home": "自动化",
-      "away": "航天",
-      "homeGoals": 1,
-      "awayGoals": 2,
-      "played": true
-    },
-    {
-      "id": "m042",
-      "round": 9,
-      "date": "2026-10-24",
       "home": "数统",
-      "away": "计算机",
-      "homeGoals": 1,
-      "awayGoals": 2,
-      "played": true
-    },
-    {
-      "id": "m043",
-      "round": 9,
-      "date": "2026-10-25",
-      "home": "机电",
       "away": "航空",
       "homeGoals": null,
       "awayGoals": null,
       "played": false
     },
     {
+      "id": "m041",
+      "round": 8,
+      "date": null,
+      "home": "机电",
+      "away": "电信",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "m042",
+      "round": 8,
+      "date": null,
+      "home": "电信",
+      "away": "航海",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "m043",
+      "round": 8,
+      "date": null,
+      "home": "自动化",
+      "away": "航海",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
       "id": "m044",
-      "round": 9,
-      "date": "2026-11-26",
-      "home": "力载",
-      "away": "QM",
+      "round": 8,
+      "date": null,
+      "home": "航天",
+      "away": "航空",
       "homeGoals": null,
       "awayGoals": null,
       "played": false
     },
     {
       "id": "m045",
-      "round": 9,
+      "round": 8,
       "date": null,
-      "home": "电信",
-      "away": "航海",
+      "home": "航天",
+      "away": "计算机",
       "homeGoals": null,
       "awayGoals": null,
       "played": false
@@ -534,49 +534,9 @@
   "meta": {
     "source": "三航杯赛程.xlsx",
     "fetchedAt": "2026-10-24T00:00:00.000Z",
-    "maxRound": 9,
-    "note": "校级联赛；10 队单循环 9 轮 45 场，已排期 35 场，其余 10 场待排期",
+    "maxRound": 7,
+    "note": "校级联赛；10 队单循环 45 场，已排期 35 场，待排期 10 场",
     "scheduledMatches": 35,
-    "pendingMatches": 10,
-    "dateFixes": [
-      {
-        "row": 24,
-        "from": "10.3",
-        "to": "10.30"
-      },
-      {
-        "row": 49,
-        "from": "11.1",
-        "to": "11.10"
-      },
-      {
-        "row": 71,
-        "from": "11.2",
-        "to": "11.20"
-      },
-      {
-        "row": 95,
-        "from": "11.3",
-        "to": "11.30"
-      }
-    ],
-    "skippedRows": [
-      {
-        "row": 103,
-        "text": "乙组四分之一决赛第一场"
-      },
-      {
-        "row": 107,
-        "text": "乙组四分之一决赛第二场"
-      },
-      {
-        "row": 109,
-        "text": "乙组四分之一决赛第三场"
-      },
-      {
-        "row": 111,
-        "text": "乙组四分之一决赛第四场"
-      }
-    ]
+    "pendingMatches": 10
   }
 }

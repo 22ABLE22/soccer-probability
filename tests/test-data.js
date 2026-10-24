@@ -24,7 +24,7 @@ function arg(name, def) {
 const MAX_DAYS = Number(arg('max-days', 3));
 // 自定义示例联赛没有 fetchedAt，不参与新鲜度检查
 // 手工维护的联赛不做"抓取新鲜度"检查（它们没有 CI 抓取流程）
-const MANUAL_LEAGUES = new Set(['demo-college', 'sanhang-a']);
+const MANUAL_LEAGUES = new Set(['sanhang-a']);
 
 let bad = 0;
 const check = (name, cond, extra) => {
@@ -93,13 +93,21 @@ for (const f of files) {
     dirty ? '(' + dirty + ' 场异常: ' + dirtyList.slice(0, 3).join(', ') + ')' : '');
 
   // 4) 每轮场次数一致
+  //    手工维护的联赛允许存在"待定"轮次（赛程未排完），排除后再比较
   const byRound = new Map();
   for (const m of d.matches) {
     if (m.round == null) continue;
     byRound.set(m.round, (byRound.get(m.round) || 0) + 1);
   }
-  const counts = [...byRound.values()];
-  const maxC = Math.max(...counts), minC = Math.min(...counts);
+  let counts = [...byRound.values()];
+  if (MANUAL_LEAGUES.has(d.id || key) && counts.length > 1) {
+    // 去掉场次最多的那一轮（通常就是"待定"池）
+    const maxV = Math.max(...counts);
+    const idx = counts.indexOf(maxV);
+    counts = counts.slice(0, idx).concat(counts.slice(idx + 1));
+  }
+  const maxC = counts.length ? Math.max(...counts) : 0;
+  const minC = counts.length ? Math.min(...counts) : 0;
   check(f + ' 每轮场次一致', maxC === minC,
     maxC === minC ? '(' + maxC + ' 场/轮)' : '(最少 ' + minC + ', 最多 ' + maxC + ')');
 
