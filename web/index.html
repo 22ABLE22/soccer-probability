@@ -274,9 +274,14 @@ function collectLeagues() {
     const slots = Array.isArray(L.slots) && L.slots.length
       ? L.slots.map(x => x.label).join(' / ')
       : '自动';
+
+    // name 里若已包含 season 就不再重复拼接
+    let label = L.name || key;
+    if (L.season && label.indexOf(L.season) < 0) label += ' ' + L.season;
+
     out.push({
       key,
-      name: (L.name || key) + (L.season ? ' ' + L.season : '') + '（自定义）',
+      name: label,
       file: null,
       cid: null,
       season: L.season || '',
@@ -310,8 +315,8 @@ const leagueSel = document.getElementById('leagueSel');
     leagueSel.appendChild(g);
   };
 
-  addGroup('内置联赛', builtin);
   addGroup('自定义联赛（data/ 目录）', custom);
+  addGroup('内置联赛', builtin);
   leagueSel.value = '';   // 默认留空
 })();
 
@@ -492,6 +497,14 @@ function freshnessNote(league) {
   }
 
   s += ' · 已赛 ' + played + '/' + league.matches.length + ' 场';
+
+  // 有比赛正在进行：比分未计入，提醒用户
+  const liveCount = (league.meta && league.meta.liveMatches) ||
+    league.matches.filter(m => m.live).length;
+  if (liveCount) {
+    s += ' · ' + liveCount + ' 场进行中（比分未计入）';
+  }
+
   return { text: s, stale };
 }
 

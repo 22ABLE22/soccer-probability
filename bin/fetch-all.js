@@ -150,16 +150,27 @@ function parseScheduleHtml(html) {
     let homeGoals = null, awayGoals = null;
     const sm = /^\s*(\d+)\s*-\s*(\d+)\s*$/.exec(decode(score || ''));
     if (sm) { homeGoals = Number(sm[1]); awayGoals = Number(sm[2]); }
+
     const st = (status || '').trim();
-    const finished = sm != null && (st.indexOf('已结束') >= 0 || st === '');
+
+    // 状态判定：
+    //   已结束 / 完场        -> 计入积分
+    //   进行中 90' / 中场    -> 进行中，比分是暂时的，按"未赛"处理
+    //   未开始 / 空 + 无比分 -> 未赛
+    const live = /进行中|中场|补时|^\d+'/.test(st);
+    const finished = !live && sm != null && (st.indexOf('已结束') >= 0 || st === '');
 
     rows.push({
       id, round,
       date: (time || '').trim() || null,
       home: decode(home).trim(),
       away: decode(away).trim(),
-      homeGoals, awayGoals,
-      played: finished
+      // 进行中的比赛不保留临时比分，避免被当成最终结果计入积分
+      homeGoals: finished ? homeGoals : null,
+      awayGoals: finished ? awayGoals : null,
+      played: finished,
+      live: live || undefined,
+      rawStatus: st || undefined
     });
   }
   return rows;
@@ -265,9 +276,12 @@ function rowsToLeague(rows, meta) {
     round: r.round, date: r.date,
     home: r.home, away: r.away,
     homeGoals: r.homeGoals, awayGoals: r.awayGoals,
-    played: r.played === true
+    played: r.played === true,
+    // 进行中的比赛：比分暂不计入，但保留标记供页面提示
+    live: r.live === true ? true : undefined
   }));
   const rounds = rows.map(r => r.round).filter(x => x != null);
+  const liveCount = rows.filter(r => r.live).length;
 
   return {
     id: meta.key,
@@ -282,7 +296,8 @@ function rowsToLeague(rows, meta) {
     meta: {
       source: 'dongqiudi:' + meta.cid,
       fetchedAt: new Date().toISOString(),
-      maxRound: Math.max.apply(null, rounds)
+      maxRound: Math.max.apply(null, rounds),
+      liveMatches: liveCount || undefined
     }
   };
 }

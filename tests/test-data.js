@@ -23,7 +23,8 @@ function arg(name, def) {
 }
 const MAX_DAYS = Number(arg('max-days', 3));
 // 自定义示例联赛没有 fetchedAt，不参与新鲜度检查
-const SKIP_FRESHNESS = new Set(['demo-college']);
+// 手工维护的联赛不做"抓取新鲜度"检查（它们没有 CI 抓取流程）
+const MANUAL_LEAGUES = new Set(['demo-college', 'sanhang-a']);
 
 let bad = 0;
 const check = (name, cond, extra) => {
@@ -67,7 +68,7 @@ for (const f of files) {
   if (!structOk) continue;
 
   // 2) 新鲜度
-  if (!SKIP_FRESHNESS.has(d.id || key)) {
+  if (!MANUAL_LEAGUES.has(d.id || key)) {
     const at = meta.fetchedAt;
     if (!at) {
       check(f + ' 有抓取时间', false, '(fetchedAt 缺失)');
