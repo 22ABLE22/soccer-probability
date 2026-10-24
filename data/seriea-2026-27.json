@@ -803,7 +803,8 @@
       "away": "博洛尼亚",
       "homeGoals": null,
       "awayGoals": null,
-      "played": false
+      "played": false,
+      "live": true
     },
     {
       "id": "54470921",
@@ -813,7 +814,8 @@
       "away": "萨索洛",
       "homeGoals": null,
       "awayGoals": null,
-      "played": false
+      "played": false,
+      "live": true
     },
     {
       "id": "54470858",
@@ -3928,8 +3930,9 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:9",
-    "fetchedAt": "2026-10-24T08:56:07.000Z",
+    "fetchedAt": "2026-10-24T14:02:02.771Z",
     "maxRound": 38,
+    "liveMatches": 2,
     "url": "https://www.dongqiudi.com/data?cid=9",
     "deductions": [],
     "officialTable": [
