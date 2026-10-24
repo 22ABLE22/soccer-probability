@@ -2241,7 +2241,8 @@
       "away": "广西恒宸",
       "homeGoals": null,
       "awayGoals": null,
-      "played": false
+      "played": false,
+      "live": true
     },
     {
       "id": "54401068",
@@ -2251,7 +2252,8 @@
       "away": "梅州客家",
       "homeGoals": null,
       "awayGoals": null,
-      "played": false
+      "played": false,
+      "live": true
     },
     {
       "id": "54401073",
@@ -2511,8 +2513,9 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:129",
-    "fetchedAt": "2026-10-23T23:05:00.599Z",
+    "fetchedAt": "2026-10-24T08:56:01.924Z",
     "maxRound": 30,
+    "liveMatches": 2,
     "url": "https://www.dongqiudi.com/data?cid=129",
     "deductions": [
       {

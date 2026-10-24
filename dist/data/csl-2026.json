@@ -2326,7 +2326,8 @@
       "away": "北京国安",
       "homeGoals": null,
       "awayGoals": null,
-      "played": false
+      "played": false,
+      "live": true
     },
     {
       "id": "54389827",
@@ -2336,7 +2337,8 @@
       "away": "上海申花",
       "homeGoals": null,
       "awayGoals": null,
-      "played": false
+      "played": false,
+      "live": true
     },
     {
       "id": "54389830",
@@ -2346,7 +2348,8 @@
       "away": "浙江",
       "homeGoals": null,
       "awayGoals": null,
-      "played": false
+      "played": false,
+      "live": true
     },
     {
       "id": "54389839",
@@ -2356,7 +2359,8 @@
       "away": "青岛海牛",
       "homeGoals": null,
       "awayGoals": null,
-      "played": false
+      "played": false,
+      "live": true
     },
     {
       "id": "54389841",
@@ -2366,7 +2370,8 @@
       "away": "云南玉昆",
       "homeGoals": null,
       "awayGoals": null,
-      "played": false
+      "played": false,
+      "live": true
     },
     {
       "id": "54389869",
@@ -2376,7 +2381,8 @@
       "away": "上海海港",
       "homeGoals": null,
       "awayGoals": null,
-      "played": false
+      "played": false,
+      "live": true
     },
     {
       "id": "54389871",
@@ -2386,7 +2392,8 @@
       "away": "大连英博",
       "homeGoals": null,
       "awayGoals": null,
-      "played": false
+      "played": false,
+      "live": true
     },
     {
       "id": "54389873",
@@ -2396,7 +2403,8 @@
       "away": "山东泰山",
       "homeGoals": null,
       "awayGoals": null,
-      "played": false
+      "played": false,
+      "live": true
     },
     {
       "id": "54389810",
@@ -2515,8 +2523,9 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:43",
-    "fetchedAt": "2026-10-23T23:05:03.706Z",
+    "fetchedAt": "2026-10-24T08:56:03.423Z",
     "maxRound": 30,
+    "liveMatches": 8,
     "url": "https://www.dongqiudi.com/data?cid=43",
     "deductions": [
       {
