@@ -26,20 +26,46 @@ const OUT = path.join(ROOT, 'data');
 /* ------------------------------------------------------------------ *
  * 联赛清单：cid 为懂球帝的联赛编号
  * ------------------------------------------------------------------ */
+/* 同分排名规则（各联赛不同，必须分别配置）
+ *
+ * 中超 / 中甲（中国足协规程）：
+ *   相互比赛积分 → 相互比赛净胜球 → 相互比赛进球 → 总净胜球 → 总进球 → ...
+ *
+ * 英超：总积分 → 总净胜球 → 总进球 →（若涉及冠军/降级/欧战）相互战绩
+ *   由于我们的场景正好涉及冠军与降级，故把 h2h 放在 gd 之前会失真；
+ *   严格做法是「先 gd/gf，再 h2h」。这里采用 gd → gf → h2h 的顺序。
+ *
+ * 西甲：两队同分先看相互战绩净胜球；多队同分看相互积分与相互净胜球；
+ *   之后才用总净胜球、总进球。这里用 h2h 优先。
+ *
+ * 意甲：相互积分 → 相互净胜球 → 总净胜球 → 总进球。h2h 优先。
+ *
+ * 德甲：总净胜球 → 总进球 → 相互积分 → 相互进球 → 相互客场进球。
+ *   gd 优先于 h2h。
+ *
+ * 法甲：总净胜球 → 总进球 → 附加赛。gd 优先。
+ */
 const LEAGUES = [
-  { key: 'china-l1', cid: 129, name: '中甲', season: '2026', promotion: 2, relegation: 2 },
+  { key: 'china-l1', cid: 129, name: '中甲', season: '2026', promotion: 2, relegation: 2,
+    tiebreak: ['points', 'h2hPoints', 'h2hGd', 'h2hGf', 'gd', 'gf', 'wins'] },
   { key: 'csl', cid: 43, name: '中超', season: '2026', relegation: 2,
-    extraSlots: [{ from: 1, to: 3, type: 'afc', label: '亚冠区' }] },
+    extraSlots: [{ from: 1, to: 3, type: 'afc', label: '亚冠区' }],
+    tiebreak: ['points', 'h2hPoints', 'h2hGd', 'h2hGf', 'gd', 'gf', 'wins'] },
   { key: 'epl', cid: 4, name: '英超', season: '2026-27', relegation: 3,
-    extraSlots: [{ from: 1, to: 4, type: 'ucl', label: '欧冠区' }, { from: 5, to: 5, type: 'uel', label: '欧联区' }] },
+    extraSlots: [{ from: 1, to: 4, type: 'ucl', label: '欧冠区' }, { from: 5, to: 5, type: 'uel', label: '欧联区' }],
+    tiebreak: ['points', 'gd', 'gf', 'h2hPoints', 'h2hAwayGoals', 'wins'] },
   { key: 'laliga', cid: 3, name: '西甲', season: '2026-27', relegation: 3,
-    extraSlots: [{ from: 1, to: 4, type: 'ucl', label: '欧冠区' }, { from: 5, to: 6, type: 'uel', label: '欧联/欧协' }] },
+    extraSlots: [{ from: 1, to: 4, type: 'ucl', label: '欧冠区' }, { from: 5, to: 6, type: 'uel', label: '欧联/欧协' }],
+    tiebreak: ['points', 'h2hPoints', 'h2hGd', 'h2hGf', 'gd', 'gf', 'wins'] },
   { key: 'seriea', cid: 9, name: '意甲', season: '2026-27', relegation: 3,
-    extraSlots: [{ from: 1, to: 4, type: 'ucl', label: '欧冠区' }, { from: 5, to: 6, type: 'uel', label: '欧联/欧协' }] },
+    extraSlots: [{ from: 1, to: 4, type: 'ucl', label: '欧冠区' }, { from: 5, to: 6, type: 'uel', label: '欧联/欧协' }],
+    tiebreak: ['points', 'h2hPoints', 'h2hGd', 'h2hGf', 'gd', 'gf', 'wins'] },
   { key: 'bundesliga', cid: 5, name: '德甲', season: '2026-27', relegation: 2, relegationPlayoff: 1,
-    extraSlots: [{ from: 1, to: 4, type: 'ucl', label: '欧冠区' }, { from: 5, to: 5, type: 'uel', label: '欧联区' }] },
+    extraSlots: [{ from: 1, to: 4, type: 'ucl', label: '欧冠区' }, { from: 5, to: 5, type: 'uel', label: '欧联区' }],
+    tiebreak: ['points', 'gd', 'gf', 'h2hPoints', 'h2hGf', 'h2hAwayGoals', 'wins'] },
   { key: 'ligue1', cid: 12, name: '法甲', season: '2026-27', relegation: 2, relegationPlayoff: 1,
-    extraSlots: [{ from: 1, to: 4, type: 'ucl', label: '欧冠区' }] }
+    extraSlots: [{ from: 1, to: 4, type: 'ucl', label: '欧冠区' }],
+    tiebreak: ['points', 'gd', 'gf', 'wins'] }
 ];
 
 /* ------------------------------------------------------------------ *
@@ -290,7 +316,7 @@ function rowsToLeague(rows, meta) {
     teams,
     matches,
     points: { win: 3, draw: 1, loss: 0 },
-    tiebreak: ['points', 'gd', 'gf', 'wins'],
+    tiebreak: meta.tiebreak || ['points', 'gd', 'gf', 'wins'],
     slots: defaultSlots(teams.length, meta),
     model: {},
     meta: {

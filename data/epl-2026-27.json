@@ -3895,6 +3895,8 @@
     "points",
     "gd",
     "gf",
+    "h2hPoints",
+    "h2hAwayGoals",
     "wins"
   ],
   "slots": [
@@ -3928,7 +3930,7 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:4",
-    "fetchedAt": "2026-10-25T04:33:05.816Z",
+    "fetchedAt": "2026-10-25T13:20:25.041Z",
     "maxRound": 38,
     "url": "https://www.dongqiudi.com/data?cid=4",
     "deductions": [],

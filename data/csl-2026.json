@@ -2486,6 +2486,9 @@
   },
   "tiebreak": [
     "points",
+    "h2hPoints",
+    "h2hGd",
+    "h2hGf",
     "gd",
     "gf",
     "wins"
@@ -2515,7 +2518,7 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:43",
-    "fetchedAt": "2026-10-25T04:33:03.640Z",
+    "fetchedAt": "2026-10-25T13:20:23.601Z",
     "maxRound": 30,
     "url": "https://www.dongqiudi.com/data?cid=43",
     "deductions": [

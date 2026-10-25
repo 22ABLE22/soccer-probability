@@ -843,7 +843,8 @@
       "away": "佛罗伦萨",
       "homeGoals": null,
       "awayGoals": null,
-      "played": false
+      "played": false,
+      "live": true
     },
     {
       "id": "54470887",
@@ -3893,6 +3894,9 @@
   },
   "tiebreak": [
     "points",
+    "h2hPoints",
+    "h2hGd",
+    "h2hGf",
     "gd",
     "gf",
     "wins"
@@ -3928,8 +3932,9 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:9",
-    "fetchedAt": "2026-10-25T04:33:17.351Z",
+    "fetchedAt": "2026-10-25T13:20:27.879Z",
     "maxRound": 38,
+    "liveMatches": 1,
     "url": "https://www.dongqiudi.com/data?cid=9",
     "deductions": [],
     "officialTable": [

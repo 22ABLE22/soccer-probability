@@ -266,12 +266,14 @@
     for (const m of matches) {
       if (!m.played) continue;
       const h = m.homeIndex, a = m.awayIndex;
-      if (!map.has(key(h, a))) map.set(key(h, a), { gf: 0, ga: 0 });
-      if (!map.has(key(a, h))) map.set(key(a, h), { gf: 0, ga: 0 });
-      const x = map.get(key(h, a));
+      if (!map.has(key(h, a))) map.set(key(h, a), { gf: 0, ga: 0, awayGf: 0 });
+      if (!map.has(key(a, h))) map.set(key(a, h), { gf: 0, ga: 0, awayGf: 0 });
+      const x = map.get(key(h, a));          // i=h 视角：h 是主场
       x.gf += m.homeGoals; x.ga += m.awayGoals;
-      const y = map.get(key(a, h));
+      x.awayGf += 0;                          // h 在主场，客场进球为 0
+      const y = map.get(key(a, h));          // i=a 视角：a 是客场
       y.gf += m.awayGoals; y.ga += m.homeGoals;
+      y.awayGf += m.awayGoals;                // a 客场进球
     }
     return map;
   }
@@ -280,21 +282,21 @@
     const P = league.points;
     const n = league.teams.length;
     const pts = new Float64Array(n), gf = new Float64Array(n), ga = new Float64Array(n),
-      w = new Float64Array(n), d = new Float64Array(n), l = new Float64Array(n);
-    const inGroup = new Set(groupIdx);
+      w = new Float64Array(n), d = new Float64Array(n), l = new Float64Array(n),
+      agf = new Float64Array(n);   // 相互比赛中的客场进球
     for (const i of groupIdx) {
       for (const j of groupIdx) {
         if (i === j) continue;
         const r = pairMap.get(i + '|' + j);
         if (!r) continue;
         gf[i] += r.gf; ga[i] += r.ga;
+        agf[i] += r.awayGf || 0;
         if (r.gf > r.ga) { pts[i] += P.win; w[i]++; l[j]++; }
         else if (r.gf === r.ga) { pts[i] += P.draw; d[i]++; }
         else { pts[i] += P.loss; }
       }
     }
-    void inGroup;
-    return { pts, gf, ga, gd: gdOf(gf, ga), w, d, l };
+    return { pts, gf, ga, gd: gdOf(gf, ga), w, d, l, agf };
   }
 
   function gdOf(gf, ga) {
@@ -320,7 +322,7 @@
       case 'h2hGd': return mini ? mini.gd[t] : 0;
       case 'h2hGf': return mini ? mini.gf[t] : 0;
       case 'h2hWins': return mini ? mini.w[t] : 0;
-      case 'h2hAwayGoals': return mini ? mini.gf[t] : 0;
+      case 'h2hAwayGoals': return mini ? mini.agf[t] : 0;
       default: return 0;
     }
   }
