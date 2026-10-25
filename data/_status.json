@@ -1,13 +1,34 @@
 {
-  "updatedAt": "2026-10-25T13:20:31.657Z",
-  "ok": [
-    "china-l1",
-    "csl",
-    "epl",
-    "laliga",
-    "seriea",
-    "bundesliga",
-    "ligue1"
-  ],
-  "failed": []
+  "updatedAt": "2026-10-25T22:37:22.460Z",
+  "ok": [],
+  "failed": [
+    {
+      "key": "china-l1",
+      "reason": "赛程页无数据（返回内容异常，可能是限流页）"
+    },
+    {
+      "key": "csl",
+      "reason": "赛程页无数据（返回内容异常，可能是限流页）"
+    },
+    {
+      "key": "epl",
+      "reason": "赛程页无数据（返回内容异常，可能是限流页）"
+    },
+    {
+      "key": "laliga",
+      "reason": "赛程页无数据（返回内容异常，可能是限流页）"
+    },
+    {
+      "key": "seriea",
+      "reason": "赛程页无数据（返回内容异常，可能是限流页）"
+    },
+    {
+      "key": "bundesliga",
+      "reason": "赛程页无数据（返回内容异常，可能是限流页）"
+    },
+    {
+      "key": "ligue1",
+      "reason": "赛程页无数据（返回内容异常，可能是限流页）"
+    }
+  ]
 }
