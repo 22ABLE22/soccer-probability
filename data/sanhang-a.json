@@ -91,9 +91,9 @@
       "date": "2026-10-25",
       "home": "机电",
       "away": "航空",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
     },
     {
       "id": "m006",
