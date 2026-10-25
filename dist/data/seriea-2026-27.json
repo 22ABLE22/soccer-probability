@@ -801,10 +801,9 @@
       "date": "2026-10-24 21:00",
       "home": "卡利亚里",
       "away": "博洛尼亚",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false,
-      "live": true
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "played": true
     },
     {
       "id": "54470921",
@@ -812,10 +811,9 @@
       "date": "2026-10-24 21:00",
       "home": "科莫",
       "away": "萨索洛",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false,
-      "live": true
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "played": true
     },
     {
       "id": "54470858",
@@ -823,9 +821,9 @@
       "date": "2026-10-25 00:00",
       "home": "那不勒斯",
       "away": "罗马",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 3,
+      "awayGoals": 3,
+      "played": true
     },
     {
       "id": "54470932",
@@ -833,9 +831,9 @@
       "date": "2026-10-25 02:45",
       "home": "拉齐奥",
       "away": "帕尔马",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
     },
     {
       "id": "54470917",
@@ -3930,14 +3928,25 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:9",
-    "fetchedAt": "2026-10-24T14:02:02.771Z",
+    "fetchedAt": "2026-10-25T04:30:13.257Z",
     "maxRound": 38,
-    "liveMatches": 2,
     "url": "https://www.dongqiudi.com/data?cid=9",
     "deductions": [],
     "officialTable": [
       {
         "rank": 1,
+        "name": "拉齐奥",
+        "played": null,
+        "wins": 8,
+        "draws": 7,
+        "losses": 1,
+        "gf": 16,
+        "ga": 5,
+        "gd": 11,
+        "points": 22
+      },
+      {
+        "rank": 2,
         "name": "国际米兰",
         "played": null,
         "wins": 7,
@@ -3949,31 +3958,31 @@
         "points": 19
       },
       {
-        "rank": 2,
-        "name": "拉齐奥",
-        "played": null,
-        "wins": 7,
-        "draws": 6,
-        "losses": 1,
-        "gf": 14,
-        "ga": 4,
-        "gd": 10,
-        "points": 19
-      },
-      {
         "rank": 3,
         "name": "罗马",
         "played": null,
-        "wins": 7,
+        "wins": 8,
         "draws": 5,
-        "losses": 2,
-        "gf": 16,
-        "ga": 3,
+        "losses": 3,
+        "gf": 19,
+        "ga": 6,
         "gd": 13,
-        "points": 17
+        "points": 18
       },
       {
         "rank": 4,
+        "name": "科莫",
+        "played": null,
+        "wins": 8,
+        "draws": 5,
+        "losses": 2,
+        "gf": 14,
+        "ga": 7,
+        "gd": 7,
+        "points": 17
+      },
+      {
+        "rank": 5,
         "name": "AC米兰",
         "played": null,
         "wins": 7,
@@ -3983,18 +3992,6 @@
         "ga": 7,
         "gd": 7,
         "points": 15
-      },
-      {
-        "rank": 5,
-        "name": "科莫",
-        "played": null,
-        "wins": 7,
-        "draws": 4,
-        "losses": 2,
-        "gf": 12,
-        "ga": 7,
-        "gd": 5,
-        "points": 14
       },
       {
         "rank": 6,
@@ -4024,16 +4021,28 @@
         "rank": 8,
         "name": "卡利亚里",
         "played": null,
-        "wins": 7,
+        "wins": 8,
         "draws": 4,
         "losses": 1,
         "gf": 6,
-        "ga": 7,
-        "gd": -1,
+        "ga": 9,
+        "gd": -3,
         "points": 13
       },
       {
         "rank": 9,
+        "name": "那不勒斯",
+        "played": null,
+        "wins": 8,
+        "draws": 3,
+        "losses": 2,
+        "gf": 13,
+        "ga": 10,
+        "gd": 3,
+        "points": 11
+      },
+      {
+        "rank": 10,
         "name": "尤文图斯",
         "played": null,
         "wins": 7,
@@ -4043,18 +4052,6 @@
         "ga": 8,
         "gd": 1,
         "points": 11
-      },
-      {
-        "rank": 10,
-        "name": "那不勒斯",
-        "played": null,
-        "wins": 7,
-        "draws": 3,
-        "losses": 1,
-        "gf": 10,
-        "ga": 7,
-        "gd": 3,
-        "points": 10
       },
       {
         "rank": 11,
@@ -4082,18 +4079,30 @@
       },
       {
         "rank": 13,
-        "name": "萨索洛",
+        "name": "博洛尼亚",
         "played": null,
-        "wins": 7,
+        "wins": 8,
         "draws": 2,
         "losses": 2,
-        "gf": 12,
-        "ga": 14,
+        "gf": 8,
+        "ga": 10,
         "gd": -2,
         "points": 8
       },
       {
         "rank": 14,
+        "name": "萨索洛",
+        "played": null,
+        "wins": 8,
+        "draws": 2,
+        "losses": 2,
+        "gf": 12,
+        "ga": 16,
+        "gd": -4,
+        "points": 8
+      },
+      {
+        "rank": 15,
         "name": "蒙扎",
         "played": null,
         "wins": 8,
@@ -4103,18 +4112,6 @@
         "ga": 18,
         "gd": -3,
         "points": 7
-      },
-      {
-        "rank": 15,
-        "name": "博洛尼亚",
-        "played": null,
-        "wins": 7,
-        "draws": 1,
-        "losses": 2,
-        "gf": 6,
-        "ga": 10,
-        "gd": -4,
-        "points": 5
       },
       {
         "rank": 16,
@@ -4156,12 +4153,12 @@
         "rank": 19,
         "name": "帕尔马",
         "played": null,
-        "wins": 7,
+        "wins": 8,
         "draws": 1,
         "losses": 1,
-        "gf": 4,
-        "ga": 13,
-        "gd": -9,
+        "gf": 5,
+        "ga": 15,
+        "gd": -10,
         "points": 4
       },
       {

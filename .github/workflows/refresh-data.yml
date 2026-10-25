@@ -36,6 +36,16 @@ jobs:
         continue-on-error: true
         run: node bin/fetch-all.js
 
+      # 若上一轮有联赛失败（通常是懂球帝限流），隔几分钟再补一次
+      - name: Retry failed leagues
+        id: fetch2
+        if: steps.fetch.outcome != 'success'
+        continue-on-error: true
+        run: |
+          echo "首轮抓取有失败，等待 90 秒后重试…"
+          sleep 90
+          node bin/fetch-all.js
+
       - name: Rebuild static site
         run: node bin/build.js
 
@@ -62,12 +72,15 @@ jobs:
             git push
           fi
 
-      # 关键：把抓取失败 / 数据异常暴露成红色，而不是静默成功
+      # 关键：把抓取失败 / 数据异常暴露成红色，而不是静默成功。
+      # fetch2 只在首轮失败时运行；若补抓成功则视为恢复，不再报红。
       - name: Report result
-        if: steps.fetch.outcome != 'success' || steps.data.outcome != 'success'
+        if: >-
+          steps.data.outcome != 'success' ||
+          (steps.fetch.outcome != 'success' && steps.fetch2.outcome != 'success')
         run: |
-          if [ "${{ steps.fetch.outcome }}" != "success" ]; then
-            echo "::error::部分联赛抓取失败，详见「Fetch all leagues」日志（失败联赛保留旧数据）"
+          if [ "${{ steps.fetch.outcome }}" != "success" ] && [ "${{ steps.fetch2.outcome }}" != "success" ]; then
+            echo "::error::联赛抓取失败（首轮与补抓均未成功），详见「Fetch all leagues」日志；失败联赛保留旧数据"
           fi
           if [ "${{ steps.data.outcome }}" != "success" ]; then
             echo "::error::数据完整性检查未通过，详见「Data integrity check」日志"

@@ -13,7 +13,8 @@
     },
     {
       "id": "天津津门虎",
-      "name": "天津津门虎"
+      "name": "天津津门虎",
+      "deduction": 10
     },
     {
       "id": "重庆铜梁龙",
@@ -21,7 +22,8 @@
     },
     {
       "id": "山东泰山",
-      "name": "山东泰山"
+      "name": "山东泰山",
+      "deduction": 6
     },
     {
       "id": "辽宁铁人",
@@ -29,7 +31,8 @@
     },
     {
       "id": "上海申花",
-      "name": "上海申花"
+      "name": "上海申花",
+      "deduction": 10
     },
     {
       "id": "大连英博",
@@ -37,11 +40,13 @@
     },
     {
       "id": "上海海港",
-      "name": "上海海港"
+      "name": "上海海港",
+      "deduction": 5
     },
     {
       "id": "河南",
-      "name": "河南"
+      "name": "河南",
+      "deduction": 6
     },
     {
       "id": "云南玉昆",
@@ -49,11 +54,13 @@
     },
     {
       "id": "青岛海牛",
-      "name": "青岛海牛"
+      "name": "青岛海牛",
+      "deduction": 7
     },
     {
       "id": "浙江",
-      "name": "浙江"
+      "name": "浙江",
+      "deduction": 5
     },
     {
       "id": "青岛西海岸",
@@ -61,11 +68,13 @@
     },
     {
       "id": "武汉三镇",
-      "name": "武汉三镇"
+      "name": "武汉三镇",
+      "deduction": 5
     },
     {
       "id": "北京国安",
-      "name": "北京国安"
+      "name": "北京国安",
+      "deduction": 5
     }
   ],
   "matches": [
@@ -2506,9 +2515,240 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:43",
-    "fetchedAt": "2026-10-24T14:01:16.719Z",
+    "fetchedAt": "2026-10-25T04:30:10.086Z",
     "maxRound": 30,
     "url": "https://www.dongqiudi.com/data?cid=43",
-    "deductionsError": "HTTP 403"
+    "deductions": [
+      {
+        "team": "天津津门虎",
+        "deduction": 10
+      },
+      {
+        "team": "山东泰山",
+        "deduction": 6
+      },
+      {
+        "team": "上海申花",
+        "deduction": 10
+      },
+      {
+        "team": "上海海港",
+        "deduction": 5
+      },
+      {
+        "team": "河南",
+        "deduction": 6
+      },
+      {
+        "team": "青岛海牛",
+        "deduction": 7
+      },
+      {
+        "team": "浙江",
+        "deduction": 5
+      },
+      {
+        "team": "武汉三镇",
+        "deduction": 5
+      },
+      {
+        "team": "北京国安",
+        "deduction": 5
+      }
+    ],
+    "officialTable": [
+      {
+        "rank": 1,
+        "name": "成都蓉城",
+        "played": null,
+        "wins": 29,
+        "draws": 15,
+        "losses": 7,
+        "gf": 51,
+        "ga": 35,
+        "gd": 16,
+        "points": 52
+      },
+      {
+        "rank": 2,
+        "name": "大连英博",
+        "played": null,
+        "wins": 29,
+        "draws": 15,
+        "losses": 4,
+        "gf": 46,
+        "ga": 43,
+        "gd": 3,
+        "points": 49
+      },
+      {
+        "rank": 3,
+        "name": "北京国安",
+        "played": null,
+        "wins": 29,
+        "draws": 14,
+        "losses": 10,
+        "gf": 57,
+        "ga": 36,
+        "gd": 21,
+        "points": 47
+      },
+      {
+        "rank": 4,
+        "name": "山东泰山",
+        "played": null,
+        "wins": 29,
+        "draws": 15,
+        "losses": 5,
+        "gf": 57,
+        "ga": 47,
+        "gd": 10,
+        "points": 44
+      },
+      {
+        "rank": 5,
+        "name": "上海海港",
+        "played": null,
+        "wins": 29,
+        "draws": 13,
+        "losses": 8,
+        "gf": 50,
+        "ga": 36,
+        "gd": 14,
+        "points": 42
+      },
+      {
+        "rank": 6,
+        "name": "云南玉昆",
+        "played": null,
+        "wins": 29,
+        "draws": 11,
+        "losses": 7,
+        "gf": 57,
+        "ga": 60,
+        "gd": -3,
+        "points": 40
+      },
+      {
+        "rank": 7,
+        "name": "青岛西海岸",
+        "played": null,
+        "wins": 29,
+        "draws": 8,
+        "losses": 15,
+        "gf": 32,
+        "ga": 38,
+        "gd": -6,
+        "points": 39
+      },
+      {
+        "rank": 8,
+        "name": "上海申花",
+        "played": null,
+        "wins": 29,
+        "draws": 14,
+        "losses": 5,
+        "gf": 63,
+        "ga": 50,
+        "gd": 13,
+        "points": 37
+      },
+      {
+        "rank": 9,
+        "name": "重庆铜梁龙",
+        "played": null,
+        "wins": 29,
+        "draws": 8,
+        "losses": 12,
+        "gf": 31,
+        "ga": 34,
+        "gd": -3,
+        "points": 36
+      },
+      {
+        "rank": 10,
+        "name": "浙江",
+        "played": null,
+        "wins": 29,
+        "draws": 11,
+        "losses": 6,
+        "gf": 51,
+        "ga": 54,
+        "gd": -3,
+        "points": 34
+      },
+      {
+        "rank": 11,
+        "name": "深圳新鹏城",
+        "played": null,
+        "wins": 29,
+        "draws": 9,
+        "losses": 5,
+        "gf": 39,
+        "ga": 51,
+        "gd": -12,
+        "points": 32
+      },
+      {
+        "rank": 12,
+        "name": "天津津门虎",
+        "played": null,
+        "wins": 29,
+        "draws": 11,
+        "losses": 8,
+        "gf": 39,
+        "ga": 35,
+        "gd": 4,
+        "points": 31
+      },
+      {
+        "rank": 13,
+        "name": "辽宁铁人",
+        "played": null,
+        "wins": 29,
+        "draws": 8,
+        "losses": 5,
+        "gf": 41,
+        "ga": 52,
+        "gd": -11,
+        "points": 29
+      },
+      {
+        "rank": 14,
+        "name": "河南",
+        "played": null,
+        "wins": 29,
+        "draws": 8,
+        "losses": 10,
+        "gf": 38,
+        "ga": 42,
+        "gd": -4,
+        "points": 28
+      },
+      {
+        "rank": 15,
+        "name": "武汉三镇",
+        "played": null,
+        "wins": 29,
+        "draws": 5,
+        "losses": 12,
+        "gf": 44,
+        "ga": 55,
+        "gd": -11,
+        "points": 22
+      },
+      {
+        "rank": 16,
+        "name": "青岛海牛",
+        "played": null,
+        "wins": 29,
+        "draws": 6,
+        "losses": 3,
+        "gf": 34,
+        "ga": 62,
+        "gd": -28,
+        "points": 14
+      }
+    ]
   }
 }

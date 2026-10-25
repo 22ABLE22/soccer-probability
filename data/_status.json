@@ -1,29 +1,13 @@
 {
-  "updatedAt": "2026-10-24T22:25:51.160Z",
+  "updatedAt": "2026-10-25T04:30:16.240Z",
   "ok": [
+    "china-l1",
+    "csl",
     "epl",
+    "laliga",
+    "seriea",
+    "bundesliga",
     "ligue1"
   ],
-  "failed": [
-    {
-      "key": "china-l1",
-      "reason": "赛程页无数据"
-    },
-    {
-      "key": "csl",
-      "reason": "赛程页无数据"
-    },
-    {
-      "key": "laliga",
-      "reason": "赛程页无数据"
-    },
-    {
-      "key": "seriea",
-      "reason": "赛程页无数据"
-    },
-    {
-      "key": "bundesliga",
-      "reason": "赛程页无数据"
-    }
-  ]
+  "failed": []
 }

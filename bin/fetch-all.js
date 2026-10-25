@@ -304,9 +304,26 @@ function rowsToLeague(rows, meta) {
 
 async function fetchLeague(meta) {
   const base = 'https://www.dongqiudi.com/data?cid=' + meta.cid;
-  const html = await request(base + '&tab=schedule', { label: meta.key, attempts: 5 });
-  const rows = parseScheduleHtml(html);
-  if (!rows.length) throw new Error('赛程页无数据');
+
+  // 抓赛程页。
+  // 注意：懂球帝限流时可能返回 200 但内容不是赛程页（验证页/空壳），
+  // 这种情况必须当作可重试错误，否则会直接判为"赛程页无数据"。
+  let rows = [];
+  const maxTries = 5;
+  for (let attempt = 1; attempt <= maxTries; attempt++) {
+    const html = await request(base + '&tab=schedule', {
+      label: meta.key, attempts: 3, timeoutMs: 25000
+    });
+    rows = parseScheduleHtml(html);
+    if (rows.length) break;
+
+    if (attempt === maxTries) {
+      throw new Error('赛程页无数据（返回内容异常，可能是限流页）');
+    }
+    const wait = Math.round(2000 * Math.pow(1.8, attempt - 1));
+    out('[retry ' + attempt + '/' + (maxTries - 1) + ' ' + wait + 'ms: 内容异常] ');
+    await sleep(wait);
+  }
 
   const league = rowsToLeague(rows, meta);
   league.meta.url = base;
