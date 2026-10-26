@@ -16,6 +16,7 @@ const outln = (s) => out((s == null ? '' : s) + '\n');
 
 const fs = require('fs');
 const path = require('path');
+const zlib = require('zlib');
 const https = require('https');
 const http = require('http');
 const { URL } = require('url');
@@ -76,6 +77,51 @@ const RETRYABLE = new Set([403, 429, 500, 502, 503, 504, 520, 521, 522, 523, 524
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
+/* 轮换 UA：机房 IP 更容易被识别，用几组常见浏览器 UA 轮换能降低被拦概率 */
+const UA_POOL = [
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0',
+  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15',
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0'
+];
+let uaCursor = 0;
+
+/* 记录最近一次响应的特征，便于诊断"内容异常" */
+const lastResponse = { url: null, status: null, bytes: 0, hasSchedule: false, hasHtml: false, title: '' };
+
+function buildHeaders(url) {
+  const ua = UA_POOL[uaCursor++ % UA_POOL.length];
+  const h = {
+    'User-Agent': ua,
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+    'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
+    'Accept-Encoding': 'gzip, deflate, br',
+    'Cache-Control': 'no-cache',
+    'Pragma': 'no-cache',
+    'Upgrade-Insecure-Requests': '1',
+    'Sec-Fetch-Dest': 'document',
+    'Sec-Fetch-Mode': 'navigate',
+    'Sec-Fetch-Site': 'same-origin',
+    'Sec-Fetch-User': '?1',
+    'Connection': 'close'
+  };
+  // 站内跳转带上 Referer，更像自然浏览
+  if (url.indexOf('tab=') >= 0) {
+    h['Referer'] = 'https://www.dongqiudi.com/data';
+  }
+  return h;
+}
+
+function describeResponse(html) {
+  const titleM = /<title[^>]*>([^<]*)<\/title>/i.exec(html || '');
+  return {
+    bytes: (html || '').length,
+    hasSchedule: (html || '').indexOf('dp-schedule-row') >= 0,
+    hasHtml: (html || '').indexOf('<html') >= 0,
+    title: titleM ? decode(titleM[1]).trim().slice(0, 40) : ''
+  };
+}
+
 function requestOnce(url, timeoutMs) {
   const u = new URL(url);
   const mod = u.protocol === 'http:' ? http : https;
@@ -84,15 +130,7 @@ function requestOnce(url, timeoutMs) {
       hostname: u.hostname,
       port: u.port || undefined,
       path: u.pathname + u.search,
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 ' +
-          '(KHTML, like Gecko) Chrome/124.0 Safari/537.36',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-        'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
-        'Cache-Control': 'no-cache',
-        'Pragma': 'no-cache',
-        'Connection': 'close'
-      },
+      headers: buildHeaders(url),
       timeout: timeoutMs || 30000
     }, res => {
       if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
@@ -107,7 +145,24 @@ function requestOnce(url, timeoutMs) {
       }
       const chunks = [];
       res.on('data', c => chunks.push(c));
-      res.on('end', () => resolve(Buffer.concat(chunks).toString('utf8')));
+      res.on('end', () => {
+        let buf = Buffer.concat(chunks);
+        // 服务器可能返回压缩内容（gzip / deflate / br），必须解压后再当文本处理
+        const enc = String(res.headers['content-encoding'] || '').toLowerCase();
+        try {
+          if (enc === 'gzip' || enc === 'x-gzip') {
+            buf = zlib.gunzipSync(buf);
+          } else if (enc === 'deflate') {
+            try { buf = zlib.inflateSync(buf); }
+            catch (e) { buf = zlib.inflateRawSync(buf); }
+          } else if (enc === 'br') {
+            buf = zlib.brotliDecompressSync(buf);
+          }
+        } catch (e) {
+          return reject(new Error('解压失败(' + enc + '): ' + e.message));
+        }
+        resolve(buf.toString('utf8'));
+      });
     });
     req.on('timeout', () => req.destroy(new Error('timeout')));
     req.on('error', reject);
@@ -335,21 +390,30 @@ async function fetchLeague(meta) {
   // 注意：懂球帝限流时可能返回 200 但内容不是赛程页（验证页/空壳），
   // 这种情况必须当作可重试错误，否则会直接判为"赛程页无数据"。
   let rows = [];
+  let lastDesc = null;
   const maxTries = 5;
   for (let attempt = 1; attempt <= maxTries; attempt++) {
     const html = await request(base + '&tab=schedule', {
-      label: meta.key, attempts: 3, timeoutMs: 25000
+      label: meta.key, attempts: 2, timeoutMs: 25000
     });
     rows = parseScheduleHtml(html);
     if (rows.length) break;
 
+    lastDesc = describeResponse(html);
     if (attempt === maxTries) {
-      throw new Error('赛程页无数据（返回内容异常，可能是限流页）');
+      // 把响应特征带进错误信息，便于事后判断是限流页、空壳还是结构变更
+      throw new Error('赛程页无数据（' + lastDesc.bytes + ' 字节, ' +
+        (lastDesc.hasHtml ? '有HTML' : '非HTML') +
+        (lastDesc.title ? ', title="' + lastDesc.title + '"' : '') + '）');
     }
-    const wait = Math.round(2000 * Math.pow(1.8, attempt - 1));
+    // 2~5.5 秒随机退避，避免固定节奏被识别
+    const wait = Math.round((2000 + Math.random() * 3500) * Math.pow(1.5, attempt - 1));
     out('[retry ' + attempt + '/' + (maxTries - 1) + ' ' + wait + 'ms: 内容异常] ');
     await sleep(wait);
   }
+
+  // 联赛之间也随机停顿，降低连续请求的规律性
+  await sleep(1000 + Math.random() * 2000);
 
   const league = rowsToLeague(rows, meta);
   league.meta.url = base;

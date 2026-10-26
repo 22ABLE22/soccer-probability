@@ -1041,10 +1041,9 @@
       "date": "2026-10-25 21:00",
       "home": "毕尔巴鄂竞技",
       "away": "赫塔费",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false,
-      "live": true
+      "homeGoals": 4,
+      "awayGoals": 0,
+      "played": true
     },
     {
       "id": "54493308",
@@ -1052,9 +1051,9 @@
       "date": "2026-10-25 23:15",
       "home": "塞尔塔",
       "away": "皇家贝蒂斯",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
     },
     {
       "id": "54493314",
@@ -1062,9 +1061,9 @@
       "date": "2026-10-26 01:30",
       "home": "皇家社会",
       "away": "莱万特",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
     },
     {
       "id": "54493310",
@@ -1072,9 +1071,9 @@
       "date": "2026-10-26 04:00",
       "home": "巴塞罗那",
       "away": "皇家马德里",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
     },
     {
       "id": "54493315",
@@ -3932,9 +3931,8 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:3",
-    "fetchedAt": "2026-10-25T13:20:26.491Z",
+    "fetchedAt": "2026-10-26T08:06:00.600Z",
     "maxRound": 38,
-    "liveMatches": 1,
     "url": "https://www.dongqiudi.com/data?cid=3",
     "deductions": [],
     "officialTable": [
@@ -3942,12 +3940,12 @@
         "rank": 1,
         "name": "巴塞罗那",
         "played": null,
-        "wins": 9,
+        "wins": 10,
         "draws": 9,
         "losses": 0,
-        "gf": 39,
-        "ga": 9,
-        "gd": 30,
+        "gf": 40,
+        "ga": 11,
+        "gd": 29,
         "points": 27
       },
       {
@@ -3966,37 +3964,37 @@
         "rank": 3,
         "name": "皇家马德里",
         "played": null,
-        "wins": 9,
-        "draws": 7,
+        "wins": 10,
+        "draws": 8,
         "losses": 0,
-        "gf": 23,
-        "ga": 9,
-        "gd": 14,
-        "points": 21
+        "gf": 25,
+        "ga": 10,
+        "gd": 15,
+        "points": 24
       },
       {
         "rank": 4,
         "name": "皇家贝蒂斯",
         "played": null,
-        "wins": 9,
+        "wins": 10,
         "draws": 6,
-        "losses": 1,
+        "losses": 2,
         "gf": 16,
         "ga": 14,
         "gd": 2,
-        "points": 19
+        "points": 20
       },
       {
         "rank": 5,
         "name": "皇家社会",
         "played": null,
-        "wins": 9,
-        "draws": 5,
+        "wins": 10,
+        "draws": 6,
         "losses": 1,
-        "gf": 17,
-        "ga": 17,
-        "gd": 0,
-        "points": 16
+        "gf": 19,
+        "ga": 18,
+        "gd": 1,
+        "points": 19
       },
       {
         "rank": 6,
@@ -4024,6 +4022,30 @@
       },
       {
         "rank": 8,
+        "name": "毕尔巴鄂竞技",
+        "played": null,
+        "wins": 9,
+        "draws": 3,
+        "losses": 3,
+        "gf": 12,
+        "ga": 9,
+        "gd": 3,
+        "points": 12
+      },
+      {
+        "rank": 9,
+        "name": "塞尔塔",
+        "played": null,
+        "wins": 10,
+        "draws": 2,
+        "losses": 6,
+        "gf": 10,
+        "ga": 7,
+        "gd": 3,
+        "points": 12
+      },
+      {
+        "rank": 10,
         "name": "比利亚雷亚尔",
         "played": null,
         "wins": 10,
@@ -4035,19 +4057,7 @@
         "points": 12
       },
       {
-        "rank": 9,
-        "name": "塞尔塔",
-        "played": null,
-        "wins": 9,
-        "draws": 2,
-        "losses": 5,
-        "gf": 10,
-        "ga": 7,
-        "gd": 3,
-        "points": 11
-      },
-      {
-        "rank": 10,
+        "rank": 11,
         "name": "拉科鲁尼亚",
         "played": null,
         "wins": 10,
@@ -4059,7 +4069,7 @@
         "points": 11
       },
       {
-        "rank": 11,
+        "rank": 12,
         "name": "奥萨苏纳",
         "played": null,
         "wins": 9,
@@ -4071,7 +4081,7 @@
         "points": 11
       },
       {
-        "rank": 12,
+        "rank": 13,
         "name": "桑坦德竞技",
         "played": null,
         "wins": 10,
@@ -4083,19 +4093,19 @@
         "points": 11
       },
       {
-        "rank": 13,
+        "rank": 14,
         "name": "莱万特",
         "played": null,
-        "wins": 9,
+        "wins": 10,
         "draws": 2,
         "losses": 4,
-        "gf": 15,
-        "ga": 17,
-        "gd": -2,
+        "gf": 16,
+        "ga": 19,
+        "gd": -3,
         "points": 10
       },
       {
-        "rank": 14,
+        "rank": 15,
         "name": "埃尔切",
         "played": null,
         "wins": 10,
@@ -4107,31 +4117,7 @@
         "points": 10
       },
       {
-        "rank": 15,
-        "name": "毕尔巴鄂竞技",
-        "played": null,
-        "wins": 8,
-        "draws": 2,
-        "losses": 3,
-        "gf": 8,
-        "ga": 9,
-        "gd": -1,
-        "points": 9
-      },
-      {
         "rank": 16,
-        "name": "赫塔费",
-        "played": null,
-        "wins": 9,
-        "draws": 2,
-        "losses": 3,
-        "gf": 5,
-        "ga": 11,
-        "gd": -6,
-        "points": 9
-      },
-      {
-        "rank": 17,
         "name": "巴列卡诺",
         "played": null,
         "wins": 9,
@@ -4140,6 +4126,18 @@
         "gf": 12,
         "ga": 20,
         "gd": -8,
+        "points": 9
+      },
+      {
+        "rank": 17,
+        "name": "赫塔费",
+        "played": null,
+        "wins": 10,
+        "draws": 2,
+        "losses": 3,
+        "gf": 5,
+        "ga": 15,
+        "gd": -10,
         "points": 9
       },
       {

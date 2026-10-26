@@ -10,6 +10,7 @@ on:
 
 permissions:
   contents: write
+  actions: write      # 需要它才能在提交后主动触发 deploy
 
 concurrency:
   group: refresh-data
@@ -61,16 +62,31 @@ jobs:
 
       # 即使部分联赛失败，也把已成功的数据提交上去
       - name: Commit if changed
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data dist
           if git diff --staged --quiet; then
             echo "数据无变化，跳过提交"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "chore(data): 自动刷新联赛数据 $(date -u '+%Y-%m-%d %H:%M UTC')"
             git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      # 关键：用 GITHUB_TOKEN 推送的提交不会触发其他 workflow（GitHub 防止递归的机制），
+      # 所以必须显式触发一次 Deploy，否则 bot 提交的数据不会部署到 Pages。
+      - name: Trigger Pages deploy
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "数据已更新，触发 Pages 部署…"
+          gh workflow run deploy.yml --ref main
+          sleep 10
+          gh run list --workflow=deploy.yml --limit 1
 
       # 关键：把抓取失败 / 数据异常暴露成红色，而不是静默成功。
       # fetch2 只在首轮失败时运行；若补抓成功则视为恢复，不再报红。
