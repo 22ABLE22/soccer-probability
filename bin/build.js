@@ -14,6 +14,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { execFileSync } = require('child_process');
 
 const ROOT = path.resolve(__dirname, '..');
 const DIST = path.join(ROOT, 'dist');
@@ -48,6 +49,41 @@ const bag = {};
 let copied = 0;
 const skipped = [];
 
+/* 手工录入的联赛没有"抓取时间"，改用最后一次提交时间。
+ * 回退链：git log -> 文件 mtime -> 已赛比赛的最大日期
+ * （CI 是浅克隆，git 取不到时自动落到下一级，所以 workflow 里加了 fetch-depth: 0）
+ */
+function lastCommitTime(rel) {
+  try {
+    const out = execFileSync('git', ['log', '-1', '--format=%cI', '--', rel], {
+      cwd: ROOT, encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'], timeout: 10000,
+    }).trim();
+    if (out) return new Date(out).toISOString();
+  } catch (e) { /* 无 git 或浅克隆取不到，继续回退 */ }
+  return null;
+}
+
+function lastPlayedDate(json) {
+  let max = null;
+  for (const m of json.matches || []) {
+    if (!m.played || !m.date) continue;
+    const t = new Date(m.date);
+    if (!isNaN(t) && (!max || t > max)) max = t;
+  }
+  return max ? max.toISOString() : null;
+}
+
+function stampUpdatedAt(json, src, f) {
+  if (!(json.meta && json.meta.manual)) return null;
+  const rel = path.relative(ROOT, src).replace(/\\/g, '/');
+  const at = lastCommitTime(rel)
+    || lastPlayedDate(json)
+    || new Date(fs.statSync(src).mtime).toISOString();
+  if (!at) return null;
+  json.meta.updatedAt = at;
+  return at;
+}
+
 if (fs.existsSync(DATA)) {
   for (const f of fs.readdirSync(DATA)) {
     if (!f.endsWith('.json')) continue;
@@ -66,12 +102,17 @@ if (fs.existsSync(DATA)) {
       continue;
     }
 
+    const updatedAt = stampUpdatedAt(json, src, f);
+
     const key = json.id || f.replace(/-\d{4}(-\d{2})?\.json$/, '').replace(/\.json$/, '');
     if (bag[key]) skipped.push(f + '（key 与已有数据重复：' + key + '）');
     else {
       bag[key] = json;
-      fs.copyFileSync(src, path.join(DIST, 'data', f));
+      // 手工录入联赛的 updatedAt 是构建时算出来的，要连同数据一起写进 dist
+      if (updatedAt) fs.writeFileSync(path.join(DIST, 'data', f), JSON.stringify(json, null, 2) + '\n', 'utf8');
+      else fs.copyFileSync(src, path.join(DIST, 'data', f));
       copied++;
+      if (updatedAt) console.log('    手工录入 ' + key + ' 最后更新 ' + updatedAt);
     }
   }
 }

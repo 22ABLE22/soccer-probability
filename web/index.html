@@ -475,14 +475,24 @@ async function loadLive(key, onProgress) {
 
 /** 数据新鲜度说明；超过 48 小时会明确标注"数据可能不是最新" */
 function freshnessNote(league) {
-  const via = (league.meta && league.meta.via) || '内置快照';
-  const at = league.meta && league.meta.fetchedAt;
+  const meta = league.meta || {};
+  const manual = !!meta.manual;
+  const via = manual ? '手工录入' : (meta.via || '内置快照');
   const played = league.matches.filter(m => m.played).length;
   let s = '来源：' + via;
 
   let stale = false;
-  if (at) {
-    const d = new Date(at);
+  if (manual) {
+    // 手工录入的联赛没有"抓取时间"，显示最后一次提交修改时间，且不做过期告警
+    const at = meta.updatedAt;
+    const d = at ? new Date(at) : null;
+    if (d && !isNaN(d.getTime())) {
+      s += ' · 最后更新 ' + d.toLocaleString('zh-CN', { hour12: false });
+    } else {
+      s += ' · 最后更新时间未知';
+    }
+  } else if (meta.fetchedAt) {
+    const d = new Date(meta.fetchedAt);
     if (!isNaN(d.getTime())) {
       s += ' · 抓取于 ' + d.toLocaleString('zh-CN', { hour12: false });
       const hours = (Date.now() - d.getTime()) / 3600000;
@@ -499,8 +509,7 @@ function freshnessNote(league) {
   s += ' · 已赛 ' + played + '/' + league.matches.length + ' 场';
 
   // 有比赛正在进行：比分未计入，提醒用户
-  const liveCount = (league.meta && league.meta.liveMatches) ||
-    league.matches.filter(m => m.live).length;
+  const liveCount = meta.liveMatches || league.matches.filter(m => m.live).length;
   if (liveCount) {
     s += ' · ' + liveCount + ' 场进行中（比分未计入）';
   }

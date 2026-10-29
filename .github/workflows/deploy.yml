@@ -19,6 +19,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # 构建时用 git log 取手工录入联赛的最后提交时间，浅克隆取不到
+          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:

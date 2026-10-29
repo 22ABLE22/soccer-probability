@@ -115,7 +115,9 @@ league = {
     'model': {},
     'meta': {
         'source': '三航杯赛程.xlsx',
-        'fetchedAt': '2026-10-24T00:00:00.000Z',
+        # 手工录入：没有"抓取时间"，页面应显示最后一次提交修改时间。
+        # 真正的 updatedAt 由 bin/build.js 构建时用 git log 写入。
+        'manual': True,
         'maxRound': max_round,
         'note': '校级联赛；10 队单循环 45 场，已排期 %d 场，待排期 %d 场'
                 % (len(rows) - pending_count, pending_count),

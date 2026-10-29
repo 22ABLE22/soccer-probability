@@ -193,6 +193,14 @@ async function main() {
   const cRows = await cdp.eval("document.querySelectorAll('#probTable tbody tr').length");
   check('自定义联赛可算出概率', cRows === 10, '(' + cRows + ' 队)');
 
+  // 手工录入联赛：显示"最后更新"而不是"抓取于"，且不做过期告警
+  const cNote = await cdp.eval("document.getElementById('dataNote').textContent");
+  check('手工录入联赛显示最后更新时间', cNote.indexOf('手工录入') >= 0 && cNote.indexOf('最后更新') >= 0,
+    '[' + cNote + ']');
+  check('手工录入联赛不显示抓取时间', cNote.indexOf('抓取于') < 0, '[' + cNote + ']');
+  const cNoteWarn = await cdp.eval("document.getElementById('dataNote').className");
+  check('手工录入联赛无过期告警', cNoteWarn.indexOf('warn') < 0, '[' + cNoteWarn + ']');
+
   const cHeads = await cdp.eval("[...document.querySelectorAll('#probTable thead th')].map(h=>h.textContent.trim()).join('|')");
   check('自定义联赛沿用其名次区间', cHeads.indexOf('晋级季后赛') >= 0 || cHeads.indexOf('降级至乙组') >= 0,
     '[' + cHeads + ']');

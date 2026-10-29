@@ -533,7 +533,7 @@
   "model": {},
   "meta": {
     "source": "三航杯赛程.xlsx",
-    "fetchedAt": "2026-10-24T00:00:00.000Z",
+    "manual": true,
     "maxRound": 7,
     "note": "校级联赛；10 队单循环 45 场，已排期 35 场，待排期 10 场",
     "scheduledMatches": 35,
