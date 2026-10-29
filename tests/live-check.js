@@ -10,7 +10,7 @@ const { spawn } = require('child_process');
 const { findFreePort } = require('./port.js');
 
 const SITE = 'https://22able22.github.io/soccer-probability/';
-const CDP_PORT = 9391;
+let CDP_PORT = 9391;
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 function getJson(u) {
@@ -117,6 +117,12 @@ async function main() {
     await sleep(2500);
     const rows = await cdp.eval("document.querySelectorAll('#probTable tbody tr').length");
     check('自定义联赛可算出概率', rows > 0, '(' + rows + ' 队)');
+
+    const cNote = await cdp.eval("document.getElementById('dataNote').textContent");
+    const cWarn = await cdp.eval("document.getElementById('dataNote').className");
+    check('线上手工录入联赛显示最后更新', cNote.indexOf('手工录入') >= 0 && cNote.indexOf('最后更新') >= 0,
+      '[' + String(cNote).slice(0, 60) + ']');
+    check('线上手工录入联赛无过期告警', String(cWarn).indexOf('warn') < 0, '[' + cWarn + ']');
   }
 
   await cdp.eval(`(() => {
