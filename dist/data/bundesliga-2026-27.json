@@ -3190,7 +3190,7 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:5",
-    "fetchedAt": "2026-10-28T23:59:24.393Z",
+    "fetchedAt": "2026-10-29T23:55:05.791Z",
     "maxRound": 34,
     "url": "https://www.dongqiudi.com/data?cid=5",
     "deductions": [],
@@ -3365,18 +3365,6 @@
       },
       {
         "rank": 15,
-        "name": "沙尔克04",
-        "played": null,
-        "wins": 7,
-        "draws": 1,
-        "losses": 3,
-        "gf": 4,
-        "ga": 7,
-        "gd": -3,
-        "points": 6
-      },
-      {
-        "rank": 16,
         "name": "斯图加特",
         "played": null,
         "wins": 7,
@@ -3384,6 +3372,18 @@
         "losses": 0,
         "gf": 10,
         "ga": 13,
+        "gd": -3,
+        "points": 6
+      },
+      {
+        "rank": 16,
+        "name": "沙尔克04",
+        "played": null,
+        "wins": 7,
+        "draws": 1,
+        "losses": 3,
+        "gf": 4,
+        "ga": 7,
         "gd": -3,
         "points": 6
       },

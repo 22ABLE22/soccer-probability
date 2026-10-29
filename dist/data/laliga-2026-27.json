@@ -796,16 +796,6 @@
       "played": true
     },
     {
-      "id": "54493278",
-      "round": 8,
-      "date": "2026-10-10 20:00",
-      "home": "巴列卡诺",
-      "away": "毕尔巴鄂竞技",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
       "id": "54493268",
       "round": 8,
       "date": "2026-10-10 22:15",
@@ -884,6 +874,16 @@
       "homeGoals": 3,
       "awayGoals": 3,
       "played": true
+    },
+    {
+      "id": "54493278",
+      "round": 8,
+      "date": "2026-12-10 03:00",
+      "home": "巴列卡诺",
+      "away": "毕尔巴鄂竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
     },
     {
       "id": "54493289",
@@ -3931,7 +3931,7 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:3",
-    "fetchedAt": "2026-10-28T23:59:14.691Z",
+    "fetchedAt": "2026-10-29T23:54:54.004Z",
     "maxRound": 38,
     "url": "https://www.dongqiudi.com/data?cid=3",
     "deductions": [],
