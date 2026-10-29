@@ -111,9 +111,9 @@
       "date": "2026-10-29",
       "home": "电信",
       "away": "力载",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
     },
     {
       "id": "m008",

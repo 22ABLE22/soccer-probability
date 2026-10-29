@@ -5,3 +5,5 @@ Thumbs.db
 .env
 .vscode/
 .idea/
+tests/_json_report.txt
+tools/_*.py
