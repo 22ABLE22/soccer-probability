@@ -29,7 +29,8 @@
     },
     {
       "id": "西班牙人",
-      "name": "西班牙人"
+      "name": "西班牙人",
+      "deduction": 3
     },
     {
       "id": "莱万特",
@@ -1091,9 +1092,9 @@
       "date": "2026-10-31 04:00",
       "home": "比利亚雷亚尔",
       "away": "西班牙人",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
     },
     {
       "id": "54493338",
@@ -1486,16 +1487,6 @@
       "played": false
     },
     {
-      "id": "54493499",
-      "round": 15,
-      "date": "2026-12-06 03:00",
-      "home": "比利亚雷亚尔",
-      "away": "皇家社会",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
       "id": "54493489",
       "round": 15,
       "date": "2026-12-07 00:00",
@@ -1581,6 +1572,16 @@
       "date": "2026-12-07 00:00",
       "home": "塞维利亚",
       "away": "马拉加",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493499",
+      "round": 15,
+      "date": "2026-12-07 00:00",
+      "home": "比利亚雷亚尔",
+      "away": "皇家社会",
       "homeGoals": null,
       "awayGoals": null,
       "played": false
@@ -3931,10 +3932,15 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:3",
-    "fetchedAt": "2026-10-29T23:54:54.004Z",
+    "fetchedAt": "2026-10-30T23:40:54.549Z",
     "maxRound": 38,
     "url": "https://www.dongqiudi.com/data?cid=3",
-    "deductions": [],
+    "deductions": [
+      {
+        "team": "西班牙人",
+        "deduction": 3
+      }
+    ],
     "officialTable": [
       {
         "rank": 1,
