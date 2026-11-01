@@ -141,9 +141,9 @@
       "date": "2026-11-01",
       "home": "QM",
       "away": "航空",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
     },
     {
       "id": "m011",
@@ -538,6 +538,6 @@
     "note": "校级联赛；10 队单循环 45 场，已排期 35 场，待排期 10 场",
     "scheduledMatches": 35,
     "pendingMatches": 10,
-    "updatedAt": "2026-10-30T14:51:56.000Z"
+    "updatedAt": "2026-11-01T04:10:25.000Z"
   }
 }
