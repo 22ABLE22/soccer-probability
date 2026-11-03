@@ -883,9 +883,9 @@
       "date": "2026-11-03 03:45",
       "home": "洛里昂",
       "away": "布雷斯特",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "played": true
     },
     {
       "id": "54473935",
@@ -3181,7 +3181,7 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:12",
-    "fetchedAt": "2026-11-01T23:32:47.119Z",
+    "fetchedAt": "2026-11-03T02:13:59.113Z",
     "maxRound": 34,
     "url": "https://www.dongqiudi.com/data?cid=12",
     "deductions": [],
@@ -3296,18 +3296,30 @@
       },
       {
         "rank": 10,
-        "name": "洛里昂",
+        "name": "布雷斯特",
         "played": null,
-        "wins": 8,
+        "wins": 9,
         "draws": 3,
         "losses": 3,
-        "gf": 7,
-        "ga": 6,
-        "gd": 1,
+        "gf": 16,
+        "ga": 12,
+        "gd": 4,
         "points": 12
       },
       {
         "rank": 11,
+        "name": "洛里昂",
+        "played": null,
+        "wins": 9,
+        "draws": 3,
+        "losses": 3,
+        "gf": 7,
+        "ga": 8,
+        "gd": -1,
+        "points": 12
+      },
+      {
+        "rank": 12,
         "name": "图卢兹",
         "played": null,
         "wins": 9,
@@ -3319,7 +3331,7 @@
         "points": 10
       },
       {
-        "rank": 12,
+        "rank": 13,
         "name": "斯特拉斯堡",
         "played": null,
         "wins": 9,
@@ -3331,7 +3343,7 @@
         "points": 10
       },
       {
-        "rank": 13,
+        "rank": 14,
         "name": "欧塞尔",
         "played": null,
         "wins": 9,
@@ -3341,18 +3353,6 @@
         "ga": 23,
         "gd": -10,
         "points": 10
-      },
-      {
-        "rank": 14,
-        "name": "布雷斯特",
-        "played": null,
-        "wins": 8,
-        "draws": 2,
-        "losses": 3,
-        "gf": 14,
-        "ga": 12,
-        "gd": 2,
-        "points": 9
       },
       {
         "rank": 15,

@@ -981,9 +981,9 @@
       "date": "2026-11-03 04:00",
       "home": "纽卡斯尔联",
       "away": "埃弗顿",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
     },
     {
       "id": "54483805",
@@ -3930,7 +3930,7 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:4",
-    "fetchedAt": "2026-11-01T23:32:18.683Z",
+    "fetchedAt": "2026-11-03T02:13:40.983Z",
     "maxRound": 38,
     "url": "https://www.dongqiudi.com/data?cid=4",
     "deductions": [],
@@ -4009,6 +4009,18 @@
       },
       {
         "rank": 7,
+        "name": "埃弗顿",
+        "played": null,
+        "wins": 9,
+        "draws": 3,
+        "losses": 4,
+        "gf": 9,
+        "ga": 9,
+        "gd": 0,
+        "points": 13
+      },
+      {
+        "rank": 8,
         "name": "伯恩茅斯",
         "played": null,
         "wins": 9,
@@ -4020,7 +4032,7 @@
         "points": 12
       },
       {
-        "rank": 8,
+        "rank": 9,
         "name": "托特纳姆热刺",
         "played": null,
         "wins": 9,
@@ -4032,7 +4044,7 @@
         "points": 12
       },
       {
-        "rank": 9,
+        "rank": 10,
         "name": "阿斯顿维拉",
         "played": null,
         "wins": 9,
@@ -4044,7 +4056,7 @@
         "points": 12
       },
       {
-        "rank": 10,
+        "rank": 11,
         "name": "赫尔城",
         "played": null,
         "wins": 9,
@@ -4056,7 +4068,7 @@
         "points": 11
       },
       {
-        "rank": 11,
+        "rank": 12,
         "name": "利兹联",
         "played": null,
         "wins": 9,
@@ -4068,19 +4080,19 @@
         "points": 11
       },
       {
-        "rank": 12,
+        "rank": 13,
         "name": "纽卡斯尔联",
         "played": null,
-        "wins": 8,
+        "wins": 9,
         "draws": 3,
         "losses": 2,
         "gf": 12,
-        "ga": 14,
-        "gd": -2,
+        "ga": 15,
+        "gd": -3,
         "points": 11
       },
       {
-        "rank": 13,
+        "rank": 14,
         "name": "伊普斯维奇",
         "played": null,
         "wins": 9,
@@ -4090,18 +4102,6 @@
         "ga": 18,
         "gd": -4,
         "points": 11
-      },
-      {
-        "rank": 14,
-        "name": "埃弗顿",
-        "played": null,
-        "wins": 8,
-        "draws": 2,
-        "losses": 4,
-        "gf": 8,
-        "ga": 9,
-        "gd": -1,
-        "points": 10
       },
       {
         "rank": 15,
