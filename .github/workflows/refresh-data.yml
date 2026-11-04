@@ -46,9 +46,20 @@ jobs:
         if: steps.fetch.outcome != 'success'
         continue-on-error: true
         run: |
-          echo "首轮抓取有失败，等待 90 秒后重试…"
-          sleep 90
-          node bin/fetch-all.js
+          keys=$(node -e "const s=require('./data/_status.json');console.log((s.failed||[]).map(f=>f.key).join(','))" 2>/dev/null || echo "")
+          if [ -z "$keys" ]; then echo "无失败联赛，跳过补抓"; exit 0; fi
+          for round in 1 2; do
+            wait=$((round * 90))
+            echo "第 $round 轮补抓（$keys），先等 ${wait}s 让反爬冷却…"
+            sleep $wait
+            node bin/fetch-all.js --only "$keys" || true
+            left=$(node -e "const s=require('./data/_status.json');console.log((s.failed||[]).map(f=>f.key).join(','))" 2>/dev/null || echo "")
+            if [ -z "$left" ]; then echo "补抓成功，所有联赛均已恢复"; exit 0; fi
+            keys=$left
+            echo "仍有失败：$keys"
+          done
+          echo "补抓两轮仍未成功：$keys（这些联赛保留旧数据）"
+          exit 2
 
       - name: Rebuild static site
         run: node bin/build.js

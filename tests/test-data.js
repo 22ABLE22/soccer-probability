@@ -79,7 +79,19 @@ for (const f of files) {
     }
   }
 
-  // 3) 比分与 played 一致
+  // 3) 官方积分榜必须在：罚分全靠它反推，丢了会让积分榜直接算错
+  //    （曾经因为积分榜抓取失败、脚本把旧值覆盖成空，中超 9 队罚分一夜清零）
+  if (!MANUAL_LEAGUES.has(d.id || key)) {
+    const off = meta.officialTable || [];
+    check(f + ' 官方积分榜完整', off.length === d.teams.length,
+      '(' + off.length + '/' + d.teams.length + ' 行' +
+      (meta.standingsStale ? ', 沿用上次成功抓取' : '') + ')');
+    const ded = meta.deductions || [];
+    const dedOk = ded.every(x => d.teams.some(t => t.id === x.team));
+    check(f + ' 罚分记录可对应', dedOk, '(' + ded.length + ' 队有罚分)');
+  }
+
+  // 4) 比分与 played 一致
   //    注意：JSON 里显式写 "homeGoals": null 表示未赛，不算"有比分"
   let dirty = 0;
   const dirtyList = [];
@@ -138,6 +150,12 @@ if (fs.existsSync(statusFile)) {
     const failed = st.failed || [];
     check('上次抓取无失败联赛', failed.length === 0,
       failed.length ? '(' + failed.map(x => x.key + ': ' + x.reason).join('; ') + ')' : '');
+    // 积分榜没抓到不算失败：脚本会沿用旧文件里的罚分，数据仍然正确，只是报警告
+    const warned = st.warn || [];
+    if (warned.length) {
+      warn('上次抓取有降级项（已沿用旧值，数据仍正确）',
+        warned.map(x => x.key + ': ' + x.reason).join('; '));
+    }
   } catch (e) {
     warn('_status.json 无法解析', e.message);
   }

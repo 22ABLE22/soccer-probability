@@ -1,6 +1,7 @@
 {
-  "updatedAt": "2026-11-04T00:37:34.191Z",
+  "updatedAt": "2026-11-04T06:59:45.343Z",
   "ok": [
+    "china-l1",
     "csl",
     "epl",
     "laliga",
@@ -8,10 +9,6 @@
     "bundesliga",
     "ligue1"
   ],
-  "failed": [
-    {
-      "key": "china-l1",
-      "reason": "HTTP 567"
-    }
-  ]
+  "failed": [],
+  "warn": []
 }

@@ -413,20 +413,44 @@ async function fetchLeague(meta) {
   }
 
   // 联赛之间也随机停顿，降低连续请求的规律性
-  await sleep(1000 + Math.random() * 2000);
+  await sleep(2500 + Math.random() * 3500);
 
   const league = rowsToLeague(rows, meta);
   league.meta.url = base;
 
-  try {
-    const sHtml = await request(base + '&tab=standings', { label: meta.key, attempts: 3 });
-    const official = parseStandingsHtml(sHtml);
-    if (official.length) {
-      league.meta.deductions = applyDeductions(league, official);
-      league.meta.officialTable = official;
+  // 抓积分榜页：用来反推罚分。
+  // 与赛程页同样会遇到"HTTP 200 但内容是验证页/空壳"的限流，必须按内容重试；
+  // 另外行数必须等于球队数，否则视为没抓到（宁可沿用旧数据，也不能写空）。
+  const nTeams = league.teams.length;
+  let official = null;
+  let sErr = null;
+  const sTries = 4;
+  for (let attempt = 1; attempt <= sTries; attempt++) {
+    try {
+      const sHtml = await request(base + '&tab=standings', {
+        label: meta.key + ':standings', attempts: 2, timeoutMs: 25000
+      });
+      const rows2 = parseStandingsHtml(sHtml);
+      if (rows2.length === nTeams) { official = rows2; break; }
+      const d = describeResponse(sHtml);
+      sErr = new Error('积分榜行数异常（' + rows2.length + '/' + nTeams + ' 行, ' +
+        d.bytes + ' 字节' + (d.title ? ', title="' + d.title + '"' : '') + '）');
+    } catch (e) {
+      sErr = e;
     }
-  } catch (e) {
-    league.meta.deductionsError = String(e.message || e);
+    if (attempt === sTries) break;
+    const wait = Math.round((2500 + Math.random() * 4000) * Math.pow(1.6, attempt - 1));
+    out('[standings retry ' + attempt + '/' + (sTries - 1) + ' ' + wait + 'ms] ');
+    await sleep(wait);
+  }
+
+  if (official) {
+    league.meta.deductions = applyDeductions(league, official);
+    league.meta.officialTable = official;
+  } else {
+    // 关键：抓不到就不要写入任何 officialTable/deductions 字段，
+    // 交给 main() 从旧文件沿用，避免把已有的罚分覆盖成空。
+    league.meta.standingsError = String((sErr && sErr.message) || sErr || '未知错误');
   }
   return league;
 }
@@ -439,8 +463,21 @@ async function main() {
 
   const okList = [];
   const failList = [];
+  const warnList = [];
 
-  for (const meta of LEAGUES) {
+  // 支持只重抓指定联赛（CI 的「Retry failed leagues」用它，避免把成功的联赛再打一遍）
+  const argv = process.argv.slice(2);
+  const onlyArg = (() => {
+    const i = argv.indexOf('--only');
+    return i >= 0 && argv[i + 1] ? argv[i + 1] : null;
+  })();
+  const only = onlyArg
+    ? new Set(onlyArg.split(',').map(s => s.trim()).filter(Boolean))
+    : null;
+  const targets = only ? LEAGUES.filter(l => only.has(l.key)) : LEAGUES;
+  if (only) outln('只重抓：' + targets.map(l => l.key).join(', ') + '\n');
+
+  for (const meta of targets) {
     out('  ' + meta.key.padEnd(12));
     const file = path.join(OUT, meta.key + '-' + (meta.season || 'latest') + '.json');
 
@@ -448,21 +485,49 @@ async function main() {
       const league = await fetchLeague(meta);
       const played = league.matches.filter(m => m.played).length;
 
-      // 防倒退：如果新数据比旧数据"已赛更少"，视为异常，保留旧文件
+      // 读旧文件：既做"防倒退"，也做积分榜兜底
+      let old = null;
       if (fs.existsSync(file)) {
-        try {
-          const old = JSON.parse(fs.readFileSync(file, 'utf8'));
-          const oldPlayed = old.matches.filter(m => m.played).length;
-          if (played < oldPlayed) {
-            outln('⚠ 已赛数倒退（新 ' + played + ' < 旧 ' + oldPlayed + '），保留旧文件');
-            failList.push({ key: meta.key, reason: '数据倒退 ' + played + ' < ' + oldPlayed });
-            continue;
-          }
-        } catch (e) { /* 旧文件坏了就覆盖 */ }
+        try { old = JSON.parse(fs.readFileSync(file, 'utf8')); } catch (e) { old = null; }
+      }
+
+      // 防倒退：如果新数据比旧数据"已赛更少"，视为异常，保留旧文件
+      if (old) {
+        const oldPlayed = old.matches.filter(m => m.played).length;
+        if (played < oldPlayed) {
+          outln('⚠ 已赛数倒退（新 ' + played + ' < 旧 ' + oldPlayed + '），保留旧文件');
+          failList.push({ key: meta.key, reason: '数据倒退 ' + played + ' < ' + oldPlayed });
+          continue;
+        }
+      }
+
+      // 积分榜兜底：本次没抓到官方积分榜时，沿用旧文件里的罚分，
+      // 绝不把 teams[].deduction / meta.deductions 覆盖成空（曾因此丢掉中超 9 队的罚分）。
+      if (old && !league.meta.officialTable) {
+        const om = old.meta || {};
+        if ((om.officialTable || []).length) league.meta.officialTable = om.officialTable;
+        if ((om.deductions || []).length) league.meta.deductions = om.deductions;
+        const dedMap = new Map((league.meta.deductions || []).map(d => [d.team, d.deduction]));
+        const oldTeamDed = new Map((old.teams || []).map(t => [t.id, t.deduction || 0]));
+        let kept = 0;
+        for (const t of league.teams) {
+          const v = dedMap.get(t.id) || oldTeamDed.get(t.id) || 0;
+          if (v) { t.deduction = v; kept++; } else if (t.deduction) { delete t.deduction; }
+        }
+        league.meta.standingsStale = true;
+        warnList.push({
+          key: meta.key,
+          reason: '积分榜未抓到，已沿用旧值' + (kept ? '（罚分 ' + kept + ' 队）' : '') +
+            '：' + (league.meta.standingsError || '未知')
+        });
+        outln('✓  ' + league.teams.length + ' 队  ' + played + '/' + league.matches.length +
+          ' 场  ⚠ 积分榜沿用旧值');
+      } else {
+        if (league.meta.standingsError) delete league.meta.standingsError;
+        outln('✓  ' + league.teams.length + ' 队  ' + played + '/' + league.matches.length + ' 场');
       }
 
       fs.writeFileSync(file, JSON.stringify(league, null, 2), 'utf8');
-      outln('✓  ' + league.teams.length + ' 队  ' + played + '/' + league.matches.length + ' 场');
       okList.push(meta.key);
       await sleep(800);   // 对上游友好
     } catch (e) {
@@ -473,22 +538,45 @@ async function main() {
 
   /* ---- 汇总 ---- */
   outln('');
-  outln('成功 ' + okList.length + '/' + LEAGUES.length + ' 个联赛');
+  outln('成功 ' + okList.length + '/' + targets.length + ' 个联赛');
   if (failList.length) {
     outln('失败 ' + failList.length + ' 个：');
     for (const f of failList) outln('  - ' + f.key + '：' + f.reason);
   }
+  if (warnList.length) {
+    outln('警告 ' + warnList.length + ' 个（数据仍可用）：');
+    for (const w of warnList) outln('  - ' + w.key + '：' + w.reason);
+  }
 
-  // 写一份状态文件，供 CI 与页面提示
+  // 写一份状态文件，供 CI 与页面提示。
+  // 用 --only 只重抓部分联赛时，要和上一轮结果合并，不能把没重抓的联赛状态抹掉。
   const statusFile = path.join(OUT, '_status.json');
-  fs.writeFileSync(statusFile, JSON.stringify({
+  let prev = { ok: [], failed: [], warn: [] };
+  try {
+    prev = JSON.parse(fs.readFileSync(statusFile, 'utf8'));
+  } catch (e) { /* 没有就用空的 */ }
+  const mergeList = (a, b) => {
+    const m = new Map();
+    for (const x of (a || [])) m.set(typeof x === 'string' ? x : x.key, x);
+    for (const x of (b || [])) m.set(typeof x === 'string' ? x : x.key, x);
+    return Array.from(m.values());
+  };
+  const retried = new Set(targets.map(l => l.key));
+  const keepOk = (prev.ok || []).filter(k => !retried.has(k));
+  const keepFailed = (prev.failed || []).filter(f => !retried.has(f.key));
+  const keepWarn = (prev.warn || []).filter(w => !retried.has(w.key));
+  const merged = {
     updatedAt: new Date().toISOString(),
-    ok: okList,
-    failed: failList
-  }, null, 2), 'utf8');
+    ok: keepOk.concat(okList),
+    failed: mergeList(keepFailed, failList),
+    warn: mergeList(keepWarn, warnList)
+  };
+
+  fs.writeFileSync(statusFile, JSON.stringify(merged, null, 2), 'utf8');
 
   // 只要有失败就返回非零，让 CI 显红（但已成功的联赛文件仍会被提交）
-  if (failList.length) process.exitCode = 2;
+  // 积分榜没抓到走的是「沿用旧值 + 警告」，数据仍然正确，不算失败。
+  if (merged.failed.length) process.exitCode = 2;
 }
 
 main();

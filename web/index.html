@@ -514,6 +514,11 @@ function freshnessNote(league) {
     s += ' · ' + liveCount + ' 场进行中（比分未计入）';
   }
 
+  // 积分榜页没抓到时会沿用旧值反推罚分，此时罚分本身仍正确，但要标出来
+  if (meta.standingsStale) {
+    s += ' · 罚分沿用上次成功抓取';
+  }
+
   return { text: s, stale };
 }
 
