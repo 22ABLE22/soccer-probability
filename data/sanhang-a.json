@@ -151,9 +151,9 @@
       "date": "2026-11-03",
       "home": "力载",
       "away": "航天",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
     },
     {
       "id": "m012",
@@ -161,9 +161,9 @@
       "date": "2026-11-04",
       "home": "QM",
       "away": "计算机",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "played": true
     },
     {
       "id": "m013",
