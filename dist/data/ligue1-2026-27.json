@@ -900,7 +900,7 @@
     {
       "id": "54473929",
       "round": 10,
-      "date": "2026-11-08 00:15",
+      "date": "2026-11-08 02:00",
       "home": "欧塞尔",
       "away": "巴黎FC",
       "homeGoals": null,
@@ -910,7 +910,7 @@
     {
       "id": "54473933",
       "round": 10,
-      "date": "2026-11-08 03:45",
+      "date": "2026-11-08 04:05",
       "home": "巴黎圣日耳曼",
       "away": "特鲁瓦",
       "homeGoals": null,
@@ -3181,7 +3181,7 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:12",
-    "fetchedAt": "2026-11-04T06:59:44.274Z",
+    "fetchedAt": "2026-11-05T00:52:53.535Z",
     "maxRound": 34,
     "url": "https://www.dongqiudi.com/data?cid=12",
     "deductions": [],

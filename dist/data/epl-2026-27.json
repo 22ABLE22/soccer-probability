@@ -1626,16 +1626,6 @@
       "played": false
     },
     {
-      "id": "54483930",
-      "round": 16,
-      "date": "2026-12-19 23:00",
-      "home": "诺丁汉森林",
-      "away": "埃弗顿",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
       "id": "54483774",
       "round": 16,
       "date": "2026-12-20 01:30",
@@ -1661,6 +1651,16 @@
       "date": "2026-12-20 22:00",
       "home": "桑德兰",
       "away": "水晶宫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483930",
+      "round": 16,
+      "date": "2026-12-20 22:00",
+      "home": "诺丁汉森林",
+      "away": "埃弗顿",
       "homeGoals": null,
       "awayGoals": null,
       "played": false
@@ -3930,7 +3930,7 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:4",
-    "fetchedAt": "2026-11-04T06:59:22.447Z",
+    "fetchedAt": "2026-11-05T00:52:17.936Z",
     "maxRound": 38,
     "url": "https://www.dongqiudi.com/data?cid=4",
     "deductions": [],
