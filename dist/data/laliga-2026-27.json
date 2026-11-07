@@ -1191,9 +1191,9 @@
       "date": "2026-11-07 04:00",
       "home": "塞维利亚",
       "away": "阿拉维斯",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "played": true
     },
     {
       "id": "54493409",
@@ -1386,59 +1386,9 @@
       "played": false
     },
     {
-      "id": "54493462",
-      "round": 14,
-      "date": "2026-11-30 00:00",
-      "home": "皇家贝蒂斯",
-      "away": "巴列卡诺",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "54493464",
-      "round": 14,
-      "date": "2026-11-30 00:00",
-      "home": "塞尔塔",
-      "away": "比利亚雷亚尔",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "54493466",
-      "round": 14,
-      "date": "2026-11-30 00:00",
-      "home": "拉科鲁尼亚",
-      "away": "巴塞罗那",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "54493468",
-      "round": 14,
-      "date": "2026-11-30 00:00",
-      "home": "埃尔切",
-      "away": "马德里竞技",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "54493469",
-      "round": 14,
-      "date": "2026-11-30 00:00",
-      "home": "西班牙人",
-      "away": "赫塔费",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
       "id": "54493471",
       "round": 14,
-      "date": "2026-11-30 00:00",
+      "date": "2026-11-28 04:00",
       "home": "莱万特",
       "away": "桑坦德竞技",
       "homeGoals": null,
@@ -1446,9 +1396,19 @@
       "played": false
     },
     {
+      "id": "54493462",
+      "round": 14,
+      "date": "2026-11-28 21:00",
+      "home": "皇家贝蒂斯",
+      "away": "巴列卡诺",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
       "id": "54493473",
       "round": 14,
-      "date": "2026-11-30 00:00",
+      "date": "2026-11-28 23:15",
       "home": "马拉加",
       "away": "毕尔巴鄂竞技",
       "homeGoals": null,
@@ -1456,9 +1416,19 @@
       "played": false
     },
     {
+      "id": "54493468",
+      "round": 14,
+      "date": "2026-11-29 01:30",
+      "home": "埃尔切",
+      "away": "马德里竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
       "id": "54493475",
       "round": 14,
-      "date": "2026-11-30 00:00",
+      "date": "2026-11-29 04:00",
       "home": "皇家马德里",
       "away": "阿拉维斯",
       "homeGoals": null,
@@ -1466,9 +1436,39 @@
       "played": false
     },
     {
+      "id": "54493480",
+      "round": 14,
+      "date": "2026-11-29 21:00",
+      "home": "瓦伦西亚",
+      "away": "奥萨苏纳",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493466",
+      "round": 14,
+      "date": "2026-11-29 23:15",
+      "home": "拉科鲁尼亚",
+      "away": "巴塞罗那",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493464",
+      "round": 14,
+      "date": "2026-11-30 01:30",
+      "home": "塞尔塔",
+      "away": "比利亚雷亚尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
       "id": "54493478",
       "round": 14,
-      "date": "2026-11-30 00:00",
+      "date": "2026-11-30 04:00",
       "home": "皇家社会",
       "away": "塞维利亚",
       "homeGoals": null,
@@ -1476,11 +1476,11 @@
       "played": false
     },
     {
-      "id": "54493480",
+      "id": "54493469",
       "round": 14,
-      "date": "2026-11-30 00:00",
-      "home": "瓦伦西亚",
-      "away": "奥萨苏纳",
+      "date": "2026-12-01 04:00",
+      "home": "西班牙人",
+      "away": "赫塔费",
       "homeGoals": null,
       "awayGoals": null,
       "played": false
@@ -2286,6 +2286,26 @@
       "played": false
     },
     {
+      "id": "54493438",
+      "round": 23,
+      "date": "2026-12-03 02:00",
+      "home": "皇家社会",
+      "away": "皇家马德里",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493436",
+      "round": 23,
+      "date": "2026-12-03 04:30",
+      "home": "巴塞罗那",
+      "away": "马德里竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
       "id": "54493430",
       "round": 23,
       "date": "2027-02-07 03:00",
@@ -2346,31 +2366,11 @@
       "played": false
     },
     {
-      "id": "54493436",
-      "round": 23,
-      "date": "2027-02-07 03:00",
-      "home": "巴塞罗那",
-      "away": "马德里竞技",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
       "id": "54493437",
       "round": 23,
       "date": "2027-02-07 03:00",
       "home": "赫塔费",
       "away": "比利亚雷亚尔",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "54493438",
-      "round": 23,
-      "date": "2027-02-07 03:00",
-      "home": "皇家社会",
-      "away": "皇家马德里",
       "homeGoals": null,
       "awayGoals": null,
       "played": false
@@ -3931,7 +3931,7 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:3",
-    "fetchedAt": "2026-11-06T00:57:31.411Z",
+    "fetchedAt": "2026-11-07T00:04:39.959Z",
     "maxRound": 38,
     "url": "https://www.dongqiudi.com/data?cid=3",
     "deductions": [],
@@ -4000,13 +4000,13 @@
         "rank": 6,
         "name": "塞维利亚",
         "played": null,
-        "wins": 11,
+        "wins": 12,
         "draws": 5,
-        "losses": 2,
+        "losses": 3,
         "gf": 17,
         "ga": 19,
         "gd": -2,
-        "points": 17
+        "points": 18
       },
       {
         "rank": 7,
@@ -4034,6 +4034,18 @@
       },
       {
         "rank": 9,
+        "name": "阿拉维斯",
+        "played": null,
+        "wins": 12,
+        "draws": 3,
+        "losses": 4,
+        "gf": 15,
+        "ga": 17,
+        "gd": -2,
+        "points": 13
+      },
+      {
+        "rank": 10,
         "name": "比利亚雷亚尔",
         "played": null,
         "wins": 11,
@@ -4045,7 +4057,7 @@
         "points": 12
       },
       {
-        "rank": 10,
+        "rank": 11,
         "name": "塞尔塔",
         "played": null,
         "wins": 11,
@@ -4054,18 +4066,6 @@
         "gf": 10,
         "ga": 10,
         "gd": 0,
-        "points": 12
-      },
-      {
-        "rank": 11,
-        "name": "阿拉维斯",
-        "played": null,
-        "wins": 11,
-        "draws": 3,
-        "losses": 3,
-        "gf": 15,
-        "ga": 17,
-        "gd": -2,
         "points": 12
       },
       {

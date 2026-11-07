@@ -991,9 +991,9 @@
       "date": "2026-11-07 04:00",
       "home": "埃弗顿",
       "away": "考文垂",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "played": true
     },
     {
       "id": "54483815",
@@ -3930,7 +3930,7 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:4",
-    "fetchedAt": "2026-11-06T00:57:25.429Z",
+    "fetchedAt": "2026-11-07T00:04:34.580Z",
     "maxRound": 38,
     "url": "https://www.dongqiudi.com/data?cid=4",
     "deductions": [],
@@ -3985,6 +3985,18 @@
       },
       {
         "rank": 5,
+        "name": "埃弗顿",
+        "played": null,
+        "wins": 10,
+        "draws": 4,
+        "losses": 4,
+        "gf": 12,
+        "ga": 10,
+        "gd": 2,
+        "points": 16
+      },
+      {
+        "rank": 6,
         "name": "利物浦",
         "played": null,
         "wins": 9,
@@ -3996,7 +4008,7 @@
         "points": 15
       },
       {
-        "rank": 6,
+        "rank": 7,
         "name": "布伦特福德",
         "played": null,
         "wins": 9,
@@ -4006,18 +4018,6 @@
         "ga": 9,
         "gd": 7,
         "points": 14
-      },
-      {
-        "rank": 7,
-        "name": "埃弗顿",
-        "played": null,
-        "wins": 9,
-        "draws": 3,
-        "losses": 4,
-        "gf": 9,
-        "ga": 9,
-        "gd": 0,
-        "points": 13
       },
       {
         "rank": 8,
@@ -4119,12 +4119,12 @@
         "rank": 16,
         "name": "考文垂",
         "played": null,
-        "wins": 9,
+        "wins": 10,
         "draws": 3,
         "losses": 0,
-        "gf": 9,
-        "ga": 16,
-        "gd": -7,
+        "gf": 10,
+        "ga": 19,
+        "gd": -9,
         "points": 9
       },
       {

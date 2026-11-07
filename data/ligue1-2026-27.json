@@ -893,9 +893,9 @@
       "date": "2026-11-07 03:45",
       "home": "图卢兹",
       "away": "斯特拉斯堡",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "played": true
     },
     {
       "id": "54473929",
@@ -3181,7 +3181,7 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:12",
-    "fetchedAt": "2026-11-06T00:57:49.465Z",
+    "fetchedAt": "2026-11-07T00:05:02.512Z",
     "maxRound": 34,
     "url": "https://www.dongqiudi.com/data?cid=12",
     "deductions": [],
@@ -3296,6 +3296,18 @@
       },
       {
         "rank": 10,
+        "name": "图卢兹",
+        "played": null,
+        "wins": 10,
+        "draws": 3,
+        "losses": 4,
+        "gf": 15,
+        "ga": 14,
+        "gd": 1,
+        "points": 13
+      },
+      {
+        "rank": 11,
         "name": "布雷斯特",
         "played": null,
         "wins": 9,
@@ -3307,7 +3319,7 @@
         "points": 12
       },
       {
-        "rank": 11,
+        "rank": 12,
         "name": "洛里昂",
         "played": null,
         "wins": 9,
@@ -3319,27 +3331,15 @@
         "points": 12
       },
       {
-        "rank": 12,
-        "name": "图卢兹",
-        "played": null,
-        "wins": 9,
-        "draws": 2,
-        "losses": 4,
-        "gf": 12,
-        "ga": 13,
-        "gd": -1,
-        "points": 10
-      },
-      {
         "rank": 13,
         "name": "斯特拉斯堡",
         "played": null,
-        "wins": 9,
+        "wins": 10,
         "draws": 3,
         "losses": 1,
-        "gf": 17,
-        "ga": 19,
-        "gd": -2,
+        "gf": 18,
+        "ga": 22,
+        "gd": -4,
         "points": 10
       },
       {
