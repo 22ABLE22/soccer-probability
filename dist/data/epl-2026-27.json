@@ -1001,9 +1001,9 @@
       "date": "2026-11-07 20:30",
       "home": "利兹联",
       "away": "托特纳姆热刺",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
     },
     {
       "id": "54483793",
@@ -1011,9 +1011,9 @@
       "date": "2026-11-07 23:00",
       "home": "阿森纳",
       "away": "赫尔城",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
     },
     {
       "id": "54483808",
@@ -1021,9 +1021,9 @@
       "date": "2026-11-07 23:00",
       "home": "富勒姆",
       "away": "纽卡斯尔联",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
     },
     {
       "id": "54483821",
@@ -1031,9 +1031,9 @@
       "date": "2026-11-08 01:30",
       "home": "诺丁汉森林",
       "away": "曼城",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "played": true
     },
     {
       "id": "54483797",
@@ -3930,7 +3930,7 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:4",
-    "fetchedAt": "2026-11-07T00:04:34.580Z",
+    "fetchedAt": "2026-11-07T23:37:41.050Z",
     "maxRound": 38,
     "url": "https://www.dongqiudi.com/data?cid=4",
     "deductions": [],
@@ -3939,24 +3939,24 @@
         "rank": 1,
         "name": "阿森纳",
         "played": null,
-        "wins": 9,
-        "draws": 8,
+        "wins": 10,
+        "draws": 9,
         "losses": 0,
-        "gf": 14,
+        "gf": 15,
         "ga": 5,
-        "gd": 9,
-        "points": 24
+        "gd": 10,
+        "points": 27
       },
       {
         "rank": 2,
         "name": "曼城",
         "played": null,
-        "wins": 9,
+        "wins": 10,
         "draws": 7,
         "losses": 0,
-        "gf": 20,
-        "ga": 10,
-        "gd": 10,
+        "gf": 21,
+        "ga": 13,
+        "gd": 8,
         "points": 21
       },
       {
@@ -4021,6 +4021,18 @@
       },
       {
         "rank": 8,
+        "name": "利兹联",
+        "played": null,
+        "wins": 10,
+        "draws": 3,
+        "losses": 5,
+        "gf": 10,
+        "ga": 8,
+        "gd": 2,
+        "points": 14
+      },
+      {
+        "rank": 9,
         "name": "伯恩茅斯",
         "played": null,
         "wins": 9,
@@ -4032,19 +4044,31 @@
         "points": 12
       },
       {
-        "rank": 9,
+        "rank": 10,
         "name": "托特纳姆热刺",
         "played": null,
-        "wins": 9,
+        "wins": 10,
         "draws": 3,
         "losses": 3,
         "gf": 10,
-        "ga": 10,
-        "gd": 0,
+        "ga": 11,
+        "gd": -1,
         "points": 12
       },
       {
-        "rank": 10,
+        "rank": 11,
+        "name": "纽卡斯尔联",
+        "played": null,
+        "wins": 10,
+        "draws": 3,
+        "losses": 3,
+        "gf": 13,
+        "ga": 16,
+        "gd": -3,
+        "points": 12
+      },
+      {
+        "rank": 12,
         "name": "阿斯顿维拉",
         "played": null,
         "wins": 9,
@@ -4056,39 +4080,15 @@
         "points": 12
       },
       {
-        "rank": 11,
+        "rank": 13,
         "name": "赫尔城",
         "played": null,
-        "wins": 9,
+        "wins": 10,
         "draws": 2,
         "losses": 5,
         "gf": 11,
-        "ga": 10,
-        "gd": 1,
-        "points": 11
-      },
-      {
-        "rank": 12,
-        "name": "利兹联",
-        "played": null,
-        "wins": 9,
-        "draws": 2,
-        "losses": 5,
-        "gf": 9,
-        "ga": 8,
-        "gd": 1,
-        "points": 11
-      },
-      {
-        "rank": 13,
-        "name": "纽卡斯尔联",
-        "played": null,
-        "wins": 9,
-        "draws": 3,
-        "losses": 2,
-        "gf": 12,
-        "ga": 15,
-        "gd": -3,
+        "ga": 11,
+        "gd": 0,
         "points": 11
       },
       {
@@ -4107,16 +4107,28 @@
         "rank": 15,
         "name": "富勒姆",
         "played": null,
-        "wins": 9,
+        "wins": 10,
         "draws": 2,
-        "losses": 3,
-        "gf": 9,
-        "ga": 11,
+        "losses": 4,
+        "gf": 10,
+        "ga": 12,
         "gd": -2,
-        "points": 9
+        "points": 10
       },
       {
         "rank": 16,
+        "name": "诺丁汉森林",
+        "played": null,
+        "wins": 10,
+        "draws": 2,
+        "losses": 3,
+        "gf": 9,
+        "ga": 13,
+        "gd": -4,
+        "points": 9
+      },
+      {
+        "rank": 17,
         "name": "考文垂",
         "played": null,
         "wins": 10,
@@ -4128,7 +4140,7 @@
         "points": 9
       },
       {
-        "rank": 17,
+        "rank": 18,
         "name": "曼联",
         "played": null,
         "wins": 9,
@@ -4140,7 +4152,7 @@
         "points": 7
       },
       {
-        "rank": 18,
+        "rank": 19,
         "name": "水晶宫",
         "played": null,
         "wins": 9,
@@ -4150,18 +4162,6 @@
         "ga": 21,
         "gd": -12,
         "points": 7
-      },
-      {
-        "rank": 19,
-        "name": "诺丁汉森林",
-        "played": null,
-        "wins": 9,
-        "draws": 1,
-        "losses": 3,
-        "gf": 6,
-        "ga": 12,
-        "gd": -6,
-        "points": 6
       },
       {
         "rank": 20,
