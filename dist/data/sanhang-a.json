@@ -168,7 +168,7 @@
     {
       "id": "m013",
       "round": 3,
-      "date": "2026-11-07",
+      "date": "2026-11-08",
       "home": "机电",
       "away": "自动化",
       "homeGoals": null,
@@ -181,9 +181,9 @@
       "date": "2026-11-07",
       "home": "航海",
       "away": "数统",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "played": true
     },
     {
       "id": "m015",
