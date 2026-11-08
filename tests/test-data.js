@@ -76,7 +76,11 @@ for (const f of files) {
     ph.length ? '(' + ph.join(', ') + ')' : '');
 
   // 2) 新鲜度
-  if (!MANUAL_LEAGUES.has(d.id || key)) {
+  //    手工录入、以及赛季已结束（不再每日抓取）的联赛不检查
+  const seasonDone = meta.seasonComplete === true;
+  if (seasonDone) {
+    check(f + ' 赛季已结束', true, '(不再每日抓取)');
+  } else if (!MANUAL_LEAGUES.has(d.id || key)) {
     const at = meta.fetchedAt;
     if (!at) {
       check(f + ' 有抓取时间', false, '(fetchedAt 缺失)');

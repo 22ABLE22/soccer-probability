@@ -491,6 +491,11 @@ function freshnessNote(league) {
     } else {
       s += ' · 最后更新时间未知';
     }
+  } else if (meta.seasonComplete) {
+    // 赛季已结束：数据定格，不算过期，也不再显示"可能不是最新"
+    const d = meta.fetchedAt ? new Date(meta.fetchedAt) : null;
+    s += ' · 赛季已结束';
+    if (d && !isNaN(d.getTime())) s += '（末次抓取 ' + d.toLocaleString('zh-CN', { hour12: false }) + '）';
   } else if (meta.fetchedAt) {
     const d = new Date(meta.fetchedAt);
     if (!isNaN(d.getTime())) {

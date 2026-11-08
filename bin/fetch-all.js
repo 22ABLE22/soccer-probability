@@ -47,7 +47,10 @@ const OUT = path.join(ROOT, 'data');
  * 法甲：总净胜球 → 总进球 → 附加赛。gd 优先。
  */
 const LEAGUES = [
+  // 中甲 2026 赛季常规赛 30 轮已全部踢完（240/240），赛季结束不再每日抓取。
+  // 新赛季赛程公布后，把 closed 去掉并改 season 即可恢复抓取。
   { key: 'china-l1', cid: 129, name: '中甲', season: '2026', promotion: 2, relegation: 2,
+    closed: true,
     tiebreak: ['points', 'h2hPoints', 'h2hGd', 'h2hGf', 'gd', 'gf', 'wins'] },
   { key: 'csl', cid: 43, name: '中超', season: '2026', relegation: 2,
     extraSlots: [{ from: 1, to: 3, type: 'afc', label: '亚冠区' }],
@@ -483,8 +486,14 @@ async function main() {
   const only = onlyArg
     ? new Set(onlyArg.split(',').map(s => s.trim()).filter(Boolean))
     : null;
-  const targets = only ? LEAGUES.filter(l => only.has(l.key)) : LEAGUES;
+  const targets = only ? LEAGUES.filter(l => only.has(l.key)) : LEAGUES.filter(l => !l.closed);
+  // 赛季已结束的联赛不再每日抓：数据已定格，抓了只会白挨反爬，
+  // 还可能因为附加赛「待定」对阵把常规赛积分榜污染掉。
+  const closed = only ? [] : LEAGUES.filter(l => l.closed);
   if (only) outln('只重抓：' + targets.map(l => l.key).join(', ') + '\n');
+  if (closed.length) {
+    outln('赛季已结束，暂停抓取：' + closed.map(l => l.name + '(' + l.season + ')').join('、') + '\n');
+  }
 
   for (const meta of targets) {
     out('  ' + meta.key.padEnd(12));
@@ -534,6 +543,11 @@ async function main() {
       } else {
         if (league.meta.standingsError) delete league.meta.standingsError;
         outln('✓  ' + league.teams.length + ' 队  ' + played + '/' + league.matches.length + ' 场');
+      }
+
+      // 「赛季已结束」标记要保留：页面靠它显示「赛季已结束」而不是「可能不是最新」
+      if (meta.closed || (old && old.meta && old.meta.seasonComplete)) {
+        league.meta.seasonComplete = true;
       }
 
       fs.writeFileSync(file, JSON.stringify(league, null, 2), 'utf8');
