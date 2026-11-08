@@ -139,6 +139,23 @@ async function main() {
   check('「获取数据」可用', eplRows === 20, '(' + eplRows + ' 队)');
   check('数据来源已标注', note.indexOf('来源') >= 0, '[' + String(note).slice(0, 60) + ']');
 
+  // 中甲赛季已结束：应显示「赛季已结束」而不是「可能不是最新」
+  await cdp.eval(`(() => {
+    const s=document.getElementById('leagueSel');
+    s.value='china-l1'; s.dispatchEvent(new Event('change'));
+    document.getElementById('srcSel').value='live';
+    document.getElementById('srcSel').dispatchEvent(new Event('change'));
+  })()`, false);
+  await sleep(7000);
+  await cdp.eval("document.getElementById('runBtn').click()", false);
+  await sleep(4000);
+  const l1Note = await cdp.eval("document.getElementById('dataNote').textContent");
+  const l1Warn = await cdp.eval("document.getElementById('dataNote').className");
+  const l1Rows = await cdp.eval("document.querySelectorAll('#probTable tbody tr').length");
+  check('中甲赛季结束已标注', String(l1Note).indexOf('赛季已结束') >= 0, '[' + String(l1Note).slice(0, 70) + ']');
+  check('中甲无过期告警', String(l1Warn).indexOf('warn') < 0, '[' + l1Warn + ']');
+  check('中甲球队数正确', l1Rows === 16, '(' + l1Rows + ' 队)');
+
   const seq = [await cdp.eval("document.documentElement.getAttribute('data-theme')")];
   for (let i = 0; i < 4; i++) {
     await cdp.eval("document.getElementById('themeBtn').click()", false);
