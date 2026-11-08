@@ -52,7 +52,10 @@ const LEAGUES = [
   { key: 'china-l1', cid: 129, name: '中甲', season: '2026', promotion: 2, relegation: 2,
     closed: true,
     tiebreak: ['points', 'h2hPoints', 'h2hGd', 'h2hGf', 'gd', 'gf', 'wins'] },
+  // 中超 2026 赛季 30 轮也全部踢完（240/240），同样暂停每日抓取。
+  // 新赛季赛程公布后去掉 closed 并改 season 即可恢复。
   { key: 'csl', cid: 43, name: '中超', season: '2026', relegation: 2,
+    closed: true,
     extraSlots: [{ from: 1, to: 3, type: 'afc', label: '亚冠区' }],
     tiebreak: ['points', 'h2hPoints', 'h2hGd', 'h2hGf', 'gd', 'gf', 'wins'] },
   { key: 'epl', cid: 4, name: '英超', season: '2026-27', relegation: 3,

@@ -112,6 +112,15 @@ async function main() {
   const hasSub = await cdp.eval("!!document.querySelector('header .sub')");
   check('已移除副标题', hasSub === false);
 
+  /* ---------- 联赛下拉：年份必须在最前面 ---------- */
+  const optTexts = await cdp.eval(
+    "[...document.querySelectorAll('#leagueSel option')].filter(o=>o.value).map(o=>o.textContent)");
+  check('联赛选项带年份前缀',
+    optTexts.length > 0 && optTexts.every(t => /^\d{4}/.test(String(t).trim())),
+    '[' + optTexts.slice(0, 3).join(' | ') + ']');
+  const l1Text = optTexts.find(t => String(t).indexOf('中甲') >= 0) || '';
+  check('格式如「2026 中甲 · 升级 / 降级」', /^2026 中甲 ·/.test(l1Text), '[' + l1Text + ']');
+
   /* ---------- 关键 bug：选联赛后立刻能选轮次 ---------- */
   await cdp.eval(`(() => {
     const s = document.getElementById('leagueSel');

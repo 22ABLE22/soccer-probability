@@ -261,6 +261,14 @@ const BUILTIN_LEAGUES = [
     extraSlots:[{from:1,to:4,type:'ucl',label:'欧冠区'}] }
 ];
 
+/** 下拉里的联赛名：年份统一放在最前面，如「2026 中甲 · 升级 / 降级」 */
+function leagueLabel(L) {
+  let label = L.name || L.key || '';
+  const season = L.season || (L.meta && L.meta.season) || '';
+  if (season && label.indexOf(season) < 0) label = season + ' ' + label;
+  return label;
+}
+
 /** 把注入的自定义联赛补进目录（已存在的 key 不覆盖） */
 function collectLeagues() {
   const out = BUILTIN_LEAGUES.slice();
@@ -275,16 +283,12 @@ function collectLeagues() {
       ? L.slots.map(x => x.label).join(' / ')
       : '自动';
 
-    // name 里若已包含 season 就不再重复拼接
-    let label = L.name || key;
-    if (L.season && label.indexOf(L.season) < 0) label += ' ' + L.season;
-
     out.push({
       key,
-      name: label,
+      name: leagueLabel(L),
       file: null,
       cid: null,
-      season: L.season || '',
+      season: L.season || (L.meta && L.meta.season) || '',
       custom: true,
       _slotsDesc: slots,
       _teams: teams
@@ -308,7 +312,7 @@ const leagueSel = document.getElementById('leagueSel');
     for (const l of items) {
       const o = document.createElement('option');
       o.value = l.key;
-      o.textContent = l.name;
+      o.textContent = leagueLabel(l);
       if (l.custom) o.title = l._teams + ' 队，名次区间：' + l._slotsDesc;
       g.appendChild(o);
     }
@@ -860,8 +864,7 @@ async function prepareLeague() {
     renderWhatIfs();
 
     status.className = 'hint empty';
-    status.textContent = '已就绪：' + state.league.name +
-      (state.league.meta && state.league.meta.season ? ' ' + state.league.meta.season : '') +
+    status.textContent = '已就绪：' + leagueLabel(state.league) +
       '（' + state.league.teams.length + ' 队，共 ' + state.maxRound + ' 轮）。'
       + '可以选择「截至轮次」后点击「开始计算」。';
   } catch (e) {

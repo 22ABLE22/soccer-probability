@@ -2404,9 +2404,9 @@
       "date": "2026-11-08 15:30",
       "home": "上海海港",
       "away": "辽宁铁人",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 6,
+      "awayGoals": 1,
+      "played": true
     },
     {
       "id": "54389812",
@@ -2414,9 +2414,9 @@
       "date": "2026-11-08 15:30",
       "home": "上海申花",
       "away": "青岛西海岸",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 4,
+      "awayGoals": 0,
+      "played": true
     },
     {
       "id": "54389813",
@@ -2424,9 +2424,9 @@
       "date": "2026-11-08 15:30",
       "home": "云南玉昆",
       "away": "武汉三镇",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
     },
     {
       "id": "54389815",
@@ -2434,9 +2434,9 @@
       "date": "2026-11-08 15:30",
       "home": "北京国安",
       "away": "重庆铜梁龙",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
     },
     {
       "id": "54389817",
@@ -2444,9 +2444,9 @@
       "date": "2026-11-08 15:30",
       "home": "大连英博",
       "away": "天津津门虎",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "played": true
     },
     {
       "id": "54389818",
@@ -2454,9 +2454,9 @@
       "date": "2026-11-08 15:30",
       "home": "山东泰山",
       "away": "成都蓉城",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 3,
+      "awayGoals": 2,
+      "played": true
     },
     {
       "id": "54389819",
@@ -2464,9 +2464,9 @@
       "date": "2026-11-08 15:30",
       "home": "浙江",
       "away": "河南",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 4,
+      "awayGoals": 0,
+      "played": true
     },
     {
       "id": "54389821",
@@ -2474,9 +2474,9 @@
       "date": "2026-11-08 15:30",
       "home": "青岛海牛",
       "away": "深圳新鹏城",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "played": true
     }
   ],
   "points": {
@@ -2518,7 +2518,7 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:43",
-    "fetchedAt": "2026-11-08T01:32:32.037Z",
+    "fetchedAt": "2026-11-08T12:06:12.816Z",
     "maxRound": 30,
     "url": "https://www.dongqiudi.com/data?cid=43",
     "deductions": [
@@ -2562,196 +2562,197 @@
     "officialTable": [
       {
         "rank": 1,
-        "name": "成都蓉城",
+        "name": "大连英博",
         "played": null,
-        "wins": 29,
-        "draws": 15,
-        "losses": 7,
-        "gf": 51,
-        "ga": 35,
-        "gd": 16,
+        "wins": 30,
+        "draws": 16,
+        "losses": 4,
+        "gf": 49,
+        "ga": 44,
+        "gd": 5,
         "points": 52
       },
       {
         "rank": 2,
-        "name": "大连英博",
+        "name": "成都蓉城",
         "played": null,
-        "wins": 29,
+        "wins": 30,
         "draws": 15,
-        "losses": 4,
-        "gf": 46,
-        "ga": 43,
-        "gd": 3,
-        "points": 49
+        "losses": 7,
+        "gf": 53,
+        "ga": 38,
+        "gd": 15,
+        "points": 52
       },
       {
         "rank": 3,
         "name": "北京国安",
         "played": null,
-        "wins": 29,
-        "draws": 14,
+        "wins": 30,
+        "draws": 15,
         "losses": 10,
-        "gf": 57,
+        "gf": 58,
         "ga": 36,
-        "gd": 21,
-        "points": 47
+        "gd": 22,
+        "points": 50
       },
       {
         "rank": 4,
         "name": "山东泰山",
         "played": null,
-        "wins": 29,
-        "draws": 15,
+        "wins": 30,
+        "draws": 16,
         "losses": 5,
-        "gf": 57,
-        "ga": 47,
-        "gd": 10,
-        "points": 44
+        "gf": 60,
+        "ga": 49,
+        "gd": 11,
+        "points": 47
       },
       {
         "rank": 5,
         "name": "上海海港",
         "played": null,
-        "wins": 29,
-        "draws": 13,
+        "wins": 30,
+        "draws": 14,
         "losses": 8,
-        "gf": 50,
-        "ga": 36,
-        "gd": 14,
-        "points": 42
+        "gf": 56,
+        "ga": 37,
+        "gd": 19,
+        "points": 45
       },
       {
         "rank": 6,
         "name": "云南玉昆",
         "played": null,
-        "wins": 29,
-        "draws": 11,
+        "wins": 30,
+        "draws": 12,
         "losses": 7,
-        "gf": 57,
-        "ga": 60,
-        "gd": -3,
-        "points": 40
+        "gf": 59,
+        "ga": 61,
+        "gd": -2,
+        "points": 43
       },
       {
         "rank": 7,
-        "name": "青岛西海岸",
+        "name": "上海申花",
         "played": null,
-        "wins": 29,
-        "draws": 8,
-        "losses": 15,
-        "gf": 32,
-        "ga": 38,
-        "gd": -6,
-        "points": 39
+        "wins": 30,
+        "draws": 15,
+        "losses": 5,
+        "gf": 67,
+        "ga": 50,
+        "gd": 17,
+        "points": 40
       },
       {
         "rank": 8,
-        "name": "上海申花",
+        "name": "青岛西海岸",
         "played": null,
-        "wins": 29,
-        "draws": 14,
-        "losses": 5,
-        "gf": 63,
-        "ga": 50,
-        "gd": 13,
-        "points": 37
+        "wins": 30,
+        "draws": 8,
+        "losses": 15,
+        "gf": 32,
+        "ga": 42,
+        "gd": -10,
+        "points": 39
       },
       {
         "rank": 9,
-        "name": "重庆铜梁龙",
+        "name": "浙江",
         "played": null,
-        "wins": 29,
-        "draws": 8,
-        "losses": 12,
-        "gf": 31,
-        "ga": 34,
-        "gd": -3,
-        "points": 36
+        "wins": 30,
+        "draws": 12,
+        "losses": 6,
+        "gf": 55,
+        "ga": 54,
+        "gd": 1,
+        "points": 37
       },
       {
         "rank": 10,
-        "name": "浙江",
+        "name": "重庆铜梁龙",
         "played": null,
-        "wins": 29,
-        "draws": 11,
-        "losses": 6,
-        "gf": 51,
-        "ga": 54,
-        "gd": -3,
-        "points": 34
+        "wins": 30,
+        "draws": 8,
+        "losses": 12,
+        "gf": 31,
+        "ga": 35,
+        "gd": -4,
+        "points": 36
       },
       {
         "rank": 11,
         "name": "深圳新鹏城",
         "played": null,
-        "wins": 29,
+        "wins": 30,
         "draws": 9,
-        "losses": 5,
-        "gf": 39,
-        "ga": 51,
+        "losses": 6,
+        "gf": 41,
+        "ga": 53,
         "gd": -12,
-        "points": 32
+        "points": 33
       },
       {
         "rank": 12,
         "name": "天津津门虎",
         "played": null,
-        "wins": 29,
+        "wins": 30,
         "draws": 11,
         "losses": 8,
-        "gf": 39,
-        "ga": 35,
-        "gd": 4,
+        "gf": 40,
+        "ga": 38,
+        "gd": 2,
         "points": 31
       },
       {
         "rank": 13,
         "name": "辽宁铁人",
         "played": null,
-        "wins": 29,
+        "wins": 30,
         "draws": 8,
         "losses": 5,
-        "gf": 41,
-        "ga": 52,
-        "gd": -11,
+        "gf": 42,
+        "ga": 58,
+        "gd": -16,
         "points": 29
       },
       {
         "rank": 14,
         "name": "河南",
         "played": null,
-        "wins": 29,
+        "wins": 30,
         "draws": 8,
         "losses": 10,
         "gf": 38,
-        "ga": 42,
-        "gd": -4,
+        "ga": 46,
+        "gd": -8,
         "points": 28
       },
       {
         "rank": 15,
         "name": "武汉三镇",
         "played": null,
-        "wins": 29,
+        "wins": 30,
         "draws": 5,
         "losses": 12,
-        "gf": 44,
-        "ga": 55,
-        "gd": -11,
+        "gf": 45,
+        "ga": 57,
+        "gd": -12,
         "points": 22
       },
       {
         "rank": 16,
         "name": "青岛海牛",
         "played": null,
-        "wins": 29,
+        "wins": 30,
         "draws": 6,
-        "losses": 3,
-        "gf": 34,
-        "ga": 62,
+        "losses": 4,
+        "gf": 36,
+        "ga": 64,
         "gd": -28,
-        "points": 14
+        "points": 15
       }
-    ]
+    ],
+    "seasonComplete": true
   }
 }

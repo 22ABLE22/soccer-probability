@@ -127,10 +127,27 @@ const check = (n, c, x) => {
   const sum = res.teams.reduce((s, t) => s + (t.slots.title || 0), 0);
   check('中超冠军概率合计 = 100%', Math.abs(sum - 1) < 1e-9, '(' + (sum * 100).toFixed(2) + '%)');
 
-  // 冠军不应由单队包揽（因为大连英博相互战绩占优）
+  // 同分必须先看相互战绩：大连英博两回合 2-0、1-0 完胜成都蓉城，同分必须排前面。
+  // 赛季未结束时表现为「冠军不被单队包揽」；赛季已结束时表现为「冠军 100% 归榜首」。
+  const table = res.currentTable;
+  const idxOf = nm => table.findIndex(r => r.name === nm);
+  const iDl = idxOf('大连英博'), iCd = idxOf('成都蓉城');
+  const level = iDl >= 0 && iCd >= 0 && table[iDl].points === table[iCd].points;
+  check('中超同分时相互战绩占优者排前（大连英博 3-0 成都蓉城）',
+    !level || iDl < iCd,
+    '(大连 #' + (iDl + 1) + ' ' + table[iDl].points + ' 分, 成都 #' + (iCd + 1) + ' ' + table[iCd].points + ' 分)');
+
   const maxTitle = Math.max.apply(null, res.teams.map(t => t.slots.title || 0));
-  check('中超冠军不是 100% 单队包揽', maxTitle < 0.999,
-    '(最大 ' + (maxTitle * 100).toFixed(2) + '%)');
+  const seasonDone = d.matches.every(m => m.played);
+  if (seasonDone) {
+    const champs = res.teams.filter(t => (t.slots.title || 0) > 0.999);
+    check('中超赛季结束：冠军 100% 归榜首',
+      champs.length === 1 && champs[0].name === table[0].name,
+      '[' + (champs[0] && champs[0].name) + ' / 榜首 ' + table[0].name + ']');
+  } else {
+    check('中超冠军不是 100% 单队包揽', maxTitle < 0.999,
+      '(最大 ' + (maxTitle * 100).toFixed(2) + '%)');
+  }
 }
 
 console.log('\n' + (bad ? bad + ' 项失败' : '全部通过'));
