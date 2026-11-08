@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-11-08T01:15:16.909Z",
+  "updatedAt": "2026-11-08T01:33:08.224Z",
   "ok": [
+    "china-l1",
     "csl",
     "epl",
     "laliga",
     "seriea",
     "bundesliga",
-    "ligue1",
-    "china-l1"
+    "ligue1"
   ],
   "failed": [],
   "warn": []
