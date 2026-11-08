@@ -863,9 +863,9 @@
       "date": "2026-11-08 22:30",
       "home": "科隆",
       "away": "勒沃库森",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
     },
     {
       "id": "54494597",
@@ -873,9 +873,9 @@
       "date": "2026-11-09 00:30",
       "home": "弗赖堡",
       "away": "柏林联合",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "played": true
     },
     {
       "id": "54494595",
@@ -883,9 +883,9 @@
       "date": "2026-11-09 02:30",
       "home": "霍芬海姆",
       "away": "沙尔克04",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
     },
     {
       "id": "54494605",
@@ -3190,7 +3190,7 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:5",
-    "fetchedAt": "2026-11-08T01:33:01.158Z",
+    "fetchedAt": "2026-11-08T23:40:12.089Z",
     "maxRound": 34,
     "url": "https://www.dongqiudi.com/data?cid=5",
     "deductions": [],
@@ -3221,6 +3221,18 @@
       },
       {
         "rank": 3,
+        "name": "弗赖堡",
+        "played": null,
+        "wins": 9,
+        "draws": 6,
+        "losses": 1,
+        "gf": 20,
+        "ga": 10,
+        "gd": 10,
+        "points": 19
+      },
+      {
+        "rank": 4,
         "name": "RB莱比锡",
         "played": null,
         "wins": 9,
@@ -3232,19 +3244,19 @@
         "points": 18
       },
       {
-        "rank": 4,
-        "name": "弗赖堡",
+        "rank": 5,
+        "name": "勒沃库森",
         "played": null,
-        "wins": 8,
+        "wins": 9,
         "draws": 5,
         "losses": 1,
-        "gf": 18,
-        "ga": 10,
-        "gd": 8,
+        "gf": 20,
+        "ga": 17,
+        "gd": 3,
         "points": 16
       },
       {
-        "rank": 5,
+        "rank": 6,
         "name": "云达不莱梅",
         "played": null,
         "wins": 9,
@@ -3254,18 +3266,6 @@
         "ga": 15,
         "gd": 2,
         "points": 15
-      },
-      {
-        "rank": 6,
-        "name": "勒沃库森",
-        "played": null,
-        "wins": 8,
-        "draws": 4,
-        "losses": 1,
-        "gf": 18,
-        "ga": 16,
-        "gd": 2,
-        "points": 13
       },
       {
         "rank": 7,
@@ -3293,6 +3293,18 @@
       },
       {
         "rank": 9,
+        "name": "霍芬海姆",
+        "played": null,
+        "wins": 9,
+        "draws": 4,
+        "losses": 0,
+        "gf": 16,
+        "ga": 17,
+        "gd": -1,
+        "points": 12
+      },
+      {
+        "rank": 10,
         "name": "法兰克福",
         "played": null,
         "wins": 9,
@@ -3304,7 +3316,7 @@
         "points": 12
       },
       {
-        "rank": 10,
+        "rank": 11,
         "name": "汉堡",
         "played": null,
         "wins": 9,
@@ -3316,7 +3328,7 @@
         "points": 12
       },
       {
-        "rank": 11,
+        "rank": 12,
         "name": "美因茨",
         "played": null,
         "wins": 9,
@@ -3328,7 +3340,7 @@
         "points": 10
       },
       {
-        "rank": 12,
+        "rank": 13,
         "name": "帕德博恩",
         "played": null,
         "wins": 9,
@@ -3340,7 +3352,7 @@
         "points": 10
       },
       {
-        "rank": 13,
+        "rank": 14,
         "name": "奥格斯堡",
         "played": null,
         "wins": 9,
@@ -3352,51 +3364,39 @@
         "points": 9
       },
       {
-        "rank": 14,
-        "name": "霍芬海姆",
-        "played": null,
-        "wins": 8,
-        "draws": 3,
-        "losses": 0,
-        "gf": 14,
-        "ga": 16,
-        "gd": -2,
-        "points": 9
-      },
-      {
         "rank": 15,
         "name": "科隆",
         "played": null,
-        "wins": 8,
+        "wins": 9,
         "draws": 2,
         "losses": 3,
-        "gf": 9,
-        "ga": 12,
-        "gd": -3,
+        "gf": 10,
+        "ga": 14,
+        "gd": -4,
         "points": 9
       },
       {
         "rank": 16,
         "name": "柏林联合",
         "played": null,
-        "wins": 8,
+        "wins": 9,
         "draws": 1,
         "losses": 4,
         "gf": 7,
-        "ga": 19,
-        "gd": -12,
+        "ga": 21,
+        "gd": -14,
         "points": 7
       },
       {
         "rank": 17,
         "name": "沙尔克04",
         "played": null,
-        "wins": 8,
+        "wins": 9,
         "draws": 1,
         "losses": 3,
-        "gf": 4,
-        "ga": 9,
-        "gd": -5,
+        "gf": 5,
+        "ga": 11,
+        "gd": -6,
         "points": 6
       },
       {

@@ -1041,9 +1041,9 @@
       "date": "2026-11-08 22:00",
       "home": "布莱顿",
       "away": "布伦特福德",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "played": true
     },
     {
       "id": "54483802",
@@ -1051,9 +1051,9 @@
       "date": "2026-11-08 22:00",
       "home": "水晶宫",
       "away": "利物浦",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "played": true
     },
     {
       "id": "54483810",
@@ -1061,9 +1061,9 @@
       "date": "2026-11-08 22:00",
       "home": "伊普斯维奇",
       "away": "伯恩茅斯",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
     },
     {
       "id": "54483827",
@@ -1071,9 +1071,9 @@
       "date": "2026-11-08 22:00",
       "home": "桑德兰",
       "away": "切尔西",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "played": true
     },
     {
       "id": "54483818",
@@ -1081,9 +1081,9 @@
       "date": "2026-11-09 00:30",
       "home": "曼联",
       "away": "阿斯顿维拉",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 4,
+      "awayGoals": 4,
+      "played": true
     },
     {
       "id": "54483581",
@@ -3930,7 +3930,7 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:4",
-    "fetchedAt": "2026-11-08T01:32:38.343Z",
+    "fetchedAt": "2026-11-08T23:39:53.415Z",
     "maxRound": 38,
     "url": "https://www.dongqiudi.com/data?cid=4",
     "deductions": [],
@@ -3949,6 +3949,18 @@
       },
       {
         "rank": 2,
+        "name": "布莱顿",
+        "played": null,
+        "wins": 10,
+        "draws": 7,
+        "losses": 1,
+        "gf": 26,
+        "ga": 7,
+        "gd": 19,
+        "points": 22
+      },
+      {
+        "rank": 3,
         "name": "曼城",
         "played": null,
         "wins": 10,
@@ -3960,31 +3972,31 @@
         "points": 21
       },
       {
-        "rank": 3,
-        "name": "布莱顿",
-        "played": null,
-        "wins": 9,
-        "draws": 6,
-        "losses": 1,
-        "gf": 24,
-        "ga": 7,
-        "gd": 17,
-        "points": 19
-      },
-      {
         "rank": 4,
-        "name": "切尔西",
+        "name": "利物浦",
         "played": null,
-        "wins": 9,
+        "wins": 10,
         "draws": 5,
-        "losses": 1,
-        "gf": 19,
-        "ga": 15,
+        "losses": 3,
+        "gf": 14,
+        "ga": 10,
         "gd": 4,
-        "points": 16
+        "points": 18
       },
       {
         "rank": 5,
+        "name": "切尔西",
+        "played": null,
+        "wins": 10,
+        "draws": 5,
+        "losses": 1,
+        "gf": 19,
+        "ga": 16,
+        "gd": 3,
+        "points": 16
+      },
+      {
+        "rank": 6,
         "name": "埃弗顿",
         "played": null,
         "wins": 10,
@@ -3996,31 +4008,31 @@
         "points": 16
       },
       {
-        "rank": 6,
-        "name": "利物浦",
+        "rank": 7,
+        "name": "伯恩茅斯",
         "played": null,
-        "wins": 9,
+        "wins": 10,
         "draws": 4,
         "losses": 3,
-        "gf": 11,
-        "ga": 9,
+        "gf": 16,
+        "ga": 14,
         "gd": 2,
         "points": 15
       },
       {
-        "rank": 7,
+        "rank": 8,
         "name": "布伦特福德",
         "played": null,
-        "wins": 9,
+        "wins": 10,
         "draws": 3,
         "losses": 5,
         "gf": 16,
-        "ga": 9,
-        "gd": 7,
+        "ga": 11,
+        "gd": 5,
         "points": 14
       },
       {
-        "rank": 8,
+        "rank": 9,
         "name": "利兹联",
         "played": null,
         "wins": 10,
@@ -4032,19 +4044,19 @@
         "points": 14
       },
       {
-        "rank": 9,
-        "name": "伯恩茅斯",
+        "rank": 10,
+        "name": "阿斯顿维拉",
         "played": null,
-        "wins": 9,
+        "wins": 10,
         "draws": 3,
-        "losses": 3,
+        "losses": 4,
         "gf": 14,
-        "ga": 13,
-        "gd": 1,
-        "points": 12
+        "ga": 17,
+        "gd": -3,
+        "points": 13
       },
       {
-        "rank": 10,
+        "rank": 11,
         "name": "托特纳姆热刺",
         "played": null,
         "wins": 10,
@@ -4056,7 +4068,7 @@
         "points": 12
       },
       {
-        "rank": 11,
+        "rank": 12,
         "name": "纽卡斯尔联",
         "played": null,
         "wins": 10,
@@ -4064,18 +4076,6 @@
         "losses": 3,
         "gf": 13,
         "ga": 16,
-        "gd": -3,
-        "points": 12
-      },
-      {
-        "rank": 12,
-        "name": "阿斯顿维拉",
-        "played": null,
-        "wins": 9,
-        "draws": 3,
-        "losses": 3,
-        "gf": 10,
-        "ga": 13,
         "gd": -3,
         "points": 12
       },
@@ -4095,12 +4095,12 @@
         "rank": 14,
         "name": "伊普斯维奇",
         "played": null,
-        "wins": 9,
+        "wins": 10,
         "draws": 3,
         "losses": 2,
-        "gf": 14,
-        "ga": 18,
-        "gd": -4,
+        "gf": 15,
+        "ga": 20,
+        "gd": -5,
         "points": 11
       },
       {
@@ -4143,37 +4143,37 @@
         "rank": 18,
         "name": "曼联",
         "played": null,
-        "wins": 9,
+        "wins": 10,
         "draws": 1,
-        "losses": 4,
-        "gf": 10,
-        "ga": 15,
+        "losses": 5,
+        "gf": 14,
+        "ga": 19,
         "gd": -5,
-        "points": 7
+        "points": 8
       },
       {
         "rank": 19,
-        "name": "水晶宫",
+        "name": "桑德兰",
         "played": null,
-        "wins": 9,
+        "wins": 10,
         "draws": 2,
-        "losses": 1,
-        "gf": 9,
-        "ga": 21,
-        "gd": -12,
-        "points": 7
+        "losses": 2,
+        "gf": 8,
+        "ga": 17,
+        "gd": -9,
+        "points": 8
       },
       {
         "rank": 20,
-        "name": "桑德兰",
+        "name": "水晶宫",
         "played": null,
-        "wins": 9,
-        "draws": 1,
-        "losses": 2,
-        "gf": 7,
-        "ga": 17,
-        "gd": -10,
-        "points": 5
+        "wins": 10,
+        "draws": 2,
+        "losses": 1,
+        "gf": 10,
+        "ga": 24,
+        "gd": -14,
+        "points": 7
       }
     ]
   }

@@ -923,9 +923,9 @@
       "date": "2026-11-08 22:00",
       "home": "雷恩",
       "away": "里尔",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
     },
     {
       "id": "54473928",
@@ -933,9 +933,9 @@
       "date": "2026-11-09 00:15",
       "home": "昂热",
       "away": "尼斯",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "played": true
     },
     {
       "id": "54473930",
@@ -943,9 +943,9 @@
       "date": "2026-11-09 00:15",
       "home": "布雷斯特",
       "away": "里昂",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "played": true
     },
     {
       "id": "54473931",
@@ -953,9 +953,9 @@
       "date": "2026-11-09 00:15",
       "home": "勒阿弗尔",
       "away": "洛里昂",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "played": true
     },
     {
       "id": "54473932",
@@ -963,9 +963,9 @@
       "date": "2026-11-09 00:15",
       "home": "勒芒",
       "away": "摩纳哥",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
     },
     {
       "id": "54473936",
@@ -973,9 +973,9 @@
       "date": "2026-11-09 03:45",
       "home": "朗斯",
       "away": "马赛",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "played": true
     },
     {
       "id": "54473945",
@@ -3181,7 +3181,7 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:12",
-    "fetchedAt": "2026-11-08T01:33:06.926Z",
+    "fetchedAt": "2026-11-08T23:40:21.164Z",
     "maxRound": 34,
     "url": "https://www.dongqiudi.com/data?cid=12",
     "deductions": [],
@@ -3200,6 +3200,18 @@
       },
       {
         "rank": 2,
+        "name": "里尔",
+        "played": null,
+        "wins": 10,
+        "draws": 6,
+        "losses": 3,
+        "gf": 14,
+        "ga": 7,
+        "gd": 7,
+        "points": 21
+      },
+      {
+        "rank": 3,
         "name": "巴黎FC",
         "played": null,
         "wins": 10,
@@ -3211,91 +3223,103 @@
         "points": 20
       },
       {
-        "rank": 3,
-        "name": "里尔",
+        "rank": 4,
+        "name": "马赛",
         "played": null,
-        "wins": 9,
-        "draws": 5,
-        "losses": 3,
-        "gf": 12,
-        "ga": 6,
-        "gd": 6,
+        "wins": 10,
+        "draws": 6,
+        "losses": 0,
+        "gf": 22,
+        "ga": 14,
+        "gd": 8,
         "points": 18
       },
       {
-        "rank": 4,
+        "rank": 5,
         "name": "里昂",
         "played": null,
-        "wins": 9,
+        "wins": 10,
         "draws": 5,
         "losses": 2,
         "gf": 15,
-        "ga": 7,
-        "gd": 8,
+        "ga": 9,
+        "gd": 6,
         "points": 17
       },
       {
-        "rank": 5,
-        "name": "雷恩",
-        "played": null,
-        "wins": 9,
-        "draws": 5,
-        "losses": 1,
-        "gf": 20,
-        "ga": 19,
-        "gd": 1,
-        "points": 16
-      },
-      {
         "rank": 6,
-        "name": "马赛",
+        "name": "尼斯",
         "played": null,
-        "wins": 9,
+        "wins": 10,
         "draws": 5,
-        "losses": 0,
-        "gf": 20,
-        "ga": 13,
-        "gd": 7,
-        "points": 15
+        "losses": 2,
+        "gf": 15,
+        "ga": 12,
+        "gd": 3,
+        "points": 17
       },
       {
         "rank": 7,
         "name": "摩纳哥",
         "played": null,
-        "wins": 9,
+        "wins": 10,
         "draws": 4,
-        "losses": 3,
-        "gf": 12,
-        "ga": 10,
+        "losses": 4,
+        "gf": 13,
+        "ga": 11,
         "gd": 2,
-        "points": 15
+        "points": 16
       },
       {
         "rank": 8,
-        "name": "尼斯",
+        "name": "雷恩",
         "played": null,
-        "wins": 9,
-        "draws": 4,
-        "losses": 2,
-        "gf": 13,
-        "ga": 12,
-        "gd": 1,
-        "points": 14
+        "wins": 10,
+        "draws": 5,
+        "losses": 1,
+        "gf": 21,
+        "ga": 21,
+        "gd": 0,
+        "points": 16
       },
       {
         "rank": 9,
-        "name": "朗斯",
+        "name": "布雷斯特",
         "played": null,
-        "wins": 9,
+        "wins": 10,
         "draws": 4,
-        "losses": 1,
-        "gf": 16,
-        "ga": 13,
-        "gd": 3,
-        "points": 13
+        "losses": 3,
+        "gf": 18,
+        "ga": 12,
+        "gd": 6,
+        "points": 15
       },
       {
         "rank": 10,
+        "name": "洛里昂",
+        "played": null,
+        "wins": 10,
+        "draws": 4,
+        "losses": 3,
+        "gf": 9,
+        "ga": 8,
+        "gd": 1,
+        "points": 15
+      },
+      {
+        "rank": 11,
+        "name": "朗斯",
+        "played": null,
+        "wins": 10,
+        "draws": 4,
+        "losses": 1,
+        "gf": 17,
+        "ga": 15,
+        "gd": 2,
+        "points": 13
+      },
+      {
+        "rank": 12,
         "name": "图卢兹",
         "played": null,
         "wins": 10,
@@ -3305,30 +3329,6 @@
         "ga": 14,
         "gd": 1,
         "points": 13
-      },
-      {
-        "rank": 11,
-        "name": "布雷斯特",
-        "played": null,
-        "wins": 9,
-        "draws": 3,
-        "losses": 3,
-        "gf": 16,
-        "ga": 12,
-        "gd": 4,
-        "points": 12
-      },
-      {
-        "rank": 12,
-        "name": "洛里昂",
-        "played": null,
-        "wins": 9,
-        "draws": 3,
-        "losses": 3,
-        "gf": 7,
-        "ga": 8,
-        "gd": -1,
-        "points": 12
       },
       {
         "rank": 13,
@@ -3356,18 +3356,30 @@
       },
       {
         "rank": 15,
-        "name": "昂热",
+        "name": "勒芒",
         "played": null,
-        "wins": 9,
-        "draws": 2,
-        "losses": 2,
-        "gf": 9,
-        "ga": 17,
-        "gd": -8,
+        "wins": 10,
+        "draws": 1,
+        "losses": 5,
+        "gf": 12,
+        "ga": 19,
+        "gd": -7,
         "points": 8
       },
       {
         "rank": 16,
+        "name": "昂热",
+        "played": null,
+        "wins": 10,
+        "draws": 2,
+        "losses": 2,
+        "gf": 9,
+        "ga": 19,
+        "gd": -10,
+        "points": 8
+      },
+      {
+        "rank": 17,
         "name": "特鲁瓦",
         "played": null,
         "wins": 10,
@@ -3379,27 +3391,15 @@
         "points": 8
       },
       {
-        "rank": 17,
-        "name": "勒芒",
-        "played": null,
-        "wins": 9,
-        "draws": 1,
-        "losses": 4,
-        "gf": 11,
-        "ga": 18,
-        "gd": -7,
-        "points": 7
-      },
-      {
         "rank": 18,
         "name": "勒阿弗尔",
         "played": null,
-        "wins": 9,
+        "wins": 10,
         "draws": 0,
         "losses": 2,
         "gf": 9,
-        "ga": 20,
-        "gd": -11,
+        "ga": 22,
+        "gd": -13,
         "points": 2
       }
     ]
