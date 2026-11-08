@@ -67,6 +67,14 @@ for (const f of files) {
     '(' + (d.teams || []).length + ' 队, ' + (d.matches || []).length + ' 场)');
   if (!structOk) continue;
 
+  // 1b) 不能有占位球队
+  //     附加赛/淘汰赛对手未定时懂球帝写「待定」，曾被当成第 17 支球队写进中甲，
+  //     连带官方积分榜行数、每轮场次、各队已赛数全部对不上。
+  const PH = /^(待定|未定|未知|暂无|待定球队|待定中|TBD|TBA|TBC|N\/A|--?)$/i;
+  const ph = (d.teams || []).map(t => t.name).filter(n => PH.test(String(n || '').trim()));
+  check(f + ' 无占位球队', ph.length === 0,
+    ph.length ? '(' + ph.join(', ') + ')' : '');
+
   // 2) 新鲜度
   if (!MANUAL_LEAGUES.has(d.id || key)) {
     const at = meta.fetchedAt;

@@ -206,6 +206,11 @@ const decode = s => String(s)
 
 const pick = (s, re) => { const m = re.exec(s); return m ? m[1] : ''; };
 
+// 占位队名：淘汰赛/附加赛对手未定时懂球帝会写「待定」之类。
+// 这些不是真实球队，不能进 teams，也不能算进常规赛积分榜。
+const PLACEHOLDER_TEAM = /^(待定|未定|未知|暂无|待定球队|待定中|TBD|TBA|TBC|N\/A|--?)$/i;
+const isPlaceholderTeam = n => PLACEHOLDER_TEAM.test(decode(String(n || '')).trim());
+
 function parseScheduleHtml(html) {
   const rows = [];
   const tokenRe = /<div class="dp-schedule-group__title[^"]*"[^>]*>([\s\S]*?)<\/div>|<a href="\/match\/(\d+)" class="dp-schedule-row"[\s\S]*?<\/a>/g;
@@ -227,6 +232,10 @@ function parseScheduleHtml(html) {
     const away = pick(block, /team--away[^>]*>([^<]*)</);
     const score = pick(block, /dp-schedule-row__score[^>]*>([^<]*)</);
     if (!home || !away) continue;
+    // 附加赛/淘汰赛的对阵在对手未确定时，懂球帝会写「待定」。
+    // 这类比赛不属于常规赛积分榜：若混进来会凭空多出一支"球队"，
+    // 导致球队数、每轮场次、积分榜行数全部对不上（中甲第31轮的附加赛就是这样）。
+    if (isPlaceholderTeam(home) || isPlaceholderTeam(away)) continue;
 
     let homeGoals = null, awayGoals = null;
     const sm = /^\s*(\d+)\s*-\s*(\d+)\s*$/.exec(decode(score || ''));

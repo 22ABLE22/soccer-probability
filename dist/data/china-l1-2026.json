@@ -70,10 +70,6 @@
       "id": "长春亚泰",
       "name": "长春亚泰",
       "deduction": 4
-    },
-    {
-      "id": "待定",
-      "name": "待定"
     }
   ],
   "matches": [
@@ -2476,26 +2472,6 @@
       "homeGoals": 4,
       "awayGoals": 0,
       "played": true
-    },
-    {
-      "id": "54644642",
-      "round": 31,
-      "date": "2026-11-14 15:00",
-      "home": "待定",
-      "away": "定南赣联",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "54644641",
-      "round": 31,
-      "date": "2026-11-21 15:00",
-      "home": "定南赣联",
-      "away": "待定",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
     }
   ],
   "points": {
@@ -2528,8 +2504,8 @@
       "label": "升级 (2 席)"
     },
     {
-      "from": 16,
-      "to": 17,
+      "from": 15,
+      "to": 16,
       "type": "relegation",
       "label": "降级",
       "color": "#c62828"
@@ -2538,204 +2514,9 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:129",
-    "fetchedAt": "2026-11-07T23:37:07.216Z",
-    "maxRound": 31,
+    "fetchedAt": "2026-11-08T01:15:15.803Z",
+    "maxRound": 30,
     "url": "https://www.dongqiudi.com/data?cid=129",
-    "standingsError": "积分榜行数异常（16/17 行, 416330 字节, title=\"数据 - 懂球帝\"）",
-    "officialTable": [
-      {
-        "rank": 1,
-        "name": "广东广州豹",
-        "played": null,
-        "wins": 29,
-        "draws": 18,
-        "losses": 8,
-        "gf": 57,
-        "ga": 28,
-        "gd": 29,
-        "points": 62
-      },
-      {
-        "rank": 2,
-        "name": "南通支云",
-        "played": null,
-        "wins": 29,
-        "draws": 15,
-        "losses": 9,
-        "gf": 37,
-        "ga": 21,
-        "gd": 16,
-        "points": 54
-      },
-      {
-        "rank": 3,
-        "name": "陕西联合",
-        "played": null,
-        "wins": 29,
-        "draws": 14,
-        "losses": 6,
-        "gf": 53,
-        "ga": 30,
-        "gd": 23,
-        "points": 48
-      },
-      {
-        "rank": 4,
-        "name": "广西恒宸",
-        "played": null,
-        "wins": 29,
-        "draws": 13,
-        "losses": 8,
-        "gf": 46,
-        "ga": 35,
-        "gd": 11,
-        "points": 47
-      },
-      {
-        "rank": 5,
-        "name": "深圳青年人",
-        "played": null,
-        "wins": 29,
-        "draws": 12,
-        "losses": 11,
-        "gf": 42,
-        "ga": 32,
-        "gd": 10,
-        "points": 47
-      },
-      {
-        "rank": 6,
-        "name": "延边龙鼎",
-        "played": null,
-        "wins": 29,
-        "draws": 12,
-        "losses": 9,
-        "gf": 42,
-        "ga": 30,
-        "gd": 12,
-        "points": 45
-      },
-      {
-        "rank": 7,
-        "name": "无锡吴钩",
-        "played": null,
-        "wins": 29,
-        "draws": 12,
-        "losses": 6,
-        "gf": 45,
-        "ga": 34,
-        "gd": 11,
-        "points": 42
-      },
-      {
-        "rank": 8,
-        "name": "石家庄功夫",
-        "played": null,
-        "wins": 29,
-        "draws": 11,
-        "losses": 8,
-        "gf": 30,
-        "ga": 29,
-        "gd": 1,
-        "points": 41
-      },
-      {
-        "rank": 9,
-        "name": "长春亚泰",
-        "played": null,
-        "wins": 29,
-        "draws": 12,
-        "losses": 6,
-        "gf": 46,
-        "ga": 45,
-        "gd": 1,
-        "points": 38
-      },
-      {
-        "rank": 10,
-        "name": "宁波",
-        "played": null,
-        "wins": 29,
-        "draws": 10,
-        "losses": 7,
-        "gf": 34,
-        "ga": 36,
-        "gd": -2,
-        "points": 34
-      },
-      {
-        "rank": 11,
-        "name": "大连鲲城",
-        "played": null,
-        "wins": 29,
-        "draws": 8,
-        "losses": 10,
-        "gf": 35,
-        "ga": 43,
-        "gd": -8,
-        "points": 34
-      },
-      {
-        "rank": 12,
-        "name": "南京城市",
-        "played": null,
-        "wins": 29,
-        "draws": 8,
-        "losses": 7,
-        "gf": 29,
-        "ga": 39,
-        "gd": -10,
-        "points": 31
-      },
-      {
-        "rank": 13,
-        "name": "苏州东吴",
-        "played": null,
-        "wins": 29,
-        "draws": 7,
-        "losses": 11,
-        "gf": 32,
-        "ga": 41,
-        "gd": -9,
-        "points": 29
-      },
-      {
-        "rank": 14,
-        "name": "定南赣联",
-        "played": null,
-        "wins": 29,
-        "draws": 5,
-        "losses": 13,
-        "gf": 39,
-        "ga": 51,
-        "gd": -12,
-        "points": 28
-      },
-      {
-        "rank": 15,
-        "name": "梅州客家",
-        "played": null,
-        "wins": 29,
-        "draws": 7,
-        "losses": 4,
-        "gf": 26,
-        "ga": 60,
-        "gd": -34,
-        "points": 16
-      },
-      {
-        "rank": 16,
-        "name": "佛山南狮",
-        "played": null,
-        "wins": 29,
-        "draws": 3,
-        "losses": 7,
-        "gf": 29,
-        "ga": 68,
-        "gd": -39,
-        "points": 16
-      }
-    ],
     "deductions": [
       {
         "team": "宁波",
@@ -2754,6 +2535,199 @@
         "deduction": 4
       }
     ],
-    "standingsStale": true
+    "officialTable": [
+      {
+        "rank": 1,
+        "name": "广东广州豹",
+        "played": null,
+        "wins": 30,
+        "draws": 18,
+        "losses": 8,
+        "gf": 58,
+        "ga": 31,
+        "gd": 27,
+        "points": 62
+      },
+      {
+        "rank": 2,
+        "name": "南通支云",
+        "played": null,
+        "wins": 30,
+        "draws": 16,
+        "losses": 9,
+        "gf": 40,
+        "ga": 22,
+        "gd": 18,
+        "points": 57
+      },
+      {
+        "rank": 3,
+        "name": "陕西联合",
+        "played": null,
+        "wins": 30,
+        "draws": 15,
+        "losses": 6,
+        "gf": 57,
+        "ga": 30,
+        "gd": 27,
+        "points": 51
+      },
+      {
+        "rank": 4,
+        "name": "广西恒宸",
+        "played": null,
+        "wins": 30,
+        "draws": 13,
+        "losses": 8,
+        "gf": 46,
+        "ga": 39,
+        "gd": 7,
+        "points": 47
+      },
+      {
+        "rank": 5,
+        "name": "深圳青年人",
+        "played": null,
+        "wins": 30,
+        "draws": 12,
+        "losses": 11,
+        "gf": 43,
+        "ga": 36,
+        "gd": 7,
+        "points": 47
+      },
+      {
+        "rank": 6,
+        "name": "延边龙鼎",
+        "played": null,
+        "wins": 30,
+        "draws": 12,
+        "losses": 10,
+        "gf": 43,
+        "ga": 31,
+        "gd": 12,
+        "points": 46
+      },
+      {
+        "rank": 7,
+        "name": "无锡吴钩",
+        "played": null,
+        "wins": 30,
+        "draws": 12,
+        "losses": 7,
+        "gf": 46,
+        "ga": 35,
+        "gd": 11,
+        "points": 43
+      },
+      {
+        "rank": 8,
+        "name": "石家庄功夫",
+        "played": null,
+        "wins": 30,
+        "draws": 11,
+        "losses": 9,
+        "gf": 31,
+        "ga": 30,
+        "gd": 1,
+        "points": 42
+      },
+      {
+        "rank": 9,
+        "name": "长春亚泰",
+        "played": null,
+        "wins": 30,
+        "draws": 12,
+        "losses": 7,
+        "gf": 47,
+        "ga": 46,
+        "gd": 1,
+        "points": 39
+      },
+      {
+        "rank": 10,
+        "name": "宁波",
+        "played": null,
+        "wins": 30,
+        "draws": 11,
+        "losses": 7,
+        "gf": 36,
+        "ga": 37,
+        "gd": -1,
+        "points": 37
+      },
+      {
+        "rank": 11,
+        "name": "大连鲲城",
+        "played": null,
+        "wins": 30,
+        "draws": 9,
+        "losses": 10,
+        "gf": 38,
+        "ga": 43,
+        "gd": -5,
+        "points": 37
+      },
+      {
+        "rank": 12,
+        "name": "南京城市",
+        "played": null,
+        "wins": 30,
+        "draws": 9,
+        "losses": 7,
+        "gf": 32,
+        "ga": 40,
+        "gd": -8,
+        "points": 34
+      },
+      {
+        "rank": 13,
+        "name": "苏州东吴",
+        "played": null,
+        "wins": 30,
+        "draws": 8,
+        "losses": 11,
+        "gf": 36,
+        "ga": 42,
+        "gd": -6,
+        "points": 32
+      },
+      {
+        "rank": 14,
+        "name": "定南赣联",
+        "played": null,
+        "wins": 30,
+        "draws": 5,
+        "losses": 13,
+        "gf": 40,
+        "ga": 53,
+        "gd": -13,
+        "points": 28
+      },
+      {
+        "rank": 15,
+        "name": "梅州客家",
+        "played": null,
+        "wins": 30,
+        "draws": 7,
+        "losses": 4,
+        "gf": 26,
+        "ga": 63,
+        "gd": -37,
+        "points": 16
+      },
+      {
+        "rank": 16,
+        "name": "佛山南狮",
+        "played": null,
+        "wins": 30,
+        "draws": 3,
+        "losses": 7,
+        "gf": 30,
+        "ga": 71,
+        "gd": -41,
+        "points": 16
+      }
+    ]
   }
 }

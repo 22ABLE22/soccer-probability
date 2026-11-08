@@ -1,19 +1,14 @@
 {
-  "updatedAt": "2026-11-07T23:38:10.193Z",
+  "updatedAt": "2026-11-08T01:15:16.909Z",
   "ok": [
-    "china-l1",
     "csl",
     "epl",
     "laliga",
     "seriea",
     "bundesliga",
-    "ligue1"
+    "ligue1",
+    "china-l1"
   ],
   "failed": [],
-  "warn": [
-    {
-      "key": "china-l1",
-      "reason": "积分榜未抓到，已沿用旧值（罚分 4 队）：积分榜行数异常（16/17 行, 416330 字节, title=\"数据 - 懂球帝\"）"
-    }
-  ]
+  "warn": []
 }
