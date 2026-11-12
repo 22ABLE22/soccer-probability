@@ -1886,31 +1886,11 @@
       "played": false
     },
     {
-      "id": "54493530",
-      "round": 19,
-      "date": "2027-01-10 03:00",
-      "home": "阿拉维斯",
-      "away": "皇家社会",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
       "id": "54493531",
       "round": 19,
       "date": "2027-01-10 03:00",
       "home": "毕尔巴鄂竞技",
       "away": "比利亚雷亚尔",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "54493532",
-      "round": 19,
-      "date": "2027-01-10 03:00",
-      "home": "马德里竞技",
-      "away": "桑坦德竞技",
       "homeGoals": null,
       "awayGoals": null,
       "played": false
@@ -1926,9 +1906,29 @@
       "played": false
     },
     {
+      "id": "54493530",
+      "round": 19,
+      "date": "2027-01-11 00:00",
+      "home": "阿拉维斯",
+      "away": "皇家社会",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493532",
+      "round": 19,
+      "date": "2027-01-11 00:00",
+      "home": "马德里竞技",
+      "away": "桑坦德竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
       "id": "54493534",
       "round": 19,
-      "date": "2027-01-10 03:00",
+      "date": "2027-01-11 00:00",
       "home": "埃尔切",
       "away": "赫塔费",
       "homeGoals": null,
@@ -1938,7 +1938,7 @@
     {
       "id": "54493535",
       "round": 19,
-      "date": "2027-01-10 03:00",
+      "date": "2027-01-11 00:00",
       "home": "西班牙人",
       "away": "皇家贝蒂斯",
       "homeGoals": null,
@@ -1948,7 +1948,7 @@
     {
       "id": "54493536",
       "round": 19,
-      "date": "2027-01-10 03:00",
+      "date": "2027-01-11 00:00",
       "home": "奥萨苏纳",
       "away": "巴塞罗那",
       "homeGoals": null,
@@ -1958,7 +1958,7 @@
     {
       "id": "54493537",
       "round": 19,
-      "date": "2027-01-10 03:00",
+      "date": "2027-01-11 00:00",
       "home": "皇家马德里",
       "away": "莱万特",
       "homeGoals": null,
@@ -1968,7 +1968,7 @@
     {
       "id": "54493538",
       "round": 19,
-      "date": "2027-01-10 03:00",
+      "date": "2027-01-11 00:00",
       "home": "塞维利亚",
       "away": "塞尔塔",
       "homeGoals": null,
@@ -1978,7 +1978,7 @@
     {
       "id": "54493539",
       "round": 19,
-      "date": "2027-01-10 03:00",
+      "date": "2027-01-11 00:00",
       "home": "瓦伦西亚",
       "away": "马拉加",
       "homeGoals": null,
@@ -3931,7 +3931,7 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:3",
-    "fetchedAt": "2026-11-11T00:36:32.035Z",
+    "fetchedAt": "2026-11-12T01:53:07.906Z",
     "maxRound": 38,
     "url": "https://www.dongqiudi.com/data?cid=3",
     "deductions": [],
