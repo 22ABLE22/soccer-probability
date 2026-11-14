@@ -1886,26 +1886,6 @@
       "played": false
     },
     {
-      "id": "54493531",
-      "round": 19,
-      "date": "2027-01-10 03:00",
-      "home": "毕尔巴鄂竞技",
-      "away": "比利亚雷亚尔",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "54493533",
-      "round": 19,
-      "date": "2027-01-10 03:00",
-      "home": "拉科鲁尼亚",
-      "away": "巴列卡诺",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
       "id": "54493530",
       "round": 19,
       "date": "2027-01-11 00:00",
@@ -1916,11 +1896,31 @@
       "played": false
     },
     {
+      "id": "54493531",
+      "round": 19,
+      "date": "2027-01-11 00:00",
+      "home": "毕尔巴鄂竞技",
+      "away": "比利亚雷亚尔",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
       "id": "54493532",
       "round": 19,
       "date": "2027-01-11 00:00",
       "home": "马德里竞技",
       "away": "桑坦德竞技",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54493533",
+      "round": 19,
+      "date": "2027-01-11 00:00",
+      "home": "拉科鲁尼亚",
+      "away": "巴列卡诺",
       "homeGoals": null,
       "awayGoals": null,
       "played": false
@@ -3931,7 +3931,7 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:3",
-    "fetchedAt": "2026-11-13T01:00:49.257Z",
+    "fetchedAt": "2026-11-14T00:51:48.056Z",
     "maxRound": 38,
     "url": "https://www.dongqiudi.com/data?cid=3",
     "deductions": [],
