@@ -7,3 +7,4 @@ Thumbs.db
 .idea/
 tests/_json_report.txt
 tools/_*.py
+tests/_*

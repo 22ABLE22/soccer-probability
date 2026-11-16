@@ -231,9 +231,9 @@
       "date": "2026-11-14",
       "home": "航海",
       "away": "机电",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "played": true
     },
     {
       "id": "m020",
@@ -241,9 +241,9 @@
       "date": "2026-11-15",
       "home": "航空",
       "away": "计算机",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 2,
+      "awayGoals": 3,
+      "played": true
     },
     {
       "id": "m021",
@@ -538,6 +538,6 @@
     "note": "校级联赛；10 队单循环 45 场，已排期 35 场，待排期 10 场",
     "scheduledMatches": 35,
     "pendingMatches": 10,
-    "updatedAt": "2026-11-16T02:06:08.000Z"
+    "updatedAt": "2026-11-16T02:36:00.014Z"
   }
 }

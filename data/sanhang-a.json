@@ -231,9 +231,9 @@
       "date": "2026-11-14",
       "home": "航海",
       "away": "机电",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "played": true
     },
     {
       "id": "m020",
@@ -241,9 +241,9 @@
       "date": "2026-11-15",
       "home": "航空",
       "away": "计算机",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 2,
+      "awayGoals": 3,
+      "played": true
     },
     {
       "id": "m021",
