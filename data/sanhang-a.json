@@ -201,9 +201,9 @@
       "date": "2026-11-11",
       "home": "QM",
       "away": "自动化",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "played": true
     },
     {
       "id": "m017",
@@ -211,9 +211,9 @@
       "date": "2026-11-12",
       "home": "电信",
       "away": "航天",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 0,
+      "awayGoals": 4,
+      "played": true
     },
     {
       "id": "m018",
@@ -221,9 +221,9 @@
       "date": "2026-11-14",
       "home": "数统",
       "away": "力载",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "played": true
     },
     {
       "id": "m019",
