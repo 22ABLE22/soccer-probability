@@ -73,15 +73,28 @@ function lastPlayedDate(json) {
   return max ? max.toISOString() : null;
 }
 
+/** 文件是否有未提交的改动（本地改完就构建、还没 commit 时会命中） */
+function isDirty(rel) {
+  try {
+    const out = execFileSync('git', ['status', '--porcelain', '--', rel], {
+      cwd: ROOT, encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'], timeout: 10000,
+    }).trim();
+    return out.length > 0;
+  } catch (e) { return false; }
+}
+
 function stampUpdatedAt(json, src, f) {
   if (!(json.meta && json.meta.manual)) return null;
   const rel = path.relative(ROOT, src).replace(/\\/g, '/');
-  const at = lastCommitTime(rel)
-    || lastPlayedDate(json)
-    || new Date(fs.statSync(src).mtime).toISOString();
-  if (!at) return null;
-  json.meta.updatedAt = at;
-  return at;
+
+  // 文件还没提交时，git log 给出的是**上一次**提交的时间，
+  // 会把「最后更新」显示成几天前（曾把 11-16 的改动显示成 11-08）。
+  // 这种情况用构建时间，它就在这次改动之后几秒到几分钟。
+  const at = isDirty(rel) ? new Date().toISOString() : lastCommitTime(rel);
+  const fallback = lastPlayedDate(json) || new Date(fs.statSync(src).mtime).toISOString();
+
+  json.meta.updatedAt = at || fallback;
+  return json.meta.updatedAt;
 }
 
 if (fs.existsSync(DATA)) {
