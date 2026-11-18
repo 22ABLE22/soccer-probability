@@ -1368,16 +1368,6 @@
       "played": false
     },
     {
-      "id": "54473978",
-      "round": 15,
-      "date": "2027-01-03 04:00",
-      "home": "巴黎FC",
-      "away": "勒阿弗尔",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
       "id": "54473979",
       "round": 15,
       "date": "2027-01-03 04:00",
@@ -1413,6 +1403,16 @@
       "date": "2027-01-04 00:15",
       "home": "里尔",
       "away": "斯特拉斯堡",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54473978",
+      "round": 15,
+      "date": "2027-01-04 00:15",
+      "home": "巴黎FC",
+      "away": "勒阿弗尔",
       "homeGoals": null,
       "awayGoals": null,
       "played": false
@@ -3181,7 +3181,7 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:12",
-    "fetchedAt": "2026-11-17T02:54:01.750Z",
+    "fetchedAt": "2026-11-18T02:22:20.493Z",
     "maxRound": 34,
     "url": "https://www.dongqiudi.com/data?cid=12",
     "deductions": [],
