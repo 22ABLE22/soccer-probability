@@ -2086,31 +2086,11 @@
       "played": false
     },
     {
-      "id": "54483542",
+      "id": "54483551",
       "round": 21,
-      "date": "2027-01-16 23:00",
-      "home": "阿斯顿维拉",
-      "away": "曼联",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "54483545",
-      "round": 21,
-      "date": "2027-01-16 23:00",
-      "home": "伯恩茅斯",
-      "away": "伊普斯维奇",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "54483548",
-      "round": 21,
-      "date": "2027-01-16 23:00",
-      "home": "布伦特福德",
-      "away": "布莱顿",
+      "date": "2027-01-16 20:30",
+      "home": "考文垂",
+      "away": "埃弗顿",
       "homeGoals": null,
       "awayGoals": null,
       "played": false
@@ -2121,16 +2101,6 @@
       "date": "2027-01-16 23:00",
       "home": "切尔西",
       "away": "桑德兰",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "54483551",
-      "round": 21,
-      "date": "2027-01-16 23:00",
-      "home": "考文垂",
-      "away": "埃弗顿",
       "homeGoals": null,
       "awayGoals": null,
       "played": false
@@ -2176,9 +2146,29 @@
       "played": false
     },
     {
+      "id": "54483542",
+      "round": 21,
+      "date": "2027-01-17 01:30",
+      "home": "阿斯顿维拉",
+      "away": "曼联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483545",
+      "round": 21,
+      "date": "2027-01-17 22:00",
+      "home": "伯恩茅斯",
+      "away": "伊普斯维奇",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
       "id": "54483566",
       "round": 21,
-      "date": "2027-01-16 23:00",
+      "date": "2027-01-18 00:30",
       "home": "托特纳姆热刺",
       "away": "利兹联",
       "homeGoals": null,
@@ -2186,31 +2176,11 @@
       "played": false
     },
     {
-      "id": "54483571",
-      "round": 22,
-      "date": "2027-01-23 23:00",
-      "home": "阿森纳",
-      "away": "纽卡斯尔联",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "54483579",
-      "round": 22,
-      "date": "2027-01-23 23:00",
-      "home": "布莱顿",
-      "away": "曼城",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "54483584",
-      "round": 22,
-      "date": "2027-01-23 23:00",
-      "home": "水晶宫",
-      "away": "托特纳姆热刺",
+      "id": "54483548",
+      "round": 21,
+      "date": "2027-01-19 04:00",
+      "home": "布伦特福德",
+      "away": "布莱顿",
       "homeGoals": null,
       "awayGoals": null,
       "played": false
@@ -2236,21 +2206,31 @@
       "played": false
     },
     {
-      "id": "54483596",
+      "id": "54483571",
       "round": 22,
-      "date": "2027-01-23 23:00",
-      "home": "利兹联",
-      "away": "切尔西",
+      "date": "2027-01-24 01:30",
+      "home": "阿森纳",
+      "away": "纽卡斯尔联",
       "homeGoals": null,
       "awayGoals": null,
       "played": false
     },
     {
-      "id": "54483599",
+      "id": "54483579",
       "round": 22,
-      "date": "2027-01-23 23:00",
-      "home": "曼联",
-      "away": "利物浦",
+      "date": "2027-01-24 04:00",
+      "home": "布莱顿",
+      "away": "曼城",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483584",
+      "round": 22,
+      "date": "2027-01-24 22:00",
+      "home": "水晶宫",
+      "away": "托特纳姆热刺",
       "homeGoals": null,
       "awayGoals": null,
       "played": false
@@ -2258,7 +2238,7 @@
     {
       "id": "54483602",
       "round": 22,
-      "date": "2027-01-23 23:00",
+      "date": "2027-01-24 22:00",
       "home": "诺丁汉森林",
       "away": "伯恩茅斯",
       "homeGoals": null,
@@ -2268,7 +2248,7 @@
     {
       "id": "54483607",
       "round": 22,
-      "date": "2027-01-23 23:00",
+      "date": "2027-01-24 22:00",
       "home": "桑德兰",
       "away": "考文垂",
       "homeGoals": null,
@@ -2278,7 +2258,7 @@
     {
       "id": "54483693",
       "round": 22,
-      "date": "2027-01-23 23:00",
+      "date": "2027-01-24 22:00",
       "home": "埃弗顿",
       "away": "布伦特福德",
       "homeGoals": null,
@@ -2286,21 +2266,31 @@
       "played": false
     },
     {
-      "id": "54483615",
-      "round": 23,
-      "date": "2027-01-30 23:00",
-      "home": "伯恩茅斯",
-      "away": "富勒姆",
+      "id": "54483599",
+      "round": 22,
+      "date": "2027-01-25 00:30",
+      "home": "曼联",
+      "away": "利物浦",
       "homeGoals": null,
       "awayGoals": null,
       "played": false
     },
     {
-      "id": "54483617",
+      "id": "54483596",
+      "round": 22,
+      "date": "2027-01-26 04:00",
+      "home": "利兹联",
+      "away": "切尔西",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483654",
       "round": 23,
-      "date": "2027-01-30 23:00",
-      "home": "布伦特福德",
-      "away": "曼联",
+      "date": "2027-01-30 20:30",
+      "home": "利物浦",
+      "away": "埃弗顿",
       "homeGoals": null,
       "awayGoals": null,
       "played": false
@@ -2316,56 +2306,6 @@
       "played": false
     },
     {
-      "id": "54483627",
-      "round": 23,
-      "date": "2027-01-30 23:00",
-      "home": "切尔西",
-      "away": "诺丁汉森林",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "54483639",
-      "round": 23,
-      "date": "2027-01-30 23:00",
-      "home": "考文垂",
-      "away": "利兹联",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "54483651",
-      "round": 23,
-      "date": "2027-01-30 23:00",
-      "home": "赫尔城",
-      "away": "水晶宫",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "54483654",
-      "round": 23,
-      "date": "2027-01-30 23:00",
-      "home": "利物浦",
-      "away": "埃弗顿",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
-      "id": "54483658",
-      "round": 23,
-      "date": "2027-01-30 23:00",
-      "home": "曼城",
-      "away": "阿森纳",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
-    },
-    {
       "id": "54483661",
       "round": 23,
       "date": "2027-01-30 23:00",
@@ -2376,11 +2316,71 @@
       "played": false
     },
     {
+      "id": "54483627",
+      "round": 23,
+      "date": "2027-01-31 01:30",
+      "home": "切尔西",
+      "away": "诺丁汉森林",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483615",
+      "round": 23,
+      "date": "2027-01-31 22:00",
+      "home": "伯恩茅斯",
+      "away": "富勒姆",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483639",
+      "round": 23,
+      "date": "2027-01-31 22:00",
+      "home": "考文垂",
+      "away": "利兹联",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483651",
+      "round": 23,
+      "date": "2027-01-31 22:00",
+      "home": "赫尔城",
+      "away": "水晶宫",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
       "id": "54483664",
       "round": 23,
-      "date": "2027-01-30 23:00",
+      "date": "2027-01-31 22:00",
       "home": "托特纳姆热刺",
       "away": "桑德兰",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483658",
+      "round": 23,
+      "date": "2027-02-01 00:30",
+      "home": "曼城",
+      "away": "阿森纳",
+      "homeGoals": null,
+      "awayGoals": null,
+      "played": false
+    },
+    {
+      "id": "54483617",
+      "round": 23,
+      "date": "2027-02-02 04:00",
+      "home": "布伦特福德",
+      "away": "曼联",
       "homeGoals": null,
       "awayGoals": null,
       "played": false
@@ -3930,7 +3930,7 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:4",
-    "fetchedAt": "2026-11-19T01:51:36.849Z",
+    "fetchedAt": "2026-11-20T01:45:16.933Z",
     "maxRound": 38,
     "url": "https://www.dongqiudi.com/data?cid=4",
     "deductions": [],
