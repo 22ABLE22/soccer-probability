@@ -1291,9 +1291,9 @@
       "date": "2026-11-21 04:00",
       "home": "毕尔巴鄂竞技",
       "away": "西班牙人",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "played": true
     },
     {
       "id": "54493441",
@@ -3931,7 +3931,7 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:3",
-    "fetchedAt": "2026-11-20T01:45:23.177Z",
+    "fetchedAt": "2026-11-21T01:25:33.900Z",
     "maxRound": 38,
     "url": "https://www.dongqiudi.com/data?cid=3",
     "deductions": [],
@@ -4012,12 +4012,12 @@
         "rank": 7,
         "name": "毕尔巴鄂竞技",
         "played": null,
-        "wins": 11,
+        "wins": 12,
         "draws": 4,
         "losses": 4,
         "gf": 15,
-        "ga": 11,
-        "gd": 4,
+        "ga": 12,
+        "gd": 3,
         "points": 16
       },
       {
@@ -4046,6 +4046,18 @@
       },
       {
         "rank": 10,
+        "name": "西班牙人",
+        "played": null,
+        "wins": 13,
+        "draws": 4,
+        "losses": 3,
+        "gf": 14,
+        "ga": 14,
+        "gd": 0,
+        "points": 15
+      },
+      {
+        "rank": 11,
         "name": "桑坦德竞技",
         "played": null,
         "wins": 12,
@@ -4057,7 +4069,7 @@
         "points": 14
       },
       {
-        "rank": 11,
+        "rank": 12,
         "name": "塞尔塔",
         "played": null,
         "wins": 12,
@@ -4069,7 +4081,7 @@
         "points": 13
       },
       {
-        "rank": 12,
+        "rank": 13,
         "name": "阿拉维斯",
         "played": null,
         "wins": 12,
@@ -4079,18 +4091,6 @@
         "ga": 17,
         "gd": -2,
         "points": 13
-      },
-      {
-        "rank": 13,
-        "name": "西班牙人",
-        "played": null,
-        "wins": 12,
-        "draws": 3,
-        "losses": 3,
-        "gf": 13,
-        "ga": 14,
-        "gd": -1,
-        "points": 12
       },
       {
         "rank": 14,
