@@ -1043,9 +1043,9 @@
       "date": "2026-11-22 22:00",
       "home": "巴黎FC",
       "away": "昂热",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 4,
+      "awayGoals": 0,
+      "played": true
     },
     {
       "id": "54473939",
@@ -1053,9 +1053,9 @@
       "date": "2026-11-23 00:15",
       "home": "洛里昂",
       "away": "雷恩",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
     },
     {
       "id": "54473940",
@@ -1063,9 +1063,9 @@
       "date": "2026-11-23 03:45",
       "home": "马赛",
       "away": "勒芒",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 2,
+      "awayGoals": 3,
+      "played": true
     },
     {
       "id": "54473948",
@@ -3181,7 +3181,7 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:12",
-    "fetchedAt": "2026-11-22T00:17:24.150Z",
+    "fetchedAt": "2026-11-23T00:48:12.368Z",
     "maxRound": 34,
     "url": "https://www.dongqiudi.com/data?cid=12",
     "deductions": [],
@@ -3200,6 +3200,18 @@
       },
       {
         "rank": 2,
+        "name": "巴黎FC",
+        "played": null,
+        "wins": 11,
+        "draws": 7,
+        "losses": 2,
+        "gf": 21,
+        "ga": 10,
+        "gd": 11,
+        "points": 23
+      },
+      {
+        "rank": 3,
         "name": "里尔",
         "played": null,
         "wins": 11,
@@ -3209,18 +3221,6 @@
         "ga": 8,
         "gd": 6,
         "points": 21
-      },
-      {
-        "rank": 3,
-        "name": "巴黎FC",
-        "played": null,
-        "wins": 10,
-        "draws": 6,
-        "losses": 2,
-        "gf": 17,
-        "ga": 10,
-        "gd": 7,
-        "points": 20
       },
       {
         "rank": 4,
@@ -3238,12 +3238,12 @@
         "rank": 5,
         "name": "马赛",
         "played": null,
-        "wins": 10,
+        "wins": 11,
         "draws": 6,
         "losses": 0,
-        "gf": 22,
-        "ga": 14,
-        "gd": 8,
+        "gf": 24,
+        "ga": 17,
+        "gd": 7,
         "points": 18
       },
       {
@@ -3286,25 +3286,25 @@
         "rank": 9,
         "name": "雷恩",
         "played": null,
-        "wins": 10,
+        "wins": 11,
         "draws": 5,
-        "losses": 1,
-        "gf": 21,
-        "ga": 21,
+        "losses": 2,
+        "gf": 22,
+        "ga": 22,
         "gd": 0,
-        "points": 16
+        "points": 17
       },
       {
         "rank": 10,
         "name": "洛里昂",
         "played": null,
-        "wins": 10,
+        "wins": 11,
         "draws": 4,
-        "losses": 3,
-        "gf": 9,
-        "ga": 8,
+        "losses": 4,
+        "gf": 10,
+        "ga": 9,
         "gd": 1,
-        "points": 15
+        "points": 16
       },
       {
         "rank": 11,
@@ -3332,6 +3332,18 @@
       },
       {
         "rank": 13,
+        "name": "勒芒",
+        "played": null,
+        "wins": 11,
+        "draws": 2,
+        "losses": 5,
+        "gf": 15,
+        "ga": 21,
+        "gd": -6,
+        "points": 11
+      },
+      {
+        "rank": 14,
         "name": "特鲁瓦",
         "played": null,
         "wins": 11,
@@ -3343,7 +3355,7 @@
         "points": 11
       },
       {
-        "rank": 14,
+        "rank": 15,
         "name": "欧塞尔",
         "played": null,
         "wins": 11,
@@ -3355,7 +3367,7 @@
         "points": 11
       },
       {
-        "rank": 15,
+        "rank": 16,
         "name": "斯特拉斯堡",
         "played": null,
         "wins": 11,
@@ -3367,27 +3379,15 @@
         "points": 10
       },
       {
-        "rank": 16,
-        "name": "勒芒",
-        "played": null,
-        "wins": 10,
-        "draws": 1,
-        "losses": 5,
-        "gf": 12,
-        "ga": 19,
-        "gd": -7,
-        "points": 8
-      },
-      {
         "rank": 17,
         "name": "昂热",
         "played": null,
-        "wins": 10,
+        "wins": 11,
         "draws": 2,
         "losses": 2,
         "gf": 9,
-        "ga": 19,
-        "gd": -10,
+        "ga": 23,
+        "gd": -14,
         "points": 8
       },
       {

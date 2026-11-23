@@ -1231,9 +1231,9 @@
       "date": "2026-11-22 19:30",
       "home": "尤文图斯",
       "away": "威尼斯",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 4,
+      "awayGoals": 0,
+      "played": true
     },
     {
       "id": "54470869",
@@ -1241,9 +1241,9 @@
       "date": "2026-11-22 22:00",
       "home": "博洛尼亚",
       "away": "乌迪内斯",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "played": true
     },
     {
       "id": "54470940",
@@ -1251,9 +1251,9 @@
       "date": "2026-11-22 22:00",
       "home": "萨索洛",
       "away": "热那亚",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "played": true
     },
     {
       "id": "54470958",
@@ -1261,9 +1261,9 @@
       "date": "2026-11-23 01:00",
       "home": "AC米兰",
       "away": "弗罗西诺内",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 5,
+      "awayGoals": 1,
+      "played": true
     },
     {
       "id": "54470901",
@@ -1271,9 +1271,9 @@
       "date": "2026-11-23 03:45",
       "home": "亚特兰大",
       "away": "国际米兰",
-      "homeGoals": null,
-      "awayGoals": null,
-      "played": false
+      "homeGoals": 4,
+      "awayGoals": 4,
+      "played": true
     },
     {
       "id": "54470933",
@@ -3931,7 +3931,7 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:9",
-    "fetchedAt": "2026-11-22T00:17:14.418Z",
+    "fetchedAt": "2026-11-23T00:47:58.519Z",
     "maxRound": 38,
     "url": "https://www.dongqiudi.com/data?cid=9",
     "deductions": [],
@@ -3964,16 +3964,28 @@
         "rank": 3,
         "name": "国际米兰",
         "played": null,
-        "wins": 11,
+        "wins": 12,
         "draws": 9,
-        "losses": 1,
-        "gf": 28,
-        "ga": 13,
+        "losses": 2,
+        "gf": 32,
+        "ga": 17,
         "gd": 15,
-        "points": 28
+        "points": 29
       },
       {
         "rank": 4,
+        "name": "AC米兰",
+        "played": null,
+        "wins": 12,
+        "draws": 8,
+        "losses": 3,
+        "gf": 28,
+        "ga": 14,
+        "gd": 14,
+        "points": 27
+      },
+      {
+        "rank": 5,
         "name": "科莫",
         "played": null,
         "wins": 12,
@@ -3985,31 +3997,31 @@
         "points": 26
       },
       {
-        "rank": 5,
-        "name": "AC米兰",
-        "played": null,
-        "wins": 11,
-        "draws": 7,
-        "losses": 3,
-        "gf": 23,
-        "ga": 13,
-        "gd": 10,
-        "points": 24
-      },
-      {
         "rank": 6,
-        "name": "弗罗西诺内",
+        "name": "尤文图斯",
         "played": null,
-        "wins": 11,
+        "wins": 12,
         "draws": 6,
-        "losses": 2,
-        "gf": 24,
-        "ga": 15,
-        "gd": 9,
-        "points": 20
+        "losses": 3,
+        "gf": 19,
+        "ga": 12,
+        "gd": 7,
+        "points": 21
       },
       {
         "rank": 7,
+        "name": "弗罗西诺内",
+        "played": null,
+        "wins": 12,
+        "draws": 6,
+        "losses": 2,
+        "gf": 25,
+        "ga": 20,
+        "gd": 5,
+        "points": 20
+      },
+      {
+        "rank": 8,
         "name": "那不勒斯",
         "played": null,
         "wins": 12,
@@ -4021,31 +4033,31 @@
         "points": 18
       },
       {
-        "rank": 8,
-        "name": "尤文图斯",
-        "played": null,
-        "wins": 11,
-        "draws": 5,
-        "losses": 3,
-        "gf": 15,
-        "ga": 12,
-        "gd": 3,
-        "points": 18
-      },
-      {
         "rank": 9,
         "name": "博洛尼亚",
         "played": null,
-        "wins": 11,
+        "wins": 12,
         "draws": 5,
-        "losses": 2,
-        "gf": 16,
-        "ga": 14,
+        "losses": 3,
+        "gf": 17,
+        "ga": 15,
         "gd": 2,
-        "points": 17
+        "points": 18
       },
       {
         "rank": 10,
+        "name": "热那亚",
+        "played": null,
+        "wins": 12,
+        "draws": 5,
+        "losses": 1,
+        "gf": 13,
+        "ga": 16,
+        "gd": -3,
+        "points": 16
+      },
+      {
+        "rank": 11,
         "name": "卡利亚里",
         "played": null,
         "wins": 12,
@@ -4057,19 +4069,19 @@
         "points": 16
       },
       {
-        "rank": 11,
+        "rank": 12,
         "name": "亚特兰大",
         "played": null,
-        "wins": 11,
+        "wins": 12,
         "draws": 4,
-        "losses": 2,
-        "gf": 17,
-        "ga": 20,
+        "losses": 3,
+        "gf": 21,
+        "ga": 24,
         "gd": -3,
-        "points": 14
+        "points": 15
       },
       {
-        "rank": 12,
+        "rank": 13,
         "name": "都灵",
         "played": null,
         "wins": 12,
@@ -4079,18 +4091,6 @@
         "ga": 18,
         "gd": -3,
         "points": 14
-      },
-      {
-        "rank": 13,
-        "name": "热那亚",
-        "played": null,
-        "wins": 11,
-        "draws": 4,
-        "losses": 1,
-        "gf": 11,
-        "ga": 16,
-        "gd": -5,
-        "points": 13
       },
       {
         "rank": 14,
@@ -4132,12 +4132,12 @@
         "rank": 17,
         "name": "萨索洛",
         "played": null,
-        "wins": 11,
+        "wins": 12,
         "draws": 2,
         "losses": 2,
         "gf": 16,
-        "ga": 29,
-        "gd": -13,
+        "ga": 31,
+        "gd": -15,
         "points": 8
       },
       {
@@ -4154,27 +4154,27 @@
       },
       {
         "rank": 19,
-        "name": "威尼斯",
+        "name": "乌迪内斯",
         "played": null,
-        "wins": 11,
-        "draws": 2,
-        "losses": 0,
-        "gf": 8,
-        "ga": 21,
+        "wins": 12,
+        "draws": 1,
+        "losses": 3,
+        "gf": 13,
+        "ga": 26,
         "gd": -13,
         "points": 6
       },
       {
         "rank": 20,
-        "name": "乌迪内斯",
+        "name": "威尼斯",
         "played": null,
-        "wins": 11,
-        "draws": 1,
-        "losses": 2,
-        "gf": 12,
+        "wins": 12,
+        "draws": 2,
+        "losses": 0,
+        "gf": 8,
         "ga": 25,
-        "gd": -13,
-        "points": 5
+        "gd": -17,
+        "points": 6
       }
     ]
   }
