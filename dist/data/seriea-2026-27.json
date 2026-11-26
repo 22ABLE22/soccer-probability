@@ -3931,10 +3931,10 @@
   "model": {},
   "meta": {
     "source": "dongqiudi:9",
-    "fetchedAt": "2026-11-25T03:30:25.775Z",
+    "fetchedAt": "2026-11-26T02:48:34.696Z",
     "maxRound": 38,
     "url": "https://www.dongqiudi.com/data?cid=9",
-    "deductions": [],
+    "standingsError": "HTTP 403",
     "officialTable": [
       {
         "rank": 1,
@@ -4176,6 +4176,7 @@
         "gd": -17,
         "points": 6
       }
-    ]
+    ],
+    "standingsStale": true
   }
 }

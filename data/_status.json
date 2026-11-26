@@ -1,14 +1,23 @@
 {
-  "updatedAt": "2026-11-25T03:30:41.392Z",
+  "updatedAt": "2026-11-26T02:52:55.913Z",
   "ok": [
     "china-l1",
     "csl",
     "epl",
     "laliga",
     "seriea",
-    "bundesliga",
-    "ligue1"
+    "bundesliga"
   ],
-  "failed": [],
-  "warn": []
+  "failed": [
+    {
+      "key": "ligue1",
+      "reason": "HTTP 403"
+    }
+  ],
+  "warn": [
+    {
+      "key": "seriea",
+      "reason": "积分榜未抓到，已沿用旧值：HTTP 403"
+    }
+  ]
 }
