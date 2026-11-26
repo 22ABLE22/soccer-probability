@@ -477,7 +477,7 @@ async function loadLive(key, onProgress) {
   throw new Error('获取最新数据失败：\n' + errors.join('\n'));
 }
 
-/** 数据新鲜度说明；超过 48 小时会明确标注"数据可能不是最新" */
+/** 数据新鲜度说明；超过 96 小时会明确标注"数据可能不是最新"（自动刷新为每 3 天一次） */
 function freshnessNote(league) {
   const meta = league.meta || {};
   const manual = !!meta.manual;
@@ -505,7 +505,8 @@ function freshnessNote(league) {
     if (!isNaN(d.getTime())) {
       s += ' · 抓取于 ' + d.toLocaleString('zh-CN', { hour12: false });
       const hours = (Date.now() - d.getTime()) / 3600000;
-      if (hours > 48) {
+      // 自动刷新是每 3 天一次，再留 1 天容差：超过 96 小时才算过期
+      if (hours > 96) {
         stale = true;
         s += '（' + Math.floor(hours / 24) + ' 天前，可能不是最新）';
       }

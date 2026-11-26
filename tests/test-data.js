@@ -4,7 +4,8 @@
  *
  * 检查项：
  *   1. 每个内置联赛的文件存在且可解析
- *   2. fetchedAt 不超过 N 天（默认 3 天，可用 --max-days 覆盖）
+ *   2. fetchedAt 不超过 N 天（默认 5 天，可用 --max-days 覆盖）
+ *      自动刷新是每 3 天一次，留出 2 天容差，避免月末提前/延后一两次就误报
  *   3. 没有"已赛却缺比分"或"未赛却有比分"的脏数据
  *   4. 每轮场次数一致（同一联赛内不应出现某轮少赛）
  *   5. 同一球队的已赛数一致（不应出现 A 踢了 27 场、B 只踢了 26 场且无轮空说明）
@@ -21,7 +22,7 @@ function arg(name, def) {
   const i = argv.indexOf('--' + name);
   return i >= 0 && argv[i + 1] ? argv[i + 1] : def;
 }
-const MAX_DAYS = Number(arg('max-days', 3));
+const MAX_DAYS = Number(arg('max-days', 5));
 // 自定义示例联赛没有 fetchedAt，不参与新鲜度检查
 // 手工维护的联赛不做"抓取新鲜度"检查（它们没有 CI 抓取流程）
 const MANUAL_LEAGUES = new Set(['sanhang-a']);

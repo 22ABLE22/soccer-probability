@@ -1,11 +1,15 @@
 name: Refresh league data
 
-# 每天抓取一次最新赛果并提交回仓库。
+# 每 3 天抓取一次最新赛果并提交回仓库。
 # GitHub Pages 上的「获取数据」读的就是这些快照。
+#
+# cron 的「日」字段用 */3，即每月 1/4/7/…/31 日运行。
+# 这样大部分间隔正好 3 天；跨月（如 31 日 → 次月 1 日）会缩短到 1 天，
+# 只可能多刷一次、不会漏刷，属于可接受偏差。
 on:
   schedule:
     # UTC 20:10 = 北京 04:10，此时当天所有比赛都已结束
-    - cron: '10 20 * * *'
+    - cron: '10 20 */3 * *'
   workflow_dispatch:
 
 permissions:
@@ -48,9 +52,8 @@ jobs:
         run: |
           keys=$(node -e "const s=require('./data/_status.json');console.log((s.failed||[]).map(f=>f.key).join(','))" 2>/dev/null || echo "")
           if [ -z "$keys" ]; then echo "无失败联赛，跳过补抓"; exit 0; fi
-          for round in 1 2; do
-            wait=$((round * 90))
-            echo "第 $round 轮补抓（$keys），先等 ${wait}s 让反爬冷却…"
+          for wait in 300 600; do
+            echo "补抓（$keys），先等 ${wait}s 让反爬冷却…"
             sleep $wait
             node bin/fetch-all.js --only "$keys" || true
             left=$(node -e "const s=require('./data/_status.json');console.log((s.failed||[]).map(f=>f.key).join(','))" 2>/dev/null || echo "")
@@ -69,10 +72,12 @@ jobs:
 
       # 数据完整性：结构、比分一致性、每轮场次、新鲜度
       # 失败不阻断提交（好数据仍要落地），但会在最后一步报红
+      # 刷新频率是每 3 天一次，所以新鲜度阈值放宽到 5 天：
+      # 正常情况最多 3~4 天；只有连续两轮抓取都失败才会突破 5 天并报红
       - name: Data integrity check
         id: data
         continue-on-error: true
-        run: node tests/test-data.js --max-days 2
+        run: node tests/test-data.js --max-days 5
 
       # 即使部分联赛失败，也把已成功的数据提交上去
       - name: Commit if changed

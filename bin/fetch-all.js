@@ -80,6 +80,9 @@ const LEAGUES = [
  * 懂球帝对机房 IP 有反爬，偶发 567 / 403 / 429，重试通常能过。
  * ------------------------------------------------------------------ */
 const RETRYABLE = new Set([403, 429, 500, 502, 503, 504, 520, 521, 522, 523, 524, 567]);
+// 反爬类状态码：这几类说明是「请求太快/机房 IP 被临时限流」，
+// 1.5 秒的重试几乎必然继续被拦，必须等更久（见 request()）。
+const ANTIBOT = new Set([403, 429, 567]);
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
@@ -194,9 +197,18 @@ async function request(url, opts) {
       lastErr = e;
       const retryable = e.status == null || RETRYABLE.has(e.status);
       if (i === attempts || !retryable) break;
-      // 1.5s, 4s, 8s ...
-      const wait = Math.round(1500 * Math.pow(1.8, i - 1));
-      if (o.label) out('[retry ' + i + '/' + (attempts - 1) + ' ' + wait + 'ms] ');
+      // 普通错误 1.5s、2.7s、4.9s… 就行；
+      // 反爬（403/429/567）与网络超时必须等更久，短退避只会原地继续被拦：
+      // 6s、12s、24s（带 ±25% 抖动，避免固定节奏被识别）。
+      let wait;
+      if (ANTIBOT.has(e.status) || e.status == null) {
+        const base = 6000 * Math.pow(2, i - 1);
+        wait = Math.round(base * (0.75 + Math.random() * 0.5));
+      } else {
+        wait = Math.round(1500 * Math.pow(1.8, i - 1));
+      }
+      if (o.label) out('[retry ' + i + '/' + (attempts - 1) + ' ' + wait + 'ms' +
+        (ANTIBOT.has(e.status) ? ' 反爬' : '') + '] ');
       await sleep(wait);
     }
   }

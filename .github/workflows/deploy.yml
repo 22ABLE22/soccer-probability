@@ -27,7 +27,10 @@ jobs:
         with:
           node-version: '20'
 
+      # 手动推送代码时顺带刷新一次数据；由定时刷新任务（refresh-data）派发的部署
+      # 已经带着刚抓好的数据，无需再抓——避免同一天对上游重复请求，加重反爬。
       - name: Refresh league snapshots
+        if: github.event_name == 'push'
         continue-on-error: true
         run: node bin/fetch-all.js
 
